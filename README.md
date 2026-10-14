@@ -2,35 +2,37 @@
   <img src="assets/banner.png" alt="Awesome Cyber Security Heaven" width="100%">
 </p>
 
-# Awesome Cyber Security Heaven ☁️🔐
+# 🛡️ Awesome Cyber Security Heaven ☁️🔐
 
 > **The Ultimate Curated Arsenal — 100% Free & Open Source.** A hand-curated, license-aware map of the
 > best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR,
-> DevSecOps and AI/LLM security. Every entry earns its place.
+> DevSecOps and AI/LLM security. Every entry earns its place. 🌟
+
+🧭 **160+ curated tools** · 🏰 **12 themed realms** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no AI-gated entries**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0](https://img.shields.io/badge/list%20content-CC0-1e8b44.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![API Verified](https://img.shields.io/badge/entries%20verified-2026--10--14-blue.svg)](#-editorial-standards)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
-**Legend** — `(GPL-…)` / `(AGPL-…)` = copyleft license · `(free tier)` / `(freemium)` = free tier of a
-commercial service · `(free, proprietary)` = freeware, not open source · `(maintainer's project)` =
+**Legend** — ⚖️ `(GPL-…)` / `(AGPL-…)` = copyleft license · 🎁 `(free tier)` / `(freemium)` = free tier of a
+commercial service · 🔒 `(free, proprietary)` = freeware, not open source · 🏠 `(maintainer's project)` =
 the curator's own tool, included transparently.
 
 ## 📖 Contents
 
-- [⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools](#️-the-armory--offensive-security-pentesting--bug-bounty-tools)
-- [🛡️ The Bastion — Hardening & Defensive Infrastructure Tools](#️-the-bastion--hardening--defensive-infrastructure-tools)
-- [🔭 The Watchtower — Threat Intelligence Tools & Feeds](#-the-watchtower--threat-intelligence-tools--feeds)
-- [🗺️ The Cartographers — Recon, OSINT & Attack-Surface Mapping Tools](#️-the-cartographers--recon-osint--attack-surface-mapping-tools)
-- [🔑 The Vault — Secrets, Credentials & Password Security Tools](#-the-vault--secrets-credentials--password-security-tools)
-- [🐳 The Foundry — DevSecOps, Cloud & Container Security Tools](#-the-foundry--devsecops-cloud--container-security-tools)
-- [🔵 The Sentinel Ops — Blue Team, SOC & DFIR Tools](#-the-sentinel-ops--blue-team-soc--dfir-tools)
-- [🤖 The Oracle's Domain — AI Security & LLM Security Tools](#-the-oracles-domain--ai-security--llm-security-tools)
-- [🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data](#-the-free-bazaar--free-cybersecurity-apis-feeds--data)
-- [🎓 The Academy — Cybersecurity Learning Resources & Career Paths](#-the-academy--cybersecurity-learning-resources--career-paths)
-- [🎯 The Proving Grounds — CTF Practice, Labs & Hacking Training](#-the-proving-grounds--ctf-practice-labs--hacking-training)
-- [🧰 The Workshop — Utilities & Swiss-Army Tools](#️-the-workshop--utilities--swiss-army-tools)
+- [⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools (19)](#️-the-armory--offensive-security-pentesting--bug-bounty-tools)
+- [🛡️ The Bastion — Hardening & Defensive Infrastructure Tools (12)](#️-the-bastion--hardening--defensive-infrastructure-tools)
+- [🔭 The Watchtower — Threat Intelligence Tools & Feeds (10)](#-the-watchtower--threat-intelligence-tools--feeds)
+- [🗺️ The Cartographers — Recon, OSINT & Attack-Surface Mapping Tools (18)](#️-the-cartographers--recon-osint--attack-surface-mapping-tools)
+- [🔑 The Vault — Secrets, Credentials & Password Security Tools (11)](#-the-vault--secrets-credentials--password-security-tools)
+- [🐳 The Foundry — DevSecOps, Cloud & Container Security Tools (17)](#-the-foundry--devsecops-cloud--container-security-tools)
+- [🔵 The Sentinel Ops — Blue Team, SOC & DFIR Tools (15)](#-the-sentinel-ops--blue-team-soc--dfir-tools)
+- [🤖 The Oracle's Domain — AI Security & LLM Security Tools (6)](#-the-oracles-domain--ai-security--llm-security-tools)
+- [🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data (16)](#-the-free-bazaar--free-cybersecurity-apis-feeds--data)
+- [🎓 The Academy — Cybersecurity Learning Resources & Career Paths (12)](#-the-academy--cybersecurity-learning-resources--career-paths)
+- [🎯 The Proving Grounds — CTF Practice, Labs & Hacking Training (14)](#-the-proving-grounds--ctf-practice-labs--hacking-training)
+- [🧰 The Workshop — Utilities & Swiss-Army Tools (10)](#️-the-workshop--utilities--swiss-army-tools)
 
 ---
 
@@ -260,9 +262,19 @@ Found a tool that belongs in Heaven? PRs are welcome — see [CONTRIBUTING.md](C
 the entry criteria (free/free-tier + maintained within the last 12 months + a one-line
 "when to use it" case + license disclosed if non-permissive).
 
-## 🔗 Related Lists
+⭐ **Found Heaven useful?** Starring is the fastest way to help other defenders and bug hunters find it —
+and it tells us the quarterly re-verification grind is worth it.
 
-- [Awesome AppSec](https://github.com/paragonie/awesome-appsec) · [Awesome Hacking](https://github.com/carpedm20/awesome-hacking) · [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) · [Awesome Bug Bounty](https://github.com/djadmin/awesome-bug-bounty) · [Awesome Security](https://github.com/sbilly/awesome-security)
+## 💙 Keep Heaven Free
+
+This curation — license checks, API-verified activity, dead-link sweeps and quarterly re-verification —
+is supporter-funded. If this map saved you hours of tool-hunting:
+
+- 💵 **USDT (TRC-20):** `TVsfHEzwb9zRz9nMpGVkdL7ABTTvmUcPii`
+- 💳 **PayPal / card:** [2mny.com/support](https://2mny.com/support)
+- ⭐ **Free alternative:** press the Star button top-right — it genuinely helps others find this list.
+
+Every entry stays free. No ads, no sponsored placements, no data selling — ever.
 
 ## 📄 License
 
