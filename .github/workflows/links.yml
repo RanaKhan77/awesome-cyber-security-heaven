@@ -1,0 +1,36 @@
+name: Links
+
+on:
+  push:
+    branches: [main]
+    paths: ['README.md']
+  schedule:
+    - cron: '0 6 1 * *'  # monthly: keeps the "license & activity verified" claim honest
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+      - name: Run lychee (160+ tool links)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose --no-progress --max-retries 2
+            --cache --max-cache-age 2d
+            'README.md'
+          fail: false   # report-only: curated entries die-check happens in the quarterly review
+          output: ./lychee-report.md
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: ./lychee-report.md
