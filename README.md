@@ -11,6 +11,12 @@
 🧭 **432+ curated tools** · 🏰 **13 themed realms** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no AI-gated entries**
 
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0](https://img.shields.io/badge/list%20content-CC0-1e8b44.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![API Verified](https://img.shields.io/badge/entries%20verified-2026--10--15-blue.svg)](#-editorial-standards)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![Links](https://github.com/RanaKhan77/awesome-cyber-security-heaven/actions/workflows/links.yml/badge.svg)](https://github.com/RanaKhan77/awesome-cyber-security-heaven/actions/workflows/links.yml)
+
 **Legend** — ⚖️ `(GPL-…)` / `(AGPL-…)` = copyleft license · 🎁 `(free tier)` / `(freemium)` = free tier of a
 commercial service · 🔒 `(free, proprietary)` = freeware, not open source · 🏠 `(maintainer's project)` =
 the curator's own tool, included transparently.
