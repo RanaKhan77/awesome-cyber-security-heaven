@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Awesome Cyber Security Heaven" width="100%">
+  <img src="assets/banner.jpg" alt="Awesome Cyber Security Heaven" width="100%">
 </p>
 
 # 🛡️ Awesome Cyber Security Heaven ☁️🔐
@@ -582,3 +582,11 @@ Every entry stays free. No ads, no sponsored placements, no data selling — eve
 
 The list content is released under [CC0 1.0](LICENSE) (public domain dedication).
 Each linked tool retains its own license — check before commercial use.
+
+---
+
+<p align="center">
+  <a href="https://2mny.com" target="_blank">
+    <img src="assets/banner-end.jpg" alt="Found it useful? Star the repo — Explore 200+ free online scanners at 2mny.com" width="100%">
+  </a>
+</p>
