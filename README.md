@@ -7,8 +7,9 @@
 > **The Ultimate Curated Arsenal — 100% Free & Open Source.** A hand-curated, license-aware map of the
 > best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR,
 > DevSecOps and AI/LLM security. Every entry earns its place. 🌟
+> **2026 edition** — 438 tools, 14 realms, every link re-verified 2026-10-15. 📅
 
-🧭 **432+ curated tools** · 🏰 **13 themed realms** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no AI-gated entries**
+🧭 **438 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
 
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -31,11 +32,15 @@ the curator's own tool, included transparently.
 - [🔑 The Vault — Secrets, Credentials & Password Security Tools (17)](#-the-vault--secrets-credentials--password-security-tools)
 - [🐳 The Foundry — DevSecOps, Cloud & Container Security Tools (31)](#-the-foundry--devsecops-cloud--container-security-tools)
 - [🔵 The Sentinel Ops — Blue Team, SOC & DFIR Tools (47)](#-the-sentinel-ops--blue-team-soc--dfir-tools)
-- [🤖 The Oracle's Domain — AI Security & LLM Security Tools (9)](#-the-oracles-domain--ai-security--llm-security-tools)
+- [🤖 The Oracle's Domain — AI Security & LLM Security Tools (6)](#-the-oracles-domain--ai-security--llm-security-tools)
+- [🧠 The AI Forge — AI-Dependent Security Tools (9)](#-the-ai-forge--ai-dependent-security-tools)
 - [🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data (30)](#-the-free-bazaar--free-cybersecurity-apis-feeds--data)
 - [🎓 The Academy — Cybersecurity Learning Resources & Career Paths (24)](#-the-academy--cybersecurity-learning-resources--career-paths)
 - [🎯 The Proving Grounds — CTF Practice, Labs & Hacking Training (74)](#-the-proving-grounds--ctf-practice-labs--hacking-training)
 - [🧰 The Workshop — Utilities & Swiss-Army Tools (44)](#️-the-workshop--utilities--swiss-army-tools)
+
+📂 **Realm dossiers:** every realm has a deep page with the full inventory, star counts, project
+ages and last-push dates — see [`realms/`](realms/).
 
 ---
 
@@ -298,7 +303,7 @@ Intro: Detect, hunt, forensicate — the defensive operations toolkit.
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) — library of executable detection tests mapped to MITRE ATT&CK; prove your defenses fire.
 - [Timesketch](https://github.com/google/timesketch) — Google's collaborative forensic timeline analysis for multi-investigator cases.
 - [Volatility 3](https://github.com/volatilityfoundation/volatility3) — memory forensics framework — RAM malware has nowhere to hide.
-- [CAPEv2](https://github.com/CAPEv2/CAPEv2) — the maintained Cuckoo sandbox: automated malware detonation, config extraction and reporting. (GPL-3.0)
+- [CAPEv2](https://github.com/kevoreilly/CAPEv2) — the maintained Cuckoo sandbox: automated malware detonation, config extraction and reporting. (GPL-3.0)
 - [Arkime](https://github.com/arkime/arkime) — full-packet capture plus indexed search at scale (formerly Moloch); PCAP you can actually query.
 - [RITA](https://github.com/activecm/rita) — detects C2 beaconing in Zeek logs — traffic analysis that finds the quiet intruders. (GPL-3.0)
 - [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) — the battle-tested Sysmon configuration behind thousands of SOC detections; the de-facto starting point for Windows telemetry.
@@ -335,17 +340,29 @@ Intro: Detect, hunt, forensicate — the defensive operations toolkit.
 - [msticpy](https://github.com/microsoft/msticpy) — SecOps analysis library from Microsoft: pivots, timelines and hunting helpers for Jupyter. (MIT)
 - [Elastic detection-rules](https://github.com/elastic/detection-rules) — the detection corpus for Elastic Security: hundreds of maintained rules mapped to MITRE. (Elastic-2.0)
 ## 🤖 The Oracle's Domain — AI Security & LLM Security Tools
-Intro: Secure the new surface — LLM red teaming, guardrails and model-file safety for AI-powered applications.
+Intro: Secure the new surface — guardrails, model-file safety and signing for AI-powered applications.
 
-- [promptfoo](https://github.com/promptfoo/promptfoo) — LLM evaluation and red-teaming framework: prompt-injection and jailbreak test suites that run in CI.
-- [garak](https://github.com/NVIDIA/garak) — NVIDIA's LLM vulnerability scanner: hundreds of probes for injection, data leakage, hallucination and misuse.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) — programmable guardrail layer for LLM apps: input/output rails, dialog safety, topic control.
-- [deepteam](https://github.com/confident-ai/deepteam) — red-teaming library for LLMs: simulated attacks with vulnerability scoring and reporting.
 - [modelscan](https://github.com/protectai/modelscan) — scan model files (pickle, safetensors) for malicious code before you load them — supply-chain defense for ML.
 - [OWASP Top 10 for LLM Applications](https://genai.owasp.org) — the standard risk taxonomy for LLM apps; the shared language for AI threat modeling.
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) — the curated threat-intelligence tools and platform index. (Apache-2.0, curated list)
 - [llm-guard](https://github.com/protectai/llm-guard) — input/output security filtering for LLMs: prompt-injection defense as a pipeline stage. (MIT)
 - [model-transparency](https://github.com/sigstore/model-transparency) — signing for ML models: verify exactly which model you are deploying. (Apache-2.0)
+## 🧠 The AI Forge — AI-Dependent Security Tools
+
+Intro: Security tools with an LLM as the engine — red-team agents, pentest copilots and scenario
+generators. Every entry needs an LLM API key (yours or the target's); none are SaaS wrappers.
+
+- [PentAGI](https://github.com/vxcontrol/pentagi) — fully autonomous AI-agent penetration testing: multi-agent workflows, browser control, reporting. (MIT)
+- [PyRIT](https://github.com/microsoft/PyRIT) — Microsoft's AI red-teaming framework: automated adversarial probing of generative AI, with scoring and reporting. (MIT)
+- [PentestGPT](https://github.com/GreyDGL/PentestGPT) — LLM-driven pentest copilot: parses recon output, plans next steps, keeps session context across test phases. (MIT)
+- [garak](https://github.com/NVIDIA/garak) — NVIDIA's LLM vulnerability scanner: hundreds of probes for injection, data leakage, hallucination and misuse. (Apache-2.0)
+- [promptfoo](https://github.com/promptfoo/promptfoo) — LLM evaluation and red-teaming framework: prompt-injection and jailbreak test suites that run in CI. (MIT)
+- [deepteam](https://github.com/confident-ai/deepteam) — red-teaming library for LLMs: simulated attacks with vulnerability scoring and reporting. (Apache-2.0)
+- [Nebula](https://github.com/berylliumsec/nebula) — cybersecurity harness that pairs an LLM with common pentest tools for guided exploitation workflows. (BSD-2-Clause)
+- [hackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) — LLM pentesting research harness: autonomous Linux privilege-escalation experiments in ~50 lines of code. (MIT)
+- [AttackGen](https://github.com/mrwadams/attackgen) — LLM-powered, threat-informed exercise generation: realistic attack scenarios and mitigations for incident-response testing. (GPL-3.0)
+
 ## 🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data
 Intro: Free (or free-tier) data sources every security program should be using — no budget required.
 
@@ -539,7 +556,7 @@ Copyleft, freemium and proprietary licenses are marked inline. Archived, stale o
 non-redistributable projects are excluded by policy. One entry is the curator's own project,
 marked `(maintainer's project)`.
 
-✔ Flagship entries' license & activity verified via GitHub API on 2026-10-14 — re-verified quarterly.
+✔ Flagship entries' license & activity verified via GitHub API on 2026-10-15 — re-verified quarterly.
 
 ## 🤝 Contributing
 

@@ -1,0 +1,40 @@
+# The AI Forge
+
+> **9 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+
+## Curator's notes
+
+The AI-labour realm — security tools that put an LLM to work: red-team agents, pentest copilots, exercise generators. Every entry needs an LLM API key to function, which we mark as a feature, not a paywall — the tool is free, the brain is rented. We watch this realm closest of all: AI tooling churns faster than any other category on the list.
+
+## Maintenance snapshot (2026-10-15)
+
+- **Active in the last 30 days:** 8 of 9 tracked GitHub repos (89%)
+- **Youngest entries:** PentestGPT (2023), promptfoo (2023), garak (2023)
+
+## Flagship picks
+
+| Tool | ★ Stars | Created | Last push | What it does |
+|---|---|---|---|---|
+| [PentAGI](https://github.com/vxcontrol/pentagi) | 30.3k | 2025 | 2026-10-09 ✅ | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
+| [promptfoo](https://github.com/promptfoo/promptfoo) | 26.0k | 2023 | 2026-10-15 ✅ | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance |
+| [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.0k | 2023 | 2026-07-14 | Automated Penetration Testing Agentic Framework Powered by Large Language Models |
+| [garak](https://github.com/NVIDIA/garak) | 9.6k | 2023 | 2026-10-15 ✅ | the LLM vulnerability scanner |
+| [PyRIT](https://github.com/microsoft/PyRIT) | 4.6k | 2023 | 2026-10-15 ✅ | The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively i |
+| [deepteam](https://github.com/confident-ai/deepteam) | 3.0k | 2025 | 2026-10-01 ✅ | DeepTeam is a framework to red team LLMs and AI agents. |
+
+## Full inventory (9 tools)
+
+| Tool | ★ Stars | Created | Last push | License / tier |
+|---|---|---|---|---|
+| [PentAGI](https://github.com/vxcontrol/pentagi) | 30.3k | 2025 | 2026-10-09 ✅ | — fully autonomous AI-agent penetration testing: multi-agent workflows, browser control, reporting. (MIT) |
+| [promptfoo](https://github.com/promptfoo/promptfoo) | 26.0k | 2023 | 2026-10-15 ✅ | — LLM evaluation and red-teaming framework: prompt-injection and jailbreak test suites that run in CI. (MIT) |
+| [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.0k | 2023 | 2026-07-14 | — LLM-driven pentest copilot: parses recon output, plans next steps, keeps session context across test phases. (MIT) |
+| [garak](https://github.com/NVIDIA/garak) | 9.6k | 2023 | 2026-10-15 ✅ | — NVIDIA's LLM vulnerability scanner: hundreds of probes for injection, data leakage, hallucination and misuse. (Apache-2.0) |
+| [PyRIT](https://github.com/microsoft/PyRIT) | 4.6k | 2023 | 2026-10-15 ✅ | — Microsoft's AI red-teaming framework: automated adversarial probing of generative AI, with scoring and reporting. (MIT) |
+| [deepteam](https://github.com/confident-ai/deepteam) | 3.0k | 2025 | 2026-10-01 ✅ | — red-teaming library for LLMs: simulated attacks with vulnerability scoring and reporting. (Apache-2.0) |
+| [hackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) | 1.3k | 2023 | 2026-10-01 ✅ | — LLM pentesting research harness: autonomous Linux privilege-escalation experiments in ~50 lines of code. (MIT) |
+| [AttackGen](https://github.com/mrwadams/attackgen) | 1.3k | 2023 | 2026-10-13 ✅ | — LLM-powered, threat-informed exercise generation: realistic attack scenarios and mitigations for incident-response testing. (GPL-3.0) |
+| [Nebula](https://github.com/berylliumsec/nebula) | 1.1k | 2023 | 2026-10-15 ✅ | — cybersecurity harness that pairs an LLM with common pentest tools for guided exploitation workflows. (BSD-2-Clause) |
+
+---
+*This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
