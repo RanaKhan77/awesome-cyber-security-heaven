@@ -473,7 +473,7 @@ generators. Every entry needs an LLM API key (yours or the target's); none are S
 </p>
 
 > ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — our own free-tier promise: 282 online checkers at 2mny.com, keyless-first integration, and no paid APIs anywhere in the stack.
+> 200 free, self-hosted protection modules — our own free-tier promise: 285 online checkers at 2mny.com, keyless-first integration, and no paid APIs anywhere in the stack.
 > Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 ## 🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data
