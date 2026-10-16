@@ -73,7 +73,7 @@ the live GitHub API (census 2026-10-17). **194 pages across 14 dossiers** — fr
 
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -128,7 +128,7 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [jiraffe](https://github.com/0x48piraj/jiraffe) — Jira recon and security auditing: version fingerprinting, gadget/permission checks and CVE mapping for authorized instances. (MIT)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -174,7 +174,7 @@ Intro: Lock it down before they get in — auditing, hardening and host/network 
 - [Neo23x0 auditd config](https://github.com/Neo23x0/auditd) — Florian Roth's hardened auditd rule set: the Linux logging baseline used across incident-response teams. (Apache-2.0)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -203,7 +203,7 @@ Intro: See what's coming — intel platforms, knowledge bases, ransomware tracke
 - [vx-underground](https://vx-underground.org) — the malware corpus and INT report archive; free, massive and respected across the research community. (free service)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -254,7 +254,7 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [Merklemap](https://merklemap.com) — subdomain discovery through certificate-transparency logs; billions of entries, searchable. (free service)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -316,7 +316,7 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [ScamSearch](https://scamsearch.io) — scammer profile lookup by phone, email or username; crowdsourced anti-fraud intel. (free service)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -346,7 +346,7 @@ Intro: Where secrets live and leak — find them before attackers do, and keep t
 - [keyFinder](https://github.com/momenbasel/keyFinder) — passively discovers leaked API keys and secrets in web pages during browsing. (MIT)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -390,7 +390,7 @@ Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that 
 - [Awesome Container Security](https://github.com/kai5263499/container-security-awesome) — curated container and cloud-native security resources. (MIT, curated list)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -450,7 +450,7 @@ Intro: Detect, hunt, forensicate — the defensive operations toolkit.
 - [Elastic detection-rules](https://github.com/elastic/detection-rules) — the detection corpus for Elastic Security: hundreds of maintained rules mapped to MITRE. (Elastic-2.0)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -469,7 +469,7 @@ Intro: Secure the new surface — guardrails, model-file safety and signing for 
 - [model-transparency](https://github.com/sigstore/model-transparency) — signing for ML models: verify exactly which model you are deploying. (Apache-2.0)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -495,7 +495,7 @@ generators. Every entry needs an LLM API key (yours or the target's); none are S
 
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -538,7 +538,7 @@ Intro: Free (or free-tier) data sources every security program should be using �
 - [OpenSanctions](https://opensanctions.org) — open data on sanctioned entities and PEPs; the compliance watchlist as a dataset. (open data)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -575,7 +575,7 @@ Intro: Learn the craft — free academies, knowledge bases, walkthroughs and car
 - [Cyber Security Base](https://cybersecuritybase.github.io/) — free course series by Aalto University and F-Secure; from beginner to blue team. (free course)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
@@ -662,7 +662,7 @@ Intro: Hack legally — wargames, CTF platforms and deliberately-vulnerable apps
 - [Splunk Attack Range](https://github.com/splunk/attack_range) — builds instrumented detection labs: attack, collect and test in one workflow. (Apache-2.0)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/featured-banner.jpg" width="620" alt="Featured Product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
   </a>
 </p>
 
