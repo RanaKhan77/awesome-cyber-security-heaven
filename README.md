@@ -42,9 +42,32 @@ the curator's own tool, included transparently.
 📂 **Realm dossiers:** every realm has a deep page with the full inventory, star counts, project
 ages and last-push dates — see [`realms/`](realms/).
 
-📚 **Realm PDF dossiers:** every realm also ships as a designed, printable PDF — the full
-inventory with stars, licenses, project ages and verification dates in one clean document per realm.
-Browse [`pdfs/`](pdfs/) — 14 deep-research realm dossiers: 425 pages of live GitHub census (stars, first-release years, push activity), adoption charts and per-tool profiles. 2026 edition.
+## 📄 Realm Dossiers — Deep-Research PDF Reports
+
+[![PDF Dossiers](https://img.shields.io/badge/PDF-Realm_Dossiers_194_pages-red?logo=adobeacrobatreader&logoColor=white)](#-realm-dossiers--deep-research-pdf-reports)
+
+Every realm ships as a designed, printable **PDF dossier** — dark-theme cover, numbered chapters,
+running header & footer with page numbers, adoption charts (top-starred, most-forked, language mix,
+creation eras), a license-mix donut, full-page flagship profiles (live GitHub census + **their claim
+vs our curator's note** + signal checks) and the complete curated inventory. Every figure pulled from
+the live GitHub API (census 2026-10-17). **194 pages across 14 dossiers** — free forever, CC0.
+
+| Dossier | Focus | Pages |
+|---|---|---:|
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-armory-offensive-security-pentesting-bug-bounty-tools.pdf) ⚔️ [The Armory](<pdfs/awesome-cyber-security-heaven-armory-offensive-security-pentesting-bug-bounty-tools.pdf>) | offensive security · pentesting · bug bounty | 15 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-bastion-hardening-defensive-infrastructure-tools.pdf) 🛡️ [The Bastion](<pdfs/awesome-cyber-security-heaven-bastion-hardening-defensive-infrastructure-tools.pdf>) | hardening · defensive infrastructure | 15 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-watchtower-threat-intelligence-tools-feeds.pdf) 🔭 [The Watchtower](<pdfs/awesome-cyber-security-heaven-watchtower-threat-intelligence-tools-feeds.pdf>) | threat intelligence · feeds | 13 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-cartographers-recon-osint-attack-surface-mapping-tools.pdf) 🗺️ [The Cartographers](<pdfs/awesome-cyber-security-heaven-cartographers-recon-osint-attack-surface-mapping-tools.pdf>) | recon · OSINT · attack-surface mapping | 14 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-shadow-bureau-osint-public-intelligence-tools.pdf) 🕵️ [The Shadow Bureau](<pdfs/awesome-cyber-security-heaven-shadow-bureau-osint-public-intelligence-tools.pdf>) | OSINT · public intelligence | 13 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-vault-secrets-credentials-password-security-tools.pdf) 🔑 [The Vault](<pdfs/awesome-cyber-security-heaven-vault-secrets-credentials-password-security-tools.pdf>) | secrets · credentials · password security | 14 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-foundry-devsecops-cloud-container-security-tools.pdf) 🐳 [The Foundry](<pdfs/awesome-cyber-security-heaven-foundry-devsecops-cloud-container-security-tools.pdf>) | DevSecOps · cloud · container security | 14 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-sentinel-ops-blue-team-soc-dfir-tools.pdf) 🔵 [The Sentinel Ops](<pdfs/awesome-cyber-security-heaven-sentinel-ops-blue-team-soc-dfir-tools.pdf>) | blue team · SOC · DFIR | 15 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-oracles-ai-security-llm-security-tools.pdf) 🤖 [The Oracle's Domain](<pdfs/awesome-cyber-security-heaven-oracles-ai-security-llm-security-tools.pdf>) | AI security · LLM security | 11 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-ai-forge-ai-dependent-security-tools.pdf) 🧠 [The AI Forge](<pdfs/awesome-cyber-security-heaven-ai-forge-ai-dependent-security-tools.pdf>) | AI-dependent security tools | 12 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-free-bazaar-free-cybersecurity-apis-feeds-data.pdf) 🆓 [The Free Bazaar](<pdfs/awesome-cyber-security-heaven-free-bazaar-free-cybersecurity-apis-feeds-data.pdf>) | free cybersecurity APIs · feeds · data | 13 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-academy-cybersecurity-learning-resources-career-paths.pdf) 🎓 [The Academy](<pdfs/awesome-cyber-security-heaven-academy-cybersecurity-learning-resources-career-paths.pdf>) | learning resources · career paths | 13 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-proving-grounds-ctf-practice-labs-hacking-training.pdf) 🎯 [The Proving Grounds](<pdfs/awesome-cyber-security-heaven-proving-grounds-ctf-practice-labs-hacking-training.pdf>) | CTF practice · labs · hacking training | 17 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-workshop-utilities-swiss-army-tools.pdf) 🧰 [The Workshop](<pdfs/awesome-cyber-security-heaven-workshop-utilities-swiss-army-tools.pdf>) | utilities · swiss-army tools | 15 |
 
 ---
 
