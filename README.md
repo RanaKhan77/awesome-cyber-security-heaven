@@ -24,7 +24,7 @@ the curator's own tool, included transparently.
 
 ## 📖 Contents
 
-- [⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools (40)](#️-the-armory--offensive-security-pentesting--bug-bounty-tools)
+- [⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools (42)](#️-the-armory--offensive-security-pentesting--bug-bounty-tools)
 - [🛡️ The Bastion — Hardening & Defensive Infrastructure Tools (33)](#️-the-bastion--hardening--defensive-infrastructure-tools)
 - [🔭 The Watchtower — Threat Intelligence Tools & Feeds (16)](#-the-watchtower--threat-intelligence-tools--feeds)
 - [🗺️ The Cartographers — Recon, OSINT & Attack-Surface Mapping Tools (38)](#️-the-cartographers--recon-osint--attack-surface-mapping-tools)
@@ -33,11 +33,11 @@ the curator's own tool, included transparently.
 - [🐳 The Foundry — DevSecOps, Cloud & Container Security Tools (31)](#-the-foundry--devsecops-cloud--container-security-tools)
 - [🔵 The Sentinel Ops — Blue Team, SOC & DFIR Tools (47)](#-the-sentinel-ops--blue-team-soc--dfir-tools)
 - [🤖 The Oracle's Domain — AI Security & LLM Security Tools (6)](#-the-oracles-domain--ai-security--llm-security-tools)
-- [🧠 The AI Forge — AI-Dependent Security Tools (9)](#-the-ai-forge--ai-dependent-security-tools)
+- [🧠 The AI Forge — AI-Dependent Security Tools (10)](#-the-ai-forge--ai-dependent-security-tools)
 - [🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data (30)](#-the-free-bazaar--free-cybersecurity-apis-feeds--data)
 - [🎓 The Academy — Cybersecurity Learning Resources & Career Paths (24)](#-the-academy--cybersecurity-learning-resources--career-paths)
 - [🎯 The Proving Grounds — CTF Practice, Labs & Hacking Training (74)](#-the-proving-grounds--ctf-practice-labs--hacking-training)
-- [🧰 The Workshop — Utilities & Swiss-Army Tools (44)](#️-the-workshop--utilities--swiss-army-tools)
+- [🧰 The Workshop — Utilities & Swiss-Army Tools (47)](#️-the-workshop--utilities--swiss-army-tools)
 
 📂 **Realm dossiers:** every realm has a deep page with the full inventory, star counts, project
 ages and last-push dates — see [`realms/`](realms/).
@@ -70,6 +70,8 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [WPScan](https://github.com/wpscanteam/wpscan) — black-box WordPress scanner: plugin/theme enumeration and version-based vuln lookups. (free for non-commercial use)
 - [Bettercap](https://github.com/bettercap/bettercap) — the Swiss-army knife for authorized network assessments: ARP/DNS spoofing, MITM proxies, WiFi and BLE modules. (GPL-3.0)
 - [Nikto](https://github.com/sullo/nikto) — venerable web-server scanner; noisy but thorough on server misconfigurations and default files. (GPL-3.0; DB files have custom terms)
+- [h5i](https://github.com/h5i-dev/h5i) — agent-native web-security workspace: deterministic recon, secrets scanning, DOM post-message auditing and CI regression checks — fully usable without any LLM key. (Apache-2.0)
+- [goshs](https://github.com/goshs-labs/goshs) — hardened HTTP file-transfer server built for engagements: upload/download, authentication, access control and TLS — the modern replacement for `python -m http.server`.
 - [Dalfox](https://github.com/hahwul/dalfox) — fast XSS scanner with DOM-aware analysis and a strong payload set; the modern XSS go-to.
 - [NetExec](https://github.com/Pennyw0rth/NetExec) — CrackMapExec's actively maintained successor; audit credential hygiene and service misconfigurations across whole subnets.
 - [Responder](https://github.com/lgandx/Responder) — LLMNR/NBT-NS/MDNS poisoner; the fastest way to demonstrate credential-leak exposure on an authorized internal network. (GPL-3.0)
@@ -462,6 +464,7 @@ generators. Every entry needs an LLM API key (yours or the target's); none are S
 - [Nebula](https://github.com/berylliumsec/nebula) — cybersecurity harness that pairs an LLM with common pentest tools for guided exploitation workflows. (BSD-2-Clause)
 - [hackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) — LLM pentesting research harness: autonomous Linux privilege-escalation experiments in ~50 lines of code. (MIT)
 - [AttackGen](https://github.com/mrwadams/attackgen) — LLM-powered, threat-informed exercise generation: realistic attack scenarios and mitigations for incident-response testing. (GPL-3.0)
+- [rea](https://github.com/morluto/rea) — open-source MCP coding agent that reproduces any web app's features from a live URL — the viral reference for agentic AI engineering, MCP-native and self-hosted. (MIT)
 
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
@@ -646,6 +649,9 @@ Intro: The everyday carry — decoding, proxying, dissecting and transforming an
 - [CyberChef](https://github.com/gchq/CyberChef) — GCHQ's web Swiss-army knife: 400+ operations for decoding, transforming and analyzing data, all client-side.
 - [Wireshark](https://www.wireshark.org) — the packet analyzer everyone knows; deep protocol visibility for troubleshooting and forensics. (GPL-2.0)
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra) — the NSA's open-source reverse-engineering suite; disassembly, decompilation and scripting for free.
+- [jadx](https://github.com/skylot/jadx) — the standard Java/Android decompiler: dex-to-java source recovery with both GUI and CLI — the first stop for APK and JAR analysis. (Apache-2.0)
+- [Apktool](https://github.com/iBotPeaches/Apktool) — disassemble and rebuild Android APKs: decode resources to near-original form, patch smali, repackage and sign — the Android RE classic. (Apache-2.0)
+- [Cutter](https://github.com/rizinorg/cutter) — free and open reverse-engineering platform powered by rizin: graph disassembly, decompiler views and debugging in a polished desktop UI. (GPL-3.0)
 - [tcpdump](https://www.tcpdump.org) — the command-line packet capture classic; quick looks and long captures where Wireshark won't fit.
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy) — interactive HTTPS interception for debugging and testing your own apps; scriptable as a library.
 - [Frida](https://github.com/frida/frida) — inject JavaScript into running processes; dynamic instrumentation for mobile, desktop and IoT. (GPL-2.0 / wxWindows dual)
