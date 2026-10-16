@@ -42,6 +42,10 @@ the curator's own tool, included transparently.
 📂 **Realm dossiers:** every realm has a deep page with the full inventory, star counts, project
 ages and last-push dates — see [`realms/`](realms/).
 
+📚 **Realm PDF dossiers:** every realm also ships as a designed, printable PDF — the full
+inventory with stars, licenses, project ages and verification dates in one clean document per realm.
+Browse [`pdfs/`](pdfs/) — 14 realm dossiers, 2026 edition.
+
 ---
 
 <p align="center">
