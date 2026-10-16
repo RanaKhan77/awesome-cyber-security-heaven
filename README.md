@@ -44,7 +44,7 @@ ages and last-push dates — see [`realms/`](realms/).
 
 📚 **Realm PDF dossiers:** every realm also ships as a designed, printable PDF — the full
 inventory with stars, licenses, project ages and verification dates in one clean document per realm.
-Browse [`pdfs/`](pdfs/) — 14 realm dossiers, 2026 edition.
+Browse [`pdfs/`](pdfs/) — 14 deep-research realm dossiers: 425 pages of live GitHub census (stars, first-release years, push activity), adoption charts and per-tool profiles. 2026 edition.
 
 ---
 
