@@ -71,6 +71,7 @@ Every figure pulled from the live GitHub API (census 2026-10-17). **528 pages ac
 
 ---
 
+- [ICHI — Internet Cyber Health Index](https://ichi.global) — free, source-transparent daily barometer of internet cyber health, aggregating threat intelligence, security news, and telemetry from 20+ named public sources. Used by SOC analysts and security researchers for daily situational awareness of global cyber conditions; the free daily-refresh alternative to scattered vendor intelligence portals. (free service)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
     <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
