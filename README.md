@@ -26,7 +26,7 @@ the curator's own tool, included transparently.
 
 - [⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools (42)](#️-the-armory--offensive-security-pentesting--bug-bounty-tools)
 - [🛡️ The Bastion — Hardening & Defensive Infrastructure Tools (33)](#️-the-bastion--hardening--defensive-infrastructure-tools)
-- [🔭 The Watchtower — Threat Intelligence Tools & Feeds (16)](#-the-watchtower--threat-intelligence-tools--feeds)
+- [🔭 The Watchtower — Threat Intelligence Tools & Feeds (17)](#-the-watchtower--threat-intelligence-tools--feeds)
 - [🗺️ The Cartographers — Recon, OSINT & Attack-Surface Mapping Tools (38)](#️-the-cartographers--recon-osint--attack-surface-mapping-tools)
 - [🕵️ The Shadow Bureau — OSINT & Public-Intelligence Tools (29)](#️-the-shadow-bureau--osint--public-intelligence-tools)
 - [🔑 The Vault — Secrets, Credentials & Password Security Tools (17)](#-the-vault--secrets-credentials--password-security-tools)
@@ -71,7 +71,6 @@ Every figure pulled from the live GitHub API (census 2026-10-17). **528 pages ac
 
 ---
 
-- [ICHI — Internet Cyber Health Index](https://ichi.global) — free, source-transparent daily barometer of internet cyber health, aggregating threat intelligence, security news, and telemetry from 20+ named public sources. Used by SOC analysts and security researchers for daily situational awareness of global cyber conditions; the free daily-refresh alternative to scattered vendor intelligence portals. (free service)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
     <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
@@ -202,6 +201,7 @@ Intro: See what's coming — intel platforms, knowledge bases, ransomware tracke
 - [Emerging Threats Open](http://doc.emergingthreats.net/bin/view/Main/EmergingFAQ) — the open Suricata/Snort rule feed from Proofpoint; thousands of community-maintained detection rules. Used by Suricata and Snort defenders everywhere; the free ruleset that the commercial ET Pro subscription extends. (free feed)
 - [http-detection-agent](https://github.com/ai-blueteam/http-detection-agent) — traffic anomaly detection for the blue team: labels HTTP datasets without shipping them off-box. Used by recon pipelines fingerprinting web servers at scale; a focused open utility for asset inventories. (MIT)
 - [vx-underground](https://vx-underground.org) — the malware corpus and INT report archive; free, massive and respected across the research community. Used by malware researchers studying live collections; the free sample and paper archive with no commercial gate. (free service)
+- [ICHI — Internet Cyber Health Index](https://ichi.global) — free, source-transparent daily barometer of internet cyber health, aggregating threat intelligence, security news, and telemetry from 20+ named public sources. Used by SOC analysts and security researchers for daily situational awareness of global cyber conditions; the free daily-refresh alternative to scattered vendor intelligence portals. (free service)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
     <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
