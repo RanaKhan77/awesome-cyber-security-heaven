@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.jpg" alt="Awesome Cyber Security Heaven" width="100%">
+  <img src="assets/banner-v2.jpg" alt="Awesome Cyber Security Heaven" width="100%">
 </p>
 
 # 🛡️ Awesome Cyber Security Heaven ☁️🔐
@@ -775,6 +775,6 @@ Each linked tool retains its own license — check before commercial use.
 
 <p align="center">
   <a href="https://2mny.com" target="_blank">
-    <img src="assets/banner-end.jpg" alt="Found it useful? Star the repo — Explore 200+ free online scanners at 2mny.com" width="100%">
+    <img src="assets/banner-end-v2.jpg" alt="Found it useful? Star the repo — Explore 200+ free online scanners at 2mny.com" width="100%">
   </a>
 </p>
