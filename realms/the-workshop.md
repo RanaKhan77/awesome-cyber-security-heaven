@@ -1,14 +1,14 @@
 # The Workshop
 
-> **47 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **49 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-20** (re-verified monthly)
 
 ## Curator's notes
 
 The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plumbing (Tor, socat), debuggers and format-inspectors. Unspecialized by definition — the tools you reach for when nothing specialized fits.
 
-## Maintenance snapshot (2026-10-15)
+## Maintenance snapshot (2026-10-20)
 
-- **Active in the last 30 days:** 24 of 38 tracked GitHub repos (63%)
+- **Active in the last 30 days:** 26 of 40 tracked GitHub repos (65%)
 - **Quiet classics (no push in 2+ years, still the standard):** Awesome Malware Analysis
 - **Youngest entries:** mitmproxy (2010), Netron (2010), radare2 (2012)
 
@@ -24,7 +24,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [CyberChef](https://github.com/gchq/CyberChef) | 36.1k | 2016 | 2026-10-15 ✅ | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |
 | [Netron](https://github.com/lutzroeder/netron) | 33.6k | 2010 | 2026-10-14 ✅ | Visualizer for neural network, deep learning and machine learning models |
 
-## Full inventory (47 tools)
+## Full inventory (49 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -54,9 +54,11 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [Dangerzone](https://github.com/freedomofpress/dangerzone) | 5.8k | 2020 | 2026-10-15 ✅ | — takes hostile documents and re-renders them as safe PDFs inside an isolated sandbox. (AGPL-3.0) |
 | [UEFITool](https://github.com/LongSoft/UEFITool) | 5.7k | 2013 | 2026-07-29 | — parse, extract and replace UEFI firmware images. (BSD-2-Clause) |
 | [ExifTool](https://github.com/exiftool/exiftool) | 5.2k | 2018 | 2026-05-27 | — the metadata reader/writer for files and images; the last word in metadata triage. (Perl Artistic/GPL) |
+| [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | 5.0k | 2015 | 2026-10-19 ✅ | — open-source vulnerability management and AppSec platform: import findings from your whole scanner fleet, deduplicate, track remediation and map to compliance from one self-hosted app. (BSD-3-Clause) |
 | [Kaitai Struct](https://github.com/kaitai-io/kaitai_struct) | 4.7k | 2016 | 2026-10-14 ✅ | — declare a binary format once, generate parsers for nine languages. (MIT) |
 | [Interactsh](https://github.com/projectdiscovery/interactsh) | 4.6k | 2021 | 2026-10-12 ✅ | — out-of-band interaction server for detecting blind vulnerabilities (SSRF, blind RCE, blind XXE). |
 | [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator) | 2.5k | 2018 | 2026-10-13 ✅ | — MITRE's matrix explorer: layer, annotate and score ATT&CK techniques for detection-coverage planning. |
+| [pwndoc](https://github.com/pwndoc/pwndoc) | 2.9k | 2020 | 2026-10-02 ✅ | — offline pentest report generator: reusable finding databases, CVSS scoring and multi-language docx templates that turn engagement notes into client-ready reports. (MIT) |
 | [boofuzz](https://github.com/jtpereyda/boofuzz) | 2.4k | 2015 | 2026-09-21 ✅ | — network protocol fuzzing framework descended from Sulley — script your protocol and hardware bug hunts. (GPL-2.0) |
 | [Brida](https://github.com/federicodotta/Brida) | 1.9k | 2017 | 2025-10-30 | — the bridge between Burp and Frida: custom instrumentation in your proxy workflow. (MIT) |
 | [tcpreplay](https://github.com/appneta/tcpreplay) | 1.4k | 2013 | 2026-08-15 | — replay captured traffic at arbitrary speed for testing and validation. (GPL-3.0) |
