@@ -1,12 +1,12 @@
 # The Academy
 
-> **24 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **25 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-20** (re-verified monthly)
 
 ## Curator's notes
 
 Structured learning: curricula, roadmaps and free course catalogs. We favor maintained, community-trusted material over link farms; archived classics stay listed when they remain the reference everyone cites.
 
-## Maintenance snapshot (2026-10-15)
+## Maintenance snapshot (2026-10-20)
 
 - **Active in the last 30 days:** 4 of 10 tracked GitHub repos (40%)
 - **Archived upstream (kept — still reference-quality):** [hacker-roadmap](https://github.com/sundowndev/hacker-roadmap)
@@ -24,7 +24,7 @@ Structured learning: curricula, roadmaps and free course catalogs. We favor main
 | [HackTricks](https://github.com/HackTricks-wiki/hacktricks) | 12.6k | 2020 | 2026-10-15 ✅ | Welcome to the page where you will find each trick/technique/whatever I have learnt in CTFs, real life apps, a |
 | [Android Security Awesome](https://github.com/ashishb/android-security-awesome) | 9.8k | 2014 | 2026-10-13 ✅ | A collection of android security related resources |
 
-## Full inventory (24 tools)
+## Full inventory (25 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -40,6 +40,7 @@ Structured learning: curricula, roadmaps and free course catalogs. We favor main
 | [SecuriBench Micro](https://github.com/too4words/securibench-micro/) | 27 | 2014 | 2018-07-26 ⏳ | — the Stanford benchmark suite for security-analysis tools. (Apache-2.0) |
 | [PortSwigger Web Security Academy](https://portswigger.net/web-security) | — | — | — | — free, best-in-class web-hacking labs from the Burp Suite team; the standard web-security curriculum. |
 | [OWASP WSTG](https://owasp.org/www-project-web-security-testing-guide/) | — | — | — | — the Web Security Testing Guide — the methodology standard for thorough assessments. |
+| [OWASP API Security Project](https://owasp.org/projects/api-security-project) | — | — | — | — the API Top 10 and testing methodology: the standard reference for assessing API authentication, authorization and abuse cases. (CC BY-SA) |
 | [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | — | — | — | — concise, developer-friendly defensive guidance per topic; the fix side of every finding. |
 | [Professor Messer](https://www.professormesser.com) | — | — | — | — free complete video courses for Security+, Network+ and CySA+; the default free cert-prep resource. |
 | [pwn.college](https://pwn.college) | — | — | — | — ASU's free hands-on curriculum from Linux basics to kernel exploitation, with dojo challenges. |

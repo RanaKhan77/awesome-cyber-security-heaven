@@ -7,9 +7,9 @@
 > **The Ultimate Curated Arsenal — 100% Free & Open Source.** A hand-curated, license-aware map of the
 > best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR,
 > DevSecOps and AI/LLM security. Every entry earns its place. 🌟
-> **2026 edition** — 449 tools, 14 realms, every link re-verified 2026-10-15. 📅
+> **2026 edition** — 459 tools, 14 realms, every link re-verified 2026-10-20. 📅
 
-🧭 **449 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
+🧭 **459 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
 
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -28,46 +28,46 @@ the curator's own tool, included transparently.
 - [🛡️ The Bastion — Hardening & Defensive Infrastructure Tools (33)](#️-the-bastion--hardening--defensive-infrastructure-tools)
 - [🔭 The Watchtower — Threat Intelligence Tools & Feeds (17)](#-the-watchtower--threat-intelligence-tools--feeds)
 - [🗺️ The Cartographers — Recon, OSINT & Attack-Surface Mapping Tools (40)](#️-the-cartographers--recon-osint--attack-surface-mapping-tools)
-- [🕵️ The Shadow Bureau — OSINT & Public-Intelligence Tools (29)](#️-the-shadow-bureau--osint--public-intelligence-tools)
+- [🕵️ The Shadow Bureau — OSINT & Public-Intelligence Tools (36)](#️-the-shadow-bureau--osint--public-intelligence-tools)
 - [🔑 The Vault — Secrets, Credentials & Password Security Tools (17)](#-the-vault--secrets-credentials--password-security-tools)
 - [🐳 The Foundry — DevSecOps, Cloud & Container Security Tools (32)](#-the-foundry--devsecops-cloud--container-security-tools)
 - [🔵 The Sentinel Ops — Blue Team, SOC & DFIR Tools (47)](#-the-sentinel-ops--blue-team-soc--dfir-tools)
 - [🤖 The Oracle's Domain — AI Security & LLM Security Tools (6)](#-the-oracles-domain--ai-security--llm-security-tools)
 - [🧠 The AI Forge — AI-Dependent Security Tools (10)](#-the-ai-forge--ai-dependent-security-tools)
 - [🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data (30)](#-the-free-bazaar--free-cybersecurity-apis-feeds--data)
-- [🎓 The Academy — Cybersecurity Learning Resources & Career Paths (24)](#-the-academy--cybersecurity-learning-resources--career-paths)
+- [🎓 The Academy — Cybersecurity Learning Resources & Career Paths (25)](#-the-academy--cybersecurity-learning-resources--career-paths)
 - [🎯 The Proving Grounds — CTF Practice, Labs & Hacking Training (74)](#-the-proving-grounds--ctf-practice-labs--hacking-training)
-- [🧰 The Workshop — Utilities & Swiss-Army Tools (47)](#️-the-workshop--utilities--swiss-army-tools)
+- [🧰 The Workshop — Utilities & Swiss-Army Tools (49)](#️-the-workshop--utilities--swiss-army-tools)
 
 📂 **Realm dossiers:** every realm has a deep page with the full inventory, star counts, project
 ages and last-push dates — see [`realms/`](realms/).
 
 ## 📄 Realm Dossiers — Deep-Research PDF Reports
 
-[![PDF Dossiers](https://img.shields.io/badge/PDF-Realm_Dossiers_533_pages-red?logo=adobeacrobatreader&logoColor=white)](#-realm-dossiers--deep-research-pdf-reports)
+[![PDF Dossiers](https://img.shields.io/badge/PDF-Realm_Dossiers_543_pages-red?logo=adobeacrobatreader&logoColor=white)](#-realm-dossiers--deep-research-pdf-reports)
 
 Every realm ships as a designed, printable **PDF dossier** — dark-theme cover, numbered chapters,
 running header & footer with page numbers, adoption charts (top-starred, most-forked, language mix,
 creation eras), a license-mix donut, and a full-page dossier for every curated tool (live GitHub
 census + **their claim vs our curator's note** + **who uses it & what it replaces** + signal checks).
-Every figure pulled from the live GitHub API (census 2026-10-20). **533 pages across 14 dossiers** — free forever, CC0.
+Every figure pulled from the live GitHub API (census 2026-10-20). **543 pages across 14 dossiers** — free forever, CC0.
 
 | Dossier | Focus | Pages |
 |---|---|---:|
-| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-armory-offensive-security-pentesting-bug-bounty-tools.pdf) ⚔️ [The Armory](<pdfs/awesome-cyber-security-heaven-armory-offensive-security-pentesting-bug-bounty-tools.pdf>) | offensive security · pentesting · bug bounty | 48 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-armory-offensive-security-pentesting-bug-bounty-tools.pdf) ⚔️ [The Armory](<pdfs/awesome-cyber-security-heaven-armory-offensive-security-pentesting-bug-bounty-tools.pdf>) | offensive security · pentesting · bug bounty | 49 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-bastion-hardening-defensive-infrastructure-tools.pdf) 🛡️ [The Bastion](<pdfs/awesome-cyber-security-heaven-bastion-hardening-defensive-infrastructure-tools.pdf>) | hardening · defensive infrastructure | 39 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-watchtower-threat-intelligence-tools-feeds.pdf) 🔭 [The Watchtower](<pdfs/awesome-cyber-security-heaven-watchtower-threat-intelligence-tools-feeds.pdf>) | threat intelligence · feeds | 23 |
-| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-cartographers-recon-osint-attack-surface-mapping-tools.pdf) 🗺️ [The Cartographers](<pdfs/awesome-cyber-security-heaven-cartographers-recon-osint-attack-surface-mapping-tools.pdf>) | recon · OSINT · attack-surface mapping | 44 |
-| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-shadow-bureau-osint-public-intelligence-tools.pdf) 🕵️ [The Shadow Bureau](<pdfs/awesome-cyber-security-heaven-shadow-bureau-osint-public-intelligence-tools.pdf>) | OSINT · public intelligence | 35 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-cartographers-recon-osint-attack-surface-mapping-tools.pdf) 🗺️ [The Cartographers](<pdfs/awesome-cyber-security-heaven-cartographers-recon-osint-attack-surface-mapping-tools.pdf>) | recon · OSINT · attack-surface mapping | 46 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-shadow-bureau-osint-public-intelligence-tools.pdf) 🕵️ [The Shadow Bureau](<pdfs/awesome-cyber-security-heaven-shadow-bureau-osint-public-intelligence-tools.pdf>) | OSINT · public intelligence | 42 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-vault-secrets-credentials-password-security-tools.pdf) 🔑 [The Vault](<pdfs/awesome-cyber-security-heaven-vault-secrets-credentials-password-security-tools.pdf>) | secrets · credentials · password security | 23 |
-| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-foundry-devsecops-cloud-container-security-tools.pdf) 🐳 [The Foundry](<pdfs/awesome-cyber-security-heaven-foundry-devsecops-cloud-container-security-tools.pdf>) | DevSecOps · cloud · container security | 37 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-foundry-devsecops-cloud-container-security-tools.pdf) 🐳 [The Foundry](<pdfs/awesome-cyber-security-heaven-foundry-devsecops-cloud-container-security-tools.pdf>) | DevSecOps · cloud · container security | 38 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-sentinel-ops-blue-team-soc-dfir-tools.pdf) 🔵 [The Sentinel Ops](<pdfs/awesome-cyber-security-heaven-sentinel-ops-blue-team-soc-dfir-tools.pdf>) | blue team · SOC · DFIR | 53 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-oracles-ai-security-llm-security-tools.pdf) 🤖 [The Oracle's Domain](<pdfs/awesome-cyber-security-heaven-oracles-ai-security-llm-security-tools.pdf>) | AI security · LLM security | 12 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-ai-forge-ai-dependent-security-tools.pdf) 🧠 [The AI Forge](<pdfs/awesome-cyber-security-heaven-ai-forge-ai-dependent-security-tools.pdf>) | AI-dependent security tools | 16 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-free-bazaar-free-cybersecurity-apis-feeds-data.pdf) 🆓 [The Free Bazaar](<pdfs/awesome-cyber-security-heaven-free-bazaar-free-cybersecurity-apis-feeds-data.pdf>) | free cybersecurity APIs · feeds · data | 36 |
-| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-academy-cybersecurity-learning-resources-career-paths.pdf) 🎓 [The Academy](<pdfs/awesome-cyber-security-heaven-academy-cybersecurity-learning-resources-career-paths.pdf>) | learning resources · career paths | 30 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-academy-cybersecurity-learning-resources-career-paths.pdf) 🎓 [The Academy](<pdfs/awesome-cyber-security-heaven-academy-cybersecurity-learning-resources-career-paths.pdf>) | learning resources · career paths | 31 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-proving-grounds-ctf-practice-labs-hacking-training.pdf) 🎯 [The Proving Grounds](<pdfs/awesome-cyber-security-heaven-proving-grounds-ctf-practice-labs-hacking-training.pdf>) | CTF practice · labs · hacking training | 80 |
-| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-workshop-utilities-swiss-army-tools.pdf) 🧰 [The Workshop](<pdfs/awesome-cyber-security-heaven-workshop-utilities-swiss-army-tools.pdf>) | utilities · swiss-army tools | 53 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-workshop-utilities-swiss-army-tools.pdf) 🧰 [The Workshop](<pdfs/awesome-cyber-security-heaven-workshop-utilities-swiss-army-tools.pdf>) | utilities · swiss-army tools | 55 |
 
 ---
 
@@ -280,11 +280,18 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [maigret](https://github.com/soxoj/maigret) — builds a full dossier from a single username across thousands of sites; powerful people-OSINT — authorized investigations only. Used by OSINT investigators generating full username reports across platforms; the Sherlock successor with report output.
 - [WhatsMyName](https://whatsmyname.app) — web app plus open database for checking one username across hundreds of platforms at once; keep lookups lawful and authorized. Used by OSINT investigators checking usernames across hundreds of sites; the open web project behind many commercial aggregators.
 - [Osintgram](https://github.com/Datalux/Osintgram) — interactive Instagram OSINT (followers, public emails/phones, geotags, posting patterns); requires an Instagram account — authorized research only. Used by investigators with authorized access profiling Instagram accounts; the open Instagram OSINT toolkit. (GPL-3.0)
+- [socialscan](https://github.com/iojw/socialscan) — accurate email and username existence checks across major platforms by querying signup servers directly instead of scraping profile pages; quiet upstream but still accurate. Used by investigators verifying account existence with fewer false positives; the accuracy-first checker for email and username lookups. (MPL-2.0)
+- [socid-extractor](https://github.com/soxoj/socid-extractor) — the extraction engine behind Maigret: turn any profile URL into structured identifiers — internal user IDs, linked accounts and hidden page metadata. Used by OSINT investigators pivoting from one profile to linked identities; the maigret author's extractor for deep profile intelligence. (MIT)
+- [GitFive](https://github.com/mxrch/GitFive) — GitHub account OSINT: reconstruct a user's footprint from commits, organizations, emails and repo activity to map identities and aliases. Used by investigators tracking GitHub identities across repositories; the deep GitHub profiler for authorized cases. (MPL-2.0)
+- [Marple](https://github.com/soxoj/marple) — collect links to profiles by username through search engines, then analyze the results to surface related accounts across platforms. Used by OSINT investigators expanding one username into a full cross-platform profile set; the search-engine profile aggregator from the maigret author. (MIT)
 
 ### 📧 Email & Phone Intel
 
 - [holehe](https://github.com/megadose/holehe) — checks which sites an email is registered on via password-reset and account-exist flows; quiet upstream but still the standard. Used by investigators checking which services an email registered with; the free breach-recovery check used in authorized account reviews. (GPL-3.0)
 - [MailAccess](https://github.com/KatrielMoses/MailAccess) — email-exposure toolkit that flags breach appearances and stealer-log presence for an address — authorized investigations only. Used by investigators during authorized account-recovery engagements to check email credential exposure; a focused checker for red-team and OSINT work.
+- [check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) — verify an email address exists without sending any message: SMTP-level mailbox checks with disposable and catch-all detection, self-hostable or as a service. Used by investigators confirming a mailbox is real before deeper checks; the free verifier behind Reacher. (MIT)
+- [telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker) — check which phone numbers are connected to Telegram accounts and pull usernames and names; needs your own Telegram session — authorized research only. Used by investigators with authorized Telegram access linking numbers to accounts; Bellingcat's open checker for sanctioned research. (MIT)
+- [whatsapp-osint](https://github.com/jasperan/whatsapp-osint) — monitor WhatsApp online/offline presence and profile signals from a linked session for lawful, authorized investigations only. Used by investigators tracking activity patterns in sanctioned cases; the open WhatsApp presence monitor for lawful research. (MIT)
 
 ### 🩸 Breach & Leak Lookup
 
@@ -560,6 +567,7 @@ Intro: Learn the craft — free academies, knowledge bases, walkthroughs and car
 - [GTFOBins](https://github.com/GTFOBins/GTFOBins.github.io) — the living Linux binary-abuse matrix; the privilege-escalation bible. Used by pentesters finding Unix binary-abuse paths for privesc; the standard free lookup red teams quote. (GPL-3.0)
 - [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) — the Windows counterpart to GTFOBins: living-off-the-land binaries and scripts. Used by red teamers planning fileless attacks and defenders writing detections for them. (GPL-3.0)
 - [OWASP WSTG](https://owasp.org/www-project-web-security-testing-guide/) — the Web Security Testing Guide — the methodology standard for thorough assessments. Used by auditors and pentesters as the canonical assessment methodology; the free OWASP guide commercial audits map to.
+- [OWASP API Security Project](https://owasp.org/projects/api-security-project) — the API Top 10 and testing methodology: the standard reference for assessing API authentication, authorization and abuse cases. Used by API auditors mapping coverage against the canonical API risk list; the free OWASP guide every API assessment references. (CC BY-SA)
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) — concise, developer-friendly defensive guidance per topic; the fix side of every finding. Used by developers building defenses correctly; the free OWASP guidance engineers link in code reviews.
 - [hacker-roadmap](https://github.com/sundowndev/hacker-roadmap) — the illustrated cybersecurity study/career roadmap; the "where do I start?" answer. Used by beginners planning their path into security; the free curated curriculum for self-learners.
 - [Professor Messer](https://www.professormesser.com) — free complete video courses for Security+, Network+ and CySA+; the default free cert-prep resource. Used by certification students as the default free alternative to paid bootcamps.
@@ -696,6 +704,8 @@ Intro: The everyday carry — decoding, proxying, dissecting and transforming an
 - [Dangerzone](https://github.com/freedomofpress/dangerzone) — takes hostile documents and re-renders them as safe PDFs inside an isolated sandbox. Used by newsrooms converting untrusted documents into safe PDFs; the free sanitization tool for adversarial files. (AGPL-3.0)
 - [Faraday](https://github.com/infobyte/faraday) — the pentest collaboration platform: import tool output, deduplicate findings and manage the whole engagement. Used by pentest teams collaborating on findings; the community edition of the commercial collaboration platform. (GPL-3.0)
 - [Dradis CE](https://github.com/dradis/dradis-ce) — collaborative pentest reporting: team notes, evidence and findings assembled into one professional report. Used by pentest teams assembling reports from tool output; the free edition of the commercial reporting platform. (GPL-2.0)
+- [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) — open-source vulnerability management and AppSec platform: import findings from your whole scanner fleet, deduplicate, track remediation and map to compliance from one self-hosted app. Used by security teams running continuous vulnerability management across scanners; the free alternative to commercial ASPM platforms. (BSD-3-Clause)
+- [pwndoc](https://github.com/pwndoc/pwndoc) — offline pentest report generator: reusable finding databases, CVSS scoring and multi-language docx templates that turn engagement notes into client-ready reports. Used by pentesters producing polished client reports without cloud tooling; the free offline reporting suite for engagements. (MIT)
 - [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator) — MITRE's matrix explorer: layer, annotate and score ATT&CK techniques for detection-coverage planning. Used by purple teams planning and visualizing coverage; the free MITRE tool for layer-based ATT&CK exploration.
 - [GnuPG](https://github.com/gpg/gnupg) — the free implementation of OpenPGP: encrypt, sign and verify files and mail, everywhere. Used by privacy-conscious users for email and file encryption; the free open implementation of OpenPGP. (GPL-3.0)
 - [OpenSSL](https://github.com/openssl/openssl) — the TLS library the internet runs on — and the CLI for keys, certs, CSRs and everything crypto. Used by literally everyone through the TLS it provides; the open library the commercial internet runs on.
