@@ -7,9 +7,9 @@
 > **The Ultimate Curated Arsenal — 100% Free & Open Source.** A hand-curated, license-aware map of the
 > best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR,
 > DevSecOps and AI/LLM security. Every entry earns its place. 🌟
-> **2026 edition** — 459 tools, 14 realms, every link re-verified 2026-10-20. 📅
+> **2026 edition** — 469 tools, 14 realms, every link re-verified 2026-10-20. 📅
 
-🧭 **459 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
+🧭 **469 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
 
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -24,16 +24,16 @@ the curator's own tool, included transparently.
 
 ## 📖 Contents
 
-- [⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools (43)](#️-the-armory--offensive-security-pentesting--bug-bounty-tools)
+- [⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools (48)](#️-the-armory--offensive-security-pentesting--bug-bounty-tools)
 - [🛡️ The Bastion — Hardening & Defensive Infrastructure Tools (33)](#️-the-bastion--hardening--defensive-infrastructure-tools)
-- [🔭 The Watchtower — Threat Intelligence Tools & Feeds (17)](#-the-watchtower--threat-intelligence-tools--feeds)
+- [🔭 The Watchtower — Threat Intelligence Tools & Feeds (18)](#-the-watchtower--threat-intelligence-tools--feeds)
 - [🗺️ The Cartographers — Recon, OSINT & Attack-Surface Mapping Tools (40)](#️-the-cartographers--recon-osint--attack-surface-mapping-tools)
 - [🕵️ The Shadow Bureau — OSINT & Public-Intelligence Tools (36)](#️-the-shadow-bureau--osint--public-intelligence-tools)
-- [🔑 The Vault — Secrets, Credentials & Password Security Tools (17)](#-the-vault--secrets-credentials--password-security-tools)
-- [🐳 The Foundry — DevSecOps, Cloud & Container Security Tools (32)](#-the-foundry--devsecops-cloud--container-security-tools)
+- [🔑 The Vault — Secrets, Credentials & Password Security Tools (18)](#-the-vault--secrets-credentials--password-security-tools)
+- [🐳 The Foundry — DevSecOps, Cloud & Container Security Tools (33)](#-the-foundry--devsecops-cloud--container-security-tools)
 - [🔵 The Sentinel Ops — Blue Team, SOC & DFIR Tools (47)](#-the-sentinel-ops--blue-team-soc--dfir-tools)
 - [🤖 The Oracle's Domain — AI Security & LLM Security Tools (6)](#-the-oracles-domain--ai-security--llm-security-tools)
-- [🧠 The AI Forge — AI-Dependent Security Tools (10)](#-the-ai-forge--ai-dependent-security-tools)
+- [🧠 The AI Forge — AI-Dependent Security Tools 🧠 The AI Forge — AI-Dependent Security Tools (11)](#-the-ai-forge--ai-dependent-security-tools)
 - [🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data (30)](#-the-free-bazaar--free-cybersecurity-apis-feeds--data)
 - [🎓 The Academy — Cybersecurity Learning Resources & Career Paths (25)](#-the-academy--cybersecurity-learning-resources--career-paths)
 - [🎯 The Proving Grounds — CTF Practice, Labs & Hacking Training (74)](#-the-proving-grounds--ctf-practice-labs--hacking-training)
@@ -137,6 +137,12 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 > 200 free, self-hosted protection modules — hardening checks: security headers, TLS configuration, cookie flags and CORS policy, each finding paired with plain-language fix guidance.
 > Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
+- [authz0](https://github.com/hahwul/authz0) — CLI broken-access-control tester that replays the same URL set under multiple roles' credentials from a YAML template and flags unauthorized responses. Used by pentesters proving BOLA/authz gaps in minutes instead of hours; role-pair replay made repeatable. (MIT)
+- [InQL](https://github.com/doyensec/inql) — the reference GraphQL security testing toolkit as a Burp Suite extension: schema introspection analysis, query generation, vulnerability scanning and engine fingerprinting. Used by pentesters auditing GraphQL APIs where classic proxies stop at the surface; doyensec-maintained since 2018. (Apache-2.0)
+- [OXO](https://github.com/Ostorlab/oxo) — pip-installable security-scanning orchestrator that composes Docker-image agents (nmap, nuclei, ZAP, subfinder…) into typed asset scan graphs with a CLI + GraphQL API. Used by security engineers chaining multi-tool pipelines without glue code; scans IPs, domains, links, files and mobile apps. (Apache-2.0)
+- [Artemis](https://github.com/CERT-Polska/Artemis) — modular web-vulnerability scanning platform that powers CERT Poland's nation-scale scanning (50.6k domains since 2023) and auto-generates human-readable, FP-filtered advisory reports per organization. Used by CSIRTs running continuous constituency scanning with e-mailable advisories; the public blueprint for national-scale detection. (BSD-3-Clause)
+- [graudit](https://github.com/wireghoul/graudit) — grep-based rough source-code auditor: one shell script + 26 regex signature databases (php, sql, xss, secrets, java, python…) for first-pass static review. Used by auditors triaging unfamiliar codebases before deep review; 17 years maintained, v4.1 (2026). (GPL-3.0)
+
 ## 🛡️ The Bastion — Hardening & Defensive Infrastructure Tools
 Intro: Lock it down before they get in — auditing, hardening and host/network defense tooling.
 
@@ -213,6 +219,8 @@ Intro: See what's coming — intel platforms, knowledge bases, ransomware tracke
 > 200 free, self-hosted protection modules — attack-surface mapping: subdomain takeover detection, certificate-transparency mining and continuous surface diffing.
 > Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
+- [cve-search](https://github.com/cve-search/cve-search) — self-hosted CVE/CPE database in MongoDB with web UI, API and CLI. Used by orgs (incl. CIRCL's former public CVE service) to run local, rate-limit-free vulnerability lookups; strict/lax CPE matching, 14 yrs of maintenance. (AGPL-3.0)
+
 ## 🗺️ The Cartographers — Recon, OSINT & Attack-Surface Mapping Tools
 Intro: Map the terrain before you move — subdomain, content and OSINT discovery for bug bounty and asset management.
 
@@ -274,6 +282,8 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [sn0int](https://github.com/kpcyrd/sn0int) — semi-automatic OSINT framework with scriptable modules, its own package ecosystem and a database that remembers everything you've collected. Used by OSINT investigators scripting structured intel gathering; the semi-automatic OSINT framework for serious cases. (GPL-3.0)
 - [Photon](https://github.com/s0md3v/Photon) — fast OSINT crawler that rips a target apart for emails, social profiles, intel files and metadata, with exportable reports. Used by OSINT researchers crawling targets for emails, socials and intel; the fast open crawler for investigations. (GPL-3.0)
 - [chiasmodon](https://github.com/chiasmod0n/chiasmodon) — domain-centric OSINT: pivot from one domain to emails, subdomains, ASN and related-asset intelligence across multiple sources. Used by investigators pivoting from domains, emails and IPs across OSINT sources; the open alternative to commercial attribution tooling.
+
+- [Seekr](https://github.com/seekr-osint/seekr) — self-hosted keyless OSINT toolkit with a desktop-style web UI, person database and account cards. Used by investigators gathering and managing identifier lookups (email via Discord/Spotify/PGP keyservers, username discovery, GitHub→email) with zero API keys; plugin system, Docker/Nix. (GPL-3.0)
 
 ### 👤 People & Account Discovery
 
@@ -365,6 +375,8 @@ Intro: Where secrets live and leak — find them before attackers do, and keep t
 > 200 free, self-hosted protection modules — pipeline safety checks: CI/CD exposure detection, dependency-risk matching against the OSV database and container misconfiguration audits.
 > Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
+- [Kingfisher](https://github.com/mongodb/kingfisher) — MongoDB's open-source Rust secret scanner: detect leaked secrets across code/Git/history/containers/cloud, then live-validate credentials, map blast radius and revoke — the full post-detection lifecycle. Used by security teams killing the "leaked-but-rotated key" false-positive class; embeddable as CLI, Rust lib or Python SDK. (Apache-2.0)
+
 ## 🐳 The Foundry — DevSecOps, Cloud & Container Security Tools
 Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that fit the pipeline.
 
@@ -409,6 +421,8 @@ Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that 
 > ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
 > 200 free, self-hosted protection modules — detection with evidence: defacement monitoring, page watching and CVSS-scored incident reporting your team can act on immediately.
 > Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
+
+- [Kubescape](https://github.com/kubescape/kubescape) — CNCF-incubating Kubernetes security platform: scan manifests, Helm charts, Kustomize dirs, live clusters and images against NSA-CISA, MITRE ATT&CK and CIS frameworks from one CLI. Used by platform teams hardening k8s before and after deploy; CNCF-backed with an in-cluster operator option. (Apache-2.0)
 
 ## 🔵 The Sentinel Ops — Blue Team, SOC & DFIR Tools
 Intro: Detect, hunt, forensicate — the defensive operations toolkit.
@@ -514,6 +528,8 @@ generators. Every entry needs an LLM API key (yours or the target's); none are S
 > ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
 > 200 free, self-hosted protection modules — our own free-tier promise: 285 online checkers at 2mny.com, keyless-first integration, and no paid APIs anywhere in the stack.
 > Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
+
+- [Mantis](https://github.com/google/mantis) — Google's ADK-based toolkit that lets AI coding agents autonomously find, reproduce and patch vulnerabilities in source code — LLM-driven SAST with a severity-calibration rubric and anti-hallucination triage. Used by security engineers researching agentic vuln discovery; the flagship example of agent-driven security code review (needs paid LLM APIs). (Apache-2.0)
 
 ## 🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data
 Intro: Free (or free-tier) data sources every security program should be using — no budget required.
