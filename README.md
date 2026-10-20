@@ -7,9 +7,9 @@
 > **The Ultimate Curated Arsenal — 100% Free & Open Source.** A hand-curated, license-aware map of the
 > best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR,
 > DevSecOps and AI/LLM security. Every entry earns its place. 🌟
-> **2026 edition** — 444 tools, 14 realms, every link re-verified 2026-10-15. 📅
+> **2026 edition** — 449 tools, 14 realms, every link re-verified 2026-10-15. 📅
 
-🧭 **444 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
+🧭 **449 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
 
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -24,13 +24,13 @@ the curator's own tool, included transparently.
 
 ## 📖 Contents
 
-- [⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools (42)](#️-the-armory--offensive-security-pentesting--bug-bounty-tools)
+- [⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools (43)](#️-the-armory--offensive-security-pentesting--bug-bounty-tools)
 - [🛡️ The Bastion — Hardening & Defensive Infrastructure Tools (33)](#️-the-bastion--hardening--defensive-infrastructure-tools)
 - [🔭 The Watchtower — Threat Intelligence Tools & Feeds (17)](#-the-watchtower--threat-intelligence-tools--feeds)
-- [🗺️ The Cartographers — Recon, OSINT & Attack-Surface Mapping Tools (38)](#️-the-cartographers--recon-osint--attack-surface-mapping-tools)
+- [🗺️ The Cartographers — Recon, OSINT & Attack-Surface Mapping Tools (40)](#️-the-cartographers--recon-osint--attack-surface-mapping-tools)
 - [🕵️ The Shadow Bureau — OSINT & Public-Intelligence Tools (29)](#️-the-shadow-bureau--osint--public-intelligence-tools)
 - [🔑 The Vault — Secrets, Credentials & Password Security Tools (17)](#-the-vault--secrets-credentials--password-security-tools)
-- [🐳 The Foundry — DevSecOps, Cloud & Container Security Tools (31)](#-the-foundry--devsecops-cloud--container-security-tools)
+- [🐳 The Foundry — DevSecOps, Cloud & Container Security Tools (32)](#-the-foundry--devsecops-cloud--container-security-tools)
 - [🔵 The Sentinel Ops — Blue Team, SOC & DFIR Tools (47)](#-the-sentinel-ops--blue-team-soc--dfir-tools)
 - [🤖 The Oracle's Domain — AI Security & LLM Security Tools (6)](#-the-oracles-domain--ai-security--llm-security-tools)
 - [🧠 The AI Forge — AI-Dependent Security Tools (10)](#-the-ai-forge--ai-dependent-security-tools)
@@ -44,19 +44,19 @@ ages and last-push dates — see [`realms/`](realms/).
 
 ## 📄 Realm Dossiers — Deep-Research PDF Reports
 
-[![PDF Dossiers](https://img.shields.io/badge/PDF-Realm_Dossiers_528_pages-red?logo=adobeacrobatreader&logoColor=white)](#-realm-dossiers--deep-research-pdf-reports)
+[![PDF Dossiers](https://img.shields.io/badge/PDF-Realm_Dossiers_533_pages-red?logo=adobeacrobatreader&logoColor=white)](#-realm-dossiers--deep-research-pdf-reports)
 
 Every realm ships as a designed, printable **PDF dossier** — dark-theme cover, numbered chapters,
 running header & footer with page numbers, adoption charts (top-starred, most-forked, language mix,
 creation eras), a license-mix donut, and a full-page dossier for every curated tool (live GitHub
 census + **their claim vs our curator's note** + **who uses it & what it replaces** + signal checks).
-Every figure pulled from the live GitHub API (census 2026-10-17). **528 pages across 14 dossiers** — free forever, CC0.
+Every figure pulled from the live GitHub API (census 2026-10-20). **533 pages across 14 dossiers** — free forever, CC0.
 
 | Dossier | Focus | Pages |
 |---|---|---:|
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-armory-offensive-security-pentesting-bug-bounty-tools.pdf) ⚔️ [The Armory](<pdfs/awesome-cyber-security-heaven-armory-offensive-security-pentesting-bug-bounty-tools.pdf>) | offensive security · pentesting · bug bounty | 48 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-bastion-hardening-defensive-infrastructure-tools.pdf) 🛡️ [The Bastion](<pdfs/awesome-cyber-security-heaven-bastion-hardening-defensive-infrastructure-tools.pdf>) | hardening · defensive infrastructure | 39 |
-| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-watchtower-threat-intelligence-tools-feeds.pdf) 🔭 [The Watchtower](<pdfs/awesome-cyber-security-heaven-watchtower-threat-intelligence-tools-feeds.pdf>) | threat intelligence · feeds | 22 |
+| [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-watchtower-threat-intelligence-tools-feeds.pdf) 🔭 [The Watchtower](<pdfs/awesome-cyber-security-heaven-watchtower-threat-intelligence-tools-feeds.pdf>) | threat intelligence · feeds | 23 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-cartographers-recon-osint-attack-surface-mapping-tools.pdf) 🗺️ [The Cartographers](<pdfs/awesome-cyber-security-heaven-cartographers-recon-osint-attack-surface-mapping-tools.pdf>) | recon · OSINT · attack-surface mapping | 44 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-shadow-bureau-osint-public-intelligence-tools.pdf) 🕵️ [The Shadow Bureau](<pdfs/awesome-cyber-security-heaven-shadow-bureau-osint-public-intelligence-tools.pdf>) | OSINT · public intelligence | 35 |
 | [![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader&logoColor=white)](pdfs/awesome-cyber-security-heaven-vault-secrets-credentials-password-security-tools.pdf) 🔑 [The Vault](<pdfs/awesome-cyber-security-heaven-vault-secrets-credentials-password-security-tools.pdf>) | secrets · credentials · password security | 23 |
@@ -108,6 +108,7 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [masscan](https://github.com/robertdavidgraham/masscan) — the fastest TCP port scanner on earth; scan the whole internet in minutes — on networks you're authorized to test. Used by researchers and recon teams for internet-scale port discovery. (AGPL-3.0)
 - [RustScan](https://github.com/bee-san/RustScan) — modern Rust port scanner that finds open ports in seconds and pipes them straight into Nmap. Used by bug bounty hunters and sysadmins for fast port discovery with Nmap piping; a modern free alternative to legacy scanners. (GPL-3.0)
 - [Tsunami](https://github.com/google/tsunami-security-scanner) — Google's security scanner for large fleets, focused on reliably exploitable high-severity flaws with few false positives. Used by security teams scanning large fleets of internet-facing services; Google's open-source answer to commercial enterprise web scanners.
+- [WAVSS](https://github.com/Ammar-1993/wavss) — audit-first web vulnerability scanner for common flaws like SQLi and XSS, with domain-ownership verification, DoS-avoidant pacing and PDF reports with remediation guidance. Used by auditors scanning client sites safely under strict rules of engagement; the audit-focused alternative to exploit-heavy scanners. (no license yet — verify before reuse)
 - [wafw00f](https://github.com/EnableSecurity/wafw00f) — fingerprints the web application firewall sitting in front of a site so you know exactly what you're testing against. Used by pentesters planning engagements to fingerprint WAFs first; the standard free WAF detector.
 - [wapiti](https://github.com/wapiti-scanner/wapiti) — open-source black-box web vulnerability scanner that crawls and audits without needing a browser. Used by web pentesters and CI pipelines for black-box web scanning; a solid free alternative to paid web vulnerability scanners. (GPL-2.0)
 - [WhatWeb](https://github.com/urbanadventurer/WhatWeb) — identifies what a website is built with — frameworks, CMSs, servers and versions — in one command. Used by recon teams to fingerprint what a site runs on; the standard free tech-identifier behind many commercial recon feeds. (GPL-2.0)
@@ -233,9 +234,11 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [waymore](https://github.com/xnl-h4ck3r/waymore) — pull way more from the Wayback Machine: full responses, not just URLs. Used by bug hunters mining the Wayback Machine deeply for hidden endpoints and parameters; the successor to gau for archive URL intel.
 - [Maltego CE](https://www.maltego.com) — the standard OSINT graphing tool for entity-relationship investigation; free community edition. Used by OSINT analysts and investigators for link analysis; the free community edition of the commercial Maltego. (free tier)
 - [dnstwist](https://github.com/elceef/dnstwist) — detect typosquat, homograph and permutation lookalikes of your domain — a must for phishing defense and brand monitoring. Used by brand-protection and anti-phishing teams hunting lookalike domains; the open-source alternative to commercial domain-monitoring services.
+- [CloakQuest3r](https://github.com/spyboy-productions/CloakQuest3r) — unmask the real origin IP behind Cloudflare and similar CDNs using historical DNS, SSL certificates and subdomain correlation. Used by security teams verifying true origin exposure before hardening allowlists; the open-source alternative to commercial CDN-unmasking services. (MIT)
 - [assetfinder](https://github.com/tomnomnom/assetfinder) — passive subdomain discovery that polls a dozen public sources and prints a clean list — no keys needed; quiet upstream, still the classic. Used by bug bounty hunters for quick passive subdomain finds; the lightweight staple of recon one-liners.
 - [ParamSpider](https://github.com/devanshbatham/ParamSpider) — mines archived URLs and parameters from the Wayback Machine to seed injection testing. Used by bug hunters mining hidden parameters from archives; the free parameter-mining step before injection testing.
 - [recon-ng](https://github.com/lanmaster53/recon-ng) — the other recon framework: fully modular, database-backed web recon with a Metasploit-style console. Used by pentesters running structured recon workflows; the Metasploit-style framework for the recon phase. (GPL-3.0)
+- [FinalRecon](https://github.com/thewhiteh4t/FinalRecon) — all-in-one web recon: headers, whois, SSL, DNS, subdomains, ports, directories and traceroute in a single modular run. Used by pentesters running a fast first-pass recon sweep before deep-dive tooling; the modular Python alternative to juggling ten single-purpose scripts. (MIT)
 - [dnsrecon](https://github.com/darkoperator/dnsrecon) — DNS enumeration workhorse: records, zone transfers, reverse lookups and subdomain brute-forcing. Used by pentesters enumerating DNS records and zone transfers; the veteran free DNS enumeration tool. (GPL-2.0)
 - [VHostScan](https://github.com/codingo/VHostScan) — enumerates virtual hosts on a shared IP — discover the neighbors your target lives with. Used by pentesters discovering virtual hosts on shared infrastructure; a focused free tool for shared-hosting engagements. (GPL-3.0)
 - [wfuzz](https://github.com/xmendez/wfuzz) — the web fuzzer that replaces any part of a request with a payload — parameters, headers, paths, verbs. Used by web pentesters fuzzing any part of an HTTP request; the classic free fuzzer predating ffuf. (GPL-2.0)
@@ -376,6 +379,7 @@ Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that 
 - [Bandit](https://github.com/PyCQA/bandit) — the standard Python security linter; wire it into CI and never merge an `eval()` again. Used by Python teams catching security issues in CI; the standard open-source Python SAST tool.
 - [Brakeman](https://github.com/presidentbeef/brakeman) — static analysis purpose-built for Ruby on Rails; no config, no instrumentation, just findings. Used by Rails teams scanning source for security flaws; the standard open-source Rails SAST tool.
 - [kube-hunter](https://github.com/aquasecurity/kube-hunter) — active Kubernetes security testing: probe clusters for exposed dashboards, weak RBAC and known exploits; quiet upstream. Used by cluster security teams probing Kubernetes for weaknesses; the open-source pentest tool for k8s.
+- [StackRadar](https://github.com/lockdep/stackradar) — Kubernetes vulnerability scanner that builds an SBOM of every running image and ranks findings by CVSS, EPSS and CISA KEV. Used by DevSecOps teams prioritizing which container CVE actually matters in-cluster; the self-hosted alternative to commercial runtime CSPM. (AGPL-3.0)
 - [cloudsplaining](https://github.com/salesforce/cloudsplaining) — maps AWS IAM policies and flags the privilege-escalation paths you never meant to grant. Used by AWS security teams finding over-privileged IAM policies; the open-source alternative to commercial IAM analyzers.
 - [Docker Bench for Security](https://github.com/docker/docker-bench-security) — audits your Docker host and daemon configuration against the CIS Benchmark in a single script run. Used by admins auditing Docker hosts against the CIS benchmark; the reference open-source check script.
 - [GDB](https://www.sourceware.org/gdb/) — the GNU debugger: breakpoints, watchpoints and reverse debugging across dozens of architectures. Used by reverse engineers and exploit developers on every platform; the GNU debugger standard for binary analysis. (GPL-3.0)

@@ -1,6 +1,6 @@
 # The Cartographers
 
-> **38 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **40 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 
 ## Maintenance snapshot (2026-10-15)
 
-- **Active in the last 30 days:** 14 of 33 tracked GitHub repos (42%)
+- **Active in the last 30 days:** 14 of 35 tracked GitHub repos (40%)
 - **Archived upstream (kept — still reference-quality):** [JA3](https://github.com/salesforce/ja3), [HASSH](https://github.com/salesforce/hassh)
 - **Quiet classics (no push in 2+ years, still the standard):** assetfinder, ike-scan
 - **Youngest entries:** dnsrecon (2010), theHarvester (2011), ike-scan (2013)
@@ -24,7 +24,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [ffuf](https://github.com/ffuf/ffuf) | 16.9k | 2018 | 2026-09-26 ✅ | Fast web fuzzer written in Go |
 | [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-07-19 | In-depth attack surface mapping and asset discovery |
 
-## Full inventory (38 tools)
+## Full inventory (40 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -49,9 +49,11 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [massdns](https://github.com/blechschmidt/massdns) | 3.7k | 2016 | 2026-09-27 ✅ | — high-performance DNS stub resolver for bulk subdomain brute-forcing at scale. (GPL-3.0) |
 | [ParamSpider](https://github.com/devanshbatham/ParamSpider) | 3.2k | 2020 | 2026-03-07 | — mines archived URLs and parameters from the Wayback Machine to seed injection testing. |
 | [JA3](https://github.com/salesforce/ja3) | 3.1k | 2017 | 2025-05-01 ⏳ | — the TLS client fingerprint standard: a 12-byte hash that identifies client software across the wire. (BSD-3-Clause) |
-| [dnsrecon](https://github.com/darkoperator/dnsrecon) | 3.1k | 2010 | 2026-10-12 ✅ | — DNS enumeration workhorse: records, zone transfers, reverse lookups and subdomain brute-forcing. (GPL-2.0) |
+| [dnsrecon](https://github.com/darkoperator/dnsrecon) | 3.1k | 2010 | 2026-10-12 ✅ |
+| [FinalRecon](https://github.com/thewhiteh4t/FinalRecon) | 3.0k | 2019 | 2026-06-01 | — all-in-one web recon: headers, whois, SSL, DNS, subdomains, ports, directories and traceroute in a single modular run. (MIT) | — DNS enumeration workhorse: records, zone transfers, reverse lookups and subdomain brute-forcing. (GPL-2.0) |
 | [dnsx](https://github.com/projectdiscovery/dnsx) | 2.9k | 2020 | 2026-10-12 ✅ | — multi-purpose DNS toolkit: reverse lookups, wildcard detection, response filtering. |
-| [waymore](https://github.com/xnl-h4ck3r/waymore) | 2.8k | 2022 | 2026-06-11 | — pull way more from the Wayback Machine: full responses, not just URLs. |
+| [waymore](https://github.com/xnl-h4ck3r/waymore) | 2.8k | 2022 | 2026-06-11 |
+| [CloakQuest3r](https://github.com/spyboy-productions/CloakQuest3r) | 2.3k | 2023 | 2026-01-06 | — unmask the real origin IP behind Cloudflare and similar CDNs using historical DNS, SSL certificates and subdomain correlation. (MIT) | — pull way more from the Wayback Machine: full responses, not just URLs. |
 | [JARM](https://github.com/salesforce/jarm) | 1.3k | 2020 | 2026-08-13 | — active TLS server fingerprint: identifies servers behind CDNs from their handshake behavior. (BSD-3-Clause) |
 | [VHostScan](https://github.com/codingo/VHostScan) | 1.3k | 2017 | 2025-08-18 ⏳ | — enumerates virtual hosts on a shared IP — discover the neighbors your target lives with. (GPL-3.0) |
 | [Awesome Censys Queries](https://github.com/thehappydinoa/awesome-censys-queries) | 1.3k | 2022 | 2026-07-20 | — a curated corpus of Censys search queries for internet-wide recon. (CC-BY-4.0, curated list) |
