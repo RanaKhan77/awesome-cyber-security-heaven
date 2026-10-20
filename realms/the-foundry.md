@@ -1,6 +1,6 @@
 # The Foundry
 
-> **31 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **32 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 
 ## Maintenance snapshot (2026-10-15)
 
-- **Active in the last 30 days:** 17 of 29 tracked GitHub repos (59%)
+- **Active in the last 30 days:** 18 of 30 tracked GitHub repos (60%)
 - **Archived upstream (kept — still reference-quality):** [OWASP Dependency-Check](https://github.com/jeremylong/DependencyCheck)
 - **Quiet classics (no push in 2+ years, still the standard):** kube-hunter, sobelow, logdissect, Awesome ICS Security, Awesome Container Security
 - **Youngest entries:** cppcheck (2009), Brakeman (2010), Dependency-Track (2013)
@@ -24,7 +24,7 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 | [OSV-Scanner](https://github.com/google/osv-scanner) | 11.2k | 2022 | 2026-10-14 ✅ | Vulnerability scanner written in Go which uses the data provided by https://osv.dev |
 | [Docker Bench for Security](https://github.com/docker/docker-bench-security) | 9.7k | 2015 | 2026-06-04 | The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Doc |
 
-## Full inventory (31 tools)
+## Full inventory (32 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -56,7 +56,8 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 | [logdissect](https://github.com/dogoncouch/logdissect) | 161 | 2017 | 2024-08-07 ⏳ | — parse, merge and analyze logs from many formats into one timeline. (MIT) |
 | [OWASP Dependency-Check](https://github.com/jeremylong/DependencyCheck) | 56 | 2025 | 2025-09-27 ⏳ | — the classic SCA engine: NVD-backed dependency CVE scanning for JVM/.NET/JS ecosystems. |
 | [Awesome ICS Security](https://github.com/mpesen/awesome-industrial-control-system-security) | 32 | 2016 | 2016-05-27 ⏳ | — curated industrial-control-system security tools and research. (Apache-2.0, curated list) |
-| [Awesome Container Security](https://github.com/kai5263499/container-security-awesome) | 19 | 2018 | 2019-03-07 ⏳ | — curated container and cloud-native security resources. (MIT, curated list) |
+| [Awesome Container Security](https://github.com/kai5263499/container-security-awesome) | 19 | 2018 | 2019-03-07 ⏳ |
+| [StackRadar](https://github.com/lockdep/stackradar) | 1 | 2026 | 2026-10-19 ✅ | — Kubernetes vulnerability scanner that builds an SBOM of every running image and ranks findings by CVSS, EPSS and CISA KEV. (AGPL-3.0) | — curated container and cloud-native security resources. (MIT, curated list) |
 | [GDB](https://www.sourceware.org/gdb/) | — | — | — | — the GNU debugger: breakpoints, watchpoints and reverse debugging across dozens of architectures. (GPL-3.0) |
 | [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) | — | — | — | — the Windows debugger for user, kernel and crash-dump analysis; now with a modern UI. (free, proprietary) |
 

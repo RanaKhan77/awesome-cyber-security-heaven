@@ -1,6 +1,6 @@
 # The AI Forge
 
-> **9 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **10 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,13 +8,14 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 
 ## Maintenance snapshot (2026-10-15)
 
-- **Active in the last 30 days:** 8 of 9 tracked GitHub repos (89%)
+- **Active in the last 30 days:** 9 of 10 tracked GitHub repos (90%)
 - **Youngest entries:** PentestGPT (2023), promptfoo (2023), garak (2023)
 
 ## Flagship picks
 
 | Tool | ★ Stars | Created | Last push | What it does |
 |---|---|---|---|---|
+| [rea](https://github.com/morluto/rea) | 337.3k | 2026 | 2026-10-19 ✅ | Reverse engineer anything with agents, from app behavior down to native binaries |
 | [PentAGI](https://github.com/vxcontrol/pentagi) | 30.3k | 2025 | 2026-10-09 ✅ | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
 | [promptfoo](https://github.com/promptfoo/promptfoo) | 26.0k | 2023 | 2026-10-15 ✅ | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance |
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.0k | 2023 | 2026-07-14 | Automated Penetration Testing Agentic Framework Powered by Large Language Models |
@@ -22,10 +23,11 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [PyRIT](https://github.com/microsoft/PyRIT) | 4.6k | 2023 | 2026-10-15 ✅ | The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively i |
 | [deepteam](https://github.com/confident-ai/deepteam) | 3.0k | 2025 | 2026-10-01 ✅ | DeepTeam is a framework to red team LLMs and AI agents. |
 
-## Full inventory (9 tools)
+## Full inventory (10 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
+| [rea](https://github.com/morluto/rea) | 337.3k | 2026 | 2026-10-19 ✅ | — open-source MCP coding agent that reproduces any web app's features from a live URL — the viral reference for agentic AI engineering, MCP-native and self-hosted. (MIT) |
 | [PentAGI](https://github.com/vxcontrol/pentagi) | 30.3k | 2025 | 2026-10-09 ✅ | — fully autonomous AI-agent penetration testing: multi-agent workflows, browser control, reporting. (MIT) |
 | [promptfoo](https://github.com/promptfoo/promptfoo) | 26.0k | 2023 | 2026-10-15 ✅ | — LLM evaluation and red-teaming framework: prompt-injection and jailbreak test suites that run in CI. (MIT) |
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.0k | 2023 | 2026-07-14 | — LLM-driven pentest copilot: parses recon output, plans next steps, keeps session context across test phases. (MIT) |

@@ -1,6 +1,6 @@
 # The Armory
 
-> **40 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **43 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 
 ## Maintenance snapshot (2026-10-15)
 
-- **Active in the last 30 days:** 23 of 38 tracked GitHub repos (61%)
+- **Active in the last 30 days:** 26 of 41 tracked GitHub repos (63%)
 - **Quiet classics (no push in 2+ years, still the standard):** tplmap, JoomScan, ACSTIS
 - **Youngest entries:** WhatWeb (2010), Metasploit Framework (2011), sqlmap (2012)
 
@@ -23,7 +23,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | 22.0k | 2015 | 2026-10-14 ✅ | Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-tes |
 | [RustScan](https://github.com/bee-san/RustScan) | 20.6k | 2020 | 2026-10-13 ✅ | 🤖 The Modern Port Scanner 🤖 |
 
-## Full inventory (40 tools)
+## Full inventory (43 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -62,8 +62,11 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [wapiti](https://github.com/wapiti-scanner/wapiti) | 1.9k | 2020 | 2026-10-05 ✅ | — open-source black-box web vulnerability scanner that crawls and audits without needing a browser. (GPL-2.0) |
 | [JoomScan](https://github.com/OWASP/joomscan) | 1.2k | 2016 | 2024-09-11 ⏳ | — OWASP's Joomla scanner: vulnerable components and misconfigurations on Joomla sites; quiet upstream, still OWASP's reference. (GPL-3.0) |
 | [Pywerview](https://github.com/the-useless-one/pywerview) | 1.1k | 2016 | 2026-04-21 | — a Python port of PowerView's AD recon verbs; same questions, no Windows host required. (GPL-3.0) |
+| [goshs](https://github.com/goshs-labs/goshs) | 989 | 2020 | 2026-10-16 ✅ | — hardened HTTP file-transfer server built for engagements: upload/download, authentication, access control and TLS — the modern replacement for python -m http.server. (MIT) |
+| [h5i](https://github.com/h5i-dev/h5i) | 784 | 2026 | 2026-10-17 ✅ | — agent-native web-security workspace: deterministic recon, secrets scanning, DOM post-message auditing and CI regression checks — fully usable without any LLM key. (Apache-2.0) |
 | [ACSTIS](https://github.com/tijme/angularjs-csti-scanner) | 326 | 2017 | 2021-10-20 ⏳ | — the classic AngularJS client-side template injection scanner — legacy framework, still found everywhere. (unmaintained classic) |
 | [jiraffe](https://github.com/0x48piraj/jiraffe) | 206 | 2020 | 2026-04-02 | — Jira recon and security auditing: version fingerprinting, gadget/permission checks and CVE mapping for authorized instances. (MIT) |
+| [WAVSS](https://github.com/Ammar-1993/wavss) | 8 | 2025 | 2026-10-10 ✅ | — audit-first web vulnerability scanner for common flaws like SQLi and XSS, with domain-ownership verification, DoS-avoidant pacing and PDF reports with remediation guidance. (no license yet — verify before reuse) |
 | [2mny Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner) | 2 | 2026 | 2026-10-15 ✅ | — open-source web vulnerability scanner with 200 deterministic modules: OWASP Top 10, XSS/SQLi/SSRF, subdomain takeover, WordPress and AI/LLM surface checks, CVSS-scored evidence and HTML/PDF reports. Self-hosted via Docker. (maintainer's project) |
 | [Nmap](https://nmap.org) | — | — | — | — the original network mapper: port, service and OS discovery plus the NSE scripting engine for everything from TLS audits to SMB checks. |
 | [Burp Suite Community Edition](https://portswigger.net/burp/communitydownload) | — | — | — | — the industry-standard intercepting proxy for manual web testing; the free tier is where nearly every bug hunter starts. (free, proprietary) |

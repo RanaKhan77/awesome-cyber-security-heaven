@@ -1,6 +1,6 @@
 # The Workshop
 
-> **44 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **47 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 
 ## Maintenance snapshot (2026-10-15)
 
-- **Active in the last 30 days:** 21 of 35 tracked GitHub repos (60%)
+- **Active in the last 30 days:** 24 of 38 tracked GitHub repos (63%)
 - **Quiet classics (no push in 2+ years, still the standard):** Awesome Malware Analysis
 - **Youngest entries:** mitmproxy (2010), Netron (2010), radare2 (2012)
 
@@ -18,25 +18,29 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 |---|---|---|---|---|
 | [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | 88.3k | 2019 | 2026-10-15 ✅ | Ghidra is a software reverse engineering (SRE) framework |
 | [ImHex](https://github.com/WerWolv/ImHex) | 55.2k | 2020 | 2026-10-09 ✅ | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. |
+| [jadx](https://github.com/skylot/jadx) | 51.0k | 2013 | 2026-10-14 ✅ | Dex to Java decompiler |
 | [x64dbg](https://github.com/x64dbg/x64dbg) | 49.9k | 2015 | 2026-10-09 ✅ | An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis. |
 | [mitmproxy](https://github.com/mitmproxy/mitmproxy) | 45.6k | 2010 | 2026-10-13 ✅ | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
 | [CyberChef](https://github.com/gchq/CyberChef) | 36.1k | 2016 | 2026-10-15 ✅ | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |
 | [Netron](https://github.com/lutzroeder/netron) | 33.6k | 2010 | 2026-10-14 ✅ | Visualizer for neural network, deep learning and machine learning models |
 
-## Full inventory (44 tools)
+## Full inventory (47 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
 | [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | 88.3k | 2019 | 2026-10-15 ✅ | — the NSA's open-source reverse-engineering suite; disassembly, decompilation and scripting for free. |
 | [ImHex](https://github.com/WerWolv/ImHex) | 55.2k | 2020 | 2026-10-09 ✅ | — the hex editor with pattern language: parse formats while you view them. (GPL-2.0) |
+| [jadx](https://github.com/skylot/jadx) | 51.0k | 2013 | 2026-10-14 ✅ | — the standard Java/Android decompiler: dex-to-java source recovery with both GUI and CLI — the first stop for APK and JAR analysis. (Apache-2.0) |
 | [x64dbg](https://github.com/x64dbg/x64dbg) | 49.9k | 2015 | 2026-10-09 ✅ | — the open Windows debugger for x32/x64, with a plugin ecosystem built for RE. (GPL-3.0) |
 | [mitmproxy](https://github.com/mitmproxy/mitmproxy) | 45.6k | 2010 | 2026-10-13 ✅ | — interactive HTTPS interception for debugging and testing your own apps; scriptable as a library. |
 | [CyberChef](https://github.com/gchq/CyberChef) | 36.1k | 2016 | 2026-10-15 ✅ | — GCHQ's web Swiss-army knife: 400+ operations for decoding, transforming and analyzing data, all client-side. |
 | [Netron](https://github.com/lutzroeder/netron) | 33.6k | 2010 | 2026-10-14 ✅ | — visualize ML models: the layers, weights and graph of what you deploy. (MIT) |
 | [OpenSSL](https://github.com/openssl/openssl) | 30.9k | 2013 | 2026-10-15 ✅ | — the TLS library the internet runs on — and the CLI for keys, certs, CSRs and everything crypto. |
+| [Apktool](https://github.com/iBotPeaches/Apktool) | 26.0k | 2012 | 2026-10-15 ✅ | — disassemble and rebuild Android APKs: decode resources to near-original form, patch smali, repackage and sign — the Android RE classic. (Apache-2.0) |
 | [radare2](https://github.com/radareorg/radare2) | 25.0k | 2012 | 2026-10-15 ✅ | — the scriptable reverse-engineering framework: disassemble, debug, patch, anywhere. (LGPL-3.0) |
 | [Frida](https://github.com/frida/frida) | 22.3k | 2013 | 2026-10-15 ✅ | — inject JavaScript into running processes; dynamic instrumentation for mobile, desktop and IoT. (GPL-2.0 / wxWindows dual) |
 | [Ciphey](https://github.com/Ciphey/Ciphey) | 21.7k | 2019 | 2026-10-13 ✅ | — automated decoder: paste ciphertext, get plaintext plus the method used — evidence triage in seconds. |
+| [Cutter](https://github.com/rizinorg/cutter) | 20.0k | 2017 | 2026-09-11 | — free and open reverse-engineering platform powered by rizin: graph disassembly, decompiler views and debugging in a polished desktop UI. (GPL-3.0) |
 | [binwalk](https://github.com/ReFirmLabs/binwalk) | 14.5k | 2013 | 2026-08-11 | — firmware analysis: scan, extract and identify embedded files and filesystems. (MIT) |
 | [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis) | 14.3k | 2015 | 2024-06-07 ⏳ | — the curated malware-analysis tool index. (CC-BY-4.0, curated list) |
 | [Scapy](https://github.com/secdev/scapy) | 12.6k | 2015 | 2026-10-11 ✅ | — packet crafting without limits: forge, sniff, dissect and send anything — the Python network Swiss-army knife. (GPL-2.0) |

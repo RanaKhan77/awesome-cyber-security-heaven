@@ -1,6 +1,6 @@
 # The Watchtower
 
-> **16 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **17 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
 
 ## Curator's notes
 
@@ -22,7 +22,7 @@ Feeds, frameworks and enrichment for the SOC's morning routine. Threat-intel pla
 | [firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets) | 3.9k | 2015 | 2026-10-15 ✅ | ipsets dynamically updated with firehol's update-ipsets.sh script |
 | [Uncover](https://github.com/projectdiscovery/uncover) | 3.1k | 2022 | 2026-10-13 ✅ | Quickly discover exposed hosts on the internet using multiple search engines. |
 
-## Full inventory (16 tools)
+## Full inventory (17 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -41,6 +41,7 @@ Feeds, frameworks and enrichment for the SOC's morning routine. Threat-intel pla
 | [ZDI advisories](https://www.zerodayinitiative.com/advisories/published/) | — | — | — | — published zero-day advisories from the Zero Day Initiative; the disclosure record for enterprise-software flaws. (free service) |
 | [Emerging Threats Open](http://doc.emergingthreats.net/bin/view/Main/EmergingFAQ) | — | — | — | — the open Suricata/Snort rule feed from Proofpoint; thousands of community-maintained detection rules. (free feed) |
 | [vx-underground](https://vx-underground.org) | — | — | — | — the malware corpus and INT report archive; free, massive and respected across the research community. (free service) |
+| [ICHI — Internet Cyber Health Index](https://ichi.global) | — | — | — | — free, source-transparent daily barometer of internet cyber health, aggregating threat intelligence, security news, and telemetry from 20+ named public sources. (free service) |
 | [http-detection-agent](https://github.com/ai-blueteam/http-detection-agent) | 0 | 2026 | 2026-10-02 ✅ | — traffic anomaly detection for the blue team: labels HTTP datasets without shipping them off-box. (MIT) |
 
 ---
