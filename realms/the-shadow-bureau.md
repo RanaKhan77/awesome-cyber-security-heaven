@@ -1,6 +1,6 @@
 # The Shadow Bureau
 
-> **36 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-20** (re-verified monthly)
+> **37 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-21** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,10 +23,9 @@ Identifier intelligence without touching the target: stealer-log exposure lookup
 | [holehe](https://github.com/megadose/holehe) | 15.2k | 2020 | 2024-09-10 ⏳ | holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve in |
 | [Osintgram](https://github.com/Datalux/Osintgram) | 15.0k | 2019 | 2026-10-15 ✅ | Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram accoun |
 
-## Full inventory (36 tools)
+## Full inventory (37 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
-|---|---|---|---|---|
 | [maigret](https://github.com/soxoj/maigret) | 39.1k | 2020 | 2026-10-14 ✅ | — builds a full dossier from a single username across thousands of sites; powerful people-OSINT — authorized investigations only. |
 | [web-check](https://github.com/lissy93/web-check) | 35.1k | 2023 | 2026-10-15 ✅ | — all-in-one website OSINT dashboard — DNS, headers, tech, ports, TLS, whois and more — self-hostable in one Docker pull. |
 | [changedetection.io](https://github.com/dgtlmoon/changedetection.io) | 35.0k | 2021 | 2026-10-15 ✅ | — self-hosted website change monitoring with selectors, visual diffs and dozens of notification targets. |
@@ -56,6 +55,8 @@ Identifier intelligence without touching the target: stealer-log exposure lookup
 | [Marple](https://github.com/soxoj/marple) | 333 | 2021 | 2026-10-14 ✅ | — collect links to profiles by username through search engines, then analyze the results to surface related accounts across platforms. (MIT) |
 | [IntelHub](https://github.com/tomsec8/IntelHub) | 123 | 2025 | 2026-10-01 ✅ | — browser extension that runs OSINT analysis locally; no data leaves the analyst's machine. (MIT) |
 | [tg-chat-dump](https://github.com/renkagod/tg-chat-dump) | 3 | 2026 | 2026-10-11 ✅ | — archive public Telegram chats to SQLite for structured analysis. (MIT) |
+| [Exposure-Check-OSINT](https://github.com/RanaKhan77/Exposure-Check-OSINT) | 1 | 2026 | 2026-10-21 ✅ | — self-hosted personal exposure checker: breaches, infostealer-log infections, COMB 11B+ credentials, HIBP k-anonymity and a 150-platform username grid — 19 keyless sources, zero API keys, one Docker command. (Apache-2.0) |
+|---|---|---|---|---|
 | [WhatsMyName](https://whatsmyname.app) | — | — | — | — web app plus open database for checking one username across hundreds of platforms at once; keep lookups lawful and authorized. |
 | [HoneyLabs](https://honeylabs.net) | — | — | — | — free per-IP honeypot-telemetry reports: see whether an address has been tripping sensors worldwide. |
 | [ip.thc.org](https://ip.thc.org) | — | — | — | — free, keyless JSON API for reverse DNS, subdomain and CNAME lookups on any IP — the quick IP pivot. |

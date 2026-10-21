@@ -1,12 +1,12 @@
 # The Watchtower
 
-> **17 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **18 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-21** (re-verified monthly)
 
 ## Curator's notes
 
 Feeds, frameworks and enrichment for the SOC's morning routine. Threat-intel platforms, IOC pipelines and detection-as-data. Most entries here are pipelines rather than point tools — chaining them is the whole game.
 
-## Maintenance snapshot (2026-10-15)
+## Maintenance snapshot (2026-10-21)
 
 - **Active in the last 30 days:** 8 of 10 tracked GitHub repos (80%)
 - **Youngest entries:** SpiderFoot (2012), MISP (2013), IntelMQ (2014)
@@ -22,10 +22,9 @@ Feeds, frameworks and enrichment for the SOC's morning routine. Threat-intel pla
 | [firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets) | 3.9k | 2015 | 2026-10-15 ✅ | ipsets dynamically updated with firehol's update-ipsets.sh script |
 | [Uncover](https://github.com/projectdiscovery/uncover) | 3.1k | 2022 | 2026-10-13 ✅ | Quickly discover exposed hosts on the internet using multiple search engines. |
 
-## Full inventory (17 tools)
+## Full inventory (18 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
-|---|---|---|---|---|
 | [SpiderFoot](https://github.com/smicallef/spiderfoot) | 23.5k | 2012 | 2026-04-13 | — open-source OSINT automation with 200+ data sources; attack-surface and exposure monitoring out of the box. |
 | [OpenCTI](https://github.com/OpenCTI-Platform/OpenCTI) | 10.2k | 2018 | 2026-10-15 ✅ | — threat-intel knowledge graph built on STIX2; analyst-first investigation dashboards instead of raw feeds. |
 | [MISP](https://github.com/MISP/MISP) | 6.6k | 2013 | 2026-10-15 ✅ | — the de-facto open threat-sharing platform: events, attributes, galaxies and thousands of community feeds. (AGPL-3.0) |
@@ -35,6 +34,8 @@ Feeds, frameworks and enrichment for the SOC's morning routine. Threat-intel pla
 | [Yeti](https://github.com/yeti-platform/yeti) | 2.0k | 2015 | 2026-10-09 ✅ | — organize your threat intel: observables, indicators and TTPs in one searchable, API-first platform. |
 | [IntelMQ](https://github.com/certtools/intelmq) | 1.1k | 2014 | 2026-04-28 | — the feed plumber's dream: collect, normalize and route threat-intel feeds from hundreds of sources into your stack. (AGPL-3.0) |
 | [RansomLook](https://github.com/RansomLook/RansomLook) | 676 | 2022 | 2026-10-15 ✅ | — open ransomware-group leak-site tracker with historical victim data (see also the live stats at ransomware.live). (GPL-3.0) |
+| [CrawlerScope](https://github.com/ipanalytics/CrawlerScope) | 1 | 2026 | 2026-10-21 ✅ | — operator-published crawler and AI-bot CIDR dataset for bot attribution — the public dataset for bot-network attribution. (CC0 (dataset)) |
+|---|---|---|---|---|
 | [MITRE ATT&CK](https://attack.mitre.org) | — | — | — | — the adversary tactics & techniques knowledge base that the entire industry maps detections and emulations against. |
 | [Malpedia](https://malpedia.caad.fkie.fraunhofer.de) | — | — | — | — curated malware encyclopedia: families, actors, papers and sample references for researchers. |
 | [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) | — | — | — | — passive network-forensics analyzer: extracts files, credentials and sessions from recorded traffic without touching the live network. (free, proprietary) |

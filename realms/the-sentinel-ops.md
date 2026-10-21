@@ -1,12 +1,12 @@
 # The Sentinel Ops
 
-> **47 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **48 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-21** (re-verified monthly)
 
 ## Curator's notes
 
 The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs and DFIR toolkits. The fingerprinting standards (JA3, HASSH) live here: archived upstream, still canonical, still cited in nearly every detection paper.
 
-## Maintenance snapshot (2026-10-15)
+## Maintenance snapshot (2026-10-21)
 
 - **Active in the last 30 days:** 26 of 46 tracked GitHub repos (57%)
 - **Quiet classics (no push in 2+ years, still the standard):** sysmon-config, Revoke-Obfuscation, DeepBlueCLI, HELK
@@ -23,10 +23,9 @@ The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs 
 | [awesome-honeypots](https://github.com/paralax/awesome-honeypots) | 10.6k | 2015 | 2026-06-01 | an awesome list of honeypot resources |
 | [YARA](https://github.com/VirusTotal/yara) | 9.9k | 2012 | 2026-10-15 ✅ | The pattern matching swiss knife |
 
-## Full inventory (47 tools)
+## Full inventory (48 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
-|---|---|---|---|---|
 | [osquery](https://github.com/osquery/osquery) | 23.6k | 2014 | 2026-10-14 ✅ | — operate endpoints as a SQL database: ask security questions, get rows back. |
 | [Wazuh](https://github.com/wazuh/wazuh) | 17.3k | 2015 | 2026-10-15 ✅ | — open-source XDR/SIEM: FIM, log analysis, vulnerability detection and compliance reporting in one free platform. (GPL-2.0) |
 | [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | 12.7k | 2017 | 2026-10-13 ✅ | — library of executable detection tests mapped to MITRE ATT&CK; prove your defenses fire. |
@@ -73,6 +72,8 @@ The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs 
 | [RITA](https://github.com/activecm/rita) | 657 | 2024 | 2026-10-01 ✅ | — detects C2 beaconing in Zeek logs — traffic analysis that finds the quiet intruders. (GPL-3.0) |
 | [Sublime Rules](https://github.com/sublime-security/sublime-rules) | 379 | 2021 | 2026-10-15 ✅ | — the community rule corpus for the Sublime platform. (MIT) |
 | [Sublime Platform](https://github.com/sublime-security/sublime-platform) | 275 | 2021 | 2026-10-10 ✅ | — open email threat detection: rules-as-code against phishing and BEC. (MIT) |
+| [logarc](https://github.com/FRTX045/logarc) | 1 | 2026 | 2026-10-21 ✅ | — offline access-log forensics that reconstructs attacker activity graphs — the offline log-forensics analyzer. (MIT) |
+|---|---|---|---|---|
 | [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/) | — | — | — | — Microsoft's free Windows admin and DFIR toolkit: Process Explorer, Autoruns, Procmon and dozens more. (free, proprietary) |
 
 ---
