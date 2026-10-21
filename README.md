@@ -104,7 +104,7 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [Responder](https://github.com/lgandx/Responder) — LLMNR/NBT-NS/MDNS poisoner; the fastest way to demonstrate credential-leak exposure on an authorized internal network. Used by internal penetration testers to demonstrate credential exposure on enterprise networks; the canonical LLMNR/NBT-NS poisoner. (GPL-3.0)
 - [commix](https://github.com/commixproject/commix) — automated OS command injection detection and exploitation for web tests. Used by web pentesters for command-injection proof; a focused free tool that complements general-purpose commercial scanners. (GPL-3.0)
 - [Ghauri](https://github.com/r0oth3x49/ghauri) — a strong sqlmap alternative for error/union/blind SQLi with clever parameter tampering; slower release cadence but unique value. Used by bug bounty hunters for tricky blind, error-based and time-based SQLi.
-- [2mny Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner) — open-source web vulnerability scanner with 200 deterministic modules: OWASP Top 10, XSS/SQLi/SSRF, subdomain takeover, WordPress and AI/LLM surface checks, CVSS-scored evidence and HTML/PDF reports. Self-hosted via Docker. Used by security teams that want evidence-backed, deterministic scanning they can self-host; the open-source alternative to paid scanner SaaS for website attack surfaces. (maintainer's project)
+- [2m[2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner) — open-source web vulnerability scanner with 200 deterministic modules: OWASP Top 10, XSS/SQLi/SSRF, subdomain takeover, WordPress and AI/LLM surface checks, CVSS-scored evidence and HTML/PDF reports. Self-hosted via Docker. Used by security teams that want evidence-backed, deterministic scanning they can self-host; the open-source alternative to paid scanner SaaS for website attack surfaces. (maintainer's project)
 - [masscan](https://github.com/robertdavidgraham/masscan) — the fastest TCP port scanner on earth; scan the whole internet in minutes — on networks you're authorized to test. Used by researchers and recon teams for internet-scale port discovery. (AGPL-3.0)
 - [RustScan](https://github.com/bee-san/RustScan) — modern Rust port scanner that finds open ports in seconds and pipes them straight into Nmap. Used by bug bounty hunters and sysadmins for fast port discovery with Nmap piping; a modern free alternative to legacy scanners. (GPL-3.0)
 - [Tsunami](https://github.com/google/tsunami-security-scanner) — Google's security scanner for large fleets, focused on reliably exploitable high-severity flaws with few false positives. Used by security teams scanning large fleets of internet-facing services; Google's open-source answer to commercial enterprise web scanners.
@@ -127,15 +127,6 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [Pywerview](https://github.com/the-useless-one/pywerview) — a Python port of PowerView's AD recon verbs; same questions, no Windows host required. Used by AD pentesters who live on Linux but need PowerView-style Windows enumeration; the Python port of the classic PowerView. (GPL-3.0)
 - [Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit) — curated index of adversary-emulation and red-team tradecraft resources. Used by red teamers planning their tooling stack. (curated list)
 - [jiraffe](https://github.com/0x48piraj/jiraffe) — Jira recon and security auditing: version fingerprinting, gadget/permission checks and CVE mapping for authorized instances. Used by bug bounty hunters targeting Atlassian deployments; a focused free exploitation kit for the Jira bug class. (MIT)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — hardening checks: security headers, TLS configuration, cookie flags and CORS policy, each finding paired with plain-language fix guidance.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 - [authz0](https://github.com/hahwul/authz0) — CLI broken-access-control tester that replays the same URL set under multiple roles' credentials from a YAML template and flags unauthorized responses. Used by pentesters proving BOLA/authz gaps in minutes instead of hours; role-pair replay made repeatable. (MIT)
 - [InQL](https://github.com/doyensec/inql) — the reference GraphQL security testing toolkit as a Burp Suite extension: schema introspection analysis, query generation, vulnerability scanning and engine fingerprinting. Used by pentesters auditing GraphQL APIs where classic proxies stop at the surface; doyensec-maintained since 2018. (Apache-2.0)
@@ -186,15 +177,6 @@ Intro: Lock it down before they get in — auditing, hardening and host/network 
 - [Awesome WebSocket Security](https://github.com/PalindromeLabs/awesome-websocket-security) — curated research, tools and CVEs for WebSocket protocol security. Used by web pentesters studying WebSocket attack surface. (Apache-2.0, curated list)
 - [Neo23x0 auditd config](https://github.com/Neo23x0/auditd) — Florian Roth's hardened auditd rule set: the Linux logging baseline used across incident-response teams. Used by blue teams hardening Linux audit collection; the widely-forked open auditd baseline behind many SOC deployments. (Apache-2.0)
 - [unmask](https://github.com/unmask-sh/unmask) — self-hosted privacy-first bot management gateway with verified-crawler bypass. Used by teams filtering bot traffic without third-party SaaS; the self-hosted bot-defense gateway. (Apache-2.0)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — live threat intel at 2mny.com: a ransomware map tracking 11,000+ victims across 152 countries, defacement monitoring and daily breach feeds.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 ## 🔭 The Watchtower — Threat Intelligence Tools & Feeds
 Intro: See what's coming — intel platforms, knowledge bases, ransomware trackers and exposure watchtowers.
@@ -216,15 +198,6 @@ Intro: See what's coming — intel platforms, knowledge bases, ransomware tracke
 - [http-detection-agent](https://github.com/ai-blueteam/http-detection-agent) — traffic anomaly detection for the blue team: labels HTTP datasets without shipping them off-box. Used by recon pipelines fingerprinting web servers at scale; a focused open utility for asset inventories. (MIT)
 - [vx-underground](https://vx-underground.org) — the malware corpus and INT report archive; free, massive and respected across the research community. Used by malware researchers studying live collections; the free sample and paper archive with no commercial gate. (free service)
 - [ICHI — Internet Cyber Health Index](https://ichi.global) — free, source-transparent daily barometer of internet cyber health, aggregating threat intelligence, security news, and telemetry from 20+ named public sources. Used by SOC analysts and security researchers for daily situational awareness of global cyber conditions; the free daily-refresh alternative to scattered vendor intelligence portals. (free service)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — attack-surface mapping: subdomain takeover detection, certificate-transparency mining and continuous surface diffing.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 - [cve-search](https://github.com/cve-search/cve-search) — self-hosted CVE/CPE database in MongoDB with web UI, API and CLI. Used by orgs (incl. CIRCL's former public CVE service) to run local, rate-limit-free vulnerability lookups; strict/lax CPE matching, 14 yrs of maintenance. (AGPL-3.0)
 - [CrawlerScope](https://github.com/ipanalytics/CrawlerScope) — operator-published crawler and AI-bot CIDR dataset for bot attribution. Used by defenders verifying whether traffic is a legitimate crawler; the public dataset for bot-network attribution. (CC0)
@@ -272,15 +245,6 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [Recog](https://github.com/rapid7/recog) — the fingerprint database behind Metasploit and Nexpose: service banners mapped to OS and product families. Used by fingerprinting tool maintainers for service identification; the open database behind Metasploit and Rapid7 tooling. (BSD-3-Clause)
 - [JARM](https://github.com/salesforce/jarm) — active TLS server fingerprint: identifies servers behind CDNs from their handshake behavior. Used by CTI analysts identifying TLS server infrastructure; the free passive fingerprint actively used in threat research. (BSD-3-Clause)
 - [Merklemap](https://merklemap.com) — subdomain discovery through certificate-transparency logs; billions of entries, searchable. Used by recon teams searching Certificate Transparency for subdomains; the free CT search joining crt.sh-style tooling. (free service)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — free exposure checks at 2mny.com: search breach catalogs and stealer-log indexes to see exactly what attackers already know about you.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 ## 🕵️ The Shadow Bureau — OSINT & Public-Intelligence Tools
 Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach lookups, site monitoring and archive history for investigators, defenders and researchers. These tools only surface what is already public; use them for authorized investigations, defense and education only — never to stalk, harass or dox anyone.
@@ -350,15 +314,6 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [Taranis AI](https://github.com/taranis-ai/taranis-ai) — OSINT gathering and enrichment platform for analysts; self-hostable with an AI-assist layer. Used by CTI teams gathering and briefing intel with AI assistance; the open-source alternative to commercial intel-briefing tools. (EUPL-1.2)
 - [Mitaka](https://github.com/ninoseki/mitaka) — IOC-pivot browser extension: search an IP/domain/hash across 30+ engines from the context menu. Used by analysts searching IOCs across 60+ services from the browser; the free browser extension for instant CTI lookups. (MIT)
 - [ScamSearch](https://scamsearch.io) — scammer profile lookup by phone, email or username; crowdsourced anti-fraud intel. Used by fraud investigators checking scammers against a public database; the free lookup for scammer attribution. (free service)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — leaked-secret detection: JavaScript secret scanning, exposed API-key detection and k-anonymity password checks that never transmit your password.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 ## 🔑 The Vault — Secrets, Credentials & Password Security Tools
 Intro: Where secrets live and leak — find them before attackers do, and keep the new ones safe.
@@ -380,15 +335,6 @@ Intro: Where secrets live and leak — find them before attackers do, and keep t
 - [hardened_malloc](https://github.com/GrapheneOS/hardened_malloc) — the allocator that makes exploitation harder by design; from the GrapheneOS project. Used by hardened deployments and privacy distros for exploit-mitigating memory allocation; the open allocator adopted by GrapheneOS-class systems. (MIT)
 - [Databunker](https://databunker.org/) — encrypted personal-data vault: API-first storage for PII with built-in privacy compliance. Used by backend teams storing customer PII encrypted and auditable; the open-source alternative to commercial customer-data vaults. (GPL-3.0)
 - [keyFinder](https://github.com/momenbasel/keyFinder) — passively discovers leaked API keys and secrets in web pages during browsing. Used by forensic analysts locating crypto key material in memory images; the niche free utility for DFIR work. (MIT)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — pipeline safety checks: CI/CD exposure detection, dependency-risk matching against the OSV database and container misconfiguration audits.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 - [Kingfisher](https://github.com/mongodb/kingfisher) — MongoDB's open-source Rust secret scanner: detect leaked secrets across code/Git/history/containers/cloud, then live-validate credentials, map blast radius and revoke — the full post-detection lifecycle. Used by security teams killing the "leaked-but-rotated key" false-positive class; embeddable as CLI, Rust lib or Python SDK. (Apache-2.0)
 
@@ -427,15 +373,6 @@ Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that 
 - [logdissect](https://github.com/dogoncouch/logdissect) — parse, merge and analyze logs from many formats into one timeline. Used by analysts parsing and correlating logs from the CLI; the open-source alternative to commercial log-analytics frontends. (MIT)
 - [Awesome ICS Security](https://github.com/mpesen/awesome-industrial-control-system-security) — curated industrial-control-system security tools and research. Used by OT security engineers building their toolset. (Apache-2.0, curated list)
 - [Awesome Container Security](https://github.com/kai5263499/container-security-awesome) — curated container and cloud-native security resources. Used by DevSecOps engineers hardening container stacks. (MIT, curated list)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — detection with evidence: defacement monitoring, page watching and CVSS-scored incident reporting your team can act on immediately.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 - [Kubescape](https://github.com/kubescape/kubescape) — CNCF-incubating Kubernetes security platform: scan manifests, Helm charts, Kustomize dirs, live clusters and images against NSA-CISA, MITRE ATT&CK and CIS frameworks from one CLI. Used by platform teams hardening k8s before and after deploy; CNCF-backed with an in-cluster operator option. (Apache-2.0)
 - [command-center](https://github.com/openjs-foundation/command-center) — OpenJS security and compliance monitor tracking SECURITY.md hygiene and OSSF Scorecard posture across projects. Used by open-source maintainers monitoring project security posture; the OpenJS supply-chain health monitor. (MIT)
@@ -491,15 +428,6 @@ Intro: Detect, hunt, forensicate — the defensive operations toolkit.
 - [msticpy](https://github.com/microsoft/msticpy) — SecOps analysis library from Microsoft: pivots, timelines and hunting helpers for Jupyter. Used by defenders hunting in Microsoft 365 and Sentinel data; Microsoft's open hunting library. (MIT)
 - [Elastic detection-rules](https://github.com/elastic/detection-rules) — the detection corpus for Elastic Security: hundreds of maintained rules mapped to MITRE. Used by SOC teams deploying detection content; the open-source ruleset behind Elastic Security. (Elastic-2.0)
 - [logarc](https://github.com/FRTX045/logarc) — offline access-log forensics that reconstructs attacker activity graphs. Used by incident responders analyzing web logs without cloud tooling; the offline log-forensics analyzer. (MIT)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — AI-stack protection: MCP server auditing, OWASP LLM Top-10 exposure checks and agent-panel detection, all with zero AI at scan time.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 ## 🤖 The Oracle's Domain — AI Security & LLM Security Tools
 Intro: Secure the new surface — guardrails, model-file safety and signing for AI-powered applications.
@@ -510,15 +438,6 @@ Intro: Secure the new surface — guardrails, model-file safety and signing for 
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) — the curated threat-intelligence tools and platform index. Used by CTI practitioners assembling sources and tools. (Apache-2.0, curated list)
 - [llm-guard](https://github.com/protectai/llm-guard) — input/output security filtering for LLMs: prompt-injection defense as a pipeline stage. Used by AI engineers hardening prompts and outputs in production LLM services; the open-source defense library for injection and leakage risks. (MIT)
 - [model-transparency](https://github.com/sigstore/model-transparency) — signing for ML models: verify exactly which model you are deploying. Used by AI governance teams documenting model provenance; the AI Alliance's open standard for model transparency labels. (Apache-2.0)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — deterministic by design: our engines use zero AI at scan time, so the same target always yields the same findings, every run.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 ## 🧠 The AI Forge — AI-Dependent Security Tools
 
@@ -536,15 +455,6 @@ generators. Every entry needs an LLM API key (yours or the target's); none are S
 - [AttackGen](https://github.com/mrwadams/attackgen) — LLM-powered, threat-informed exercise generation: realistic attack scenarios and mitigations for incident-response testing. Used by purple teams generating attack scenarios from threat intel; the open-source exercise-planning tool. (GPL-3.0)
 - [rea](https://github.com/morluto/rea) — open-source MCP coding agent that reproduces any web app's features from a live URL — the viral reference for agentic AI engineering, MCP-native and self-hosted. Used by researchers benchmarking reasoning-acting agents on security tasks; the open research agent for agentic testing. (MIT)
 
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — our own free-tier promise: 285 online checkers at 2mny.com, keyless-first integration, and no paid APIs anywhere in the stack.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 - [Mantis](https://github.com/google/mantis) — Google's ADK-based toolkit that lets AI coding agents autonomously find, reproduce and patch vulnerabilities in source code — LLM-driven SAST with a severity-calibration rubric and anti-hallucination triage. Used by security engineers researching agentic vuln discovery; the flagship example of agent-driven security code review (needs paid LLM APIs). (Apache-2.0)
 - [ARTEX](https://github.com/trhhubsd/ARTEX) — multi-agent LLM pentest orchestrator with human approval gates and asset graphing. Used by red teams running supervised multi-agent engagements; the open orchestrator for LLM-driven pentesting. (AGPL-3.0, copyleft)
@@ -591,15 +501,6 @@ Intro: Free (or free-tier) data sources every security program should be using �
 - [Chaos](https://chaos.projectdiscovery.io) — the internet-wide subdomain dataset from ProjectDiscovery; free for community use. Used by bug bounty hunters discovering subdomains via ProjectDiscovery's free API; the free attack-surface dataset. (free API)
 - [SearchWebCode](https://searchwebcode.com) — search engine over the HTML/JS/CSS of 127M websites; source-level search without crawling. Used by hunters searching public code for exposures; the free code-search angle for recon. (free service)
 - [OpenSanctions](https://opensanctions.org) — open data on sanctioned entities and PEPs; the compliance watchlist as a dataset. Used by compliance investigators screening entities against watchlists; the free open-data alternative to commercial screening services. (open data)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — learn by doing: free deep-dive security guides on the 2mny.com blog, plus real evidence-backed sample reports to study.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 ## 🎓 The Academy — Cybersecurity Learning Resources & Career Paths
 Intro: Learn the craft — free academies, knowledge bases, walkthroughs and career roadmaps.
@@ -629,15 +530,6 @@ Intro: Learn the craft — free academies, knowledge bases, walkthroughs and car
 - [Bug Bounty Hunter](https://www.bugbountyhunter.com/) — free bug-bounty training platform: real methodology and lab targets. Used by aspiring hunters learning methodology; the free resource for bounty skill-building. (free service)
 - [SecuriBench Micro](https://github.com/too4words/securibench-micro/) — the Stanford benchmark suite for security-analysis tools. Used by academic researchers benchmarking static analysis; Stanford's free test suite for tool evaluation. (Apache-2.0)
 - [Cyber Security Base](https://cybersecuritybase.github.io/) — free course series by Aalto University and F-Secure; from beginner to blue team. Used by students taking university-level security courses; the free MOOC series from F-Secure and Helsinki. (free course)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — practice safely, then protect for real: run the 200-module suite on your own lab under the free community license.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 ## 🎯 The Proving Grounds — CTF Practice, Labs & Hacking Training
 Intro: Hack legally — wargames, CTF platforms and deliberately-vulnerable apps to sharpen your skills.
@@ -716,15 +608,6 @@ Intro: Hack legally — wargames, CTF platforms and deliberately-vulnerable apps
 - [APTSimulator](https://github.com/NextronSystems/APTSimulator) — makes a Windows host look compromised so you can test detections safely. Used by blue teams generating APT-style artifacts for detection testing; the free Windows simulator for purple exercises. (MIT)
 - [flightsim](https://github.com/alphasoc/flightsim) — generates malicious network traffic for IDS/NDR validation; defender-side only. Used by defenders safely generating malicious-looking network traffic; the free attack simulator for testing detections. (CC-BY-4.0)
 - [Splunk Attack Range](https://github.com/splunk/attack_range) — builds instrumented detection labs: attack, collect and test in one workflow. Used by detection engineers building full attack/defend labs in the cloud; the free Splunk range that emulates commercial cyber ranges. (Apache-2.0)
-<p align="center">
-  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)**
-> 200 free, self-hosted protection modules — self-hosted swiss-army protection: one Docker command, 200 modules, no API keys, no token billing.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 ## 🧰 The Workshop — Utilities & Swiss-Army Tools
 Intro: The everyday carry — decoding, proxying, dissecting and transforming anything the job throws at you.
