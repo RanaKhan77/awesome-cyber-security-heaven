@@ -1,12 +1,12 @@
 # The Armory
 
-> **43 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **48 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-21** (re-verified monthly)
 
 ## Curator's notes
 
 The workhorse realm — what you load onto a VPS before a bug-bounty session. Injection proof engines, parameter mining, crawl-and-fuzz chains dominate. We license-check hard here because copyleft contamination matters when findings end up in commercial reports.
 
-## Maintenance snapshot (2026-10-15)
+## Maintenance snapshot (2026-10-21)
 
 - **Active in the last 30 days:** 26 of 41 tracked GitHub repos (63%)
 - **Quiet classics (no push in 2+ years, still the standard):** tplmap, JoomScan, ACSTIS
@@ -23,10 +23,9 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | 22.0k | 2015 | 2026-10-14 ✅ | Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-tes |
 | [RustScan](https://github.com/bee-san/RustScan) | 20.6k | 2020 | 2026-10-13 ✅ | 🤖 The Modern Port Scanner 🤖 |
 
-## Full inventory (43 tools)
+## Full inventory (48 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
-|---|---|---|---|---|
 | [Metasploit Framework](https://github.com/rapid7/metasploit-framework) | 39.2k | 2011 | 2026-10-15 ✅ | — the world's most-used pentest framework; thousands of validated modules for exploitation, post-engagement evidence gathering and reporting in authorized tests. |
 | [sqlmap](https://github.com/sqlmapproject/sqlmap) | 38.7k | 2012 | 2026-10-11 ✅ | — the definitive SQL injection detection and exploitation tool for authorized web application testing. (GPL-2.0) |
 | [Nuclei](https://github.com/projectdiscovery/nuclei) | 32.0k | 2020 | 2026-10-15 ✅ | — template-driven vulnerability scanner; the huge community template corpus gives it detection breadth no single scanner matches. |
@@ -66,10 +65,16 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [h5i](https://github.com/h5i-dev/h5i) | 784 | 2026 | 2026-10-17 ✅ | — agent-native web-security workspace: deterministic recon, secrets scanning, DOM post-message auditing and CI regression checks — fully usable without any LLM key. (Apache-2.0) |
 | [ACSTIS](https://github.com/tijme/angularjs-csti-scanner) | 326 | 2017 | 2021-10-20 ⏳ | — the classic AngularJS client-side template injection scanner — legacy framework, still found everywhere. (unmaintained classic) |
 | [jiraffe](https://github.com/0x48piraj/jiraffe) | 206 | 2020 | 2026-04-02 | — Jira recon and security auditing: version fingerprinting, gadget/permission checks and CVE mapping for authorized instances. (MIT) |
+| [rcekit](https://github.com/kabiri-labs/rcekit) | 25 | 2025 | 2026-10-21 ✅ | — zero-dependency RCE confirmation toolkit with false-positive-resistant sink tiering — the confirmation tier for injection testing. (MIT) |
+| [Sniper](https://github.com/sm1ee/Sniper) | 14 | 2026 | 2026-10-21 ✅ | — fast Rust-native intercepting proxy with passive scanning and AI agent support — the Rust alternative for intercepting work. (MIT) |
 | [WAVSS](https://github.com/Ammar-1993/wavss) | 8 | 2025 | 2026-10-10 ✅ | — audit-first web vulnerability scanner for common flaws like SQLi and XSS, with domain-ownership verification, DoS-avoidant pacing and PDF reports with remediation guidance. (no license yet — verify before reuse) |
+| [pentool](https://github.com/DrXOps/pentool) | 8 | 2026 | 2026-10-05 ✅ | — console-based Burp alternative with crawler, scanner and CI/CD mode — the TUI web-testing workbench. (AGPL-3.0, copyleft) |
 | [2mny Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner) | 2 | 2026 | 2026-10-15 ✅ | — open-source web vulnerability scanner with 200 deterministic modules: OWASP Top 10, XSS/SQLi/SSRF, subdomain takeover, WordPress and AI/LLM surface checks, CVSS-scored evidence and HTML/PDF reports. Self-hosted via Docker. (maintainer's project) |
+| [wp-hunter](https://github.com/Aryoksss/wp-hunter) | 2 | 2026 | 2026-10-20 ✅ | — bilingual WordPress plugin triage toolkit with static authorization analysis, archive integrity checks and version monitoring. (MIT) |
+|---|---|---|---|---|
 | [Nmap](https://nmap.org) | — | — | — | — the original network mapper: port, service and OS discovery plus the NSE scripting engine for everything from TLS audits to SMB checks. |
 | [Burp Suite Community Edition](https://portswigger.net/burp/communitydownload) | — | — | — | — the industry-standard intercepting proxy for manual web testing; the free tier is where nearly every bug hunter starts. (free, proprietary) |
+| [perseid](https://github.com/andyintheshell/perseid) | 0 | 2026 | 2026-10-21 ✅ | — memory-bounded Rust Burp alternative with no artificial rate limits — the resource-frugal intercepting proxy. (Apache-2.0) |
 
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*

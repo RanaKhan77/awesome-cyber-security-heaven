@@ -1,12 +1,12 @@
 # The Foundry
 
-> **32 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **33 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-21** (re-verified monthly)
 
 ## Curator's notes
 
 The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, container hardening. This realm moves fastest of all: CI/CD attack research regularly rewrites the ground rules here.
 
-## Maintenance snapshot (2026-10-15)
+## Maintenance snapshot (2026-10-21)
 
 - **Active in the last 30 days:** 18 of 30 tracked GitHub repos (60%)
 - **Archived upstream (kept — still reference-quality):** [OWASP Dependency-Check](https://github.com/jeremylong/DependencyCheck)
@@ -24,10 +24,9 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 | [OSV-Scanner](https://github.com/google/osv-scanner) | 11.2k | 2022 | 2026-10-14 ✅ | Vulnerability scanner written in Go which uses the data provided by https://osv.dev |
 | [Docker Bench for Security](https://github.com/docker/docker-bench-security) | 9.7k | 2015 | 2026-06-04 | The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Doc |
 
-## Full inventory (32 tools)
+## Full inventory (33 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
-|---|---|---|---|---|
 | [Trivy](https://github.com/aquasecurity/trivy) | 38.4k | 2019 | 2026-10-15 ✅ | — the all-in-one scanner: containers, IaC, repos, SBOMs, licenses and secrets, with one binary. |
 | [Semgrep](https://github.com/semgrep/semgrep) | 17.1k | 2019 | 2026-10-15 ✅ | — fast, expressive static analysis with community rule packs for 30+ languages; write rules like you write code. (LGPL-2.1) |
 | [Prowler](https://github.com/prowler-cloud/prowler) | 15.0k | 2016 | 2026-10-15 ✅ | — AWS/Azure/GCP security posture: hundreds of checks mapped to CIS benchmarks and compliance frameworks. |
@@ -57,7 +56,9 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 | [OWASP Dependency-Check](https://github.com/jeremylong/DependencyCheck) | 56 | 2025 | 2025-09-27 ⏳ | — the classic SCA engine: NVD-backed dependency CVE scanning for JVM/.NET/JS ecosystems. |
 | [Awesome ICS Security](https://github.com/mpesen/awesome-industrial-control-system-security) | 32 | 2016 | 2016-05-27 ⏳ | — curated industrial-control-system security tools and research. (Apache-2.0, curated list) |
 | [Awesome Container Security](https://github.com/kai5263499/container-security-awesome) | 19 | 2018 | 2019-03-07 ⏳ |
+| [command-center](https://github.com/openjs-foundation/command-center) | 3 | 2025 | 2026-04-17 | — OpenJS security and compliance monitor tracking SECURITY.md hygiene and OSSF Scorecard posture across projects. (MIT) |
 | [StackRadar](https://github.com/lockdep/stackradar) | 1 | 2026 | 2026-10-19 ✅ | — Kubernetes vulnerability scanner that builds an SBOM of every running image and ranks findings by CVSS, EPSS and CISA KEV. (AGPL-3.0) | — curated container and cloud-native security resources. (MIT, curated list) |
+|---|---|---|---|---|
 | [GDB](https://www.sourceware.org/gdb/) | — | — | — | — the GNU debugger: breakpoints, watchpoints and reverse debugging across dozens of architectures. (GPL-3.0) |
 | [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) | — | — | — | — the Windows debugger for user, kernel and crash-dump analysis; now with a modern UI. (free, proprietary) |
 
