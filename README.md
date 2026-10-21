@@ -307,6 +307,13 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 
 - [leaker](https://github.com/vflame6/leaker) — one terminal command, ten public breach databases — passive checks for whether an email or domain appears in known leaks. Used by OSINT researchers searching breach corpora for exposed records; the free alternative to paid breach-search subscriptions.
 
+- [Exposure-Check-OSINT](https://github.com/RanaKhan77/Exposure-Check-OSINT) — self-hosted personal
+  exposure checker: breaches, infostealer-log infections, COMB 11B+ credentials, HIBP k-anonymity
+  and a 150-platform username grid from one dashboard — 18 keyless sources, zero API keys, zero AI,
+  one Docker command. Used by anyone checking their own (or authorized) identifiers without feeding
+  third-party lookup sites; the privacy-first, self-hosted alternative to free-trial breach checkers.
+  (Apache-2.0)
+
 ### 🌐 Website Monitoring & Analysis
 
 - [web-check](https://github.com/lissy93/web-check) — all-in-one website OSINT dashboard — DNS, headers, tech, ports, TLS, whois and more — self-hostable in one Docker pull. Used by bug hunters and defenders getting a full technical profile of any site in one page; the free all-in-one site analyzer.
