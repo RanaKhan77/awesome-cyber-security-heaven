@@ -7,9 +7,9 @@
 > **The Ultimate Curated Arsenal — 100% Free & Open Source.** A hand-curated, license-aware map of the
 > best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR,
 > DevSecOps and AI/LLM security. Every entry earns its place. 🌟
-> **2026 edition** — 470 tools, 14 realms, every link re-verified 2026-10-20. 📅
+> **2026 edition** — 490 tools, 14 realms, every link re-verified 2026-10-20. 📅
 
-🧭 **470 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
+🧭 **490 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
 
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -142,6 +142,12 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [OXO](https://github.com/Ostorlab/oxo) — pip-installable security-scanning orchestrator that composes Docker-image agents (nmap, nuclei, ZAP, subfinder…) into typed asset scan graphs with a CLI + GraphQL API. Used by security engineers chaining multi-tool pipelines without glue code; scans IPs, domains, links, files and mobile apps. (Apache-2.0)
 - [Artemis](https://github.com/CERT-Polska/Artemis) — modular web-vulnerability scanning platform that powers CERT Poland's nation-scale scanning (50.6k domains since 2023) and auto-generates human-readable, FP-filtered advisory reports per organization. Used by CSIRTs running continuous constituency scanning with e-mailable advisories; the public blueprint for national-scale detection. (BSD-3-Clause)
 - [graudit](https://github.com/wireghoul/graudit) — grep-based rough source-code auditor: one shell script + 26 regex signature databases (php, sql, xss, secrets, java, python…) for first-pass static review. Used by auditors triaging unfamiliar codebases before deep review; 17 years maintained, v4.1 (2026). (GPL-3.0)
+- [rcekit](https://github.com/kabiri-labs/rcekit) — zero-dependency RCE confirmation toolkit with false-positive-resistant sink tiering. Used by pentesters confirming command-injection findings safely; the confirmation tier for injection testing. (MIT)
+- [Sniper](https://github.com/sm1ee/Sniper) — fast Rust-native intercepting proxy with passive scanning and AI agent support. Used by web testers wanting a lightweight daily proxy; the Rust alternative for intercepting work. (MIT)
+- [Nullock](https://github.com/Bikebrainz/Nullock) — zero-telemetry HTTP/2 and WebSocket-native Burp alternative with a plugin ecosystem. Used by privacy-conscious web testers; the telemetry-free Burp alternative. (MIT)
+- [perseid](https://github.com/andyintheshell/perseid) — memory-bounded Rust Burp alternative with no artificial rate limits. Used by long-running web test sessions; the resource-frugal intercepting proxy. (Apache-2.0)
+- [wp-hunter](https://github.com/Aryoksss/wp-hunter) — bilingual WordPress plugin triage toolkit with static authorization analysis, archive integrity checks and version monitoring. Used by WordPress security researchers auditing plugins; the plugin-audit toolkit for WP research. (MIT)
+- [pentool](https://github.com/DrXOps/pentool) — console-based Burp alternative with crawler, scanner and CI/CD mode. Used by terminal-first pentesters; the TUI web-testing workbench. (AGPL-3.0, copyleft)
 
 ## 🛡️ The Bastion — Hardening & Defensive Infrastructure Tools
 Intro: Lock it down before they get in — auditing, hardening and host/network defense tooling.
@@ -179,6 +185,7 @@ Intro: Lock it down before they get in — auditing, hardening and host/network 
 - [Qubes OS](https://www.qubes-os.org/) — the security-by-compartmentalization desktop OS; " reasonably secure" by architecture, not by antivirus. Used by journalists, researchers and high-risk users; the compartmentalized security desktop with no commercial counterpart. (GPL-2.0)
 - [Awesome WebSocket Security](https://github.com/PalindromeLabs/awesome-websocket-security) — curated research, tools and CVEs for WebSocket protocol security. Used by web pentesters studying WebSocket attack surface. (Apache-2.0, curated list)
 - [Neo23x0 auditd config](https://github.com/Neo23x0/auditd) — Florian Roth's hardened auditd rule set: the Linux logging baseline used across incident-response teams. Used by blue teams hardening Linux audit collection; the widely-forked open auditd baseline behind many SOC deployments. (Apache-2.0)
+- [unmask](https://github.com/unmask-sh/unmask) — self-hosted privacy-first bot management gateway with verified-crawler bypass. Used by teams filtering bot traffic without third-party SaaS; the self-hosted bot-defense gateway. (Apache-2.0)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
     <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
@@ -220,6 +227,7 @@ Intro: See what's coming — intel platforms, knowledge bases, ransomware tracke
 > Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 - [cve-search](https://github.com/cve-search/cve-search) — self-hosted CVE/CPE database in MongoDB with web UI, API and CLI. Used by orgs (incl. CIRCL's former public CVE service) to run local, rate-limit-free vulnerability lookups; strict/lax CPE matching, 14 yrs of maintenance. (AGPL-3.0)
+- [CrawlerScope](https://github.com/ipanalytics/CrawlerScope) — operator-published crawler and AI-bot CIDR dataset for bot attribution. Used by defenders verifying whether traffic is a legitimate crawler; the public dataset for bot-network attribution. (CC0)
 
 ## 🗺️ The Cartographers — Recon, OSINT & Attack-Surface Mapping Tools
 Intro: Map the terrain before you move — subdomain, content and OSINT discovery for bug bounty and asset management.
@@ -430,6 +438,7 @@ Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that 
 > Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 - [Kubescape](https://github.com/kubescape/kubescape) — CNCF-incubating Kubernetes security platform: scan manifests, Helm charts, Kustomize dirs, live clusters and images against NSA-CISA, MITRE ATT&CK and CIS frameworks from one CLI. Used by platform teams hardening k8s before and after deploy; CNCF-backed with an in-cluster operator option. (Apache-2.0)
+- [command-center](https://github.com/openjs-foundation/command-center) — OpenJS security and compliance monitor tracking SECURITY.md hygiene and OSSF Scorecard posture across projects. Used by open-source maintainers monitoring project security posture; the OpenJS supply-chain health monitor. (MIT)
 
 ## 🔵 The Sentinel Ops — Blue Team, SOC & DFIR Tools
 Intro: Detect, hunt, forensicate — the defensive operations toolkit.
@@ -481,6 +490,7 @@ Intro: Detect, hunt, forensicate — the defensive operations toolkit.
 - [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux) — the Windows-trusted system monitor ported to Linux. Used by defenders unifying endpoint telemetry across OSes; Microsoft's cross-platform extension of Sysmon. (MIT)
 - [msticpy](https://github.com/microsoft/msticpy) — SecOps analysis library from Microsoft: pivots, timelines and hunting helpers for Jupyter. Used by defenders hunting in Microsoft 365 and Sentinel data; Microsoft's open hunting library. (MIT)
 - [Elastic detection-rules](https://github.com/elastic/detection-rules) — the detection corpus for Elastic Security: hundreds of maintained rules mapped to MITRE. Used by SOC teams deploying detection content; the open-source ruleset behind Elastic Security. (Elastic-2.0)
+- [logarc](https://github.com/FRTX045/logarc) — offline access-log forensics that reconstructs attacker activity graphs. Used by incident responders analyzing web logs without cloud tooling; the offline log-forensics analyzer. (MIT)
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
     <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
@@ -537,6 +547,16 @@ generators. Every entry needs an LLM API key (yours or the target's); none are S
 > Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 - [Mantis](https://github.com/google/mantis) — Google's ADK-based toolkit that lets AI coding agents autonomously find, reproduce and patch vulnerabilities in source code — LLM-driven SAST with a severity-calibration rubric and anti-hallucination triage. Used by security engineers researching agentic vuln discovery; the flagship example of agent-driven security code review (needs paid LLM APIs). (Apache-2.0)
+- [ARTEX](https://github.com/trhhubsd/ARTEX) — multi-agent LLM pentest orchestrator with human approval gates and asset graphing. Used by red teams running supervised multi-agent engagements; the open orchestrator for LLM-driven pentesting. (AGPL-3.0, copyleft)
+- [Cybermes](https://github.com/Zyrexnn/Cybermes) — autonomous offensive security, bug bounty and red-teaming agent framework with MCP integration and a built-in vulnerable lab. Used by offensive teams running autonomous agents; the Apache-licensed agentic framework with curated playbooks. (Apache-2.0)
+- [BugTraceAI](https://github.com/BugTraceAI/BugTraceAI) — self-hosted agentic pentesting suite with evidence-first validation across an 8-repo ecosystem (CLI, WEB, API, Launcher). Used by security teams wanting self-hosted agentic scanning; the open alternative to SaaS AI pentest platforms. (Apache-2.0)
+- [Moxy](https://github.com/matank001/Moxy) — agentic MITM proxy with local-Ollama auto-testing built on mitmproxy. Used by web testers adding LLM-assisted traffic analysis; the open agentic layer for mitmproxy workflows. (Apache-2.0)
+- [PHANTOM](https://github.com/OmYarewar110/PHANTOM) — AI-powered pentesting command center with MCP and reverse-engineering integration. Used by pentesters orchestrating AI-assisted engagements; the open AI pentest cockpit. (MIT)
+- [WonderSuite Ai Bug Bounty](https://github.com/sfr-development/WonderSuite-Ai-Bug-Bounty) — desktop-native AI offensive research engine with stealth browser and MCP agents. Used by bug bounty researchers automating recon-to-report workflows; the desktop AI engine for offensive research. (MIT)
+- [plonix](https://github.com/SergeyMalych/plonix) — AI-native Rust MITM workbench with adaptive scope validation. Used by web security testers wanting an AI-native proxy; the Rust MITM workbench with LLM integration. (Apache-2.0)
+- [bounty-operator](https://github.com/bountyoperator/bounty-operator) — AI-powered bug bounty report triage that flags evidence gaps and duplicate risk before submission. Used by bug bounty hunters polishing reports before triage; the pre-submission report validator. (MIT)
+- [VISTA](https://github.com/Adw0rm-sec/VISTA) — LLM-augmented Burp triage and workflow automation assistant. Used by Burp users triaging findings with LLM assistance; the open Burp copilot for triage. (MIT)
+- [Hekate](https://github.com/PhaelAwesome/Hekate) — Burp Suite passive extension with local-LLM triage and auto-validation to cut scanner false positives. Used by Burp users filtering scanner noise with local models; the open FP-reduction companion for Burp. (GPL-3.0)
 
 ## 🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data
 Intro: Free (or free-tier) data sources every security program should be using — no budget required.
