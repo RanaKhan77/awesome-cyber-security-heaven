@@ -1,6 +1,6 @@
 # 🆓 The Free Bazaar
 
-> **31 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **34 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 4 of 11 tracked GitHub repos (36%)
+- **Active in the last 30 days:** 7 of 14 tracked GitHub repos (50%)
 - **Quiet classics (no push in 12+ months, still listed):** EVTX-ATTACK-SAMPLES, Security Datasets, MITRE Cyber Analytics Repository, Boss of the SOC (BOTS)
 - **Earliest entries:** SecLists (2012), Awesome Pentest (2014), Awesome Web Hacking (2015)
 
@@ -20,10 +20,10 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 | [Awesome Pentest](https://github.com/enaqx/awesome-pentest) | 27.5k | 2014 | 2026-07-25 | A collection of awesome penetration testing resources and tools |
 | [Awesome Web Hacking](https://github.com/infoslack/awesome-web-hacking) | 7.3k | 2015 | 2026-09-18 | A list of web application security |
 | [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | 2.6k | 2019 | 2023-01-24 ⏳ | Windows Events Attack Samples |
+| [Destroylist](https://github.com/phishdestroy/destroylist) | 2.1k | 2025 | 2026-10-22 ✅ | Real-time phishing & scam domain blocklist - 205k+ curated threats, 1M+ community, free API, multiple formats |
 | [Security Datasets](https://github.com/OTRF/Security-Datasets) | 1.8k | 2018 | 2024-03-20 ⏳ | Re-play Security Events |
-| [Splunk security_content](https://github.com/splunk/security_content) | 1.7k | 2018 | 2026-10-21 ✅ | Splunk Security Content |
 
-## Full inventory (31 tools)
+## Full inventory (34 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -31,12 +31,15 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 | [Awesome Pentest](https://github.com/enaqx/awesome-pentest) | 27.5k | 2014 | 2026-07-25 | — the most-starred pentest resource collection; the community canon. Used by practitioners navigating the pentest tool landscape. (CC-BY-4.0, curated list) |
 | [Awesome Web Hacking](https://github.com/infoslack/awesome-web-hacking) | 7.3k | 2015 | 2026-09-18 | — curated web-security research: talks, papers and tooling. Used by web hunters collecting methodology resources. (MIT, curated list) |
 | [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | 2.6k | 2019 | 2023-01-24 ⏳ | — a large collection of real Windows event logs capturing ATT&CK techniques — test detections without a lab; frozen dataset by design. Used by detection engineers replaying attack artifacts in Windows event logs; the free sample corpus for rule testing. (GPL-3.0) |
+| [Destroylist](https://github.com/phishdestroy/destroylist) | 2.1k | 2025 | 2026-10-22 ✅ | — real-time phishing, scam and crypto-drainer domain blocklist: 205k+ manually curated plus 1M+ community-aggregated domains, DNS-verified and shipped as keyless hosts/AdGuard/RPZ/JSON feeds for any DNS firewall. Used by defenders blocking live phishing infrastructure at Pi-hole/AdGuard scale; the community blocklist for next-gen DNS filtering. (MIT) |
 | [Security Datasets](https://github.com/OTRF/Security-Datasets) | 1.8k | 2018 | 2024-03-20 ⏳ | — OTRF's library of pre-recorded adversary-emulation event logs (Mordor's successor home) for detection testing; frozen library by design. Used by detection engineers testing content against realistic telemetry; the free datasets for purple-team validation. |
 | [Splunk security_content](https://github.com/splunk/security_content) | 1.7k | 2018 | 2026-10-21 ✅ | — the maintained detection-content corpus: thousands of searches and analytic stories mapped to ATT&CK. Used by Splunk SOC teams deploying detections; the free ES content library from the research team. |
+| [nuclei-wordfence-cve](https://github.com/topscoder/nuclei-wordfence-cve) | 1.3k | 2023 | 2026-10-22 ✅ | — daily-regenerated corpus of 87k+ Nuclei templates covering WordPress core, plugin and theme vulnerabilities, built from Wordfence's production threat-intel feeds with recalculated severities. Used by WordPress security teams extending nuclei scans beyond the default template packs; the keyless machine-curated WP vulnerability feed. (MIT) |
 | [MITRE Cyber Analytics Repository](https://github.com/mitre-attack/car) | 1k | 2018 | 2025-05-16 ⏳ | — CAR: curated, versioned detection analytics with full logic and ATT&CK mappings. Used by detection engineers implementing analytics; the free repository of detection logic mapped to ATT&CK. |
 | [Splunk attack_data](https://github.com/splunk/attack_data) | 833 | 2020 | 2026-10-20 ✅ | — curated attack datasets for detection validation, mapped to MITRE techniques. Used by detection engineers replaying attacks in Splunk; the free datasets for content validation. (Apache-2.0) |
 | [Boss of the SOC (BOTS)](https://github.com/splunk/botsv3) | 510 | 2020 | 2020-06-18 ⏳ | — Splunk's public blue-team CTF dataset: full realistic telemetry for investigations, CC0 data; frozen CTF dataset by design. Used by training teams running SIEM CTFs; the free Splunk datasets behind the famous range. |
 | [Trickest Cloud](https://github.com/trickest/cloud) | 95 | 2023 | 2026-10-22 ✅ | — weekly-refreshed SSL-certificate dataset covering all AWS EC2 and GCP public IPv4 ranges; captures self-signed, ephemeral and never-CT-submitted certificates that CT logs miss. Used by attack-surface teams enriching cloud IP inventories with certificate data; the free weekly cloud-cert dataset. (MIT, dataset) |
+| [HProxy Free Proxy List](https://github.com/hproxy-com/free-proxy-list) | 83 | 2026 | 2026-10-22 ✅ | — continuously verified keyless proxy feed: 100+ public sources re-tested daily for protocol, anonymity grade, geolocation, latency and uptime, served as txt/JSON/CSV plus a free API and MCP server. Used by security teams auditing whether their own IP space appears on public proxy feeds — detection intel, never egress infrastructure. (MIT) |
 | [onion-lookup](https://github.com/ail-project/onion-lookup) | 66 | 2024 | 2026-01-05 | — a free API for .onion existence checks; part of the AIL stack. Used by researchers checking dark-web onion services safely; the free lookup for onion intelligence. (AGPL-3.0) |
 |---|---|---|---|---|
 | [abuse.ch](https://abuse.ch) | — | — | — | — the free malware-intel feed suite: URLhaus, ThreatFox, MalwareBazaar and Feodo Tracker. Used by defenders consuming URLhaus, MalwareBazaar and ThreatFox feeds; the free threat feeds many commercial products ingest. |

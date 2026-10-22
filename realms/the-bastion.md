@@ -1,6 +1,6 @@
 # 🛡️ The Bastion
 
-> **34 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **35 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ The mirror image of the Armory: what you install so you never get popped. Kernel
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 19 of 29 tracked GitHub repos (66%)
+- **Active in the last 30 days:** 20 of 30 tracked GitHub repos (67%)
 - **Quiet classics (no push in 12+ months, still listed):** GoPhish, OpenRASP, Awesome WebSocket Security
 - **Earliest entries:** Fail2ban (2011), OpenVPN (2012), ClamAV (2012)
 
@@ -23,7 +23,7 @@ The mirror image of the Armory: what you install so you never get popped. Kernel
 | [GoPhish](https://github.com/gophish/gophish) | 14.3k | 2013 | 2024-09-23 ⏳ | Open-Source Phishing Toolkit |
 | [OpenSnitch](https://github.com/evilsocket/opensnitch) | 14.2k | 2017 | 2026-07-26 | OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch. |
 
-## Full inventory (34 tools)
+## Full inventory (35 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -33,6 +33,7 @@ The mirror image of the Armory: what you install so you never get popped. Kernel
 | [OpenVPN](https://github.com/OpenVPN/openvpn) | 14.7k | 2012 | 2026-10-22 ✅ | — the industry-standard open-source VPN daemon for site-to-site and remote-access tunnels. Used by IT teams everywhere; the open-source alternative to commercial VPN gateways. (GPL-2.0 core, component exceptions) |
 | [GoPhish](https://github.com/gophish/gophish) | 14.3k | 2013 | 2024-09-23 ⏳ | — open-source phishing-simulation platform: launch awareness campaigns and measure exactly who clicks (community edition). Used by security awareness teams running phishing simulations; the open-source alternative to commercial awareness platforms like KnowBe4. |
 | [OpenSnitch](https://github.com/evilsocket/opensnitch) | 14.2k | 2017 | 2026-07-26 | — interactive application firewall (Little Snitch for Linux): allow/deny every outbound connection per process. Used by Linux power users and admins wanting per-application firewall control; the open equivalent of Little Snitch on macOS. (GPL-3.0) |
+| [OpenNHP](https://github.com/OpenNHP/opennhp) | 13.9k | 2014 | 2026-10-22 ✅ | — go implementation of the Cloud Security Alliance's Network-infrastructure Hiding Protocol: conceals ports, IPs and domains behind a cryptographically signed knock gate — services stay invisible until the client proves trust. Used by zero-trust teams making infrastructure undiscoverable to mass and AI-driven scanning; the reference open implementation of CSA NHP. (Apache-2.0) |
 | [Vuls](https://github.com/future-architect/vuls) | 12.3k | 2016 | 2026-10-21 ✅ | — agentless vulnerability scanner for servers and containers, with CVE reporting across Linux and FreeBSD fleets. Used by server admins for agentless vulnerability scanning; the open-source alternative to Nessus for host patch audits. (GPL-3.0) |
 | [BunkerWeb](https://github.com/bunkerity/bunkerweb) | 11.1k | 2019 | 2026-10-21 ✅ | — next-gen open WAF built on nginx: HTTPS, bot mitigation and network protections on by default. Used by web admins wanting a next-gen open-source WAF in front of their sites; the self-hosted alternative to Cloudflare's managed WAF. (AGPL-3.0) |
 | [testssl.sh](https://github.com/drwetter/testssl.sh) | 9.2k | 2014 | 2026-10-21 ✅ | — command-line TLS/SSL configuration auditor: protocols, ciphers, chains, vulnerabilities, grading — no agent required. Used by TLS auditors and pentesters everywhere; the free command-line alternative to Qualys SSL Labs for server-side TLS grading. (GPL-2.0) |

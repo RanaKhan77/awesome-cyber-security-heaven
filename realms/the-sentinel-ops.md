@@ -1,6 +1,6 @@
 # 🔵 The Sentinel Ops
 
-> **48 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **50 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs 
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 35 of 47 tracked GitHub repos (74%)
+- **Active in the last 30 days:** 36 of 49 tracked GitHub repos (73%)
 - **Quiet classics (no push in 12+ months, still listed):** sysmon-config, HELK, DeepBlueCLI, Revoke-Obfuscation
 - **Earliest entries:** The Sleuth Kit (2011), Zeek (2012), Arkime (2012)
 
@@ -23,7 +23,7 @@ The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs 
 | [awesome-honeypots](https://github.com/paralax/awesome-honeypots) | 10.6k | 2015 | 2026-06-01 | an awesome list of honeypot resources |
 | [YARA](https://github.com/VirusTotal/yara) | 10k | 2012 | 2026-10-21 ✅ | The pattern matching swiss knife |
 
-## Full inventory (48 tools)
+## Full inventory (50 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -44,6 +44,7 @@ The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs 
 | [ThreatMapper](https://github.com/deepfence/ThreatMapper) | 5.3k | 2020 | 2026-06-01 | — Deepfence's open runtime threat scanner: finds and ranks exploitable vulnerabilities in cloud and container workloads. Used by cloud security teams mapping runtime risks; Deepfence's open-source alternative to commercial CNAPPs. |
 | [Security Onion](https://github.com/Security-Onion-Solutions/securityonion) | 4.9k | 2018 | 2026-10-19 ✅ | — the free SOC-in-a-box distro: Suricata, Zeek, Elastic, dashboards and detection pipelines. Used by SOC and DFIR teams as a complete network-security-monitoring distro; the free alternative to commercial NSM suites. (Elastic License 2.0) |
 | [Threat Hunter Playbook](https://github.com/OTRF/ThreatHunter-Playbook) | 4.7k | 2017 | 2026-01-12 | — open hunting playbooks as code: hypotheses mapped to data sources and detections. Used by threat hunters learning detection strategy; the open knowledge base for hunting methodology. (MIT) |
+| [BlueTeam-Tools](https://github.com/A-poc/BlueTeam-Tools) | 4.5k | 2023 | 2026-08-23 | — community-fed directory of 70+ blue-team tools and operational resources across 13 categories plus practical defensive tradecraft tips. Used by SOC builders assembling their defensive stack; the blue-team counterpart to red-team toolkit lists. (curated list) |
 | [Volatility 3](https://github.com/volatilityfoundation/volatility3) | 4.5k | 2014 | 2026-10-12 ✅ | — memory forensics framework — RAM malware has nowhere to hide. Used by DFIR analysts extracting artifacts from memory images; the framework that defined open memory forensics. |
 | [Velociraptor](https://github.com/Velocidex/velociraptor) | 4.4k | 2018 | 2026-10-22 ✅ | — endpoint visibility and DFIR at scale: hunt across thousands of machines with one query language. Used by DFIR teams hunting across thousands of endpoints; the open-source alternative to commercial endpoint-forensics platforms. (AGPL-3.0) |
 | [Awesome YARA](https://github.com/InQuest/awesome-yara) | 4.3k | 2017 | 2026-06-15 | — curated YARA rules, tooling and research for malware hunting. Used by malware analysts collecting detection rules. (CC-BY-4.0, curated list) |
@@ -73,6 +74,7 @@ The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs 
 | [RITA](https://github.com/activecm/rita) | 663 | 2024 | 2026-10-15 ✅ | — detects C2 beaconing in Zeek logs — traffic analysis that finds the quiet intruders. Used by threat hunters finding C2 beaconing in DNS and flows; the free open-source hunter for network telemetry. (GPL-3.0) |
 | [Sublime Rules](https://github.com/sublime-security/sublime-rules) | 380 | 2021 | 2026-10-22 ✅ | — the community rule corpus for the Sublime platform. Used by email defenders detecting phishing patterns; the open detection ruleset for the Sublime platform. (MIT) |
 | [Sublime Platform](https://github.com/sublime-security/sublime-platform) | 277 | 2021 | 2026-10-21 ✅ | — open email threat detection: rules-as-code against phishing and BEC. Used by email-security teams defending mail flows; the open-source email-defense platform alternative to commercial email gateways. (MIT) |
+| [TRACE Forensic Toolkit](https://github.com/Gadzhovski/TRACE-Forensic-Toolkit) | 226 | 2023 | 2026-10-22 ✅ | — all-in-one local DFIR desktop app: read-only analysis of E01/AFF4/raw images across a dozen filesystems, BitLocker/FileVault/LUKS unlock, 70-type carving, timelines and hash-chained custody. Used by forensic examiners and students working cases without commercial licenses; the open DFIR suite for evidence-grade analysis. (MIT) |
 | [logarc](https://github.com/FRTX045/logarc) | 1 | 2026 | 2026-10-21 ✅ | — offline access-log forensics that reconstructs attacker activity graphs. Used by incident responders analyzing web logs without cloud tooling; the offline log-forensics analyzer. (MIT) |
 |---|---|---|---|---|
 | [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/) | — | — | — | — Microsoft's free Windows admin and DFIR toolkit: Process Explorer, Autoruns, Procmon and dozens more. Used by every Windows admin and IR analyst; Microsoft's free toolkit commercial IR teams also rely on. (free, proprietary) |
