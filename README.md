@@ -1,19 +1,17 @@
 # 🛡️ Awesome Cyber Security Heaven ☁️🔐 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![API Verified](https://img.shields.io/badge/entries%20verified-2026--10--22-blue.svg)
+![API Verified](https://img.shields.io/badge/entries%20verified-2026--10--23-blue.svg)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)
 
 <p align="center">
-  <a href="https://2mny.com" target="_blank" rel="noopener">
+  <a href="https://ranakhan77.github.io/awesome-cyber-security-heaven/" target="_blank" rel="noopener">
     <img src="assets/banner-v3.png" alt="Awesome Cyber Security Heaven" width="100%">
   </a>
 </p>
 
-> **The Ultimate Curated Arsenal — 100% Free & Open Source.** A hand-curated, license-aware map of the
-> best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR,
-> DevSecOps and AI/LLM security. Every entry earns its place. 🌟
-> **2026 edition** — 520 tools, 14 realms, every link re-verified 2026-10-22. 📅
+> A hand-curated, license-aware map of the best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR, DevSecOps and AI/LLM security. Free, open-source and free-tier entries all earn their place. 🌟
+> **2026 edition** — 496 tools, 14 realms, every link re-verified 2026-10-22. 📅
 
-🧭 **520 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
+🧭 **496 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **free, open-source & free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 🧊 **dormant classics → Legacy Vault** · 💯 **no paywalls, no SaaS wrappers**
 
 **Legend** — ⚖️ `(GPL-…)` / `(AGPL-…)` = copyleft license · 🎁 `(free tier)` / `(freemium)` = free tier of a
 commercial service · 🔒 `(free, proprietary)` = freeware, not open source · 🏠 `(maintainer's project)` =
@@ -43,13 +41,13 @@ ages and last-push dates — see [`realms/`](realms/).
 
 ## 📄 Realm Dossiers — Deep-Research PDF Reports
 
-![PDF Dossiers](https://img.shields.io/badge/PDF-Realm_Dossiers_57_pages-red?logo=adobeacrobatreader&logoColor=white)
+![PDF Dossiers](https://img.shields.io/badge/PDF-Realm_Dossiers_55_pages-red?logo=adobeacrobatreader&logoColor=white)
 
 Every realm ships as a designed, printable **PDF dossier** — dark-theme cover with live realm stats (tools,
 combined stars, GitHub share, 2026 activity), curator's notes, a maintenance snapshot, flagship picks, and a
 full inventory of every curated tool with live GitHub census data (stars, first release, last push, license
 tier) plus activity badges. Every figure pulled from the live GitHub API (census 2026-10-22).
-**57 pages across 14 dossiers** — free forever, CC0.
+**55 pages across 14 dossiers** — free forever, CC0.
 
 | Dossier                                                                                                                                                                                                               | Focus                                        | Pages |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----: |
@@ -59,8 +57,8 @@ tier) plus activity badges. Every figure pulled from the live GitHub API (census
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🗺️ [The Cartographers](pdfs/awesome-cyber-security-heaven-cartographers-recon-osint-attack-surface-mapping-tools.pdf) | recon · OSINT · attack-surface mapping       |     5 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🕵️ [The Shadow Bureau](pdfs/awesome-cyber-security-heaven-shadow-bureau-osint-public-intelligence-tools.pdf)          | OSINT · public intelligence                  |     4 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🔑 [The Vault](pdfs/awesome-cyber-security-heaven-vault-secrets-credentials-password-security-tools.pdf)               | secrets · credentials · password security    |     3 |
-| ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🐳 [The Foundry](pdfs/awesome-cyber-security-heaven-foundry-devsecops-cloud-container-security-tools.pdf)              | DevSecOps · cloud · container security       |     4 |
-| ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🔵 [The Sentinel Ops](pdfs/awesome-cyber-security-heaven-sentinel-ops-blue-team-soc-dfir-tools.pdf)                    | blue team · SOC · DFIR                       |     5 |
+| ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🐳 [The Foundry](pdfs/awesome-cyber-security-heaven-foundry-devsecops-cloud-container-security-tools.pdf)              | DevSecOps · cloud · container security       |     3 |
+| ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🔵 [The Sentinel Ops](pdfs/awesome-cyber-security-heaven-sentinel-ops-blue-team-soc-dfir-tools.pdf)                    | blue team · SOC · DFIR                       |     4 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🤖 [The Oracle's Domain](pdfs/awesome-cyber-security-heaven-oracles-ai-security-llm-security-tools.pdf)                | AI security · LLM security                   |     2 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🧠 [The AI Forge](pdfs/awesome-cyber-security-heaven-ai-forge-ai-dependent-security-tools.pdf)                         | AI-dependent security tools                  |     3 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🆓 [The Free Bazaar](pdfs/awesome-cyber-security-heaven-free-bazaar-free-cybersecurity-apis-feeds-data.pdf)            | free cybersecurity APIs · feeds · data       |     4 |
@@ -103,9 +101,7 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [wapiti](https://github.com/wapiti-scanner/wapiti) - Open-source black-box web vulnerability scanner that crawls and audits without needing a browser. Used by web pentesters and CI pipelines for black-box web scanning; a solid free alternative to paid web vulnerability scanners. (GPL-2.0)
 - [WhatWeb](https://github.com/urbanadventurer/WhatWeb) - Identifies what a website is built with — frameworks, CMSs, servers and versions — in one command. Used by recon teams to fingerprint what a site runs on; the standard free tech-identifier behind many commercial recon feeds. (GPL-2.0)
 - [GitTools](https://github.com/internetwache/GitTools) - Recovers an exposed `.git` directory into full source and commit history — audit your servers before attackers do. Used by bug bounty hunters to recover exposed .git directories into full source; the go-to free tool for this bug class.
-- [tplmap](https://github.com/epinna/tplmap) - Server-side template injection detection and exploitation across a dozen template engines; quiet upstream but still the SSTI reference. Used by pentesters for server-side template injection proof across a dozen engines; no commercial equivalent needed. (GPL-3.0)
-- [JoomScan](https://github.com/OWASP/joomscan) - OWASP's Joomla scanner: vulnerable components and misconfigurations on Joomla sites; quiet upstream, still OWASP's reference. Used by pentesters auditing Joomla deployments; OWASP's free Joomla scanner. (GPL-3.0)
-- [ACSTIS](https://github.com/tijme/angularjs-csti-scanner) - The classic AngularJS client-side template injection scanner — legacy framework, still found everywhere. Used by bug hunters verifying this niche on legacy apps. (unmaintained classic)
+
 - [kiterunner](https://github.com/assetnote/kiterunner) - API route brute-forcer with method-aware wordlists derived from Swagger specs; dormant upstream, still the reference. Used by API security testers brute-forcing routes with method-aware wordlists; the open-source alternative to commercial API discovery scans. (AGPL-3.0)
 - [osmedeus](https://github.com/j3ssie/osmedeus) - Workflow engine that chains recon and scanning into scheduled, repeatable attack-surface pipelines. Used by recon teams automating full attack-surface workflows; the free alternative to commercial ASM platforms for scheduled recon.
 - [PWN](https://github.com/0dayInc/pwn) - Ruby offensive-security automation framework that orchestrates Burp, Nessus, OpenVAS, ZAP and other engines into scripted authorized engagements. Used by pentesters chaining commercial and open engines from one Ruby CLI; the glue layer for multi-engine engagements. (MIT)
@@ -149,7 +145,7 @@ Intro: Lock it down before they get in — auditing, hardening and host/network 
 - [BunkerWeb](https://github.com/bunkerity/bunkerweb) - Next-gen open WAF built on nginx: HTTPS, bot mitigation and network protections on by default. Used by web admins wanting a next-gen open-source WAF in front of their sites; the self-hosted alternative to Cloudflare's managed WAF. (AGPL-3.0)
 - [open-appsec](https://github.com/openappsec/openappsec) - ML-driven prevention engine that stops OWASP Top 10 and zero-day web attacks without signatures. Used by security teams deploying machine-learning WAF protection; an open-source alternative to commercial ML-based WAF products.
 - [OpenRASP](https://github.com/baidu/openrasp) - Runtime application self-protection: instrument the app itself so attacks get blocked from the inside. Used by AppSec teams adding runtime self-protection to apps; the open-source alternative to commercial RASP vendors.
-- [GoPhish](https://github.com/gophish/gophish) - Open-source phishing-simulation platform: launch awareness campaigns and measure exactly who clicks (community edition). Used by security awareness teams running phishing simulations; the open-source alternative to commercial awareness platforms like KnowBe4.
+
 - [OpenVPN](https://github.com/OpenVPN/openvpn) - The industry-standard open-source VPN daemon for site-to-site and remote-access tunnels. Used by IT teams everywhere; the open-source alternative to commercial VPN gateways. (GPL-2.0 core, component exceptions)
 - [stunnel](https://github.com/mtrojnar/stunnel) - Universal TLS wrapper that adds encryption to any TCP service in minutes. Used by admins adding TLS to legacy services; the free universal TLS wrapper. (GPL-2.0)
 - [OpenSSH](https://github.com/openssh/openssh-portable) - The world's default secure remote-access suite: encrypted shells, tunnels and key management. Used on virtually every Linux server on earth; the open standard for secure remote access that commercial SSH servers complement, not replace. (BSD-style)
@@ -165,7 +161,7 @@ Intro: Lock it down before they get in — auditing, hardening and host/network 
 - [Fleet](https://github.com/fleetdm/fleet) - Osquery fleet management: device visibility and policy enforcement at scale, open core with a free tier. Used by IT and security teams managing osquery fleets at scale; the open-source alternative to commercial device management and EDR consoles. (MIT, open core)
 - [shellfirm](https://github.com/kaplanelad/shellfirm) - A pre-execution guard for your shell: challenges dangerous commands (rm -rf, kubectl delete) before they run. Used by engineers protecting themselves from dangerous commands; a lightweight open guardrail before your shell executes rm -rf. (Apache-2.0)
 - [Qubes OS](https://www.qubes-os.org/) - The security-by-compartmentalization desktop OS; " reasonably secure" by architecture, not by antivirus. Used by journalists, researchers and high-risk users; the compartmentalized security desktop with no commercial counterpart. (GPL-2.0)
-- [Awesome WebSocket Security](https://github.com/PalindromeLabs/awesome-websocket-security) - Curated research, tools and CVEs for WebSocket protocol security. Used by web pentesters studying WebSocket attack surface. (Apache-2.0, curated list)
+
 - [Neo23x0 auditd config](https://github.com/Neo23x0/auditd) - Florian Roth's hardened auditd rule set: the Linux logging baseline used across incident-response teams. Used by blue teams hardening Linux audit collection; the widely-forked open auditd baseline behind many SOC deployments. (Apache-2.0)
 - [unmask](https://github.com/unmask-sh/unmask) - Self-hosted privacy-first bot management gateway with verified-crawler bypass. Used by teams filtering bot traffic without third-party SaaS; the self-hosted bot-defense gateway. (Apache-2.0)
 - [OpenNHP](https://github.com/OpenNHP/opennhp) - Go implementation of the Cloud Security Alliance's Network-infrastructure Hiding Protocol: conceals ports, IPs and domains behind a cryptographically signed knock gate — services stay invisible until the client proves trust. Used by zero-trust teams making infrastructure undiscoverable to mass and AI-driven scanning; the reference open implementation of CSA NHP. (Apache-2.0)
@@ -215,9 +211,9 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [gau](https://github.com/lc/gau) - Fetch URLs indexed by AlienVault OTX, the Wayback Machine and Common Crawl. Used by bug bounty hunters pulling all known URLs from public archives; the free fetcher that seeds most recon pipelines.
 - [waymore](https://github.com/xnl-h4ck3r/waymore) - Pull way more from the Wayback Machine: full responses, not just URLs. Used by bug hunters mining the Wayback Machine deeply for hidden endpoints and parameters; the successor to gau for archive URL intel.
 - [Maltego CE](https://www.maltego.com) - The standard OSINT graphing tool for entity-relationship investigation; free community edition. Used by OSINT analysts and investigators for link analysis; the free community edition of the commercial Maltego. (free tier)
-- [dnstwist](https://github.com/elceef/dnstwist) - Detect typosquat, homograph and permutation lookalikes of your domain — a must for phishing defense and brand monitoring. Used by brand-protection and anti-phishing teams hunting lookalike domains; the open-source alternative to commercial domain-monitoring services.
+
 - [CloakQuest3r](https://github.com/spyboy-productions/CloakQuest3r) - Unmask the real origin IP behind Cloudflare and similar CDNs using historical DNS, SSL certificates and subdomain correlation. Used by security teams verifying true origin exposure before hardening allowlists; the open-source alternative to commercial CDN-unmasking services. (MIT)
-- [assetfinder](https://github.com/tomnomnom/assetfinder) - Passive subdomain discovery that polls a dozen public sources and prints a clean list — no keys needed; quiet upstream, still the classic. Used by bug bounty hunters for quick passive subdomain finds; the lightweight staple of recon one-liners.
+
 - [ParamSpider](https://github.com/devanshbatham/ParamSpider) - Mines archived URLs and parameters from the Wayback Machine to seed injection testing. Used by bug hunters mining hidden parameters from archives; the free parameter-mining step before injection testing.
 - [recon-ng](https://github.com/lanmaster53/recon-ng) - The other recon framework: fully modular, database-backed web recon with a Metasploit-style console. Used by pentesters running structured recon workflows; the Metasploit-style framework for the recon phase. (GPL-3.0)
 - [FinalRecon](https://github.com/thewhiteh4t/FinalRecon) - All-in-one web recon: headers, whois, SSL, DNS, subdomains, ports, directories and traceroute in a single modular run. Used by pentesters running a fast first-pass recon sweep before deep-dive tooling; the modular Python alternative to juggling ten single-purpose scripts. (MIT)
@@ -232,7 +228,7 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [Dorker](https://github.com/HexSilence/Dorker) - Cross-platform multi-engine Google-dork CLI with per-engine query translation and scoped validation. Used by OSINT hunters running one dork across multiple engines; the dork translator for cross-engine reconnaissance. (Apache-2.0)
 - [Dork](https://github.com/Naqaab50/Dork) - Curated Google-dork payload library for cloud, AI, SaaS and IoT reconnaissance. Used by recon teams pulling tested dorks per target class; the categorized dork corpus for scoped discovery. (MIT)
 - [DorkIntel](https://github.com/unfantasmaenelsistema/DorkIntel) - Client-side library of 162 categorized Google dorks for intelligence dashboards. Used by OSINT tool builders embedding dork queries in dashboards; the embeddable dork dataset for client-side intel tooling. (MIT)
-- [ike-scan](https://github.com/royhills/ike-scan) - IKE/IPsec security auditing: fingerprint VPN gateways and enumerate transform proposals. Used by network pentesters fingerprinting IKE/VPN endpoints; the classic free IPSec scanner. (GPL-2.0)
+
 - [EyeWitness](https://github.com/RedSiege/EyeWitness) - Screenshots, headers and key info from web servers during authorized recon passes. Used by pentesters screenshotting and triaging web servers in bulk; the standard free recon triage tool. (GPL-3.0)
 - [WiGLE](https://wigle.net) - The wireless network mapping archive; queries by BSSID/SSID across millions of observed networks. Used by wireless OSINT researchers mapping networks worldwide; the free wardriving database with no commercial equal. (free service)
 - [DNSdumpster](https://dnsdumpster.com) - Visual DNS reconnaissance: subdomains, MX, and infrastructure maps from public records. Used by beginners and quick-recon tasks for visual DNS mapping; the free web tool that kickstarts attack-surface discovery. (free service)
@@ -272,7 +268,6 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 
 ### 📧 Email & Phone Intel
 
-- [holehe](https://github.com/megadose/holehe) - Checks which sites an email is registered on via password-reset and account-exist flows; quiet upstream but still the standard. Used by investigators checking which services an email registered with; the free breach-recovery check used in authorized account reviews. (GPL-3.0)
 - [MailAccess](https://github.com/KatrielMoses/MailAccess) - Email-exposure toolkit that flags breach appearances and stealer-log presence for an address — authorized investigations only. Used by investigators during authorized account-recovery engagements to check email credential exposure; a focused checker for red-team and OSINT work.
 - [check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) - Verify an email address exists without sending any message: SMTP-level mailbox checks with disposable and catch-all detection, self-hostable or as a service. Used by investigators confirming a mailbox is real before deeper checks; the free verifier behind Reacher. (MIT)
 - [telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker) - Check which phone numbers are connected to Telegram accounts and pull usernames and names; needs your own Telegram session — authorized research only. Used by investigators with authorized Telegram access linking numbers to accounts; Bellingcat's open checker for sanctioned research. (MIT)
@@ -283,7 +278,7 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [leaker](https://github.com/vflame6/leaker) - One terminal command, ten public breach databases — passive checks for whether an email or domain appears in known leaks. Used by OSINT researchers searching breach corpora for exposed records; the free alternative to paid breach-search subscriptions.
 - [LeakLens](https://leaklens.org) - Non-commercial breach registry with a keyless phone, email, username and password exposure audit API. Used by anyone auditing their own (or authorized) identifier exposure without accounts or fees; the free keyless breach-lookup service. (free service, non-commercial)
 
-- [Exposure-Check-OSINT](https://github.com/RanaKhan77/Exposure-Check-OSINT) - Self-hosted personal
+- [Exposure-Check-OSINT](https://github.com/RanaKhan77/Exposure-Check-OSINT) - Self-hosted exposure checker for your own identifiers: 19 keyless sources spanning breaches, infostealer logs and the COMB 11B+ corpus, with HIBP k-anonymity and a 150-platform username grid. Used by privacy-conscious users auditing their own leak footprint; the self-hosted, no-API-keys alternative to paid identity-monitoring services. (Apache-2.0, maintainer's project)
   exposure checker: breaches, infostealer-log infections, COMB 11B+ credentials, HIBP k-anonymity
   and a 150-platform username grid from one dashboard — 18 keyless sources, zero API keys, zero AI,
   one Docker command. Used by anyone checking their own (or authorized) identifiers without feeding
@@ -297,8 +292,6 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 
 ### 🕰️ Archive & History
 
-- [waybackpy](https://github.com/akamhy/waybackpy) - Python client and CLI for the Wayback Machine: search, save and diff archived snapshots from your own scripts; quiet upstream, works fine. Used by researchers scripting Wayback Machine lookups from Python and CLI; the open client for archive intelligence.
-
 ### 🎯 Threat & Attack-Surface Intel
 
 - [opensquat](https://github.com/atenreiro/opensquat) - Watches newly-registered domains for typosquats and brand lookalikes, with free daily feeds. Used by brand-protection teams watching for newly registered lookalike domains; the free alternative to commercial domain-monitoring services. (GPL-3.0)
@@ -310,7 +303,7 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [Nipe](https://github.com/GouveaHeitor/nipe) - A tool to make your traffic pass through the Tor network; redirect the machine's egress for privacy. Used by researchers anonymizing tool traffic through Tor exit nodes; the open anonymity router for sanctioned research. (MIT)
 - [Whonix](https://www.whonix.org) - The anonymity-focused OS: a Workstation VM routed entirely through a Tor Gateway VM. Used by journalists and researchers needing compartmentalized anonymity; the free VM-based anonymity workstation. (GPL-3.0)
 - [PhoneInfoga](https://github.com/sundowndev/PhoneInfoga) - Phone-number OSINT: carriers, reputation and footprint from public sources, no scraping of private data. Used by investigators profiling phone numbers from public sources; the standard free phone-OSINT scanner. (GPL-3.0)
-- [waybackpack](https://github.com/jsvine/waybackpack) - Bulk-download a site's history from the Wayback Machine; the archivist's archive. Used by researchers downloading archived sites in bulk; the open downloader for Wayback Machine investigations. (MIT)
+
 - [TOsint](https://github.com/drego85/tosint) - Telegram OSINT: user, channel and bot intelligence from public messaging data. Used by investigators mining Telegram accounts and groups from public data; the focused Telegram OSINT client. (GPL-3.0)
 - [tg-chat-dump](https://github.com/renkagod/tg-chat-dump) - Archive public Telegram chats to SQLite for structured analysis. Used by researchers exporting Telegram chat history for analysis; the open dump utility for sanctioned investigations. (MIT)
 - [VoidAccess](https://github.com/KatrielMoses/voidaccess) - Self-hosted dark-web monitoring platform for threat-intelligence teams. Used by bug hunters dorking for exposed panels and documents; the free web-search automation for recon. (MIT)
@@ -362,7 +355,7 @@ Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that 
 - [cosign](https://github.com/sigstore/cosign) - Sigstore's keyless container signing and verification; make provenance part of your pipeline. Used by supply-chain automation signing and verifying containers; the Sigstore tool making signed images the default, free.
 - [Bandit](https://github.com/PyCQA/bandit) - The standard Python security linter; wire it into CI and never merge an `eval()` again. Used by Python teams catching security issues in CI; the standard open-source Python SAST tool.
 - [Brakeman](https://github.com/presidentbeef/brakeman) - Static analysis purpose-built for Ruby on Rails; no config, no instrumentation, just findings. Used by Rails teams scanning source for security flaws; the standard open-source Rails SAST tool.
-- [kube-hunter](https://github.com/aquasecurity/kube-hunter) - Active Kubernetes security testing: probe clusters for exposed dashboards, weak RBAC and known exploits; quiet upstream. Used by cluster security teams probing Kubernetes for weaknesses; the open-source pentest tool for Kubernetes.
+
 - [StackRadar](https://github.com/lockdep/stackradar) - Kubernetes vulnerability scanner that builds an SBOM of every running image and ranks findings by CVSS, EPSS and CISA KEV. Used by DevSecOps teams prioritizing which container CVE actually matters in-cluster; the self-hosted alternative to commercial runtime CSPM. (AGPL-3.0)
 - [cloudsplaining](https://github.com/salesforce/cloudsplaining) - Maps AWS IAM policies and flags the privilege-escalation paths you never meant to grant. Used by AWS security teams finding over-privileged IAM policies; the open-source alternative to commercial IAM analyzers.
 - [Docker Bench for Security](https://github.com/docker/docker-bench-security) - Audits your Docker host and daemon configuration against the CIS Benchmark in a single script run. Used by admins auditing Docker hosts against the CIS benchmark; the reference open-source check script.
@@ -370,13 +363,10 @@ Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that 
 - [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) - The Windows debugger for user, kernel and crash-dump analysis; now with a modern UI. Used by malware analysts and driver developers debugging Windows; Microsoft's debugger at the core of Windows-forensics work. (free, proprietary)
 - [ChipWhisperer](https://github.com/newaetech/chipwhisperer) - Side-channel analysis and glitching for hardware security research. Used by hardware-security researchers performing side-channel and glitching attacks; the open-source hardware lab that commercial gear costs six figures to replicate. (GPL-3.0)
 - [ProgPilot](https://github.com/designsecurity/progpilot) - Static taint analysis for PHP sources: finds input-to-sink flows at build time. Used by PHP AppSec teams doing taint analysis of sources and sinks; the open-source PHP static-analysis tool. (GPL-3.0)
-- [sobelow](https://github.com/nccgroup/sobelow) - Security testing for Elixir/Phoenix applications; the Sobelow family's namesake. Used by Elixir/Phoenix teams auditing their apps; the standard security-testing tool for the Phoenix framework. (MPL-2.0)
+
 - [cppcheck](https://github.com/danmar/cppcheck) - Static analysis for C/C++: detects bugs and undefined behavior, not just style. Used by C/C++ developers catching defects and undefined behavior; the free static analyzer alongside commercial suites. (GPL-3.0)
 - [cwe_checker](https://github.com/fkie-cad/cwe_checker) - Finds common CWE patterns in binaries, direct from firmware images. Used by firmware auditors mapping binary patterns to CWEs; the open-source binary-analysis aid for embedded reviews. (LGPL-2.1+)
 - [Substation](https://github.com/brexhq/substation) - An event and data pipeline toolkit for detection engineering at scale. Used by OT/ICS security researchers testing industrial protocols; the open-source toolkit for power-grid-class engagements. (MIT)
-- [logdissect](https://github.com/dogoncouch/logdissect) - Parse, merge and analyze logs from many formats into one timeline. Used by analysts parsing and correlating logs from the CLI; the open-source alternative to commercial log-analytics frontends. (MIT)
-- [Awesome ICS Security](https://github.com/mpesen/awesome-industrial-control-system-security) - Curated industrial-control-system security tools and research. Used by OT security engineers building their toolset. (Apache-2.0, curated list)
-- [Awesome Container Security](https://github.com/kai5263499/container-security-awesome) - Curated container and cloud-native security resources. Used by DevSecOps engineers hardening container stacks. (MIT, curated list)
 
 - [Kubescape](https://github.com/kubescape/kubescape) - CNCF-incubating Kubernetes security platform: scan manifests, Helm charts, Kustomize dirs, live clusters and images against NSA-CISA, MITRE ATT&CK and CIS frameworks from one CLI. Used by platform teams hardening Kubernetes before and after deploy; CNCF-backed with an in-cluster operator option. (Apache-2.0)
 - [command-center](https://github.com/openjs-foundation/command-center) - OpenJS security and compliance monitor tracking SECURITY.md hygiene and OSSF Scorecard posture across projects. Used by open-source maintainers monitoring project security posture; the OpenJS supply-chain health monitor. (MIT)
@@ -398,11 +388,9 @@ Intro: Detect, hunt, forensicate — the defensive operations toolkit.
 - [CAPEv2](https://github.com/kevoreilly/CAPEv2) - The maintained Cuckoo sandbox: automated malware detonation, config extraction and reporting. Used by malware analysts running automated sandbox detonations; the open-source alternative to commercial sandboxes like JoeSandbox. (GPL-3.0)
 - [Arkime](https://github.com/arkime/arkime) - Full-packet capture plus indexed search at scale (formerly Moloch); PCAP you can actually query. Used by NSM teams capturing and searching full packets at scale; the open-source alternative to commercial full-packet-capture appliances.
 - [RITA](https://github.com/activecm/rita) - Detects C2 beaconing in Zeek logs — traffic analysis that finds the quiet intruders. Used by threat hunters finding C2 beaconing in DNS and flows; the free open-source hunter for network telemetry. (GPL-3.0)
-- [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) - The battle-tested Sysmon configuration behind thousands of SOC detections; the de-facto starting point for Windows telemetry. Used by blue teams deploying hardened Windows logging; the widely-adopted SwiftOnSecurity baseline.
+
 - [capa](https://github.com/mandiant/capa) - Identifies what malware actually does: maps capabilities and ATT&CK techniques straight from binaries. Used by malware analysts determining what binaries can do; the open-source capability engine from Mandiant research.
-- [Revoke-Obfuscation](https://github.com/danielbohannon/Revoke-Obfuscation) - Daniel Bohannon's framework for detecting obfuscated PowerShell at scale; quiet upstream, still the reference. Used by DFIR analysts decoding obfuscated PowerShell; the open-source framework for deobfuscation work.
-- [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI) - SANS blue-team PowerShell for fast Windows event-log hunting: logons, mutants, suspicious service installs — quiet upstream but still a blue-team staple. Used by defenders triaging Windows event logs quickly; the free PowerShell tool for fast log review. (GPL-3.0)
-- [HELK](https://github.com/Cyb3rWard0g/HELK) - The Hunting ELK: a pre-built Elasticsearch/Kafka/Spark lab for threat-hunting research — a research project with low churn. Used by threat-hunting learners standing up an ELK hunting lab; the open-source project for detection-engineering practice. (GPL-3.0)
+
 - [sysmon-modular](https://github.com/olafhartong/sysmon-modular) - Swiss-army Sysmon configuration: per-ATT&CK-technique logging modules you compose yourself. Used by detection engineers tailoring Sysmon per event type; the community config alternative to fixed baselines.
 - [ElastAlert2](https://github.com/jertel/elastalert2) - The maintained successor to ElastAlert: flexible alerting on Elasticsearch data with dozens of rule types. Used by SOC teams alerting from Elasticsearch data; the open-source alerting layer for ELK stacks.
 - [pspy](https://github.com/DominicBreuker/pspy) - Watch process and file events on any Linux box without root — catch cron-based persistence in the act. Used by pentesters and CTF players watching process activity without root; the standard privesc enumeration tool. (GPL-3.0)
@@ -485,7 +473,7 @@ generators. Every entry needs an LLM API key (yours or the target's); none are S
 ## 🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data
 Intro: Free (or free-tier) data sources every security program should be using — no budget required.
 
-- [Shodan](https://www.shodan.io) - The search engine for internet-exposed devices; free tier plus Monitor alerts for your own assets (free tier) Used by CTI analysts and bug hunters mapping exposed assets; freemium with free-tier lookups.
+- [Shodan](https://www.shodan.io) - The search engine for internet-exposed devices; free-tier lookups plus Monitor alerts for your own assets. Used by CTI analysts and bug hunters mapping exposed assets; the original internet-exposure search engine. (free tier)
 - [VirusTotal](https://www.virustotal.com) - The multi-engine file/URL reputation service with a free public API. Used by SOC analysts everywhere for file, URL and domain reputation; the multi-engine standard, free for basic use.
 - [HaveIBeenPwned](https://haveibeenpwned.com) - Breach database lookups for emails and whole domains, with a free API. Used by everyone from helpdesks to auditors checking breach exposure; the free breach-notification standard.
 - [Censys](https://search.censys.io) - Internet asset search with certificate-aware pivots; free academic/community tier. Used by CTI teams hunting certificates and services across the internet; the free-tier search companion to Shodan. (free tier)
@@ -620,7 +608,7 @@ Intro: Hack legally — wargames, CTF platforms and deliberately-vulnerable apps
 - [ExploitMe Mobile](http://securitycompass.github.io/AndroidLabs/index.html) - The SecurityCompass mobile labs. Used by mobile security learners practicing iPhone and Android labs; the free mobile range. (free service)
 - [OWASP iGoat](https://wiki.owasp.org/index.php/OWASP_iGoat_Tool_Project) - The iOS learning app from the OWASP mobile family. Used by iOS security learners practicing on Objective-C; the OWASP deliberately vulnerable iOS app. (wiki project)
 - [APTSimulator](https://github.com/NextronSystems/APTSimulator) - Makes a Windows host look compromised so you can test detections safely. Used by blue teams generating APT-style artifacts for detection testing; the free Windows simulator for purple exercises. (MIT)
-- [flightsim](https://github.com/alphasoc/flightsim) - Generates malicious network traffic for IDS/NDR validation; defender-side only. Used by defenders safely generating malicious-looking network traffic; the free attack simulator for testing detections. (CC-BY-4.0)
+
 - [Splunk Attack Range](https://github.com/splunk/attack_range) - Builds instrumented detection labs: attack, collect and test in one workflow. Used by detection engineers building full attack/defend labs in the cloud; the free Splunk range that emulates commercial cyber ranges. (Apache-2.0)
 
 ## 🧰 The Workshop — Utilities & Swiss-Army Tools
@@ -669,12 +657,11 @@ Intro: The everyday carry — decoding, proxying, dissecting and transforming an
 - [angr](https://angr.io/) - The binary-analysis platform from UCSB's Shellphish: symbolic execution at scale. Used by researchers and CTF players symbolically executing binaries; the free platform for program analysis research. (BSD-2-Clause)
 - [Detect It Easy](https://github.com/horsicq/Detect-It-Easy) - Packer/compiler/protection detection with a rule engine. Used by malware analysts identifying packers and compilers; the free packer-detection standard. (MIT)
 - [Evan's Debugger](http://www.codef00.com/projects#debugger) - The C/C++ debugger with a RE focus: memory views built for analysis. Used by RE practitioners debugging Linux binaries in a GUI; the free Qt-based debugger. (GPL-2.0+)
-- [Voltron](https://github.com/snare/voltron) - A debugger-agnostic UI: multiple synchronized views across GDB/LLDB. Used by exploit developers unifying GDB, lldb and radare2 views; the free debugger-UI multiplexer. (MIT)
-- [boxxy](https://github.com/kpcyrd/boxxy-rs) - A rules-based sandbox for misbehaving programs; redirects what they touch. Used by researchers sandboxing file operations at the syscall layer; the free isolation tool for dynamic analysis. (LGPL-2.1)
+
 - [pwndbg](https://github.com/pwndbg/pwndbg) - GDB with a exploit-dev UX: heap awareness, shortcuts and sane defaults. Used by CTF players and exploit developers making GDB pwn-friendly; the standard GDB plugin for exploitation work. (MIT)
 - [ImHex](https://github.com/WerWolv/ImHex) - The hex editor with pattern language: parse formats while you view them. Used by reverse engineers parsing binaries with a pattern language; the free hex editor built for RE workflows. (GPL-2.0)
 - [Brida](https://github.com/federicodotta/Brida) - The bridge between Burp and Frida: custom instrumentation in your proxy workflow. Used by mobile pentesters bridging Frida into Burp; the free companion for SSL-pinning bypass work. (MIT)
-- [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis) - The curated malware-analysis tool index. Used by malware analysts assembling their toolkit. (CC-BY-4.0, curated list)
+
 - [OCSF](https://github.com/ocsf/ocsf-schema) - The Open Cybersecurity Schema Framework: one schema for security events. Used by SIEM and security vendors normalizing telemetry; the open schema standard the industry is converging on. (Apache-2.0)
 - [cybersec-toolkit](https://github.com/26zl/cybersec-toolkit) - Single-command installer for 670+ security tools with an authorization-gated MCP server, allowlist and flag-denylist execution policy and a prompt-injection output sanitizer. Used by security engineers building safe tool environments for AI agents; the least-privilege installer for agent-accessible security tooling. (MIT)
 - [Netron](https://github.com/lutzroeder/netron) - Visualize ML models: the layers, weights and graph of what you deploy. Used by ML engineers inspecting model architectures; the free visualizer for neural-network files. (MIT)
@@ -689,13 +676,9 @@ Intro: The everyday carry — decoding, proxying, dissecting and transforming an
 
 ## 🧭 Editorial Standards
 
-Entries must be **free (or free-tier)**, **actively maintained**, and **useful to professionals**.
-Copyleft, freemium and proprietary licenses are marked inline. Archived and
-non-redistributable projects are excluded from the main list — the few archived classics are
-kept separately in [legacy.md](legacy.md). One entry is the curator's own project,
-marked `(maintainer's project)`.
+Entries must be **free (or free-tier)**, **useful to professionals**, and **not dormant upstream** — tools with no upstream commit in 18+ months move to the [Legacy Vault](legacy.md) with their last-commit date, so the main list only carries tools you can rely on. Deliberately frozen practice targets (DVWA, WebGoat, Metasploitable, HEVD and friends) and published datasets stay in the main list — static artifacts are the point. Copyleft, freemium and proprietary licenses are marked inline. Archived and non-redistributable projects are excluded from the main list — the few archived classics are kept separately in legacy.md. One entry is the curator's own project, marked `(maintainer's project)`.
 
-✔ Flagship entries' license & activity verified via GitHub API on 2026-10-22 — re-verified quarterly.
+✔ Flagship entries' license & activity verified via GitHub API on 2026-10-23 — re-verified quarterly.
 
 ## Contributing
 

@@ -1,6 +1,6 @@
 # 🐳 The Foundry
 
-> **33 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **28 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,8 +8,8 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 22 of 31 tracked GitHub repos (71%)
-- **Quiet classics (no push in 12+ months, still listed):** ScoutSuite, kube-hunter, sobelow, ProgPilot, logdissect
+- **Active in the last 30 days:** 22 of 26 tracked GitHub repos (85%)
+- **Quiet classics (no push in 12+ months, still listed):** ScoutSuite, ProgPilot
 - **Earliest entries:** cppcheck (2009), Brakeman (2010), Dependency-Track (2013)
 
 ## Flagship picks
@@ -23,7 +23,7 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 | [Kubescape](https://github.com/kubescape/kubescape) | 11.8k | 2021 | 2026-10-22 ✅ | Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It inclu… |
 | [OSV-Scanner](https://github.com/google/osv-scanner) | 11.2k | 2022 | 2026-10-21 ✅ | Vulnerability scanner written in Go which uses the data provided by https://osv.dev |
 
-## Full inventory (33 tools)
+## Full inventory (28 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -44,18 +44,16 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 | [Brakeman](https://github.com/presidentbeef/brakeman) | 7.3k | 2010 | 2026-10-22 ✅ | — static analysis purpose-built for Ruby on Rails; no config, no instrumentation, just findings. Used by Rails teams scanning source for security flaws; the standard open-source Rails SAST tool. |
 | [cppcheck](https://github.com/danmar/cppcheck) | 6.8k | 2009 | 2026-10-21 ✅ | — static analysis for C/C++: detects bugs and undefined behavior, not just style. Used by C/C++ developers catching defects and undefined behavior; the free static analyzer alongside commercial suites. (GPL-3.0) |
 | [cosign](https://github.com/sigstore/cosign) | 6.4k | 2021 | 2026-10-21 ✅ | — Sigstore's keyless container signing and verification; make provenance part of your pipeline. Used by supply-chain automation signing and verifying containers; the Sigstore tool making signed images the default, free. |
-| [kube-hunter](https://github.com/aquasecurity/kube-hunter) | 5.1k | 2018 | 2024-03-19 ⏳ | — active Kubernetes security testing: probe clusters for exposed dashboards, weak RBAC and known exploits; quiet upstream. Used by cluster security teams probing Kubernetes for weaknesses; the open-source pentest tool for k8s. |
+
 | [Dependency-Track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 2013 | 2026-10-21 ✅ | — SBOM-based continuous component analysis platform with portfolio risk dashboards. Used by supply-chain teams managing SBOMs and vulnerability exposure continuously; the OWASP alternative to commercial SBOM platforms. |
 | [KICS](https://github.com/Checkmarx/kics) | 2.7k | 2020 | 2026-10-21 ✅ | — 1,000+ security queries across Terraform, Ansible, K8s, Dockerfile and other IaC. Used by platform teams scanning infrastructure-as-code across platforms; the open-source alternative to commercial IaC security products. |
 | [cloudsplaining](https://github.com/salesforce/cloudsplaining) | 2.3k | 2020 | 2026-10-22 ✅ | — maps AWS IAM policies and flags the privilege-escalation paths you never meant to grant. Used by AWS security teams finding over-privileged IAM policies; the open-source alternative to commercial IAM analyzers. |
-| [sobelow](https://github.com/nccgroup/sobelow) | 1.8k | 2017 | 2024-08-20 ⏳ | — security testing for Elixir/Phoenix applications; the Sobelow family's namesake. Used by Elixir/Phoenix teams auditing their apps; the standard security-testing tool for the Phoenix framework. (MPL-2.0) |
+
 | [ChipWhisperer](https://github.com/newaetech/chipwhisperer) | 1.6k | 2014 | 2026-10-21 ✅ | — side-channel analysis and glitching for hardware security research. Used by hardware-security researchers performing side-channel and glitching attacks; the open-source hardware lab that commercial gear costs six figures to replicate. (GPL-3.0) |
 | [cwe_checker](https://github.com/fkie-cad/cwe_checker) | 1.4k | 2018 | 2026-09-28 ✅ | — finds common CWE patterns in binaries, direct from firmware images. Used by firmware auditors mapping binary patterns to CWEs; the open-source binary-analysis aid for embedded reviews. (LGPL-2.1+) |
 | [Substation](https://github.com/brexhq/substation) | 408 | 2022 | 2026-10-16 ✅ | — an event and data pipeline toolkit for detection engineering at scale. Used by OT/ICS security researchers testing industrial protocols; the open-source toolkit for power-grid-class engagements. (MIT) |
 | [ProgPilot](https://github.com/designsecurity/progpilot) | 370 | 2017 | 2025-08-17 ⏳ | — static taint analysis for PHP sources: finds input-to-sink flows at build time. Used by PHP AppSec teams doing taint analysis of sources and sinks; the open-source PHP static-analysis tool. (GPL-3.0) |
-| [logdissect](https://github.com/dogoncouch/logdissect) | 161 | 2017 | 2024-08-07 ⏳ | — parse, merge and analyze logs from many formats into one timeline. Used by analysts parsing and correlating logs from the CLI; the open-source alternative to commercial log-analytics frontends. (MIT) |
-| [Awesome ICS Security](https://github.com/mpesen/awesome-industrial-control-system-security) | 32 | 2016 | 2016-05-27 ⏳ | — curated industrial-control-system security tools and research. Used by OT security engineers building their toolset. (Apache-2.0, curated list) |
-| [Awesome Container Security](https://github.com/kai5263499/container-security-awesome) | 19 | 2018 | 2019-03-07 ⏳ | — curated container and cloud-native security resources. Used by DevSecOps engineers hardening container stacks. (MIT, curated list) |
+
 | [command-center](https://github.com/openjs-foundation/command-center) | 3 | 2025 | 2026-04-17 | — OpenJS security and compliance monitor tracking SECURITY.md hygiene and OSSF Scorecard posture across projects. Used by open-source maintainers monitoring project security posture; the OpenJS supply-chain health monitor. (MIT) |
 | [StackRadar](https://github.com/lockdep/stackradar) | 3 | 2026 | 2026-10-20 ✅ | — Kubernetes vulnerability scanner that builds an SBOM of every running image and ranks findings by CVSS, EPSS and CISA KEV. Used by DevSecOps teams prioritizing which container CVE actually matters in-cluster; the self-hosted alternative to commercial runtime CSPM. (AGPL-3.0) |
 |---|---|---|---|---|
