@@ -693,9 +693,8 @@ and it tells us the quarterly re-verification grind is worth it.
 
 💙 This curation — license checks, API-verified activity, dead-link sweeps and quarterly
 re-verification — is supporter-funded. If this map saved you hours of tool-hunting, you can
-[support it by card or PayPal](https://2mny.com/support). USDT (TRC-20):
-`TVsfHEzwb9zRz9nMpGVkdL7ABTTvmUcPii`. Every entry stays free: no ads, no sponsored
-placements, no data selling — ever.
+[support it by card or PayPal](https://2mny.com/support). Every entry stays
+free: no ads, no sponsored placements, no data selling — ever.
 
 <p align="center">
   <a href="https://2mny.com" target="_blank" rel="noopener">
