@@ -1,6 +1,6 @@
 # The Vault
 
-> **19 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **18 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ Credential hygiene: secret scanners, live-secret verifiers, password audit corpo
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 10 of 17 tracked GitHub repos (59%)
+- **Active in the last 30 days:** 10 of 16 tracked GitHub repos (63%)
 - **Quiet classics (no push in 12+ months, still listed):** LaZagne
 - **Earliest entries:** John the Ripper (2011), LaZagne (2015), HashiCorp Vault (2015)
 
@@ -23,7 +23,7 @@ Credential hygiene: secret scanners, live-secret verifiers, password audit corpo
 | [hashcat](https://github.com/hashcat/hashcat) | 27k | 2015 | 2026-10-21 ✅ | World's fastest and most advanced password recovery utility |
 | [age](https://github.com/FiloSottile/age) | 24k | 2019 | 2026-08-29 | A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and… |
 
-## Full inventory (19 tools)
+## Full inventory (18 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -38,7 +38,6 @@ Credential hygiene: secret scanners, live-secret verifiers, password audit corpo
 | [John the Ripper](https://github.com/openwall/john) | 13.8k | 2011 | 2026-10-11 ✅ | — the classic password auditor: hundreds of hash formats and the legendary jumbo community build. Used by password auditors for three decades; the classic open-source cracker no pentest kit ships without. (GPL-2.0) |
 | [LaZagne](https://github.com/AlessandroZ/LaZagne) | 11k | 2015 | 2025-09-18 ⏳ | — audits which passwords your workstations remember — browsers, mail clients, OS stores — for authorized inventory and exposure checks only. Used by pentesters in authorized engagements demonstrating credential exposure on compromised hosts; the classic credential-harvesting tool. (LGPL-3.0) |
 | [detect-secrets](https://github.com/Yelp/detect-secrets) | 4.7k | 2017 | 2026-04-02 | — enterprise secret scanner designed for baseline diffs and incremental CI audits. Used by CI pipelines baseline-scanning for secrets; Yelp's open scanner that complements commercial enterprise offerings. |
-| [noseyparker](https://github.com/praetorian-inc/noseyparker) | 2.3k | 2022 | 2026-02-21 | — blazing-fast secret scanning built for huge codebases and full-history sweeps. Used by incident responders and bug hunters scanning large corpora for secrets fast; the Rust-powered open alternative for scale. |
 | [hardened_malloc](https://github.com/GrapheneOS/hardened_malloc) | 2k | 2018 | 2026-10-21 ✅ | — the allocator that makes exploitation harder by design; from the GrapheneOS project. Used by hardened deployments and privacy distros for exploit-mitigating memory allocation; the open allocator adopted by GrapheneOS-class systems. (MIT) |
 | [Kingfisher](https://github.com/mongodb/kingfisher) | 1.3k | 2025 | 2026-10-20 ✅ | — MongoDB's open-source Rust secret scanner: detect leaked secrets across code/Git/history/containers/cloud, then live-validate credentials, map blast radius and revoke — the full post-detection lifecycle. Used by security teams killing the "leaked-but-rotated key" false-positive class; embeddable as CLI, Rust lib or Python SDK. (Apache-2.0) |
 | [keyFinder](https://github.com/momenbasel/keyFinder) | 726 | 2019 | 2026-07-19 | — passively discovers leaked API keys and secrets in web pages during browsing. Used by forensic analysts locating crypto key material in memory images; the niche free utility for DFIR work. (MIT) |

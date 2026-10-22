@@ -1,6 +1,6 @@
 # The Foundry
 
-> **34 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **33 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,8 +8,8 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 22 of 32 tracked GitHub repos (69%)
-- **Quiet classics (no push in 12+ months, still listed):** ScoutSuite, kube-hunter, sobelow, ProgPilot, logdissect, OWASP Dependency-Check
+- **Active in the last 30 days:** 22 of 31 tracked GitHub repos (71%)
+- **Quiet classics (no push in 12+ months, still listed):** ScoutSuite, kube-hunter, sobelow, ProgPilot, logdissect
 - **Earliest entries:** cppcheck (2009), Brakeman (2010), Dependency-Track (2013)
 
 ## Flagship picks
@@ -23,7 +23,7 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 | [Kubescape](https://github.com/kubescape/kubescape) | 11.8k | 2021 | 2026-10-22 ✅ | Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It inclu… |
 | [OSV-Scanner](https://github.com/google/osv-scanner) | 11.2k | 2022 | 2026-10-21 ✅ | Vulnerability scanner written in Go which uses the data provided by https://osv.dev |
 
-## Full inventory (34 tools)
+## Full inventory (33 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -54,7 +54,6 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 | [Substation](https://github.com/brexhq/substation) | 408 | 2022 | 2026-10-16 ✅ | — an event and data pipeline toolkit for detection engineering at scale. Used by OT/ICS security researchers testing industrial protocols; the open-source toolkit for power-grid-class engagements. (MIT) |
 | [ProgPilot](https://github.com/designsecurity/progpilot) | 370 | 2017 | 2025-08-17 ⏳ | — static taint analysis for PHP sources: finds input-to-sink flows at build time. Used by PHP AppSec teams doing taint analysis of sources and sinks; the open-source PHP static-analysis tool. (GPL-3.0) |
 | [logdissect](https://github.com/dogoncouch/logdissect) | 161 | 2017 | 2024-08-07 ⏳ | — parse, merge and analyze logs from many formats into one timeline. Used by analysts parsing and correlating logs from the CLI; the open-source alternative to commercial log-analytics frontends. (MIT) |
-| [OWASP Dependency-Check](https://github.com/jeremylong/DependencyCheck) | 56 | 2025 | 2025-09-27 ⏳ | — the classic SCA engine: NVD-backed dependency CVE scanning for JVM/.NET/JS ecosystems. Used by CI pipelines flagging vulnerable dependencies; the OWASP alternative to commercial SCA engines. |
 | [Awesome ICS Security](https://github.com/mpesen/awesome-industrial-control-system-security) | 32 | 2016 | 2016-05-27 ⏳ | — curated industrial-control-system security tools and research. Used by OT security engineers building their toolset. (Apache-2.0, curated list) |
 | [Awesome Container Security](https://github.com/kai5263499/container-security-awesome) | 19 | 2018 | 2019-03-07 ⏳ | — curated container and cloud-native security resources. Used by DevSecOps engineers hardening container stacks. (MIT, curated list) |
 | [command-center](https://github.com/openjs-foundation/command-center) | 3 | 2025 | 2026-04-17 | — OpenJS security and compliance monitor tracking SECURITY.md hygiene and OSSF Scorecard posture across projects. Used by open-source maintainers monitoring project security posture; the OpenJS supply-chain health monitor. (MIT) |

@@ -1,6 +1,6 @@
 # The Academy
 
-> **25 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **24 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,8 +8,8 @@ Structured learning: curricula, roadmaps and free course catalogs. We favor main
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 4 of 10 tracked GitHub repos (40%)
-- **Quiet classics (no push in 12+ months, still listed):** hacker-roadmap, Infosec Reference, SecuriBench Micro
+- **Active in the last 30 days:** 4 of 9 tracked GitHub repos (44%)
+- **Quiet classics (no push in 12+ months, still listed):** Infosec Reference, SecuriBench Micro
 - **Earliest entries:** Android Security Awesome (2014), Infosec Reference (2014), SecuriBench Micro (2014)
 
 ## Flagship picks
@@ -17,18 +17,16 @@ Structured learning: curricula, roadmaps and free course catalogs. We favor main
 | Tool | ★ Stars | Created | Last push | What it does |
 |---|---|---|---|---|
 | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | 82k | 2016 | 2026-08-27 | A list of useful payloads and bypass for Web Application Security and Pentest/CTF |
-| [hacker-roadmap](https://github.com/sundowndev/hacker-roadmap) | 15.7k | 2018 | 2023-10-16 ⏳ | A collection of hacking tools, resources and references to practice ethical hacking. |
 | [GTFOBins](https://github.com/GTFOBins/GTFOBins.github.io) | 13.8k | 2018 | 2026-05-27 | GTFOBins is a curated list of Unix-like executables that can be used to bypass local security restrictions in… |
 | [OWASP MSTG](https://github.com/OWASP/owasp-mstg) | 13.3k | 2016 | 2026-10-16 ✅ | The OWASP Mobile Application Security Testing Guide (MASTG) is a comprehensive manual for mobile app security… |
 | [HackTricks](https://github.com/HackTricks-wiki/hacktricks) | 12.6k | 2020 | 2026-10-22 ✅ | Welcome to the page where you will find each trick/technique/whatever I have learnt in CTFs, real life apps, a… |
 | [Android Security Awesome](https://github.com/ashishb/android-security-awesome) | 9.8k | 2014 | 2026-10-19 ✅ | A collection of android security related resources |
 
-## Full inventory (25 tools)
+## Full inventory (24 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
 | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | 82k | 2016 | 2026-08-27 | — the curated payload and methodology repo — copy, paste, understand, learn. Used by pentesters grabbing working payloads fast; the community cookbook for every attack class. |
-| [hacker-roadmap](https://github.com/sundowndev/hacker-roadmap) | 15.7k | 2018 | 2023-10-16 ⏳ | — the illustrated cybersecurity study/career roadmap; the "where do I start?" answer. Used by beginners planning their path into security; the free curated curriculum for self-learners. |
 | [GTFOBins](https://github.com/GTFOBins/GTFOBins.github.io) | 13.8k | 2018 | 2026-05-27 | — the living Linux binary-abuse matrix; the privilege-escalation bible. Used by pentesters finding Unix binary-abuse paths for privesc; the standard free lookup red teams quote. (GPL-3.0) |
 | [OWASP MSTG](https://github.com/OWASP/owasp-mstg) | 13.3k | 2016 | 2026-10-16 ✅ | — the Mobile Security Testing Guide: the canonical methodology for mobile app assessments. Used by mobile security testers following the standard methodology; the OWASP mobile testing guide commercial mobile audits follow. (CC-BY-SA-4.0) |
 | [HackTricks](https://github.com/HackTricks-wiki/hacktricks) | 12.6k | 2020 | 2026-10-22 ✅ | — the pentester's playbook: technique-by-technique attack references from recon to post-exploitation. Used by pentesters as the encyclopedic reference during engagements; the donation-supported playbook the community keeps current. (free; custom content license) |

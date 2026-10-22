@@ -1,18 +1,17 @@
 # 🛡️ Awesome Cyber Security Heaven ☁️🔐 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0](https://img.shields.io/badge/list%20content-CC0-1e8b44.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-![API Verified](https://img.shields.io/badge/entries%20verified-2026--10--15-blue.svg)
+![API Verified](https://img.shields.io/badge/entries%20verified-2026--10--22-blue.svg)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)
 
 <p align="center">
-  <img src="assets/banner-v2.jpg" alt="Awesome Cyber Security Heaven" width="100%">
+  <img src="assets/banner-v3.png" alt="Awesome Cyber Security Heaven" width="100%">
 </p>
 
 > **The Ultimate Curated Arsenal — 100% Free & Open Source.** A hand-curated, license-aware map of the
 > best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR,
 > DevSecOps and AI/LLM security. Every entry earns its place. 🌟
-> **2026 edition** — 509 tools, 14 realms, every link re-verified 2026-10-22. 📅
+> **2026 edition** — 500 tools, 14 realms, every link re-verified 2026-10-22. 📅
 
-🧭 **509 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
+🧭 **500 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **100% free / free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 💯 **no paywalls, no SaaS wrappers**
 
 **Legend** — ⚖️ `(GPL-…)` / `(AGPL-…)` = copyleft license · 🎁 `(free tier)` / `(freemium)` = free tier of a
 commercial service · 🔒 `(free, proprietary)` = freeware, not open source · 🏠 `(maintainer's project)` =
@@ -36,9 +35,6 @@ the curator's own tool, included transparently.
 - [🎯 The Proving Grounds — CTF Practice, Labs & Hacking Training](#-the-proving-grounds--ctf-practice-labs--hacking-training)
 - [🧰 The Workshop — Utilities & Swiss-Army Tools](#-the-workshop--utilities--swiss-army-tools)
 - [🧭 Editorial Standards](#-editorial-standards)
-- [🤝 Contributing](#-contributing)
-- [💙 Keep Heaven Free](#-keep-heaven-free)
-- [📄 License](#-license)
 
 📂 **Realm dossiers:** every realm has a deep page with the full inventory, star counts, project
 ages and last-push dates — see [`realms/`](realms/).
@@ -70,18 +66,6 @@ tier) plus activity badges. Every figure pulled from the live GitHub API (census
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🎯 [The Proving Grounds](pdfs/awesome-cyber-security-heaven-proving-grounds-ctf-practice-labs-hacking-training.pdf)    | CTF practice · labs · hacking training       |     5 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🧰 [The Workshop](pdfs/awesome-cyber-security-heaven-workshop-utilities-swiss-army-tools.pdf)                          | utilities · swiss-army tools                 |     4 |
 
----
-
-<p align="center">
-  <a href="https://2mny.com">
-    <img src="assets/2mny-globe-featured.jpg" width="860" alt="Featured Product — 2MNY Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
-  </a>
-</p>
-
-> ✨ **Featured Product 🏠 — [2MNY Website Vulnerability Scanner](https://2mny.com/free-security-scan)**
-> 200 free, self-hosted protection modules — the same 200-module engine our own platform runs, finding SQLi, XSS, SSRF and injection risks with ownership-gated, evidence-backed testing.
-> Run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
-
 ## ⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools
 Intro: The professional offensive toolkit for authorized engagements, red-team exercises and training labs — the weapons every pentester reaches for first.
 
@@ -108,7 +92,7 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [Responder](https://github.com/lgandx/Responder) - LLMNR/NBT-NS/MDNS poisoner; the fastest way to demonstrate credential-leak exposure on an authorized internal network. Used by internal penetration testers to demonstrate credential exposure on enterprise networks; the canonical LLMNR/NBT-NS poisoner. (GPL-3.0)
 - [commix](https://github.com/commixproject/commix) - Automated OS command injection detection and exploitation for web tests. Used by web pentesters for command-injection proof; a focused free tool that complements general-purpose commercial scanners. (GPL-3.0)
 - [Ghauri](https://github.com/r0oth3x49/ghauri) - A strong sqlmap alternative for error/union/blind SQLi with clever parameter tampering; slower release cadence but unique value. Used by bug bounty hunters for tricky blind, error-based and time-based SQLi.
-- [2m[2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner) - Open-source web vulnerability scanner with 200 deterministic modules: OWASP Top 10, XSS/SQLi/SSRF, subdomain takeover, WordPress and AI/LLM surface checks, CVSS-scored evidence and HTML/PDF reports. Self-hosted via Docker. Used by security teams that want evidence-backed, deterministic scanning they can self-host; the open-source alternative to paid scanner SaaS for website attack surfaces. (maintainer's project)
+- [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner) - Open-source web vulnerability scanner with 200 deterministic modules: OWASP Top 10, XSS/SQLi/SSRF, subdomain takeover, WordPress and AI/LLM surface checks, CVSS-scored evidence and HTML/PDF reports. Self-hosted via Docker. Used by security teams that want evidence-backed, deterministic scanning they can self-host; the open-source alternative to paid scanner SaaS for website attack surfaces. (maintainer's project)
 - [masscan](https://github.com/robertdavidgraham/masscan) - The fastest TCP port scanner on earth; scan the whole internet in minutes — on networks you're authorized to test. Used by researchers and recon teams for internet-scale port discovery. (AGPL-3.0)
 - [RustScan](https://github.com/bee-san/RustScan) - Modern Rust port scanner that finds open ports in seconds and pipes them straight into Nmap. Used by bug bounty hunters and sysadmins for fast port discovery with Nmap piping; a modern free alternative to legacy scanners. (GPL-3.0)
 - [Tsunami](https://github.com/google/tsunami-security-scanner) - Google's security scanner for large fleets, focused on reliably exploitable high-severity flaws with few false positives. Used by security teams scanning large fleets of internet-facing services; Google's open-source answer to commercial enterprise web scanners.
@@ -251,8 +235,6 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [DNSdumpster](https://dnsdumpster.com) - Visual DNS reconnaissance: subdomains, MX, and infrastructure maps from public records. Used by beginners and quick-recon tasks for visual DNS mapping; the free web tool that kickstarts attack-surface discovery. (free service)
 - [CeWL](https://digi.ninja/projects/cewl.php) - Custom wordlist generation by spidering target sites — the content-aware dictionary for authorized assessments. Used by pentesters building custom wordlists from target sites for password audits; the standard free custom-wordlist spider. (GPL-3.0)
 - [Awesome Censys Queries](https://github.com/thehappydinoa/awesome-censys-queries) - A curated corpus of Censys search queries for internet-wide recon. Used by CTI analysts running certified Censys hunting; the community cookbook for asset-search queries. (CC-BY-4.0, curated list)
-- [JA3](https://github.com/salesforce/ja3) - The TLS client fingerprint standard: a 12-byte hash that identifies client software across the wire. Used by defenders detecting C2 and by researchers fingerprinting TLS clients; the free hashing standard adopted by commercial sensors too. (BSD-3-Clause)
-- [HASSH](https://github.com/salesforce/hassh) - SSH key-exchange fingerprinting: identify client/server software from the KEX packet alone. Used by threat hunters fingerprinting SSH clients and servers; the open fingerprinting standard for network telemetry. (BSD-3-Clause)
 - [Recog](https://github.com/rapid7/recog) - The fingerprint database behind Metasploit and Nexpose: service banners mapped to OS and product families. Used by fingerprinting tool maintainers for service identification; the open database behind Metasploit and Rapid7 tooling. (BSD-3-Clause)
 - [nerva](https://github.com/praetorian-inc/nerva) - High-performance service fingerprinting CLI identifying 170+ protocols on TCP, UDP and SCTP with safe misconfiguration checks. Used by recon teams fingerprinting services at scale without credentials; Praetorian's open-source protocol identification engine. (Apache-2.0)
 - [JARM](https://github.com/salesforce/jarm) - Active TLS server fingerprint: identifies servers behind CDNs from their handshake behavior. Used by CTI analysts identifying TLS server infrastructure; the free passive fingerprint actively used in threat research. (BSD-3-Clause)
@@ -342,7 +324,6 @@ Intro: Where secrets live and leak — find them before attackers do, and keep t
 - [SOPS](https://github.com/getsops/sops) - Encrypted secrets in Git: edit YAML/JSON values, commit ciphertext, rotate keys. Used by DevOps teams encrypting secrets inside config repos; the open standard for gitops-friendly secret management. (MPL-2.0)
 - [age](https://github.com/FiloSottile/age) - Simple, modern, opinionated file-encryption tool for the post-GPG era. Used by developers wanting simple, modern file encryption; the spiritual successor to GPG for the gitops era.
 - [detect-secrets](https://github.com/Yelp/detect-secrets) - Enterprise secret scanner designed for baseline diffs and incremental CI audits. Used by CI pipelines baseline-scanning for secrets; Yelp's open scanner that complements commercial enterprise offerings.
-- [noseyparker](https://github.com/praetorian-inc/noseyparker) - Blazing-fast secret scanning built for huge codebases and full-history sweeps. Used by incident responders and bug hunters scanning large corpora for secrets fast; the Rust-powered open alternative for scale.
 - [siloscan](https://github.com/RandomCodeSpace/siloscan) - Offline air-gapped repository secret and code-quality scanner with 228 rules and SARIF output; zero telemetry. Used by teams scanning sensitive repositories where nothing may leave the network; the air-gap-friendly secret scanner for restricted environments. (MIT)
 - [LaZagne](https://github.com/AlessandroZ/LaZagne) - Audits which passwords your workstations remember — browsers, mail clients, OS stores — for authorized inventory and exposure checks only. Used by pentesters in authorized engagements demonstrating credential exposure on compromised hosts; the classic credential-harvesting tool. (LGPL-3.0)
 - [MAT2](https://0xacab.org/jvoisin/mat2) - Metadata Anonymisation Toolkit v2: strips hidden metadata from documents, images and more. Used by journalists and privacy-conscious users stripping metadata from documents; the free alternative to commercial redaction suites. (GPL-3.0)
@@ -367,7 +348,6 @@ Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that 
 - [KICS](https://github.com/Checkmarx/kics) - 1,000+ security queries across Terraform, Ansible, Kubernetes, Dockerfile and other IaC. Used by platform teams scanning infrastructure-as-code across platforms; the open-source alternative to commercial IaC security products.
 - [Kyverno](https://github.com/kyverno/kyverno) - CNCF policy engine for Kubernetes: validate, mutate and generate configurations as code. Used by Kubernetes platform teams enforcing policies natively in-cluster; the CNCF alternative to commercial admission-control products.
 - [kube-bench](https://github.com/aquasecurity/kube-bench) - Run the CIS Kubernetes Benchmark checks against your nodes in minutes. Used by cluster admins running CIS Kubernetes benchmarks; the open-source compliance check for cluster hardening.
-- [OWASP Dependency-Check](https://github.com/jeremylong/DependencyCheck) - The classic SCA engine: NVD-backed dependency CVE scanning for JVM/.NET/JS ecosystems. Used by CI pipelines flagging vulnerable dependencies; the OWASP alternative to commercial SCA engines.
 - [Dependency-Track](https://github.com/DependencyTrack/dependency-track) - SBOM-based continuous component analysis platform with portfolio risk dashboards. Used by supply-chain teams managing SBOMs and vulnerability exposure continuously; the OWASP alternative to commercial SBOM platforms.
 - [ScoutSuite](https://github.com/nccgroup/ScoutSuite) - The classic multi-cloud security auditor with a friendly HTML report — quiet upstream, still the reference. Used by cloud auditors assessing multi-cloud security posture; the open-source alternative to commercial cloud-security audits. (GPL-3.0)
 - [cosign](https://github.com/sigstore/cosign) - Sigstore's keyless container signing and verification; make provenance part of your pipeline. Used by supply-chain automation signing and verifying containers; the Sigstore tool making signed images the default, free.
@@ -451,7 +431,6 @@ Intro: Secure the new surface — guardrails, model-file safety and signing for 
 - [modelscan](https://github.com/protectai/modelscan) - Scan model files (pickle, safetensors) for malicious code before you load them — supply-chain defense for ML. Used by AI security teams scanning model files for pickle and format exploits; the open-source scanner for ML supply chains.
 - [OWASP Top 10 for LLM Applications](https://genai.owasp.org) - The standard risk taxonomy for LLM apps; the shared language for AI threat modeling. Used by AppSec teams auditing LLM systems; the industry-standard risk list everyone maps AI security to.
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) - The curated threat-intelligence tools and platform index. Used by CTI practitioners assembling sources and tools. (Apache-2.0, curated list)
-- [llm-guard](https://github.com/protectai/llm-guard) - Input/output security filtering for LLMs: prompt-injection defense as a pipeline stage. Used by AI engineers hardening prompts and outputs in production LLM services; the open-source defense library for injection and leakage risks. (MIT)
 - [guardana](https://github.com/guardana/guardana) - AI-security verification platform: 58 deterministic rules across model artifacts, live LLM, MCP and A2A endpoints and OTel traces, mapped to OWASP LLM/Agentic/MCP, ATLAS and NIST. Used by AI security teams auditing model stacks deterministically; the pre-1.0 release-candidate platform worth tracking. (Apache-2.0)
 - [model-transparency](https://github.com/sigstore/model-transparency) - Signing for ML models: verify exactly which model you are deploying. Used by AI governance teams documenting model provenance; the AI Alliance's open standard for model transparency labels. (Apache-2.0)
 
@@ -531,7 +510,6 @@ Intro: Learn the craft — free academies, knowledge bases, walkthroughs and car
 - [OWASP WSTG](https://owasp.org/www-project-web-security-testing-guide/) - The Web Security Testing Guide — the methodology standard for thorough assessments. Used by auditors and pentesters as the canonical assessment methodology; the free OWASP guide commercial audits map to.
 - [OWASP API Security Project](https://owasp.org/projects/api-security-project) - The API Top 10 and testing methodology: the standard reference for assessing API authentication, authorization and abuse cases. Used by API auditors mapping coverage against the canonical API risk list; the free OWASP guide every API assessment references. (CC BY-SA)
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - Concise, developer-friendly defensive guidance per topic; the fix side of every finding. Used by developers building defenses correctly; the free OWASP guidance engineers link in code reviews.
-- [hacker-roadmap](https://github.com/sundowndev/hacker-roadmap) - The illustrated cybersecurity study/career roadmap; the "where do I start?" answer. Used by beginners planning their path into security; the free curated curriculum for self-learners.
 - [Professor Messer](https://www.professormesser.com) - Free complete video courses for Security+, Network+ and CySA+; the default free cert-prep resource. Used by certification students as the default free alternative to paid bootcamps.
 - [pwn.college](https://pwn.college) - ASU's free hands-on curriculum from Linux basics to kernel exploitation, with dojo challenges. Used by students mastering binary exploitation; Arizona State's free curriculum from basics to kernel pwn.
 - [IppSec](https://ippsec.rocks) - The legendary HTB walkthrough archive; watch a master work through every box, searchable by technique. Used by HTB learners studying full walkthroughs; the free video walkthroughs that taught a generation of pentesters.
@@ -594,16 +572,13 @@ Intro: Hack legally — wargames, CTF platforms and deliberately-vulnerable apps
 - [DSVW](https://github.com/stamparm/DSVW) - Damn Small Vulnerable Web: the Top 10 in ~100 lines of Python. Used by trainers demonstrating web flaws with a single Python file; the deliberately small vulnerable app. (public domain)
 - [DVHMA](https://github.com/logicalhacking/DVHMA) - The Damn Vulnerable Hybrid Mobile App: Android+iOS appsec in one codebase. Used by mobile security students practicing hybrid-app flaws; the vulnerable hybrid mobile app lab. (Apache-2.0)
 - [DVIA-v2](https://github.com/prateek147/DVIA-v2) - Damn Vulnerable iOS App v2: the mobile testing curriculum as an app. Used by iOS security learners practicing on Swift; the free deliberately vulnerable iOS app. (MIT)
-- [DVWS (Web Services)](https://github.com/snoopysecurity/dvws) - Vulnerable web services for SOA/API security practice. Used by students practicing SOAP and REST attacks; the vulnerable web-services lab. (Apache-2.0)
 - [DVWS (Web Sockets)](https://github.com/interference-security/DVWS) - The vulnerable WebSocket app from Interference Security. Used by students practicing WebSocket-specific attacks; the vulnerable websockets lab. (MIT)
 - [damnvulnerable.me](https://github.com/skepticfx/damnvulnerable.me) - A modern vulnerable webapp for the OWASP Top 10 era. Used by mobile security students learning both Android and iOS flaws; the free vulnerable mobile apps. (MIT)
-- [Hackademic](https://github.com/Hackademic/hackademic) - WordPress-based vulnerable lab scenarios for classroom use. Used by learners practicing realistic web scenarios; the free vulnerable target used in RTB-era trainings. (GPL-3.0)
 - [Java Vulnerable Lab](https://github.com/CSPF-Founder/JavaVulnerableLab) - The Java vulnerable web application from the CSPF crew. Used by Java developers learning exploitable patterns; the free vulnerable Java application. (GPL-2.0)
 - [SentinelTestbed](https://github.com/dobin/SentinelTestbed) - A testbed app for evaluating security instrumentation. Used by engineers testing detection content against a deliberately vulnerable host; the free detection-lab target. (GPL-3.0)
 - [SocketToMe](https://digi.ninja/projects/sockettome.php) - Robin Wood's WebSocket testing challenge app. Used by learners practicing network socket exploitation; the free deliberately vulnerable service. (free service)
 - [techlogia Lab](https://techlogia.de/en/lab) - Free browser-based hacking lab for security training. Used by students practicing end-to-end web exploitation; the free vulnerable lab environment. (CC-BY-4.0)
 - [Vulnerable Node](https://github.com/cr0hn/vulnerable-node) - The Node.js vulnerable application for testing analysis tools. Used by Node.js teams auditing a realistic vulnerable app; the free Express-based training target. (MIT-style)
-- [XVWA](https://github.com/s4n7h0/xvwa) - Xtreme Vulnerable Web Application: dozens of flaws across one PHP app. Used by testers practicing the full OWASP range on one app; the Xtreme Vulnerable Web Application. (GPL-3.0)
 - [CryptOMG](https://github.com/SpiderLabs/CryptOMG) - Cryptographic flaw testbed from SpiderLabs. Used by crypto learners attacking flawed implementations; the free crypto-focused challenge set. (GPL-3.0)
 - [AzureGoat](https://github.com/ine-labs/AzureGoat) - The vulnerable-by-design Azure cloud lab. Used by cloud security learners practicing Azure attacks; the free vulnerable-by-design Azure lab. (MIT)
 - [Crackmes.one](https://crackmes.one/) - The reverse-engineering challenge community: thousands of crackmes, all legal. Used by reverse-engineering learners practicing on thousands of binaries; the free community crackme archive. (free service)
@@ -682,16 +657,25 @@ Intro: The everyday carry — decoding, proxying, dissecting and transforming an
 - [OCSF](https://github.com/ocsf/ocsf-schema) - The Open Cybersecurity Schema Framework: one schema for security events. Used by SIEM and security vendors normalizing telemetry; the open schema standard the industry is converging on. (Apache-2.0)
 - [cybersec-toolkit](https://github.com/26zl/cybersec-toolkit) - Single-command installer for 670+ security tools with an authorization-gated MCP server, allowlist and flag-denylist execution policy and a prompt-injection output sanitizer. Used by security engineers building safe tool environments for AI agents; the least-privilege installer for agent-accessible security tooling. (MIT)
 - [Netron](https://github.com/lutzroeder/netron) - Visualize ML models: the layers, weights and graph of what you deploy. Used by ML engineers inspecting model architectures; the free visualizer for neural-network files. (MIT)
+## Related Lists
+
+- [Awesome Security](https://github.com/sbilly/awesome-security) - Software, libraries, documents and resources spanning all of security.
+- [Awesome CTF](https://github.com/apsdehal/awesome-ctf) - CTF frameworks, libraries, resources, software and tutorials.
+- [Awesome OSINT](https://github.com/tracelabs/awesome-osint) - A curated collection of OSINT tools and resources maintained by Trace Labs.
+- [Awesome Reverse Engineering](https://github.com/morluto/awesome-reverse-engineering) - Reverse-engineering tools and learning resources for binaries and firmware.
+- [Awesome Cybersecurity Blue Team](https://github.com/fabacab/awesome-cybersecurity-blueteam) - Resources, tooling and use cases for cybersecurity blue teams.
+
 ## 🧭 Editorial Standards
 
 Entries must be **free (or free-tier)**, **actively maintained**, and **useful to professionals**.
-Copyleft, freemium and proprietary licenses are marked inline. Archived, stale or
-non-redistributable projects are excluded by policy. One entry is the curator's own project,
+Copyleft, freemium and proprietary licenses are marked inline. Archived and
+non-redistributable projects are excluded from the main list — the few archived classics are
+kept separately in [legacy.md](legacy.md). One entry is the curator's own project,
 marked `(maintainer's project)`.
 
-✔ Flagship entries' license & activity verified via GitHub API on 2026-10-15 — re-verified quarterly.
+✔ Flagship entries' license & activity verified via GitHub API on 2026-10-22 — re-verified quarterly.
 
-## 🤝 Contributing
+## Contributing
 
 Found a tool that belongs in Heaven? PRs are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) for
 the entry criteria (free/free-tier + maintained within the last 12 months + a one-line
@@ -700,26 +684,7 @@ the entry criteria (free/free-tier + maintained within the last 12 months + a on
 ⭐ **Found Heaven useful?** Starring is the fastest way to help other defenders and bug hunters find it —
 and it tells us the quarterly re-verification grind is worth it.
 
-## 💙 Keep Heaven Free
-
-This curation — license checks, API-verified activity, dead-link sweeps and quarterly re-verification —
-is supporter-funded. If this map saved you hours of tool-hunting:
-
-- 💵 **USDT (TRC-20):** `TVsfHEzwb9zRz9nMpGVkdL7ABTTvmUcPii`
-- 💳 **PayPal / card:** [2mny.com/support](https://2mny.com/support)
-- ⭐ **Free alternative:** press the Star button top-right — it genuinely helps others find this list.
-
-Every entry stays free. No ads, no sponsored placements, no data selling — ever.
-
-## 📄 License
-
-The list content is released under [CC0 1.0](LICENSE) (public domain dedication).
-Each linked tool retains its own license — check before commercial use.
-
----
-
-<p align="center">
-  <a href="https://2mny.com" target="_blank">
-    <img src="assets/banner-end-v2.jpg" alt="Found it useful? Star the repo — Explore 200+ free online scanners at 2mny.com" width="100%">
-  </a>
-</p>
+💙 This curation — license checks, API-verified activity, dead-link sweeps and quarterly
+re-verification — is supporter-funded. If this map saved you hours of tool-hunting, you can
+[support it by card or PayPal](https://2mny.com/support). Every entry stays free: no ads, no
+sponsored placements, no data selling — ever.
