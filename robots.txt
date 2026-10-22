@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ranakhan77.github.io/awesome-cyber-security-heaven/sitemap.xml
