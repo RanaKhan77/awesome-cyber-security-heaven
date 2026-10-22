@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awesome Cyber Security Heaven — 500 Free Curated Security Tools</title>
+<meta name="description" content="A hand-curated, license-aware map of the 500 best free cybersecurity tools — pentesting, bug bounty, OSINT, threat intel, DFIR, DevSecOps and AI/LLM security. 14 themed realms, 14 PDF dossiers, 100% free & open source.">
+<meta property="og:title" content="Awesome Cyber Security Heaven — 500 Free Curated Security Tools">
+<meta property="og:description" content="The Ultimate Curated Arsenal. 500 tools · 14 realms · 14 PDF dossiers · 100% free / free-tier · license-verified · no paywalls.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+<style>
+:root{
+  --bg:#0b1120;--bg2:#0f172a;--card:#141d33;--card2:#182342;
+  --ink:#e6edf7;--dim:#94a3bd;--line:#24304f;
+  --gold:#fbbf24;--cyan:#38bdf8;--green:#34d399;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:50;background:rgba(11,17,32,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.brand{font-weight:800;font-size:1.05rem;display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none}
+.brand .shield{font-size:1.35rem}
+.gh{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;font-size:.9rem;font-weight:600;transition:.2s}
+.gh:hover{border-color:var(--cyan);color:var(--cyan)}
+.hero{text-align:center;padding:72px 24px 56px;background:radial-gradient(60% 50% at 50% 0%,#1e2a4d 0%,var(--bg) 70%)}
+.hero h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:900;letter-spacing:-.02em;margin:14px 0 6px}
+.hero h1 .grad{background:linear-gradient(90deg,var(--gold),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .sub{color:var(--dim);max-width:760px;margin:0 auto 28px;font-size:1.06rem}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:34px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 16px;font-size:.88rem;font-weight:600}
+.chip b{color:var(--gold)}
+.cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 28px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.98rem;transition:.2s}
+.btn-primary{background:linear-gradient(90deg,#f59e0b,#fbbf24);color:#1a1206}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(251,191,36,.25)}
+.btn-ghost{border:1px solid var(--line);color:var(--ink)}
+.btn-ghost:hover{border-color:var(--cyan);color:var(--cyan)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:48px 0 8px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 12px;text-align:center}
+.stat .n{font-size:2rem;font-weight:900;color:var(--cyan)}
+.stat .l{color:var(--dim);font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+section{padding:56px 0}
+h2{font-size:1.7rem;font-weight:800;letter-spacing:-.01em;margin-bottom:6px}
+.kicker{color:var(--cyan);font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;margin-bottom:8px}
+.lead{color:var(--dim);max-width:700px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:16px}
+.realm{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;text-decoration:none;color:var(--ink);transition:.18s;position:relative}
+.realm:hover{background:var(--card2);border-color:#33507e;transform:translateY(-3px)}
+.realm .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.realm .emoji{font-size:1.7rem}
+.realm .count{background:#0e1830;border:1px solid var(--line);color:var(--gold);font-size:.76rem;font-weight:800;border-radius:999px;padding:3px 10px}
+.realm .name{font-weight:800;font-size:1.02rem;margin-bottom:4px}
+.realm .focus{color:var(--dim);font-size:.85rem}
+.realm .pdf{font-size:.68rem;font-weight:800;color:#f87171;border:1px solid #7f1d1d66;background:#7f1d1d22;border-radius:6px;padding:2px 7px;letter-spacing:.04em}
+.companions{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.comp{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;text-decoration:none;color:var(--ink);display:block;transition:.18s}
+.comp:hover{border-color:var(--green);transform:translateY(-3px)}
+.comp .t{font-weight:800;font-size:1.08rem;margin-bottom:6px}
+.comp .d{color:var(--dim);font-size:.92rem}
+.comp .m{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
+.comp .tag{font-size:.72rem;font-weight:700;color:var(--green);border:1px solid #064e3b88;border-radius:6px;padding:2px 8px;background:#064e3b22}
+footer{border-top:1px solid var(--line);padding:36px 0 48px;color:var(--dim);font-size:.9rem;text-align:center}
+footer a{color:var(--cyan);text-decoration:none}
+.badge-note{margin-top:14px;font-size:.8rem;color:#64748b}
+@media(max-width:640px){.hero{padding:52px 16px 40px}.stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven"><span class="shield">🛡️</span> Awesome Cyber Security Heaven</a>
+    <a class="gh" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven">★ View on GitHub</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div style="font-size:2.6rem">🛡️☁️🔐</div>
+    <h1>Awesome Cyber <span class="grad">Security Heaven</span></h1>
+    <p class="sub"><strong>The Ultimate Curated Arsenal — 100% Free &amp; Open Source.</strong> A hand-curated, license-aware map of the best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR, DevSecOps and AI/LLM security. Every entry earns its place.</p>
+    <div class="chips">
+      <span class="chip">🧭 <b>500</b> curated tools</span>
+      <span class="chip">🏰 <b>14</b> themed realms</span>
+      <span class="chip">🗓️ <b>2026</b> edition</span>
+      <span class="chip">🆓 100% free / free-tier</span>
+      <span class="chip">🔬 license-verified</span>
+      <span class="chip">💯 no paywalls, no SaaS wrappers</span>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-armory--offensive-security-pentesting--bug-bounty-tools">Browse the Arsenal →</a>
+      <a class="btn btn-ghost" href="#dossiers">📄 PDF Dossiers</a>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><div class="n">500</div><div class="l">Curated Tools</div></div>
+    <div class="stat"><div class="n">14</div><div class="l">Themed Realms</div></div>
+    <div class="stat"><div class="n">14</div><div class="l">PDF Dossiers</div></div>
+    <div class="stat"><div class="n">100%</div><div class="l">Free &amp; Open</div></div>
+    <div class="stat"><div class="n">2026</div><div class="l">Re-verified Edition</div></div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">The Realms</div>
+    <h2>Fourteen worlds of free security tooling</h2>
+    <p class="lead">Every realm is a deep-researched, link-verified chapter with its own PDF dossier — every tool license-checked, actively-maintained or a historically-notable classic.</p>
+    <div class="grid">
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-armory--offensive-security-pentesting--bug-bounty-tools"><div class="top"><span class="emoji">⚔️</span><span class="pdf">PDF</span><span class="count">58 tools</span></div><div class="name">The Armory</div><div class="focus">Offensive security · pentesting · bug bounty</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-bastion--hardening--defensive-infrastructure-tools"><div class="top"><span class="emoji">🛡️</span><span class="pdf">PDF</span><span class="count">34 tools</span></div><div class="name">The Bastion</div><div class="focus">Hardening · defensive infrastructure</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-watchtower--threat-intelligence-tools--feeds"><div class="top"><span class="emoji">🔭</span><span class="pdf">PDF</span><span class="count">19 tools</span></div><div class="name">The Watchtower</div><div class="focus">Threat intelligence · feeds</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-cartographers--recon-osint--attack-surface-mapping-tools"><div class="top"><span class="emoji">🗺️</span><span class="pdf">PDF</span><span class="count">45 tools</span></div><div class="name">The Cartographers</div><div class="focus">Recon · OSINT · attack-surface mapping</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-shadow-bureau--osint--public-intelligence-tools"><div class="top"><span class="emoji">🕵️</span><span class="pdf">PDF</span><span class="count">40 tools</span></div><div class="name">The Shadow Bureau</div><div class="focus">OSINT · public intelligence</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-vault--secrets-credentials--password-security-tools"><div class="top"><span class="emoji">🔑</span><span class="pdf">PDF</span><span class="count">18 tools</span></div><div class="name">The Vault</div><div class="focus">Secrets · credentials · password security</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-foundry--devsecops-cloud--container-security-tools"><div class="top"><span class="emoji">🐳</span><span class="pdf">PDF</span><span class="count">33 tools</span></div><div class="name">The Foundry</div><div class="focus">DevSecOps · cloud · container security</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-sentinel-ops--blue-team-soc--dfir-tools"><div class="top"><span class="emoji">🔵</span><span class="pdf">PDF</span><span class="count">48 tools</span></div><div class="name">The Sentinel Ops</div><div class="focus">Blue team · SOC · DFIR</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-oracles-domain--ai-security--llm-security-tools"><div class="top"><span class="emoji">🤖</span><span class="pdf">PDF</span><span class="count">6 tools</span></div><div class="name">The Oracle's Domain</div><div class="focus">AI security · LLM security</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-ai-forge--ai-dependent-security-tools"><div class="top"><span class="emoji">🧠</span><span class="pdf">PDF</span><span class="count">23 tools</span></div><div class="name">The AI Forge</div><div class="focus">AI-dependent security tools</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-free-bazaar--free-cybersecurity-apis-feeds--data"><div class="top"><span class="emoji">🆓</span><span class="pdf">PDF</span><span class="count">31 tools</span></div><div class="name">The Free Bazaar</div><div class="focus">Free cybersecurity APIs · feeds · data</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-academy--cybersecurity-learning-resources--career-paths"><div class="top"><span class="emoji">🎓</span><span class="pdf">PDF</span><span class="count">24 tools</span></div><div class="name">The Academy</div><div class="focus">Learning resources · career paths</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-proving-grounds--ctf-practice-labs--hacking-training"><div class="top"><span class="emoji">🎯</span><span class="pdf">PDF</span><span class="count">71 tools</span></div><div class="name">The Proving Grounds</div><div class="focus">CTF practice · labs · hacking training</div></a>
+      <a class="realm" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-the-workshop--utilities--swiss-army-tools"><div class="top"><span class="emoji">🧰</span><span class="pdf">PDF</span><span class="count">50 tools</span></div><div class="name">The Workshop</div><div class="focus">Utilities · swiss-army tools</div></a>
+    </div>
+  </div>
+</section>
+
+<section id="dossiers" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="kicker">Deep Research</div>
+    <h2>📄 Realm dossiers — PDF reports</h2>
+    <p class="lead">Every realm ships as a designed, printable PDF dossier — census-synced with live GitHub API stats, license mix, and the full curated inventory. Free forever, CC0.</p>
+    <div class="cta-row" style="justify-content:flex-start">
+      <a class="btn btn-primary" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven#-realm-dossiers--deep-research-pdf-reports">Open the Dossier Library →</a>
+      <a class="btn btn-ghost" href="https://github.com/RanaKhan77/awesome-cyber-security-heaven/tree/main/realms">📂 Per-realm Deep Pages</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">Companion Engines</div>
+    <h2>Scan with the same philosophy</h2>
+    <p class="lead">The Heaven list is curated by the team behind two open-source scanning engines — deterministic verdicts, self-hosted, zero AI guesswork.</p>
+    <div class="companions">
+      <a class="comp" href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">
+        <div class="t">🔒 Website-Vulnerability-Scanner</div>
+        <div class="d">Open-source website vulnerability scanner — 200 deterministic scanner modules: XSS, SQLi, SSRF, subdomain takeover, OWASP Top 10, WordPress, MCP &amp; AI/LLM security. CVSS-scored evidence, HTML/PDF reports, continuous monitoring.</div>
+        <div class="m"><span class="tag">200 modules</span><span class="tag">zero AI</span><span class="tag">self-hosted Docker</span><span class="tag">Apache-2.0</span></div>
+      </a>
+      <a class="comp" href="https://github.com/RanaKhan77/Exposure-Check-OSINT">
+        <div class="t">📧 Exposure-Check-OSINT</div>
+        <div class="d">Is your email, username, phone or password leaked? Self-hosted keyless personal exposure checker — 19 free sources: breach databases, infostealer logs, COMB 11B+ credentials, HIBP k-anonymity, 150+ platform username grid.</div>
+        <div class="m"><span class="tag">19 keyless sources</span><span class="tag">5 identifier checks</span><span class="tag">one-command Docker</span><span class="tag">Apache-2.0</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Awesome Cyber Security Heaven</strong> — 2026 edition · every link re-verified 2026-10-22 · list content <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a></p>
+    <p class="badge-note">Curated with an editorial bar: license-verified · actively maintained or historically notable · no paywalls, no SaaS wrappers.</p>
+  </div>
+</footer>
+
+</body>
+</html>
