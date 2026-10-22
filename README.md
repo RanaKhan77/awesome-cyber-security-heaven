@@ -43,7 +43,7 @@ ages and last-push dates — see [`realms/`](realms/).
 
 ## 📄 Realm Dossiers — Deep-Research PDF Reports
 
-![PDF Dossiers](https://img.shields.io/badge/PDF-Realm_Dossiers_50_pages-red?logo=adobeacrobatreader&logoColor=white)
+![PDF Dossiers](https://img.shields.io/badge/PDF-Realm_Dossiers_57_pages-red?logo=adobeacrobatreader&logoColor=white)
 
 Every realm ships as a designed, printable **PDF dossier** — dark-theme cover with live realm stats (tools,
 combined stars, GitHub share, 2026 activity), curator's notes, a maintenance snapshot, flagship picks, and a
