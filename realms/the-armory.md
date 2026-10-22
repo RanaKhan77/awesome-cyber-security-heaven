@@ -1,6 +1,14 @@
-# The Armory
+# ⚔️ The Armory
 
 > **58 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+
+<p align="center">
+  <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner" target="_blank" rel="noopener">
+    <img src="../assets/2mny-globe-featured.jpg" width="860" alt="Featured product — 2MNY Website Vulnerability Scanner: 200 free self-hosted security modules · 2mny.com" />
+  </a>
+</p>
+
+> ✨ **Featured product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)** — run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
 
 ## Curator's notes
 

@@ -1,4 +1,4 @@
-# The Bastion
+# 🛡️ The Bastion
 
 > **34 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
