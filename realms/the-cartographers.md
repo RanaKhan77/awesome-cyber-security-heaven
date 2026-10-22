@@ -1,6 +1,6 @@
 # The Cartographers
 
-> **47 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **45 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,8 +8,8 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 25 of 42 tracked GitHub repos (60%)
-- **Quiet classics (no push in 12+ months, still listed):** dnstwist, assetfinder, JA3, VHostScan, HASSH, ike-scan
+- **Active in the last 30 days:** 25 of 40 tracked GitHub repos (63%)
+- **Quiet classics (no push in 12+ months, still listed):** dnstwist, assetfinder, VHostScan, ike-scan
 - **Earliest entries:** dnsrecon (2010), theHarvester (2011), ike-scan (2013)
 
 ## Flagship picks
@@ -23,7 +23,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [ffuf](https://github.com/ffuf/ffuf) | 16.9k | 2018 | 2026-09-26 ✅ | Fast web fuzzer written in Go |
 | [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-07-19 | In-depth attack surface mapping and asset discovery |
 
-## Full inventory (47 tools)
+## Full inventory (45 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -47,7 +47,6 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [assetfinder](https://github.com/tomnomnom/assetfinder) | 3.7k | 2019 | 2024-06-07 ⏳ | — passive subdomain discovery that polls a dozen public sources and prints a clean list — no keys needed; quiet upstream, still the classic. Used by bug bounty hunters for quick passive subdomain finds; the lightweight staple of recon one-liners. |
 | [massdns](https://github.com/blechschmidt/massdns) | 3.7k | 2016 | 2026-09-27 ✅ | — high-performance DNS stub resolver for bulk subdomain brute-forcing at scale. Used by recon pipelines resolving millions of subdomains; the free high-performance resolver no commercial tool beats on price. (GPL-3.0) |
 | [ParamSpider](https://github.com/devanshbatham/ParamSpider) | 3.2k | 2020 | 2026-03-07 | — mines archived URLs and parameters from the Wayback Machine to seed injection testing. Used by bug hunters mining hidden parameters from archives; the free parameter-mining step before injection testing. |
-| [JA3](https://github.com/salesforce/ja3) | 3.1k | 2017 | 2025-05-01 ⏳ | — the TLS client fingerprint standard: a 12-byte hash that identifies client software across the wire. Used by defenders detecting C2 and by researchers fingerprinting TLS clients; the free hashing standard adopted by commercial sensors too. (BSD-3-Clause) |
 | [dnsrecon](https://github.com/darkoperator/dnsrecon) | 3.1k | 2010 | 2026-10-12 ✅ | — DNS enumeration workhorse: records, zone transfers, reverse lookups and subdomain brute-forcing. Used by pentesters enumerating DNS records and zone transfers; the veteran free DNS enumeration tool. (GPL-2.0) |
 | [FinalRecon](https://github.com/thewhiteh4t/FinalRecon) | 3k | 2019 | 2026-06-01 | — all-in-one web recon: headers, whois, SSL, DNS, subdomains, ports, directories and traceroute in a single modular run. Used by pentesters running a fast first-pass recon sweep before deep-dive tooling; the modular Python alternative to juggling ten single-purpose scripts. (MIT) |
 | [dnsx](https://github.com/projectdiscovery/dnsx) | 2.9k | 2020 | 2026-10-21 ✅ | — multi-purpose DNS toolkit: reverse lookups, wildcard detection, response filtering. Used by recon teams for DNS querying and reverse lookups at scale; the ProjectDiscovery DNS multitool. |
@@ -57,7 +56,6 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [VHostScan](https://github.com/codingo/VHostScan) | 1.3k | 2017 | 2025-08-18 ⏳ | — enumerates virtual hosts on a shared IP — discover the neighbors your target lives with. Used by pentesters discovering virtual hosts on shared infrastructure; a focused free tool for shared-hosting engagements. (GPL-3.0) |
 | [Awesome Censys Queries](https://github.com/thehappydinoa/awesome-censys-queries) | 1.2k | 2022 | 2026-07-20 | — a curated corpus of Censys search queries for internet-wide recon. Used by CTI analysts running certified Censys hunting; the community cookbook for asset-search queries. (CC-BY-4.0, curated list) |
 | [Recog](https://github.com/rapid7/recog) | 796 | 2013 | 2026-10-12 ✅ | — the fingerprint database behind Metasploit and Nexpose: service banners mapped to OS and product families. Used by fingerprinting tool maintainers for service identification; the open database behind Metasploit and Rapid7 tooling. (BSD-3-Clause) |
-| [HASSH](https://github.com/salesforce/hassh) | 554 | 2018 | 2025-05-01 ⏳ | — SSH key-exchange fingerprinting: identify client/server software from the KEX packet alone. Used by threat hunters fingerprinting SSH clients and servers; the open fingerprinting standard for network telemetry. (BSD-3-Clause) |
 | [ARL-Next](https://github.com/owl234/ARL-Next) | 469 | 2026 | 2026-10-22 ✅ | — attack-surface reconnaissance platform combining subdomain enumeration, port scanning, fingerprinting and a nuclei PoC pipeline with task scheduling. Used by attack-surface teams running scheduled recon over large asset lists; the actively maintained continuation of the ARL recon platform. (GPL-3.0) |
 | [ike-scan](https://github.com/royhills/ike-scan) | 423 | 2013 | 2024-09-15 ⏳ | — IKE/IPsec security auditing: fingerprint VPN gateways and enumerate transform proposals. Used by network pentesters fingerprinting IKE/VPN endpoints; the classic free IPSec scanner. (GPL-2.0) |
 | [nerva](https://github.com/praetorian-inc/nerva) | 370 | 2026 | 2026-10-21 ✅ | — high-performance service fingerprinting CLI identifying 170+ protocols on TCP, UDP and SCTP with safe misconfiguration checks. Used by recon teams fingerprinting services at scale without credentials; Praetorian's open-source protocol identification engine. (Apache-2.0) |

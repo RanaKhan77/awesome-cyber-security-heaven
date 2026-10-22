@@ -1,6 +1,6 @@
 # The Proving Grounds
 
-> **74 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **71 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,9 +8,9 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 11 of 32 tracked GitHub repos (34%)
-- **Quiet classics (no push in 12+ months, still listed):** Metasploitable 3, HEVD, APTSimulator, OWASP NodeGoat, XVWA, flightsim
-- **Earliest entries:** WackoPicko (2010), CryptOMG (2012), Hackademic (2012)
+- **Active in the last 30 days:** 11 of 29 tracked GitHub repos (38%)
+- **Quiet classics (no push in 12+ months, still listed):** Metasploitable 3, HEVD, APTSimulator, OWASP NodeGoat, flightsim
+- **Earliest entries:** WackoPicko (2010), CryptOMG (2012)
 
 ## Flagship picks
 
@@ -23,7 +23,7 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [WebGoat](https://github.com/WebGoat/WebGoat) | 9.4k | 2015 | 2026-10-19 ✅ | WebGoat is a deliberately insecure application |
 | [GOAD](https://github.com/Orange-Cyberdefense/GOAD) | 8.5k | 2021 | 2026-03-12 | game of active directory |
 
-## Full inventory (74 tools)
+## Full inventory (71 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -40,7 +40,6 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [APTSimulator](https://github.com/NextronSystems/APTSimulator) | 2.8k | 2018 | 2025-09-23 ⏳ | — makes a Windows host look compromised so you can test detections safely. Used by blue teams generating APT-style artifacts for detection testing; the free Windows simulator for purple exercises. (MIT) |
 | [Splunk Attack Range](https://github.com/splunk/attack_range) | 2.6k | 2019 | 2026-10-20 ✅ | — builds instrumented detection labs: attack, collect and test in one workflow. Used by detection engineers building full attack/defend labs in the cloud; the free Splunk range that emulates commercial cyber ranges. (Apache-2.0) |
 | [OWASP NodeGoat](https://github.com/OWASP/NodeGoat) | 2.1k | 2013 | 2024-06-15 ⏳ | — the Node.js vulnerable-by-design app: the Top 10 in a controllable lab. Used by Node.js teams learning the OWASP Top 10 in their stack; the OWASP training app for JavaScript. (Apache-2.0) |
-| [XVWA](https://github.com/s4n7h0/xvwa) | 1.8k | 2015 | 2020-09-12 ⏳ | — Xtreme Vulnerable Web Application: dozens of flaws across one PHP app. Used by testers practicing the full OWASP range on one app; the Xtreme Vulnerable Web Application. (GPL-3.0) |
 | [OWASP Mutillidae II](https://github.com/webpwnized/mutillidae) | 1.5k | 2018 | 2026-09-24 ✅ | — deliberately vulnerable app that re-creates every OWASP Top 10 issue, resettable per install. Used by teachers demonstrating nearly every OWASP vulnerability; the deliberately vulnerable training app. (GPL-3.0) |
 | [flightsim](https://github.com/alphasoc/flightsim) | 1.4k | 2018 | 2024-04-04 ⏳ | — generates malicious network traffic for IDS/NDR validation; defender-side only. Used by defenders safely generating malicious-looking network traffic; the free attack simulator for testing detections. (CC-BY-4.0) |
 | [DIVA Android](https://github.com/payatu/diva-android) | 1.2k | 2016 | 2023-05-19 ⏳ | — Damn Insecure and Vulnerable App: the Android training classic. Used by mobile security students learning Android flaw classes; the classic deliberately vulnerable Android app. (GPL-3.0) |
@@ -48,12 +47,10 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [AzureGoat](https://github.com/ine-labs/AzureGoat) | 967 | 2022 | 2024-10-30 ⏳ | — the vulnerable-by-design Azure cloud lab. Used by cloud security learners practicing Azure attacks; the free vulnerable-by-design Azure lab. (MIT) |
 | [DSVW](https://github.com/stamparm/DSVW) | 883 | 2015 | 2026-08-19 | — Damn Small Vulnerable Web: the Top 10 in ~100 lines of Python. Used by trainers demonstrating web flaws with a single Python file; the deliberately small vulnerable app. (public domain) |
 | [Vulnerable Node](https://github.com/cr0hn/vulnerable-node) | 493 | 2016 | 2026-10-06 ✅ | — the Node.js vulnerable application for testing analysis tools. Used by Node.js teams auditing a realistic vulnerable app; the free Express-based training target. (MIT-style) |
-| [DVWS (Web Services)](https://github.com/snoopysecurity/dvws) | 461 | 2016 | 2021-12-06 ⏳ | — vulnerable web services for SOA/API security practice. Used by students practicing SOAP and REST attacks; the vulnerable web-services lab. (Apache-2.0) |
 | [DVWS (Web Sockets)](https://github.com/interference-security/DVWS) | 365 | 2017 | 2026-07-24 | — the vulnerable WebSocket app from Interference Security. Used by students practicing WebSocket-specific attacks; the vulnerable websockets lab. (MIT) |
 | [0l4bs](https://github.com/tegal1337/0l4bs) | 355 | 2020 | 2021-06-02 ⏳ | — XSS practice labs with progressive difficulty. Used by students practicing SQLi, XSS and command injection individually; the free isolated labs per bug class. (GPL-3.0) |
 | [WackoPicko](https://github.com/adamdoupe/WackoPicko) | 354 | 2010 | 2024-05-25 ⏳ | — the vulnerable app built for testing vulnerability scanners — a frozen-by-design calibration target for your tooling. Used by researchers and instructors demonstrating classic web flaws; the free academic vulnerable social network. |
 | [lfi-labs](https://github.com/paralax/lfi-labs) | 335 | 2015 | 2024-04-08 ⏳ | — LFI/RFI/commix practice pages: one flaw family, many variants. Used by learners practicing local file inclusion safely; the free PHP lab for LFI classes. (MIT) |
-| [Hackademic](https://github.com/Hackademic/hackademic) | 325 | 2012 | 2020-10-30 ⏳ | — WordPress-based vulnerable lab scenarios for classroom use. Used by learners practicing realistic web scenarios; the free vulnerable target used in RTB-era trainings. (GPL-3.0) |
 | [Java Vulnerable Lab](https://github.com/CSPF-Founder/JavaVulnerableLab) | 278 | 2015 | 2026-10-09 ✅ | — the Java vulnerable web application from the CSPF crew. Used by Java developers learning exploitable patterns; the free vulnerable Java application. (GPL-2.0) |
 | [DVHMA](https://github.com/logicalhacking/DVHMA) | 274 | 2015 | 2018-08-22 ⏳ | — the Damn Vulnerable Hybrid Mobile App: Android+iOS appsec in one codebase. Used by mobile security students practicing hybrid-app flaws; the vulnerable hybrid mobile app lab. (Apache-2.0) |
 | [CryptOMG](https://github.com/SpiderLabs/CryptOMG) | 195 | 2012 | 2015-06-25 ⏳ | — cryptographic flaw testbed from SpiderLabs. Used by crypto learners attacking flawed implementations; the free crypto-focused challenge set. (GPL-3.0) |
