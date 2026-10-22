@@ -3,7 +3,9 @@
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)
 
 <p align="center">
-  <img src="assets/banner-v3.png" alt="Awesome Cyber Security Heaven" width="100%">
+  <a href="https://2mny.com" target="_blank" rel="noopener">
+    <img src="assets/banner-v3.png" alt="Awesome Cyber Security Heaven" width="100%">
+  </a>
 </p>
 
 > **The Ultimate Curated Arsenal — 100% Free & Open Source.** A hand-curated, license-aware map of the
@@ -681,10 +683,19 @@ Found a tool that belongs in Heaven? PRs are welcome — see [CONTRIBUTING.md](C
 the entry criteria (free/free-tier + maintained within the last 12 months + a one-line
 "when to use it" case + license disclosed if non-permissive).
 
+## Footnotes
+
 ⭐ **Found Heaven useful?** Starring is the fastest way to help other defenders and bug hunters find it —
 and it tells us the quarterly re-verification grind is worth it.
 
 💙 This curation — license checks, API-verified activity, dead-link sweeps and quarterly
 re-verification — is supporter-funded. If this map saved you hours of tool-hunting, you can
-[support it by card or PayPal](https://2mny.com/support). Every entry stays free: no ads, no
-sponsored placements, no data selling — ever.
+[support it by card or PayPal](https://2mny.com/support). USDT (TRC-20):
+`TVsfHEzwb9zRz9nMpGVkdL7ABTTvmUcPii`. Every entry stays free: no ads, no sponsored
+placements, no data selling — ever.
+
+<p align="center">
+  <a href="https://2mny.com" target="_blank" rel="noopener">
+    <img src="assets/banner-end-v2.jpg" alt="Found it useful? Star the repo — explore 200+ free online scanners at 2mny.com" width="100%">
+  </a>
+</p>
