@@ -1,80 +1,81 @@
 # The Sentinel Ops
 
-> **48 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-21** (re-verified monthly)
+> **48 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
 The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs and DFIR toolkits. The fingerprinting standards (JA3, HASSH) live here: archived upstream, still canonical, still cited in nearly every detection paper.
 
-## Maintenance snapshot (2026-10-21)
+## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 26 of 46 tracked GitHub repos (57%)
-- **Quiet classics (no push in 2+ years, still the standard):** sysmon-config, Revoke-Obfuscation, DeepBlueCLI, HELK
-- **Youngest entries:** The Sleuth Kit (2011), Arkime (2012), Zeek (2012)
+- **Active in the last 30 days:** 35 of 47 tracked GitHub repos (74%)
+- **Quiet classics (no push in 12+ months, still listed):** sysmon-config, HELK, DeepBlueCLI, Revoke-Obfuscation
+- **Earliest entries:** The Sleuth Kit (2011), Zeek (2012), Arkime (2012)
 
 ## Flagship picks
 
 | Tool | ★ Stars | Created | Last push | What it does |
 |---|---|---|---|---|
-| [osquery](https://github.com/osquery/osquery) | 23.6k | 2014 | 2026-10-14 ✅ | SQL powered operating system instrumentation, monitoring, and analytics. |
-| [Wazuh](https://github.com/wazuh/wazuh) | 17.3k | 2015 | 2026-10-15 ✅ | Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads. |
-| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | 12.7k | 2017 | 2026-10-13 ✅ | Small and highly portable detection tests based on MITRE's ATT&CK. |
-| [Sigma](https://github.com/SigmaHQ/sigma) | 11.2k | 2016 | 2026-10-15 ✅ | Main Sigma Rule Repository |
+| [osquery](https://github.com/osquery/osquery) | 23.7k | 2014 | 2026-10-22 ✅ | SQL powered operating system instrumentation, monitoring, and analytics. |
+| [Wazuh](https://github.com/wazuh/wazuh) | 17.4k | 2015 | 2026-10-22 ✅ | Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads. |
+| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | 12.7k | 2017 | 2026-10-21 ✅ | Small and highly portable detection tests based on MITRE's ATT&CK. |
+| [Sigma](https://github.com/SigmaHQ/sigma) | 11.3k | 2016 | 2026-10-21 ✅ | Main Sigma Rule Repository |
 | [awesome-honeypots](https://github.com/paralax/awesome-honeypots) | 10.6k | 2015 | 2026-06-01 | an awesome list of honeypot resources |
-| [YARA](https://github.com/VirusTotal/yara) | 9.9k | 2012 | 2026-10-15 ✅ | The pattern matching swiss knife |
+| [YARA](https://github.com/VirusTotal/yara) | 10k | 2012 | 2026-10-21 ✅ | The pattern matching swiss knife |
 
 ## Full inventory (48 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
-| [osquery](https://github.com/osquery/osquery) | 23.6k | 2014 | 2026-10-14 ✅ | — operate endpoints as a SQL database: ask security questions, get rows back. |
-| [Wazuh](https://github.com/wazuh/wazuh) | 17.3k | 2015 | 2026-10-15 ✅ | — open-source XDR/SIEM: FIM, log analysis, vulnerability detection and compliance reporting in one free platform. (GPL-2.0) |
-| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | 12.7k | 2017 | 2026-10-13 ✅ | — library of executable detection tests mapped to MITRE ATT&CK; prove your defenses fire. |
-| [Sigma](https://github.com/SigmaHQ/sigma) | 11.2k | 2016 | 2026-10-15 ✅ | — vendor-neutral SIEM detection rules — "Snort for logs", convertible to Splunk/Sentinel/Elastic. (DRL 1.1 rules) |
-| [awesome-honeypots](https://github.com/paralax/awesome-honeypots) | 10.6k | 2015 | 2026-06-01 | — the curated honeypot directory: deception tech from low to high interaction. (curated list) |
-| [YARA](https://github.com/VirusTotal/yara) | 9.9k | 2012 | 2026-10-15 ✅ | — the pattern-matching language for malware identification — if you write detections, you write YARA. (BSD-3) |
-| [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response) | 9.5k | 2015 | 2026-10-13 ✅ | — the curated IR toolkit index used across the industry. (Apache-2.0, curated list) |
-| [ntopng](https://github.com/ntop/ntopng) | 8.3k | 2015 | 2026-10-15 ✅ | — high-speed web-based traffic monitoring: flows, top talkers and protocols with long historical views. (GPL-3.0) |
-| [Zeek](https://github.com/zeek/zeek) | 8.1k | 2012 | 2026-10-15 ✅ | — the network analysis framework that turns raw traffic into structured, queryable intelligence. (BSD-3) |
-| [Arkime](https://github.com/arkime/arkime) | 7.5k | 2012 | 2026-10-15 ✅ | — full-packet capture plus indexed search at scale (formerly Moloch); PCAP you can actually query. |
-| [Suricata](https://github.com/OISF/suricata) | 6.7k | 2012 | 2026-10-09 ✅ | — high-performance IDS/IPS/NSM engine with full protocol logging and Eve JSON output. (GPL-2.0) |
-| [capa](https://github.com/mandiant/capa) | 6.2k | 2020 | 2026-10-15 ✅ | — identifies what malware actually does: maps capabilities and ATT&CK techniques straight from binaries. |
-| [pspy](https://github.com/DominicBreuker/pspy) | 6.2k | 2018 | 2026-03-01 | — watch process and file events on any Linux box without root — catch cron-based persistence in the act. (GPL-3.0) |
-| [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) | 5.7k | 2017 | 2024-07-03 ⏳ | — the battle-tested Sysmon configuration behind thousands of SOC detections; the de-facto starting point for Windows telemetry. |
-| [ThreatMapper](https://github.com/deepfence/ThreatMapper) | 5.3k | 2020 | 2026-06-01 | — Deepfence's open runtime threat scanner: finds and ranks exploitable vulnerabilities in cloud and container workloads. |
-| [Security Onion](https://github.com/Security-Onion-Solutions/securityonion) | 4.9k | 2018 | 2026-10-14 ✅ | — the free SOC-in-a-box distro: Suricata, Zeek, Elastic, dashboards and detection pipelines. (Elastic License 2.0) |
-| [Threat Hunter Playbook](https://github.com/OTRF/ThreatHunter-Playbook) | 4.7k | 2017 | 2026-01-12 | — open hunting playbooks as code: hypotheses mapped to data sources and detections. (MIT) |
-| [Volatility 3](https://github.com/volatilityfoundation/volatility3) | 4.5k | 2014 | 2026-10-12 ✅ | — memory forensics framework — RAM malware has nowhere to hide. |
-| [Velociraptor](https://github.com/Velocidex/velociraptor) | 4.3k | 2018 | 2026-10-15 ✅ | — endpoint visibility and DFIR at scale: hunt across thousands of machines with one query language. (AGPL-3.0) |
-| [Awesome YARA](https://github.com/InQuest/awesome-yara) | 4.3k | 2017 | 2026-06-15 | — curated YARA rules, tooling and research for malware hunting. (CC-BY-4.0, curated list) |
-| [HELK](https://github.com/Cyb3rWard0g/HELK) | 3.9k | 2017 | 2024-06-01 ⏳ | — the Hunting ELK: a pre-built Elasticsearch/Kafka/Spark lab for threat-hunting research — a research project with low churn. (GPL-3.0) |
-| [CAPEv2](https://github.com/kevoreilly/CAPEv2) | 3.6k | 2019 | 2026-10-14 ✅ | — the maintained Cuckoo sandbox: automated malware detonation, config extraction and reporting. (GPL-3.0) |
-| [Snort 3](https://github.com/snort3/snort3) | 3.4k | 2014 | 2026-04-23 | — the next generation of the classic open-source IDS/IPS, rewritten in C++ with multi-threading. (GPL-2.0) |
-| [Timesketch](https://github.com/google/timesketch) | 3.4k | 2014 | 2026-10-14 ✅ | — Google's collaborative forensic timeline analysis for multi-investigator cases. |
-| [The Sleuth Kit](https://github.com/sleuthkit/sleuthkit) | 3.2k | 2011 | 2026-10-15 ✅ | — the forensic library behind half the DFIR tools you know: disks, filesystems and timelines. (CPL-1.0) |
-| [sysmon-modular](https://github.com/olafhartong/sysmon-modular) | 3.2k | 2018 | 2026-10-14 ✅ | — Swiss-army Sysmon configuration: per-ATT&CK-technique logging modules you compose yourself. |
-| [Elastic detection-rules](https://github.com/elastic/detection-rules) | 2.7k | 2020 | 2026-10-15 ✅ | — the detection corpus for Elastic Security: hundreds of maintained rules mapped to MITRE. (Elastic-2.0) |
-| [Fibratus](https://github.com/rabbitstack/fibratus) | 2.6k | 2016 | 2026-10-14 ✅ | — Windows kernel-event tracing with YARA filtering; a Swiss army knife for endpoint visibility. (Apache-2.0) |
-| [Shuffle](https://github.com/Shuffle/Shuffle) | 2.5k | 2020 | 2026-10-12 ✅ | — self-hosted SOAR automation: connect your TIP, SIEM and responders in drag-and-drop workflows. (AGPL-3.0) |
-| [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI) | 2.4k | 2016 | 2023-10-14 ⏳ | — SANS blue-team PowerShell for fast Windows event-log hunting: logons, mutants, suspicious service installs — quiet upstream but still a blue-team staple. (GPL-3.0) |
-| [Kismet](https://github.com/kismetwireless/kismet) | 2.2k | 2016 | 2026-10-15 ✅ | — passive wireless detection layer: discovers Wi-Fi and BLE devices, rogue access points and wardrives. (GPL-2.0) |
-| [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux) | 2.2k | 2020 | 2026-09-14 ✅ | — the Windows-trusted system monitor ported to Linux. (MIT) |
-| [Nagios Core](https://github.com/NagiosEnterprises/nagioscore) | 2.1k | 2014 | 2026-08-07 | — the classic infrastructure monitor: availability checks that surface outages and anomalies early. (GPL-2.0) |
-| [FIR](https://github.com/certsocietegenerale/FIR) | 2.0k | 2015 | 2026-09-14 ✅ | — Fast Incident Response from Société Générale: ticketing built for IR workflows. (GPL-3.0) |
-| [msticpy](https://github.com/microsoft/msticpy) | 2.0k | 2019 | 2026-10-15 ✅ | — SecOps analysis library from Microsoft: pivots, timelines and hunting helpers for Jupyter. (MIT) |
-| [Netcap](https://github.com/dreadl0ck/netcap) | 1.8k | 2018 | 2026-10-13 ✅ | — security audit framework over network traffic: sensors, audit and collection from live or captured streams. (GPL-3.0) |
-| [go-audit](https://github.com/slackhq/go-audit) | 1.7k | 2016 | 2026-10-14 ✅ | — auditd in JSON for Linux: structured events that pipelines can actually parse. (MIT) |
-| [Conpot](https://github.com/mushorg/conpot) | 1.5k | 2013 | 2026-10-12 ✅ | — ICS/SCADA honeypot: emulates the protocols that run factories, safely. (GPL-2.0) |
-| [NoScript](https://github.com/hackademix/noscript) | 1.2k | 2018 | 2026-10-05 ✅ | — the browser extension that blocks JavaScript and plugin content by default — client-side hardening's origin story. (GPL-3.0) |
-| [ElastAlert2](https://github.com/jertel/elastalert2) | 1.1k | 2020 | 2026-10-09 ✅ | — the maintained successor to ElastAlert: flexible alerting on Elasticsearch data with dozens of rule types. |
-| [HijackThis](https://github.com/dragokas/hijackthis) | 817 | 2016 | 2026-07-02 | — the veteran Windows hijack analyzer: scans browser and OS settings for malicious tampering. (GPL-2.0) |
-| [Krawl](https://github.com/BlessedRebuS/Krawl) | 783 | 2025 | 2026-10-14 ✅ | — deception-driven defense: a honeypot server framework for research. (MIT) |
-| [Revoke-Obfuscation](https://github.com/danielbohannon/Revoke-Obfuscation) | 754 | 2017 | 2023-12-01 ⏳ | — Daniel Bohannon's framework for detecting obfuscated PowerShell at scale; quiet upstream, still the reference. |
-| [RITA](https://github.com/activecm/rita) | 657 | 2024 | 2026-10-01 ✅ | — detects C2 beaconing in Zeek logs — traffic analysis that finds the quiet intruders. (GPL-3.0) |
-| [Sublime Rules](https://github.com/sublime-security/sublime-rules) | 379 | 2021 | 2026-10-15 ✅ | — the community rule corpus for the Sublime platform. (MIT) |
-| [Sublime Platform](https://github.com/sublime-security/sublime-platform) | 275 | 2021 | 2026-10-10 ✅ | — open email threat detection: rules-as-code against phishing and BEC. (MIT) |
-| [logarc](https://github.com/FRTX045/logarc) | 1 | 2026 | 2026-10-21 ✅ | — offline access-log forensics that reconstructs attacker activity graphs — the offline log-forensics analyzer. (MIT) |
 |---|---|---|---|---|
-| [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/) | — | — | — | — Microsoft's free Windows admin and DFIR toolkit: Process Explorer, Autoruns, Procmon and dozens more. (free, proprietary) |
+| [osquery](https://github.com/osquery/osquery) | 23.7k | 2014 | 2026-10-22 ✅ | — operate endpoints as a SQL database: ask security questions, get rows back. Used by IT-security teams querying endpoints with SQL; the open-source foundation Facebook built for fleet visibility. |
+| [Wazuh](https://github.com/wazuh/wazuh) | 17.4k | 2015 | 2026-10-22 ✅ | — open-source XDR/SIEM: FIM, log analysis, vulnerability detection and compliance reporting in one free platform. Used by SOC teams running open XDR and SIEM; the free alternative to Splunk, QRadar and commercial EDR stacks. (GPL-2.0) |
+| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | 12.7k | 2017 | 2026-10-21 ✅ | — library of executable detection tests mapped to MITRE ATT&CK; prove your defenses fire. Used by purple teams testing detections per ATT&CK technique; the open-source alternative to commercial breach-attack-simulation platforms. |
+| [Sigma](https://github.com/SigmaHQ/sigma) | 11.3k | 2016 | 2026-10-21 ✅ | — vendor-neutral SIEM detection rules — "Snort for logs", convertible to Splunk/Sentinel/Elastic. Used by detection engineers writing portable detection rules; the vendor-neutral alternative to proprietary SIEM rule languages. (DRL 1.1 rules) |
+| [awesome-honeypots](https://github.com/paralax/awesome-honeypots) | 10.6k | 2015 | 2026-06-01 | — the curated honeypot directory: deception tech from low to high interaction. Used by deception researchers picking deployable honeypots. (curated list) |
+| [YARA](https://github.com/VirusTotal/yara) | 10k | 2012 | 2026-10-21 ✅ | — the pattern-matching language for malware identification — if you write detections, you write YARA. Used by malware analysts everywhere to classify samples; the pattern-matching standard commercial AV also uses. (BSD-3) |
+| [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response) | 9.5k | 2015 | 2026-10-13 ✅ | — the curated IR toolkit index used across the industry. Used by DFIR professionals assembling their toolkit. (Apache-2.0, curated list) |
+| [ntopng](https://github.com/ntop/ntopng) | 8.3k | 2015 | 2026-10-21 ✅ | — high-speed web-based traffic monitoring: flows, top talkers and protocols with long historical views. Used by network engineers observing traffic in real time; the open-source traffic-analysis alternative to commercial NPM tools. (GPL-3.0) |
+| [Zeek](https://github.com/zeek/zeek) | 8.1k | 2012 | 2026-10-22 ✅ | — the network analysis framework that turns raw traffic into structured, queryable intelligence. Used by NSM teams producing rich network telemetry; the framework most SOC pipelines are built around. (BSD-3) |
+| [Arkime](https://github.com/arkime/arkime) | 7.5k | 2012 | 2026-10-22 ✅ | — full-packet capture plus indexed search at scale (formerly Moloch); PCAP you can actually query. Used by NSM teams capturing and searching full packets at scale; the open-source alternative to commercial full-packet-capture appliances. |
+| [Suricata](https://github.com/OISF/suricata) | 6.8k | 2012 | 2026-10-20 ✅ | — high-performance IDS/IPS/NSM engine with full protocol logging and Eve JSON output. Used by network defenders running IDS/IPS at line rate; the open-source engine behind countless commercial and gov deployments. (GPL-2.0) |
+| [capa](https://github.com/mandiant/capa) | 6.3k | 2020 | 2026-10-21 ✅ | — identifies what malware actually does: maps capabilities and ATT&CK techniques straight from binaries. Used by malware analysts determining what binaries can do; the open-source capability engine from Mandiant research. |
+| [pspy](https://github.com/DominicBreuker/pspy) | 6.2k | 2018 | 2026-03-01 | — watch process and file events on any Linux box without root — catch cron-based persistence in the act. Used by pentesters and CTF players watching process activity without root; the standard privesc enumeration tool. (GPL-3.0) |
+| [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) | 5.7k | 2017 | 2024-07-03 ⏳ | — the battle-tested Sysmon configuration behind thousands of SOC detections; the de-facto starting point for Windows telemetry. Used by blue teams deploying hardened Windows logging; the widely-adopted SwiftOnSecurity baseline. |
+| [ThreatMapper](https://github.com/deepfence/ThreatMapper) | 5.3k | 2020 | 2026-06-01 | — Deepfence's open runtime threat scanner: finds and ranks exploitable vulnerabilities in cloud and container workloads. Used by cloud security teams mapping runtime risks; Deepfence's open-source alternative to commercial CNAPPs. |
+| [Security Onion](https://github.com/Security-Onion-Solutions/securityonion) | 4.9k | 2018 | 2026-10-19 ✅ | — the free SOC-in-a-box distro: Suricata, Zeek, Elastic, dashboards and detection pipelines. Used by SOC and DFIR teams as a complete network-security-monitoring distro; the free alternative to commercial NSM suites. (Elastic License 2.0) |
+| [Threat Hunter Playbook](https://github.com/OTRF/ThreatHunter-Playbook) | 4.7k | 2017 | 2026-01-12 | — open hunting playbooks as code: hypotheses mapped to data sources and detections. Used by threat hunters learning detection strategy; the open knowledge base for hunting methodology. (MIT) |
+| [Volatility 3](https://github.com/volatilityfoundation/volatility3) | 4.5k | 2014 | 2026-10-12 ✅ | — memory forensics framework — RAM malware has nowhere to hide. Used by DFIR analysts extracting artifacts from memory images; the framework that defined open memory forensics. |
+| [Velociraptor](https://github.com/Velocidex/velociraptor) | 4.4k | 2018 | 2026-10-22 ✅ | — endpoint visibility and DFIR at scale: hunt across thousands of machines with one query language. Used by DFIR teams hunting across thousands of endpoints; the open-source alternative to commercial endpoint-forensics platforms. (AGPL-3.0) |
+| [Awesome YARA](https://github.com/InQuest/awesome-yara) | 4.3k | 2017 | 2026-06-15 | — curated YARA rules, tooling and research for malware hunting. Used by malware analysts collecting detection rules. (CC-BY-4.0, curated list) |
+| [HELK](https://github.com/Cyb3rWard0g/HELK) | 3.9k | 2017 | 2024-06-01 ⏳ | — the Hunting ELK: a pre-built Elasticsearch/Kafka/Spark lab for threat-hunting research — a research project with low churn. Used by threat-hunting learners standing up an ELK hunting lab; the open-source project for detection-engineering practice. (GPL-3.0) |
+| [CAPEv2](https://github.com/kevoreilly/CAPEv2) | 3.6k | 2019 | 2026-10-20 ✅ | — the maintained Cuckoo sandbox: automated malware detonation, config extraction and reporting. Used by malware analysts running automated sandbox detonations; the open-source alternative to commercial sandboxes like JoeSandbox. (GPL-3.0) |
+| [Snort 3](https://github.com/snort3/snort3) | 3.4k | 2014 | 2026-10-21 ✅ | — the next generation of the classic open-source IDS/IPS, rewritten in C++ with multi-threading. Used by network defenders running the classic open IDS; the engine that defined open-source intrusion detection. (GPL-2.0) |
+| [Timesketch](https://github.com/google/timesketch) | 3.4k | 2014 | 2026-10-20 ✅ | — Google's collaborative forensic timeline analysis for multi-investigator cases. Used by DFIR analysts building collaborative forensic timelines; the open-source alternative to commercial timeline-analysis tools. |
+| [The Sleuth Kit](https://github.com/sleuthkit/sleuthkit) | 3.2k | 2011 | 2026-10-20 ✅ | — the forensic library behind half the DFIR tools you know: disks, filesystems and timelines. Used by DFIR analysts examining disk images and file systems; the open-source foundation under commercial forensic suites. (CPL-1.0) |
+| [sysmon-modular](https://github.com/olafhartong/sysmon-modular) | 3.2k | 2018 | 2026-10-14 ✅ | — Swiss-army Sysmon configuration: per-ATT&CK-technique logging modules you compose yourself. Used by detection engineers tailoring Sysmon per event type; the community config alternative to fixed baselines. |
+| [Elastic detection-rules](https://github.com/elastic/detection-rules) | 2.9k | 2020 | 2026-10-22 ✅ | — the detection corpus for Elastic Security: hundreds of maintained rules mapped to MITRE. Used by SOC teams deploying detection content; the open-source ruleset behind Elastic Security. (Elastic-2.0) |
+| [Fibratus](https://github.com/rabbitstack/fibratus) | 2.6k | 2016 | 2026-10-19 ✅ | — Windows kernel-event tracing with YARA filtering; a Swiss army knife for endpoint visibility. Used by defenders tracing Windows kernel activity for threats; the open-source kernel-observability tool. (Apache-2.0) |
+| [Shuffle](https://github.com/Shuffle/Shuffle) | 2.5k | 2020 | 2026-10-20 ✅ | — self-hosted SOAR automation: connect your TIP, SIEM and responders in drag-and-drop workflows. Used by SOC teams automating playbooks; the open-source SOAR alternative to Splunk SOAR and XSOAR. (AGPL-3.0) |
+| [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI) | 2.4k | 2016 | 2023-10-14 ⏳ | — SANS blue-team PowerShell for fast Windows event-log hunting: logons, mutants, suspicious service installs — quiet upstream but still a blue-team staple. Used by defenders triaging Windows event logs quickly; the free PowerShell tool for fast log review. (GPL-3.0) |
+| [Kismet](https://github.com/kismetwireless/kismet) | 2.2k | 2016 | 2026-10-21 ✅ | — passive wireless detection layer: discovers Wi-Fi and BLE devices, rogue access points and wardrives. Used by wireless security auditors monitoring WiFi and Bluetooth; the standard open wireless detection platform. (GPL-2.0) |
+| [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux) | 2.2k | 2020 | 2026-10-16 ✅ | — the Windows-trusted system monitor ported to Linux. Used by defenders unifying endpoint telemetry across OSes; Microsoft's cross-platform extension of Sysmon. (MIT) |
+| [Nagios Core](https://github.com/NagiosEnterprises/nagioscore) | 2.1k | 2014 | 2026-08-07 | — the classic infrastructure monitor: availability checks that surface outages and anomalies early. Used by ops teams monitoring infrastructure for decades; the classic open-source monitoring platform. (GPL-2.0) |
+| [FIR](https://github.com/certsocietegenerale/FIR) | 2k | 2015 | 2026-09-14 | — Fast Incident Response from Société Générale: ticketing built for IR workflows. Used by incident-response teams managing cases; the open-source IR platform for teams without commercial case tools. (GPL-3.0) |
+| [msticpy](https://github.com/microsoft/msticpy) | 2k | 2019 | 2026-10-19 ✅ | — SecOps analysis library from Microsoft: pivots, timelines and hunting helpers for Jupyter. Used by defenders hunting in Microsoft 365 and Sentinel data; Microsoft's open hunting library. (MIT) |
+| [Netcap](https://github.com/dreadl0ck/netcap) | 1.8k | 2018 | 2026-10-21 ✅ | — security audit framework over network traffic: sensors, audit and collection from live or captured streams. Used by researchers analyzing network captures as structured data; the open-source framework for network-audit work. (GPL-3.0) |
+| [go-audit](https://github.com/slackhq/go-audit) | 1.7k | 2016 | 2026-10-21 ✅ | — auditd in JSON for Linux: structured events that pipelines can actually parse. Used by defenders replacing auditd for reliable Linux auditing; the open-source audit daemon for scale. (MIT) |
+| [Conpot](https://github.com/mushorg/conpot) | 1.5k | 2013 | 2026-10-20 ✅ | — ICS/SCADA honeypot: emulates the protocols that run factories, safely. Used by researchers deploying ICS/SCADA honeypots; the open-source deception tool for industrial protocols. (GPL-2.0) |
+| [NoScript](https://github.com/hackademix/noscript) | 1.2k | 2018 | 2026-10-05 ✅ | — the browser extension that blocks JavaScript and plugin content by default — client-side hardening's origin story. Used by privacy-focused users blocking scripts by default; the long-standing open-source browser-hardening extension. (GPL-3.0) |
+| [ElastAlert2](https://github.com/jertel/elastalert2) | 1.1k | 2020 | 2026-10-20 ✅ | — the maintained successor to ElastAlert: flexible alerting on Elasticsearch data with dozens of rule types. Used by SOC teams alerting from Elasticsearch data; the open-source alerting layer for ELK stacks. |
+| [HijackThis](https://github.com/dragokas/hijackthis) | 817 | 2016 | 2026-07-02 | — the veteran Windows hijack analyzer: scans browser and OS settings for malicious tampering. Used by technicians diagnosing Windows malware persistence; the veteran free scanner still trusted for autostart analysis. (GPL-2.0) |
+| [Krawl](https://github.com/BlessedRebuS/Krawl) | 785 | 2025 | 2026-10-17 ✅ | — deception-driven defense: a honeypot server framework for research. Used by defenders discovering and inventorying web assets; the open-source exposure-mapping crawler. (MIT) |
+| [Revoke-Obfuscation](https://github.com/danielbohannon/Revoke-Obfuscation) | 755 | 2017 | 2023-12-01 ⏳ | — Daniel Bohannon's framework for detecting obfuscated PowerShell at scale; quiet upstream, still the reference. Used by DFIR analysts decoding obfuscated PowerShell; the open-source framework for deobfuscation work. |
+| [RITA](https://github.com/activecm/rita) | 663 | 2024 | 2026-10-15 ✅ | — detects C2 beaconing in Zeek logs — traffic analysis that finds the quiet intruders. Used by threat hunters finding C2 beaconing in DNS and flows; the free open-source hunter for network telemetry. (GPL-3.0) |
+| [Sublime Rules](https://github.com/sublime-security/sublime-rules) | 380 | 2021 | 2026-10-22 ✅ | — the community rule corpus for the Sublime platform. Used by email defenders detecting phishing patterns; the open detection ruleset for the Sublime platform. (MIT) |
+| [Sublime Platform](https://github.com/sublime-security/sublime-platform) | 277 | 2021 | 2026-10-21 ✅ | — open email threat detection: rules-as-code against phishing and BEC. Used by email-security teams defending mail flows; the open-source email-defense platform alternative to commercial email gateways. (MIT) |
+| [logarc](https://github.com/FRTX045/logarc) | 1 | 2026 | 2026-10-21 ✅ | — offline access-log forensics that reconstructs attacker activity graphs. Used by incident responders analyzing web logs without cloud tooling; the offline log-forensics analyzer. (MIT) |
+|---|---|---|---|---|
+| [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/) | — | — | — | — Microsoft's free Windows admin and DFIR toolkit: Process Explorer, Autoruns, Procmon and dozens more. Used by every Windows admin and IR analyst; Microsoft's free toolkit commercial IR teams also rely on. (free, proprietary) |
 
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*

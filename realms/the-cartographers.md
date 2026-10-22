@@ -1,73 +1,80 @@
 # The Cartographers
 
-> **40 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-15** (re-verified monthly)
+> **47 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
 The mapping layer of offensive work — subdomain enumeration, certificate transparency, DNS archaeology and attack-surface diffing. The projectdiscovery suite lives here, alongside the classic recon one-liners every bounty hunter memorizes.
 
-## Maintenance snapshot (2026-10-15)
+## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 14 of 35 tracked GitHub repos (40%)
-- **Archived upstream (kept — still reference-quality):** [JA3](https://github.com/salesforce/ja3), [HASSH](https://github.com/salesforce/hassh)
-- **Quiet classics (no push in 2+ years, still the standard):** assetfinder, ike-scan
-- **Youngest entries:** dnsrecon (2010), theHarvester (2011), ike-scan (2013)
+- **Active in the last 30 days:** 25 of 42 tracked GitHub repos (60%)
+- **Quiet classics (no push in 12+ months, still listed):** dnstwist, assetfinder, JA3, VHostScan, HASSH, ike-scan
+- **Earliest entries:** dnsrecon (2010), theHarvester (2011), ike-scan (2013)
 
 ## Flagship picks
 
 | Tool | ★ Stars | Created | Last push | What it does |
 |---|---|---|---|---|
-| [sherlock](https://github.com/sherlock-project/sherlock) | 94.2k | 2018 | 2026-10-15 ✅ | Hunt down social media accounts by username across social networks |
+| [sherlock](https://github.com/sherlock-project/sherlock) | 94.7k | 2018 | 2026-10-22 ✅ | Hunt down social media accounts by username across social networks |
 | [GHunt](https://github.com/mxrch/GHunt) | 19.7k | 2020 | 2026-04-10 | 🕵️‍♂️ Offensive Google framework. |
-| [theHarvester](https://github.com/laramies/theHarvester) | 18.0k | 2011 | 2026-10-14 ✅ | E-mails, subdomains and names Harvester - OSINT |
-| [katana](https://github.com/projectdiscovery/katana) | 17.7k | 2021 | 2026-10-13 ✅ | A next-generation crawling and spidering framework. |
+| [theHarvester](https://github.com/laramies/theHarvester) | 18k | 2011 | 2026-10-20 ✅ | E-mails, subdomains and names Harvester - OSINT |
+| [katana](https://github.com/projectdiscovery/katana) | 17.7k | 2021 | 2026-10-22 ✅ | A next-generation crawling and spidering framework. |
 | [ffuf](https://github.com/ffuf/ffuf) | 16.9k | 2018 | 2026-09-26 ✅ | Fast web fuzzer written in Go |
 | [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-07-19 | In-depth attack surface mapping and asset discovery |
 
-## Full inventory (40 tools)
+## Full inventory (47 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
-| [sherlock](https://github.com/sherlock-project/sherlock) | 94.2k | 2018 | 2026-10-15 ✅ | — hunt one username across 400+ social networks; people-OSINT in seconds. |
-| [GHunt](https://github.com/mxrch/GHunt) | 19.7k | 2020 | 2026-04-10 | — investigate a Google account's public footprint (photos, reviews, services) from an email — for authorized OSINT; respect ToS. (AGPL-3.0) |
-| [theHarvester](https://github.com/laramies/theHarvester) | 18.0k | 2011 | 2026-10-14 ✅ | — emails, subdomains, hosts and names from public sources — the OSINT starter kit. (GPL-2.0) |
-| [katana](https://github.com/projectdiscovery/katana) | 17.7k | 2021 | 2026-10-13 ✅ | — next-generation crawler with headless-browser support for JavaScript-heavy applications. |
-| [ffuf](https://github.com/ffuf/ffuf) | 16.9k | 2018 | 2026-09-26 ✅ | — the fast web fuzzer everyone uses for content, parameter and vhost discovery. |
-| [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-07-19 | — deep attack-surface mapping: DNS enumeration, scraping, archives, APIs and permutations in one OWASP project. |
-| [subfinder](https://github.com/projectdiscovery/subfinder) | 14.6k | 2018 | 2026-10-14 ✅ | — fast, passive subdomain discovery from dozens of sources; the standard first command of any engagement. |
-| [gobuster](https://github.com/OJ/gobuster) | 14.2k | 2014 | 2026-10-14 ✅ | — the classic directory/DNS/vhost buster in Go; the tool feroxbuster and ffuf grew from. |
-| [bbot](https://github.com/blacklanternsecurity/bbot) | 10.7k | 2022 | 2026-10-15 ✅ | — recursive, modular OSINT/scanning framework — spider the whole attack surface with one command. (AGPL-3.0) |
-| [httpx](https://github.com/projectdiscovery/httpx) | 10.5k | 2020 | 2026-10-14 ✅ | — the HTTP prober: filter thousands of hosts by status, title, tech, CDN and TLS in a single pass. |
-| [feroxbuster](https://github.com/epi052/feroxbuster) | 8.1k | 2020 | 2026-10-15 ✅ | — fast recursive content discovery in Rust with great heuristics and recursion handling. |
-| [wfuzz](https://github.com/xmendez/wfuzz) | 6.6k | 2014 | 2026-01-21 | — the web fuzzer that replaces any part of a request with a payload — parameters, headers, paths, verbs. (GPL-2.0) |
-| [naabu](https://github.com/projectdiscovery/naabu) | 6.3k | 2020 | 2026-10-13 ✅ | — fast, SYN-based port scanner built to be pipelined, not watched. |
-| [recon-ng](https://github.com/lanmaster53/recon-ng) | 6.0k | 2019 | 2026-10-05 ✅ | — the other recon framework: fully modular, database-backed web recon with a Metasploit-style console. (GPL-3.0) |
-| [EyeWitness](https://github.com/RedSiege/EyeWitness) | 5.9k | 2014 | 2026-01-05 | — screenshots, headers and key info from web servers during authorized recon passes. (GPL-3.0) |
-| [dnstwist](https://github.com/elceef/dnstwist) | 5.8k | 2015 | 2025-04-15 ⏳ | — detect typosquat, homograph and permutation lookalikes of your domain — a must for phishing defense and brand monitoring. |
-| [gau](https://github.com/lc/gau) | 5.1k | 2020 | 2026-10-12 ✅ | — fetch URLs indexed by AlienVault OTX, the Wayback Machine and Common Crawl. |
-| [assetfinder](https://github.com/tomnomnom/assetfinder) | 3.7k | 2019 | 2024-06-07 ⏳ | — passive subdomain discovery that polls a dozen public sources and prints a clean list — no keys needed; quiet upstream, still the classic. |
-| [massdns](https://github.com/blechschmidt/massdns) | 3.7k | 2016 | 2026-09-27 ✅ | — high-performance DNS stub resolver for bulk subdomain brute-forcing at scale. (GPL-3.0) |
-| [ParamSpider](https://github.com/devanshbatham/ParamSpider) | 3.2k | 2020 | 2026-03-07 | — mines archived URLs and parameters from the Wayback Machine to seed injection testing. |
-| [JA3](https://github.com/salesforce/ja3) | 3.1k | 2017 | 2025-05-01 ⏳ | — the TLS client fingerprint standard: a 12-byte hash that identifies client software across the wire. (BSD-3-Clause) |
-| [dnsrecon](https://github.com/darkoperator/dnsrecon) | 3.1k | 2010 | 2026-10-12 ✅ |
-| [FinalRecon](https://github.com/thewhiteh4t/FinalRecon) | 3.0k | 2019 | 2026-06-01 | — all-in-one web recon: headers, whois, SSL, DNS, subdomains, ports, directories and traceroute in a single modular run. (MIT) | — DNS enumeration workhorse: records, zone transfers, reverse lookups and subdomain brute-forcing. (GPL-2.0) |
-| [dnsx](https://github.com/projectdiscovery/dnsx) | 2.9k | 2020 | 2026-10-12 ✅ | — multi-purpose DNS toolkit: reverse lookups, wildcard detection, response filtering. |
-| [waymore](https://github.com/xnl-h4ck3r/waymore) | 2.8k | 2022 | 2026-06-11 |
-| [CloakQuest3r](https://github.com/spyboy-productions/CloakQuest3r) | 2.3k | 2023 | 2026-01-06 | — unmask the real origin IP behind Cloudflare and similar CDNs using historical DNS, SSL certificates and subdomain correlation. (MIT) | — pull way more from the Wayback Machine: full responses, not just URLs. |
-| [JARM](https://github.com/salesforce/jarm) | 1.3k | 2020 | 2026-08-13 | — active TLS server fingerprint: identifies servers behind CDNs from their handshake behavior. (BSD-3-Clause) |
-| [VHostScan](https://github.com/codingo/VHostScan) | 1.3k | 2017 | 2025-08-18 ⏳ | — enumerates virtual hosts on a shared IP — discover the neighbors your target lives with. (GPL-3.0) |
-| [Awesome Censys Queries](https://github.com/thehappydinoa/awesome-censys-queries) | 1.3k | 2022 | 2026-07-20 | — a curated corpus of Censys search queries for internet-wide recon. (CC-BY-4.0, curated list) |
-| [Recog](https://github.com/rapid7/recog) | 795 | 2013 | 2026-10-12 ✅ | — the fingerprint database behind Metasploit and Nexpose: service banners mapped to OS and product families. (BSD-3-Clause) |
-| [HASSH](https://github.com/salesforce/hassh) | 554 | 2018 | 2025-05-01 ⏳ | — SSH key-exchange fingerprinting: identify client/server software from the KEX packet alone. (BSD-3-Clause) |
-| [ike-scan](https://github.com/royhills/ike-scan) | 423 | 2013 | 2024-09-15 ⏳ | — IKE/IPsec security auditing: fingerprint VPN gateways and enumerate transform proposals. (GPL-2.0) |
-| [DorkEye](https://github.com/xPloits3c/DorkEye) | 151 | 2025 | 2026-10-14 ✅ | — OSINT dork pipeline: email, subdomain and people discovery through structured query automation. (MIT) |
-| [AtDork](https://github.com/amnottdevv/atdork) | 43 | 2026 | 2026-10-15 ✅ | — multi-engine Google-dork scraper with categorized GHDB output for authorized reconnaissance. (MIT) |
-| [DorkCraft](https://github.com/juandresrodca/DorkCraft) | 9 | 2026 | 2026-10-12 ✅ | — rule-based dork generator: translates intent into search queries deterministically, zero AI, zero outbound calls. (MIT) |
-| [Maltego CE](https://www.maltego.com) | — | — | — | — the standard OSINT graphing tool for entity-relationship investigation; free community edition. (free tier) |
-| [WiGLE](https://wigle.net) | — | — | — | — the wireless network mapping archive; queries by BSSID/SSID across millions of observed networks. (free service) |
-| [DNSdumpster](https://dnsdumpster.com) | — | — | — | — visual DNS reconnaissance: subdomains, MX, and infrastructure maps from public records. (free service) |
-| [CeWL](https://digi.ninja/projects/cewl.php) | — | — | — | — custom wordlist generation by spidering target sites — the content-aware dictionary for authorized assessments. (GPL-3.0) |
-| [Merklemap](https://merklemap.com) | — | — | — | — subdomain discovery through certificate-transparency logs; billions of entries, searchable. (free service) |
+| [sherlock](https://github.com/sherlock-project/sherlock) | 94.7k | 2018 | 2026-10-22 ✅ | — hunt one username across 400+ social networks; people-OSINT in seconds. Used by OSINT investigators checking username presence across hundreds of platforms; the standard free account-discovery tool. |
+| [GHunt](https://github.com/mxrch/GHunt) | 19.7k | 2020 | 2026-04-10 | — investigate a Google account's public footprint (photos, reviews, services) from an email — for authorized OSINT; respect ToS. Used by OSINT investigators profiling Google accounts from public artifacts; the open alternative to commercial people-intel tools. (AGPL-3.0) |
+| [theHarvester](https://github.com/laramies/theHarvester) | 18k | 2011 | 2026-10-20 ✅ | — emails, subdomains, hosts and names from public sources — the OSINT starter kit. Used by pentesters in the recon phase harvesting emails, names and subdomains; the veteran free OSINT gatherer. (GPL-2.0) |
+| [katana](https://github.com/projectdiscovery/katana) | 17.7k | 2021 | 2026-10-22 ✅ | — next-generation crawler with headless-browser support for JavaScript-heavy applications. Used by bug hunters and pentesters crawling modern JS-heavy apps; the ProjectDiscovery successor to legacy crawlers in recon pipelines. |
+| [ffuf](https://github.com/ffuf/ffuf) | 16.9k | 2018 | 2026-09-26 ✅ | — the fast web fuzzer everyone uses for content, parameter and vhost discovery. Used by web pentesters as the de facto standard free web fuzzer. |
+| [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-07-19 | — deep attack-surface mapping: DNS enumeration, scraping, archives, APIs and permutations in one OWASP project. Used by recon teams and bug bounty hunters for deep subdomain enumeration; the OWASP project that anchors most serious attack-surface pipelines. |
+| [subfinder](https://github.com/projectdiscovery/subfinder) | 14.6k | 2018 | 2026-10-21 ✅ | — fast, passive subdomain discovery from dozens of sources; the standard first command of any engagement. Used by bug bounty hunters for fast passive subdomain discovery; the ProjectDiscovery staple of recon automation. |
+| [gobuster](https://github.com/OJ/gobuster) | 14.2k | 2014 | 2026-10-15 ✅ | — the classic directory/DNS/vhost buster in Go; the tool feroxbuster and ffuf grew from. Used by pentesters for directory, DNS and vhost brute-forcing; the veteran free alternative to commercial content scanners. |
+| [bbot](https://github.com/blacklanternsecurity/bbot) | 10.7k | 2022 | 2026-10-22 ✅ | — recursive, modular OSINT/scanning framework — spider the whole attack surface with one command. Used by attack-surface teams running modular, recursive recon; the open-source framework rivaling commercial ASM discovery. (AGPL-3.0) |
+| [httpx](https://github.com/projectdiscovery/httpx) | 10.5k | 2020 | 2026-10-21 ✅ | — the HTTP prober: filter thousands of hosts by status, title, tech, CDN and TLS in a single pass. Used by bug bounty hunters triaging alive hosts from mass subdomain lists; the ProjectDiscovery prober in nearly every recon pipeline. |
+| [feroxbuster](https://github.com/epi052/feroxbuster) | 8.1k | 2020 | 2026-10-15 ✅ | — fast recursive content discovery in Rust with great heuristics and recursion handling. Used by web pentesters for fast recursive content discovery; the Rust-based favorite alongside ffuf and gobuster. |
+| [wfuzz](https://github.com/xmendez/wfuzz) | 6.6k | 2014 | 2026-01-21 | — the web fuzzer that replaces any part of a request with a payload — parameters, headers, paths, verbs. Used by web pentesters fuzzing any part of an HTTP request; the classic free fuzzer predating ffuf. (GPL-2.0) |
+| [naabu](https://github.com/projectdiscovery/naabu) | 6.3k | 2020 | 2026-10-21 ✅ | — fast, SYN-based port scanner built to be pipelined, not watched. Used by bug bounty hunters for SYN port scanning; the ProjectDiscovery port scanner in recon pipelines. |
+| [recon-ng](https://github.com/lanmaster53/recon-ng) | 6k | 2019 | 2026-10-05 ✅ | — the other recon framework: fully modular, database-backed web recon with a Metasploit-style console. Used by pentesters running structured recon workflows; the Metasploit-style framework for the recon phase. (GPL-3.0) |
+| [EyeWitness](https://github.com/RedSiege/EyeWitness) | 5.9k | 2014 | 2026-01-05 | — screenshots, headers and key info from web servers during authorized recon passes. Used by pentesters screenshotting and triaging web servers in bulk; the standard free recon triage tool. (GPL-3.0) |
+| [dnstwist](https://github.com/elceef/dnstwist) | 5.8k | 2015 | 2025-04-15 ⏳ | — detect typosquat, homograph and permutation lookalikes of your domain — a must for phishing defense and brand monitoring. Used by brand-protection and anti-phishing teams hunting lookalike domains; the open-source alternative to commercial domain-monitoring services. |
+| [gau](https://github.com/lc/gau) | 5.1k | 2020 | 2026-10-12 ✅ | — fetch URLs indexed by AlienVault OTX, the Wayback Machine and Common Crawl. Used by bug bounty hunters pulling all known URLs from public archives; the free fetcher that seeds most recon pipelines. |
+| [assetfinder](https://github.com/tomnomnom/assetfinder) | 3.7k | 2019 | 2024-06-07 ⏳ | — passive subdomain discovery that polls a dozen public sources and prints a clean list — no keys needed; quiet upstream, still the classic. Used by bug bounty hunters for quick passive subdomain finds; the lightweight staple of recon one-liners. |
+| [massdns](https://github.com/blechschmidt/massdns) | 3.7k | 2016 | 2026-09-27 ✅ | — high-performance DNS stub resolver for bulk subdomain brute-forcing at scale. Used by recon pipelines resolving millions of subdomains; the free high-performance resolver no commercial tool beats on price. (GPL-3.0) |
+| [ParamSpider](https://github.com/devanshbatham/ParamSpider) | 3.2k | 2020 | 2026-03-07 | — mines archived URLs and parameters from the Wayback Machine to seed injection testing. Used by bug hunters mining hidden parameters from archives; the free parameter-mining step before injection testing. |
+| [JA3](https://github.com/salesforce/ja3) | 3.1k | 2017 | 2025-05-01 ⏳ | — the TLS client fingerprint standard: a 12-byte hash that identifies client software across the wire. Used by defenders detecting C2 and by researchers fingerprinting TLS clients; the free hashing standard adopted by commercial sensors too. (BSD-3-Clause) |
+| [dnsrecon](https://github.com/darkoperator/dnsrecon) | 3.1k | 2010 | 2026-10-12 ✅ | — DNS enumeration workhorse: records, zone transfers, reverse lookups and subdomain brute-forcing. Used by pentesters enumerating DNS records and zone transfers; the veteran free DNS enumeration tool. (GPL-2.0) |
+| [FinalRecon](https://github.com/thewhiteh4t/FinalRecon) | 3k | 2019 | 2026-06-01 | — all-in-one web recon: headers, whois, SSL, DNS, subdomains, ports, directories and traceroute in a single modular run. Used by pentesters running a fast first-pass recon sweep before deep-dive tooling; the modular Python alternative to juggling ten single-purpose scripts. (MIT) |
+| [dnsx](https://github.com/projectdiscovery/dnsx) | 2.9k | 2020 | 2026-10-21 ✅ | — multi-purpose DNS toolkit: reverse lookups, wildcard detection, response filtering. Used by recon teams for DNS querying and reverse lookups at scale; the ProjectDiscovery DNS multitool. |
+| [waymore](https://github.com/xnl-h4ck3r/waymore) | 2.8k | 2022 | 2026-06-11 | — pull way more from the Wayback Machine: full responses, not just URLs. Used by bug hunters mining the Wayback Machine deeply for hidden endpoints and parameters; the successor to gau for archive URL intel. |
+| [CloakQuest3r](https://github.com/spyboy-productions/CloakQuest3r) | 2.3k | 2023 | 2026-01-06 | — unmask the real origin IP behind Cloudflare and similar CDNs using historical DNS, SSL certificates and subdomain correlation. Used by security teams verifying true origin exposure before hardening allowlists; the open-source alternative to commercial CDN-unmasking services. (MIT) |
+| [JARM](https://github.com/salesforce/jarm) | 1.3k | 2020 | 2026-08-13 | — active TLS server fingerprint: identifies servers behind CDNs from their handshake behavior. Used by CTI analysts identifying TLS server infrastructure; the free passive fingerprint actively used in threat research. (BSD-3-Clause) |
+| [VHostScan](https://github.com/codingo/VHostScan) | 1.3k | 2017 | 2025-08-18 ⏳ | — enumerates virtual hosts on a shared IP — discover the neighbors your target lives with. Used by pentesters discovering virtual hosts on shared infrastructure; a focused free tool for shared-hosting engagements. (GPL-3.0) |
+| [Awesome Censys Queries](https://github.com/thehappydinoa/awesome-censys-queries) | 1.2k | 2022 | 2026-07-20 | — a curated corpus of Censys search queries for internet-wide recon. Used by CTI analysts running certified Censys hunting; the community cookbook for asset-search queries. (CC-BY-4.0, curated list) |
+| [Recog](https://github.com/rapid7/recog) | 796 | 2013 | 2026-10-12 ✅ | — the fingerprint database behind Metasploit and Nexpose: service banners mapped to OS and product families. Used by fingerprinting tool maintainers for service identification; the open database behind Metasploit and Rapid7 tooling. (BSD-3-Clause) |
+| [HASSH](https://github.com/salesforce/hassh) | 554 | 2018 | 2025-05-01 ⏳ | — SSH key-exchange fingerprinting: identify client/server software from the KEX packet alone. Used by threat hunters fingerprinting SSH clients and servers; the open fingerprinting standard for network telemetry. (BSD-3-Clause) |
+| [ARL-Next](https://github.com/owl234/ARL-Next) | 469 | 2026 | 2026-10-22 ✅ | — attack-surface reconnaissance platform combining subdomain enumeration, port scanning, fingerprinting and a nuclei PoC pipeline with task scheduling. Used by attack-surface teams running scheduled recon over large asset lists; the actively maintained continuation of the ARL recon platform. (GPL-3.0) |
+| [ike-scan](https://github.com/royhills/ike-scan) | 423 | 2013 | 2024-09-15 ⏳ | — IKE/IPsec security auditing: fingerprint VPN gateways and enumerate transform proposals. Used by network pentesters fingerprinting IKE/VPN endpoints; the classic free IPSec scanner. (GPL-2.0) |
+| [nerva](https://github.com/praetorian-inc/nerva) | 370 | 2026 | 2026-10-21 ✅ | — high-performance service fingerprinting CLI identifying 170+ protocols on TCP, UDP and SCTP with safe misconfiguration checks. Used by recon teams fingerprinting services at scale without credentials; Praetorian's open-source protocol identification engine. (Apache-2.0) |
+| [DorkEye](https://github.com/xPloits3c/DorkEye) | 154 | 2025 | 2026-10-21 ✅ | — OSINT dork pipeline: email, subdomain and people discovery through structured query automation. Used by bug hunters running Google dorks via SearX; the free web-based dork launcher. (MIT) |
+| [AtDork](https://github.com/amnottdevv/atdork) | 49 | 2026 | 2026-10-21 ✅ | — multi-engine Google-dork scraper with categorized GHDB output for authorized reconnaissance. Used by bug bounty hunters automating Google dorking for exposed targets; the free dork engine for recon. (MIT) |
+| [BloodRecon](https://github.com/MrHacker-X/BloodRecon) | 22 | 2025 | 2026-10-16 ✅ | — automated recon pipeline that chains subdomain discovery, JavaScript endpoint extraction and a nuclei handoff with Telegram notifications. Used by bug bounty hunters automating the recon-to-scan handoff; the one-command recon pipeline for bounty workflows. (MIT) |
+| [Dork](https://github.com/Naqaab50/Dork) | 10 | 2026 | 2026-08-21 | — curated Google-dork payload library for cloud, AI, SaaS and IoT reconnaissance. Used by recon teams pulling tested dorks per target class; the categorized dork corpus for scoped discovery. (MIT) |
+| [DorkCraft](https://github.com/juandresrodca/DorkCraft) | 9 | 2026 | 2026-10-12 ✅ | — rule-based dork generator: translates intent into search queries deterministically, zero AI, zero outbound calls. Used by recon practitioners bulk-running dork queries; the open dork-scanning alternative to paid search tooling. (MIT) |
+| [recon](https://github.com/blisspixel/recon) | 5 | 2026 | 2026-10-21 ✅ | — passive domain-intelligence framework with per-phase structured output for tech-stack and email-security audits. Used by auditors assembling passive domain profiles without touching the target; the structured-output recon framework for assessment prep. (Apache-2.0) |
+| [Dorker](https://github.com/HexSilence/Dorker) | - | 2026 | 2026-10-22 ✅ | — cross-platform multi-engine Google-dork CLI with per-engine query translation and scoped validation. Used by OSINT hunters running one dork across multiple engines; the dork translator for cross-engine reconnaissance. (Apache-2.0) |
+| [DorkIntel](https://github.com/unfantasmaenelsistema/DorkIntel) | - | 2026 | 2026-10-21 ✅ | — client-side library of 162 categorized Google dorks for intelligence dashboards. Used by OSINT tool builders embedding dork queries in dashboards; the embeddable dork dataset for client-side intel tooling. (MIT) |
+|---|---|---|---|---|
+| [CeWL](https://digi.ninja/projects/cewl.php) | — | — | — | — custom wordlist generation by spidering target sites — the content-aware dictionary for authorized assessments. Used by pentesters building custom wordlists from target sites for password audits; the standard free custom-wordlist spider. (GPL-3.0) |
+| [DNSdumpster](https://dnsdumpster.com) | — | — | — | — visual DNS reconnaissance: subdomains, MX, and infrastructure maps from public records. Used by beginners and quick-recon tasks for visual DNS mapping; the free web tool that kickstarts attack-surface discovery. (free service) |
+| [Maltego CE](https://www.maltego.com) | — | — | — | — the standard OSINT graphing tool for entity-relationship investigation; free community edition. Used by OSINT analysts and investigators for link analysis; the free community edition of the commercial Maltego. (free tier) |
+| [Merklemap](https://merklemap.com) | — | — | — | — subdomain discovery through certificate-transparency logs; billions of entries, searchable. Used by recon teams searching Certificate Transparency for subdomains; the free CT search joining crt.sh-style tooling. (free service) |
+| [WiGLE](https://wigle.net) | — | — | — | — the wireless network mapping archive; queries by BSSID/SSID across millions of observed networks. Used by wireless OSINT researchers mapping networks worldwide; the free wardriving database with no commercial equal. (free service) |
 
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
