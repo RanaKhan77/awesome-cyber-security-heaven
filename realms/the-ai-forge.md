@@ -1,6 +1,6 @@
 # 🧠 The AI Forge
 
-> **23 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **27 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 20 of 23 tracked GitHub repos (87%)
+- **Active in the last 30 days:** 22 of 27 tracked GitHub repos (82%)
 - **Earliest entries:** PentestGPT (2023), promptfoo (2023), garak (2023)
 
 ## Flagship picks
@@ -22,7 +22,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.1k | 2023 | 2026-07-14 | Automated Penetration Testing Agentic Framework Powered by Large Language Models |
 | [garak](https://github.com/NVIDIA/garak) | 9.6k | 2023 | 2026-10-21 ✅ | the LLM vulnerability scanner |
 
-## Full inventory (23 tools)
+## Full inventory (27 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -32,12 +32,16 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [promptfoo](https://github.com/promptfoo/promptfoo) | 26.3k | 2023 | 2026-10-22 ✅ | — LLM evaluation and red-teaming framework: prompt-injection and jailbreak test suites that run in CI. Used by AI engineers evaluating and red-teaming prompts in CI; the open-source testing framework for LLM quality and safety. (MIT) |
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.1k | 2023 | 2026-07-14 | — LLM-driven pentest copilot: parses recon output, plans next steps, keeps session context across test phases. Used by pentesters and learners getting guided next-step reasoning during engagements; the GPT-powered attack assistant. (MIT) |
 | [garak](https://github.com/NVIDIA/garak) | 9.6k | 2023 | 2026-10-21 ✅ | — NVIDIA's LLM vulnerability scanner: hundreds of probes for injection, data leakage, hallucination and misuse. Used by AI security engineers probing LLMs for known vulnerability classes; NVIDIA's open-source LLM vulnerability scanner. (Apache-2.0) |
+| [T3MP3ST](https://github.com/elder-plinius/T3MP3ST) | 6.6k | 2026 | 2026-09-08 | — multi-agent offensive-security meta-framework that repurposes AI coding agents (Claude Code, Codex, local models via Ollama) as autonomous pentest brains, with a browser War Room UI and a verify-claims integrity layer; a reported 90% pass@1 score on the XBEN challenge suite. Used by red teams researching agentic kill chains reproducibly; the research harness for agent-driven offense. (AGPL-3.0, copyleft) |
 | [PyRIT](https://github.com/microsoft/PyRIT) | 4.7k | 2023 | 2026-10-22 ✅ | — Microsoft's AI red-teaming framework: automated adversarial probing of generative AI, with scoring and reporting. Used by AI red teams automating LLM risk probing; Microsoft's open-source toolkit for generative-AI security testing. (MIT) |
+| [RedAmon](https://github.com/samugit83/redamon) | 3.2k | 2025 | 2026-10-22 ✅ | — autonomous AI pentest framework chaining recon → exploit → triage → code-fix with human approval gates, a Neo4j attack-surface graph and bidirectional MCP support; its maintainers report a 97% black-box solve rate on the XBOW benchmark. Used by security teams researching supervised agentic testing; the approval-gated reference for AI-driven pentesting. (MIT) |
 | [deepteam](https://github.com/confident-ai/deepteam) | 3k | 2025 | 2026-10-20 ✅ | — red-teaming library for LLMs: simulated attacks with vulnerability scoring and reporting. Used by AI teams running red-teaming simulations on their LLMs; the open-source library for adversarial testing. (Apache-2.0) |
 | [Mantis](https://github.com/google/mantis) | 2.5k | 2026 | 2026-10-20 ✅ | — Google's ADK-based toolkit that lets AI coding agents autonomously find, reproduce and patch vulnerabilities in source code — LLM-driven SAST with a severity-calibration rubric and anti-hallucination triage. Used by security engineers researching agentic vuln discovery; the flagship example of agent-driven security code review (needs paid LLM APIs). (Apache-2.0) |
 | [ARTEX](https://github.com/trhhubsd/ARTEX) | 1.6k | 2026 | 2026-10-19 ✅ | — multi-agent LLM pentest orchestrator with human approval gates and asset graphing. Used by red teams running supervised multi-agent engagements; the open orchestrator for LLM-driven pentesting. (AGPL-3.0, copyleft) |
+| [PentesterFlow Agent](https://github.com/PentesterFlow/agent) | 1.4k | 2026 | 2026-08-31 | — human-in-the-loop agentic pentest CLI: LLM-driven recon, enumeration, validation and reporting from the terminal, with evidence-gated anti-hallucination findings and full audit logging. Used by pentesters delegating scoped workflow steps to a supervised agent; the analyst-oversight-first agentic TUI. (Apache-2.0) |
 | [hackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) | 1.3k | 2023 | 2026-10-01 ✅ | — LLM pentesting research harness: autonomous Linux privilege-escalation experiments in ~50 lines of code. Used by researchers studying LLM agents in ethical hacking; the research framework for autonomous pentest agents. (MIT) |
 | [AttackGen](https://github.com/mrwadams/attackgen) | 1.3k | 2023 | 2026-10-19 ✅ | — LLM-powered, threat-informed exercise generation: realistic attack scenarios and mitigations for incident-response testing. Used by purple teams generating attack scenarios from threat intel; the open-source exercise-planning tool. (GPL-3.0) |
+| [DarkMoon](https://github.com/ASCIT31/Dark-Moon) | 1.1k | 2024 | 2026-10-22 ✅ | — autonomous AI pentest platform orchestrating 50 specialist agents across web, AD, cloud, Kubernetes and LLM endpoints (OWASP LLM Top 10), with a Privacy Gateway that tokenizes hosts and credentials locally before any LLM call. Used by teams researching full-scope agentic testing with evidence capture; dual-use — run only against authorized targets. (GPL-3.0) |
 | [Nebula](https://github.com/berylliumsec/nebula) | 1.1k | 2023 | 2026-10-22 ✅ | — cybersecurity harness that pairs an LLM with common pentest tools for guided exploitation workflows. Used by security researchers exploring LLM-assisted pentesting workflows; the open-source agent for offensive research. (BSD-2-Clause) |
 | [Cybermes](https://github.com/Zyrexnn/Cybermes) | 953 | 2026 | 2026-10-21 ✅ | — autonomous offensive security, bug bounty and red-teaming agent framework with MCP integration and a built-in vulnerable lab. Used by offensive teams running autonomous agents; the Apache-licensed agentic framework with curated playbooks. (Apache-2.0) |
 | [BugTraceAI](https://github.com/BugTraceAI/BugTraceAI) | 366 | 2026 | 2026-10-19 ✅ | — self-hosted agentic pentesting suite with evidence-first validation across an 8-repo ecosystem (CLI, WEB, API, Launcher). Used by security teams wanting self-hosted agentic scanning; the open alternative to SaaS AI pentest platforms. (Apache-2.0) |

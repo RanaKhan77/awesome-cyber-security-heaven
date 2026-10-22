@@ -1,6 +1,6 @@
 # 🧰 The Workshop
 
-> **50 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **51 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 31 of 41 tracked GitHub repos (76%)
+- **Active in the last 30 days:** 32 of 42 tracked GitHub repos (76%)
 - **Quiet classics (no push in 12+ months, still listed):** Awesome Malware Analysis, Voltron, boxxy
 - **Earliest entries:** mitmproxy (2010), Netron (2010), Apktool (2012)
 
@@ -23,7 +23,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [mitmproxy](https://github.com/mitmproxy/mitmproxy) | 45.9k | 2010 | 2026-10-22 ✅ | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
 | [CyberChef](https://github.com/gchq/CyberChef) | 36.2k | 2016 | 2026-10-19 ✅ | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |
 
-## Full inventory (50 tools)
+## Full inventory (51 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [Cutter](https://github.com/rizinorg/cutter) | 20.1k | 2017 | 2026-09-11 | — free and open reverse-engineering platform powered by rizin: graph disassembly, decompiler views and debugging in a polished desktop UI. Used by RE learners driving Ghidra through a friendlier GUI; the free reverse-engineering IDE. (GPL-3.0) |
 | [binwalk](https://github.com/ReFirmLabs/binwalk) | 14.5k | 2013 | 2026-08-11 | — firmware analysis: scan, extract and identify embedded files and filesystems. Used by firmware researchers extracting embedded filesystems and images; the standard free firmware-analysis tool. (MIT) |
 | [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis) | 14.3k | 2015 | 2024-06-07 ⏳ | — the curated malware-analysis tool index. Used by malware analysts assembling their toolkit. (CC-BY-4.0, curated list) |
+| [XERJ](https://github.com/xerj-org/xerj) | 13.1k | 2026 | 2026-10-22 ✅ | — local-first search engine and MCP server in a single Rust binary: hybrid BM25 + vector search over code, docs, logs and PDFs with an Elasticsearch-compatible API — for agents and humans alike. Used by security teams giving AI agents searchable, air-gapped memory over case files and codebases; the self-hosted retrieval layer for agent workflows. (Apache-2.0) |
 | [Scapy](https://github.com/secdev/scapy) | 12.6k | 2015 | 2026-10-22 ✅ | — packet crafting without limits: forge, sniff, dissect and send anything — the Python network Swiss-army knife. Used by network researchers crafting packets in Python; the standard library protocol testing builds on. (GPL-2.0) |
 | [Detect It Easy](https://github.com/horsicq/Detect-It-Easy) | 11.8k | 2014 | 2026-10-21 ✅ | — packer/compiler/protection detection with a rule engine. Used by malware analysts identifying packers and compilers; the free packer-detection standard. (MIT) |
 | [dnSpyEx](https://github.com/dnSpyEx/dnSpy) | 11.3k | 2021 | 2026-10-17 ✅ | — the .NET debugger and decompiler, continued; edit assemblies live. Used by .NET researchers decompiling and debugging managed code; the maintained fork of the classic .NET debugger. (GPL-3.0) |

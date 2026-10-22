@@ -1,6 +1,6 @@
 # 🕵️ The Shadow Bureau
 
-> **40 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **41 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ Identifier intelligence without touching the target: stealer-log exposure lookup
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 21 of 32 tracked GitHub repos (66%)
+- **Active in the last 30 days:** 22 of 33 tracked GitHub repos (67%)
 - **Quiet classics (no push in 12+ months, still listed):** holehe, waybackpack, GitFive, chiasmodon, waybackpy
 - **Earliest entries:** Nipe (2015), waybackpack (2016), check-if-email-exists (2017)
 
@@ -23,7 +23,7 @@ Identifier intelligence without touching the target: stealer-log exposure lookup
 | [holehe](https://github.com/megadose/holehe) | 15.3k | 2020 | 2024-09-10 ⏳ | holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve in… |
 | [Osintgram](https://github.com/Datalux/Osintgram) | 15.1k | 2019 | 2026-10-20 ✅ | Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram accoun… |
 
-## Full inventory (40 tools)
+## Full inventory (41 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -35,6 +35,7 @@ Identifier intelligence without touching the target: stealer-log exposure lookup
 | [Osintgram](https://github.com/Datalux/Osintgram) | 15.1k | 2019 | 2026-10-20 ✅ | — interactive Instagram OSINT (followers, public emails/phones, geotags, posting patterns); requires an Instagram account — authorized research only. Used by investigators with authorized access profiling Instagram accounts; the open Instagram OSINT toolkit. (GPL-3.0) |
 | [Photon](https://github.com/s0md3v/Photon) | 13.3k | 2018 | 2026-10-17 ✅ | — fast OSINT crawler that rips a target apart for emails, social profiles, intel files and metadata, with exportable reports. Used by OSINT researchers crawling targets for emails, socials and intel; the fast open crawler for investigations. (GPL-3.0) |
 | [check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) | 10.2k | 2017 | 2026-10-16 ✅ | — verify an email address exists without sending any message: SMTP-level mailbox checks with disposable and catch-all detection, self-hostable or as a service. Used by investigators confirming a mailbox is real before deeper checks; the free verifier behind Reacher. (MIT) |
+| [Flowsint](https://github.com/reconurge/flowsint) | 9.9k | 2025 | 2026-10-18 ✅ | — self-hosted graph-based OSINT investigation platform: interactive relationship graphs across domains, IPs, emails, phone numbers, people and crypto wallets with automated enrichment modules. Used by investigators and fraud teams visualizing entity links without SaaS exposure; the Docker-deployed alternative to Maltego-class workstations. (Apache-2.0) |
 | [gosearch](https://github.com/ibnaleem/gosearch) | 3.8k | 2024 | 2026-10-21 ✅ | — fast concurrent username enumeration across 190+ sites with category-filtered account discovery. Used by OSINT investigators mapping a person's account footprint quickly; the concurrent alternative to sherlock-class username hunts. (GPL-3.0) |
 | [waybackpack](https://github.com/jsvine/waybackpack) | 3.2k | 2016 | 2025-04-21 ⏳ | — bulk-download a site's history from the Wayback Machine; the archivist's archive. Used by researchers downloading archived sites in bulk; the open downloader for Wayback Machine investigations. (MIT) |
 | [sn0int](https://github.com/kpcyrd/sn0int) | 2.6k | 2018 | 2026-09-20 | — semi-automatic OSINT framework with scriptable modules, its own package ecosystem and a database that remembers everything you've collected. Used by OSINT investigators scripting structured intel gathering; the semi-automatic OSINT framework for serious cases. (GPL-3.0) |
