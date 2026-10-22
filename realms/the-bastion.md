@@ -1,6 +1,6 @@
 # 🛡️ The Bastion
 
-> **35 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **33 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,8 +8,8 @@ The mirror image of the Armory: what you install so you never get popped. Kernel
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 20 of 30 tracked GitHub repos (67%)
-- **Quiet classics (no push in 12+ months, still listed):** GoPhish, OpenRASP, Awesome WebSocket Security
+- **Active in the last 30 days:** 20 of 28 tracked GitHub repos (71%)
+- **Quiet classics (no push in 12+ months, still listed):** OpenRASP
 - **Earliest entries:** Fail2ban (2011), OpenVPN (2012), ClamAV (2012)
 
 ## Flagship picks
@@ -20,10 +20,11 @@ The mirror image of the Armory: what you install so you never get popped. Kernel
 | [Lynis](https://github.com/CISOfy/lynis) | 16.5k | 2013 | 2026-09-16 | Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPA… |
 | [CrowdSec](https://github.com/crowdsecurity/crowdsec) | 15.2k | 2020 | 2026-10-21 ✅ | Open-source IDS/IPS, WAF and bot detection for Linux, Windows, Docker and Kubernetes, with a crowdsourced bloc… |
 | [OpenVPN](https://github.com/OpenVPN/openvpn) | 14.7k | 2012 | 2026-10-22 ✅ | OpenVPN  is  an open source VPN daemon |
-| [GoPhish](https://github.com/gophish/gophish) | 14.3k | 2013 | 2024-09-23 ⏳ | Open-Source Phishing Toolkit |
-| [OpenSnitch](https://github.com/evilsocket/opensnitch) | 14.2k | 2017 | 2026-07-26 | OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch. |
 
-## Full inventory (35 tools)
+| [OpenSnitch](https://github.com/evilsocket/opensnitch) | 14.2k | 2017 | 2026-07-26 | OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch. |
+| [OpenNHP](https://github.com/OpenNHP/opennhp) | 13.9k | 2014 | 2026-10-22 ✅ | A lightweight, cryptography-powered, open-source toolkit built to enforce Zero Trust security for infrastructure, applications, and data in the AI-driven world. |
+
+## Full inventory (33 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -31,7 +32,7 @@ The mirror image of the Armory: what you install so you never get popped. Kernel
 | [Lynis](https://github.com/CISOfy/lynis) | 16.5k | 2013 | 2026-09-16 | — agentless system auditing and hardening with CIS/PCI-DSS-aligned findings; runs anywhere in minutes. Used by system auditors running CIS-style hardening checks; the open-source alternative to commercial compliance scanners for Linux/Unix hosts. (GPL-3.0) |
 | [CrowdSec](https://github.com/crowdsecurity/crowdsec) | 15.2k | 2020 | 2026-10-21 ✅ | — collaborative behavior-detection engine with a global IP-reputation network; the modern Fail2ban, 60x faster and IPv6-ready. Used by server administrators and hosting providers; the open-source, crowdsourced alternative to commercial WAF and bot-management services. |
 | [OpenVPN](https://github.com/OpenVPN/openvpn) | 14.7k | 2012 | 2026-10-22 ✅ | — the industry-standard open-source VPN daemon for site-to-site and remote-access tunnels. Used by IT teams everywhere; the open-source alternative to commercial VPN gateways. (GPL-2.0 core, component exceptions) |
-| [GoPhish](https://github.com/gophish/gophish) | 14.3k | 2013 | 2024-09-23 ⏳ | — open-source phishing-simulation platform: launch awareness campaigns and measure exactly who clicks (community edition). Used by security awareness teams running phishing simulations; the open-source alternative to commercial awareness platforms like KnowBe4. |
+
 | [OpenSnitch](https://github.com/evilsocket/opensnitch) | 14.2k | 2017 | 2026-07-26 | — interactive application firewall (Little Snitch for Linux): allow/deny every outbound connection per process. Used by Linux power users and admins wanting per-application firewall control; the open equivalent of Little Snitch on macOS. (GPL-3.0) |
 | [OpenNHP](https://github.com/OpenNHP/opennhp) | 13.9k | 2014 | 2026-10-22 ✅ | — go implementation of the Cloud Security Alliance's Network-infrastructure Hiding Protocol: conceals ports, IPs and domains behind a cryptographically signed knock gate — services stay invisible until the client proves trust. Used by zero-trust teams making infrastructure undiscoverable to mass and AI-driven scanning; the reference open implementation of CSA NHP. (Apache-2.0) |
 | [Vuls](https://github.com/future-architect/vuls) | 12.3k | 2016 | 2026-10-21 ✅ | — agentless vulnerability scanner for servers and containers, with CVE reporting across Linux and FreeBSD fleets. Used by server admins for agentless vulnerability scanning; the open-source alternative to Nessus for host patch audits. (GPL-3.0) |
@@ -55,7 +56,7 @@ The mirror image of the Armory: what you install so you never get popped. Kernel
 | [shellfirm](https://github.com/kaplanelad/shellfirm) | 949 | 2021 | 2026-05-15 | — a pre-execution guard for your shell: challenges dangerous commands (rm -rf, kubectl delete) before they run. Used by engineers protecting themselves from dangerous commands; a lightweight open guardrail before your shell executes rm -rf. (Apache-2.0) |
 | [AIDE](https://github.com/aide/aide) | 757 | 2019 | 2026-09-22 ✅ | — Advanced Intrusion Detection Environment: file-integrity monitoring that alerts the moment system files change. Used by hardening teams for file-integrity monitoring; the free open alternative to commercial FIM modules. (GPL-2.0) |
 | [stunnel](https://github.com/mtrojnar/stunnel) | 397 | 2015 | 2026-09-17 | — universal TLS wrapper that adds encryption to any TCP service in minutes. Used by admins adding TLS to legacy services; the free universal TLS wrapper. (GPL-2.0) |
-| [Awesome WebSocket Security](https://github.com/PalindromeLabs/awesome-websocket-security) | 315 | 2021 | 2022-01-10 ⏳ | — curated research, tools and CVEs for WebSocket protocol security. Used by web pentesters studying WebSocket attack surface. (Apache-2.0, curated list) |
+
 | [unmask](https://github.com/unmask-sh/unmask) | 5 | 2026 | 2026-10-21 ✅ | — self-hosted privacy-first bot management gateway with verified-crawler bypass. Used by teams filtering bot traffic without third-party SaaS; the self-hosted bot-defense gateway. (Apache-2.0) |
 |---|---|---|---|---|
 | [Netfilter/iptables](https://netfilter.org/) | — | — | — | — the Linux kernel's native packet-filtering framework; the foundation every host firewall build starts from. Used by every Linux firewall admin; the kernel-level packet filter that commercial Linux firewalls wrap a UI around. (GPL-2.0) |

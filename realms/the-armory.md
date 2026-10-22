@@ -1,6 +1,6 @@
 # ⚔️ The Armory
 
-> **58 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **55 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner" target="_blank" rel="noopener">
@@ -16,8 +16,8 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 41 of 56 tracked GitHub repos (73%)
-- **Quiet classics (no push in 12+ months, still listed):** tplmap, Ghauri, JoomScan, ACSTIS
+- **Active in the last 30 days:** 40 of 52 tracked GitHub repos (77%)
+- **Quiet classics (no push in 12+ months, still listed):** Ghauri
 - **Earliest entries:** graudit (2009), WhatWeb (2010), Metasploit Framework (2011)
 
 ## Flagship picks
@@ -31,7 +31,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | 22k | 2015 | 2026-10-21 ✅ | Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-tes… |
 | [RustScan](https://github.com/bee-san/RustScan) | 20.6k | 2020 | 2026-10-20 ✅ | 🤖 The Modern Port Scanner 🤖 |
 
-## Full inventory (58 tools)
+## Full inventory (55 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -62,7 +62,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [Dalfox](https://github.com/hahwul/dalfox) | 5.3k | 2020 | 2026-10-19 ✅ | — fast XSS scanner with DOM-aware analysis and a strong payload set; the modern XSS go-to. Used by bug bounty hunters for fast, DOM-aware XSS scanning; a favorite free alternative to Burp's scanner for XSS-only sweeps. |
 | [OpenVAS Scanner](https://github.com/greenbone/openvas-scanner) | 4.9k | 2018 | 2026-10-21 ✅ | — Greenbone's open-source vulnerability scanning engine for network and service flaws. Used by security teams running unauthenticated network vulnerability scans; the classic open-source alternative to Nessus, Qualys and Rapid7 InsightVM. (GPL-2.0) |
 | [afrog](https://github.com/zan8in/afrog) | 4.4k | 2022 | 2026-10-22 ✅ | — fast cross-platform vulnerability scanner driven by a 1,700+ community-maintained YAML PoC corpus covering CVE, CNVD, unauthorized-access, default-password and fingerprinting checks. Used by bug bounty hunters and pentesters running corpus-driven scans; the open-source scanner with one of the largest community PoC collections. (MIT) |
-| [tplmap](https://github.com/epinna/tplmap) | 4.2k | 2016 | 2024-04-21 ⏳ | — server-side template injection detection and exploitation across a dozen template engines; quiet upstream but still the SSTI reference. Used by pentesters for server-side template injection proof across a dozen engines; no commercial equivalent needed. (GPL-3.0) |
+
 | [GitTools](https://github.com/internetwache/GitTools) | 4.2k | 2015 | 2026-09-29 ✅ | — recovers an exposed `.git` directory into full source and commit history — audit your servers before attackers do. Used by bug bounty hunters to recover exposed .git directories into full source; the go-to free tool for this bug class. |
 | [Ghauri](https://github.com/r0oth3x49/ghauri) | 4.1k | 2022 | 2025-10-04 ⏳ | — a strong sqlmap alternative for error/union/blind SQLi with clever parameter tampering; slower release cadence but unique value. Used by bug bounty hunters for tricky blind, error-based and time-based SQLi. |
 | [BloodHound](https://github.com/SpecterOps/BloodHound) | 3.5k | 2023 | 2026-10-22 ✅ | — maps the shortest attack paths through Active Directory; defenders run it to find and fix their way to Domain Admin. Used by Active Directory pentesters to map hidden attack paths; the standard tool defenders also run to harden AD. |
@@ -73,14 +73,14 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [graudit](https://github.com/wireghoul/graudit) | 1.7k | 2009 | 2026-10-13 ✅ | — grep-based rough source-code auditor: one shell script + 26 regex signature databases (php, sql, xss, secrets, java, python…) for first-pass static review. Used by auditors triaging unfamiliar codebases before deep review; 17 years maintained, v4.1 (2026). (GPL-3.0) |
 | [Akto](https://github.com/akto-api-security/akto) | 1.5k | 2023 | 2026-10-22 ✅ | — self-hosted API-security platform that builds a continuous API inventory from mirrored runtime traffic and runs business-logic tests (BOLA, BFLA, OWASP API Top 10) in CI. Used by API security teams testing business-logic flaws generic DAST misses; the open-source alternative to API-scanning SaaS. (MIT) |
 | [Artemis](https://github.com/CERT-Polska/Artemis) | 1.2k | 2022 | 2026-10-21 ✅ | — modular web-vulnerability scanning platform that powers CERT Poland's nation-scale scanning (50.6k domains since 2023) and auto-generates human-readable, FP-filtered advisory reports per organization. Used by CSIRTs running continuous constituency scanning with e-mailable advisories; the public blueprint for national-scale detection. (BSD-3-Clause) |
-| [JoomScan](https://github.com/OWASP/joomscan) | 1.2k | 2016 | 2024-09-11 ⏳ | — OWASP's Joomla scanner: vulnerable components and misconfigurations on Joomla sites; quiet upstream, still OWASP's reference. Used by pentesters auditing Joomla deployments; OWASP's free Joomla scanner. (GPL-3.0) |
+
 | [Pywerview](https://github.com/the-useless-one/pywerview) | 1.1k | 2016 | 2026-04-21 | — a Python port of PowerView's AD recon verbs; same questions, no Windows host required. Used by AD pentesters who live on Linux but need PowerView-style Windows enumeration; the Python port of the classic PowerView. (GPL-3.0) |
 | [goshs](https://github.com/goshs-labs/goshs) | 993 | 2020 | 2026-10-20 ✅ | — hardened HTTP file-transfer server built for engagements: upload/download, authentication, access control and TLS — the modern replacement for `python -m http.server`. Used by pentesters on engagements as a hardened file-transfer server; the security-hardened alternative to spinning up ad-hoc Python servers. |
 | [h5i](https://github.com/h5i-dev/h5i) | 804 | 2026 | 2026-10-22 ✅ | — agent-native web-security workspace: deterministic recon, secrets scanning, DOM post-message auditing and CI regression checks — fully usable without any LLM key. Used by security engineers wanting agent-native, deterministic web checks; a newer open alternative to dashboard-driven commercial scanners. (Apache-2.0) |
 | [Realm](https://github.com/spellshift/realm) | 638 | 2022 | 2026-10-21 ✅ | — open-source adversary-emulation framework with cross-platform implants and Terraform-driven C2 infrastructure for authorized red teams. Used by red teams running repeatable, scoped adversary emulation; the open-source alternative to commercial adversary-simulation platforms. (GPL-3.0) |
 | [OXO](https://github.com/Ostorlab/oxo) | 582 | 2021 | 2026-10-21 ✅ | — pip-installable security-scanning orchestrator that composes Docker-image agents (nmap, nuclei, ZAP, subfinder…) into typed asset scan graphs with a CLI + GraphQL API. Used by security engineers chaining multi-tool pipelines without glue code; scans IPs, domains, links, files and mobile apps. (Apache-2.0) |
 | [authz0](https://github.com/hahwul/authz0) | 428 | 2022 | 2026-10-14 ✅ | — CLI broken-access-control tester that replays the same URL set under multiple roles' credentials from a YAML template and flags unauthorized responses. Used by pentesters proving BOLA/authz gaps in minutes instead of hours; role-pair replay made repeatable. (MIT) |
-| [ACSTIS](https://github.com/tijme/angularjs-csti-scanner) | 326 | 2017 | 2021-10-20 ⏳ | — the classic AngularJS client-side template injection scanner — legacy framework, still found everywhere. Used by bug hunters verifying this niche on legacy apps. (unmaintained classic) |
+
 | [jiraffe](https://github.com/0x48piraj/jiraffe) | 206 | 2020 | 2026-04-02 | — Jira recon and security auditing: version fingerprinting, gadget/permission checks and CVE mapping for authorized instances. Used by bug bounty hunters targeting Atlassian deployments; a focused free exploitation kit for the Jira bug class. (MIT) |
 | [PWN](https://github.com/0dayInc/pwn) | 86 | 2022 | 2026-10-21 ✅ | — Ruby offensive-security automation framework that orchestrates Burp, Nessus, OpenVAS, ZAP and other engines into scripted authorized engagements. Used by pentesters chaining commercial and open engines from one Ruby CLI; the glue layer for multi-engine engagements. (MIT) |
 | [Nullock](https://github.com/Bikebrainz/Nullock) | 41 | 2026 | 2026-09-30 ✅ | — zero-telemetry HTTP/2 and WebSocket-native Burp alternative with a plugin ecosystem. Used by privacy-conscious web testers; the telemetry-free Burp alternative. (MIT) |

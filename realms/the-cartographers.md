@@ -1,6 +1,6 @@
 # 🗺️ The Cartographers
 
-> **50 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **47 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
 
 ## Curator's notes
 
@@ -8,8 +8,8 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 
 ## Maintenance snapshot (2026-10-22)
 
-- **Active in the last 30 days:** 29 of 45 tracked GitHub repos (64%)
-- **Quiet classics (no push in 12+ months, still listed):** dnstwist, assetfinder, VHostScan, ike-scan
+- **Active in the last 30 days:** 27 of 40 tracked GitHub repos (68%)
+- **Quiet classics (no push in 12+ months, still listed):** VHostScan
 - **Earliest entries:** dnsrecon (2010), theHarvester (2011), dirsearch (2013)
 
 ## Flagship picks
@@ -23,7 +23,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [ffuf](https://github.com/ffuf/ffuf) | 16.9k | 2018 | 2026-09-26 ✅ | Fast web fuzzer written in Go |
 | [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-07-19 | In-depth attack surface mapping and asset discovery |
 
-## Full inventory (50 tools)
+## Full inventory (47 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -44,10 +44,10 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [naabu](https://github.com/projectdiscovery/naabu) | 6.3k | 2020 | 2026-10-21 ✅ | — fast, SYN-based port scanner built to be pipelined, not watched. Used by bug bounty hunters for SYN port scanning; the ProjectDiscovery port scanner in recon pipelines. |
 | [recon-ng](https://github.com/lanmaster53/recon-ng) | 6k | 2019 | 2026-10-05 ✅ | — the other recon framework: fully modular, database-backed web recon with a Metasploit-style console. Used by pentesters running structured recon workflows; the Metasploit-style framework for the recon phase. (GPL-3.0) |
 | [EyeWitness](https://github.com/RedSiege/EyeWitness) | 5.9k | 2014 | 2026-01-05 | — screenshots, headers and key info from web servers during authorized recon passes. Used by pentesters screenshotting and triaging web servers in bulk; the standard free recon triage tool. (GPL-3.0) |
-| [dnstwist](https://github.com/elceef/dnstwist) | 5.8k | 2015 | 2025-04-15 ⏳ | — detect typosquat, homograph and permutation lookalikes of your domain — a must for phishing defense and brand monitoring. Used by brand-protection and anti-phishing teams hunting lookalike domains; the open-source alternative to commercial domain-monitoring services. |
+
 | [hakrawler](https://github.com/hakluke/hakrawler) | 5.2k | 2019 | 2026-08-05 | — lightweight Go crawler that eats URLs from stdin and emits discovered endpoints and JavaScript file locations up to a configurable depth. Used by bug bounty hunters seeding recon pipelines from quick crawls; hakluke's pipeline-friendly staple, packaged in Kali. (GPL-3.0) |
 | [gau](https://github.com/lc/gau) | 5.1k | 2020 | 2026-10-12 ✅ | — fetch URLs indexed by AlienVault OTX, the Wayback Machine and Common Crawl. Used by bug bounty hunters pulling all known URLs from public archives; the free fetcher that seeds most recon pipelines. |
-| [assetfinder](https://github.com/tomnomnom/assetfinder) | 3.7k | 2019 | 2024-06-07 ⏳ | — passive subdomain discovery that polls a dozen public sources and prints a clean list — no keys needed; quiet upstream, still the classic. Used by bug bounty hunters for quick passive subdomain finds; the lightweight staple of recon one-liners. |
+
 | [massdns](https://github.com/blechschmidt/massdns) | 3.7k | 2016 | 2026-09-27 ✅ | — high-performance DNS stub resolver for bulk subdomain brute-forcing at scale. Used by recon pipelines resolving millions of subdomains; the free high-performance resolver no commercial tool beats on price. (GPL-3.0) |
 | [ParamSpider](https://github.com/devanshbatham/ParamSpider) | 3.2k | 2020 | 2026-03-07 | — mines archived URLs and parameters from the Wayback Machine to seed injection testing. Used by bug hunters mining hidden parameters from archives; the free parameter-mining step before injection testing. |
 | [dnsrecon](https://github.com/darkoperator/dnsrecon) | 3.1k | 2010 | 2026-10-12 ✅ | — DNS enumeration workhorse: records, zone transfers, reverse lookups and subdomain brute-forcing. Used by pentesters enumerating DNS records and zone transfers; the veteran free DNS enumeration tool. (GPL-2.0) |
@@ -61,7 +61,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [Awesome Censys Queries](https://github.com/thehappydinoa/awesome-censys-queries) | 1.2k | 2022 | 2026-07-20 | — a curated corpus of Censys search queries for internet-wide recon. Used by CTI analysts running certified Censys hunting; the community cookbook for asset-search queries. (CC-BY-4.0, curated list) |
 | [Recog](https://github.com/rapid7/recog) | 796 | 2013 | 2026-10-12 ✅ | — the fingerprint database behind Metasploit and Nexpose: service banners mapped to OS and product families. Used by fingerprinting tool maintainers for service identification; the open database behind Metasploit and Rapid7 tooling. (BSD-3-Clause) |
 | [ARL-Next](https://github.com/owl234/ARL-Next) | 469 | 2026 | 2026-10-22 ✅ | — attack-surface reconnaissance platform combining subdomain enumeration, port scanning, fingerprinting and a nuclei PoC pipeline with task scheduling. Used by attack-surface teams running scheduled recon over large asset lists; the actively maintained continuation of the ARL recon platform. (GPL-3.0) |
-| [ike-scan](https://github.com/royhills/ike-scan) | 423 | 2013 | 2024-09-15 ⏳ | — IKE/IPsec security auditing: fingerprint VPN gateways and enumerate transform proposals. Used by network pentesters fingerprinting IKE/VPN endpoints; the classic free IPSec scanner. (GPL-2.0) |
+
 | [lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools) | 395 | 2021 | 2026-10-22 ✅ | — monorepo of 26 small stdin/stdout CLI utilities that reshape and pivot recon output — subdomain-takeover checks, redirect chains, JS and parameter mining. Used by bug bounty hunters gluing tool outputs into pipelines; the unix-philosophy companion to monolithic recon suites. (GPL-3.0) |
 | [nerva](https://github.com/praetorian-inc/nerva) | 370 | 2026 | 2026-10-21 ✅ | — high-performance service fingerprinting CLI identifying 170+ protocols on TCP, UDP and SCTP with safe misconfiguration checks. Used by recon teams fingerprinting services at scale without credentials; Praetorian's open-source protocol identification engine. (Apache-2.0) |
 | [DorkEye](https://github.com/xPloits3c/DorkEye) | 154 | 2025 | 2026-10-21 ✅ | — OSINT dork pipeline: email, subdomain and people discovery through structured query automation. Used by bug hunters running Google dorks via SearX; the free web-based dork launcher. (MIT) |
