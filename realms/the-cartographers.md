@@ -1,14 +1,14 @@
 # 🗺️ The Cartographers
 
-> **47 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **48 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-23** (re-verified monthly)
 
 ## Curator's notes
 
 The mapping layer of offensive work — subdomain enumeration, certificate transparency, DNS archaeology and attack-surface diffing. The projectdiscovery suite lives here, alongside the classic recon one-liners every bounty hunter memorizes.
 
-## Maintenance snapshot (2026-10-22)
+## Maintenance snapshot (2026-10-23)
 
-- **Active in the last 30 days:** 27 of 40 tracked GitHub repos (68%)
+- **Active in the last 30 days:** 28 of 41 tracked GitHub repos (68%)
 - **Quiet classics (no push in 12+ months, still listed):** VHostScan
 - **Earliest entries:** dnsrecon (2010), theHarvester (2011), dirsearch (2013)
 
@@ -23,7 +23,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [ffuf](https://github.com/ffuf/ffuf) | 16.9k | 2018 | 2026-09-26 ✅ | Fast web fuzzer written in Go |
 | [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-07-19 | In-depth attack surface mapping and asset discovery |
 
-## Full inventory (47 tools)
+## Full inventory (48 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -65,6 +65,8 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools) | 395 | 2021 | 2026-10-22 ✅ | — monorepo of 26 small stdin/stdout CLI utilities that reshape and pivot recon output — subdomain-takeover checks, redirect chains, JS and parameter mining. Used by bug bounty hunters gluing tool outputs into pipelines; the unix-philosophy companion to monolithic recon suites. (GPL-3.0) |
 | [nerva](https://github.com/praetorian-inc/nerva) | 370 | 2026 | 2026-10-21 ✅ | — high-performance service fingerprinting CLI identifying 170+ protocols on TCP, UDP and SCTP with safe misconfiguration checks. Used by recon teams fingerprinting services at scale without credentials; Praetorian's open-source protocol identification engine. (Apache-2.0) |
 | [DorkEye](https://github.com/xPloits3c/DorkEye) | 154 | 2025 | 2026-10-21 ✅ | — OSINT dork pipeline: email, subdomain and people discovery through structured query automation. Used by bug hunters running Google dorks via SearX; the free web-based dork launcher. (MIT) |
+| [reKover](https://github.com/BRuteLogic/reKover) | 52 | 2026 | 2026-10-21 ✅ | — stealth hybrid URL mapper merging wayback-machine history with wordlist probing to recover hidden and forgotten paths. Used by bug bounty hunters recovering forgotten endpoints and legacy paths; the zero-dependency bash alternative to heavy content-discovery suites. (MIT per README) |
+
 | [AtDork](https://github.com/amnottdevv/atdork) | 49 | 2026 | 2026-10-21 ✅ | — multi-engine Google-dork scraper with categorized GHDB output for authorized reconnaissance. Used by bug bounty hunters automating Google dorking for exposed targets; the free dork engine for recon. (MIT) |
 | [BloodRecon](https://github.com/MrHacker-X/BloodRecon) | 22 | 2025 | 2026-10-16 ✅ | — automated recon pipeline that chains subdomain discovery, JavaScript endpoint extraction and a nuclei handoff with Telegram notifications. Used by bug bounty hunters automating the recon-to-scan handoff; the one-command recon pipeline for bounty workflows. (MIT) |
 | [Dork](https://github.com/Naqaab50/Dork) | 10 | 2026 | 2026-08-21 | — curated Google-dork payload library for cloud, AI, SaaS and IoT reconnaissance. Used by recon teams pulling tested dorks per target class; the categorized dork corpus for scoped discovery. (MIT) |

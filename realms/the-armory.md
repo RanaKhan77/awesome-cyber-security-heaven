@@ -1,6 +1,6 @@
 # ⚔️ The Armory
 
-> **55 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **56 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-23** (re-verified monthly)
 
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner" target="_blank" rel="noopener">
@@ -14,9 +14,9 @@
 
 The workhorse realm — what you load onto a VPS before a bug-bounty session. Injection proof engines, parameter mining, crawl-and-fuzz chains dominate. We license-check hard here because copyleft contamination matters when findings end up in commercial reports.
 
-## Maintenance snapshot (2026-10-22)
+## Maintenance snapshot (2026-10-23)
 
-- **Active in the last 30 days:** 40 of 52 tracked GitHub repos (77%)
+- **Active in the last 30 days:** 41 of 53 tracked GitHub repos (77%)
 - **Quiet classics (no push in 12+ months, still listed):** Ghauri
 - **Earliest entries:** graudit (2009), WhatWeb (2010), Metasploit Framework (2011)
 
@@ -31,7 +31,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | 22k | 2015 | 2026-10-21 ✅ | Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-tes… |
 | [RustScan](https://github.com/bee-san/RustScan) | 20.6k | 2020 | 2026-10-20 ✅ | 🤖 The Modern Port Scanner 🤖 |
 
-## Full inventory (55 tools)
+## Full inventory (56 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -82,6 +82,8 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [authz0](https://github.com/hahwul/authz0) | 428 | 2022 | 2026-10-14 ✅ | — CLI broken-access-control tester that replays the same URL set under multiple roles' credentials from a YAML template and flags unauthorized responses. Used by pentesters proving BOLA/authz gaps in minutes instead of hours; role-pair replay made repeatable. (MIT) |
 
 | [jiraffe](https://github.com/0x48piraj/jiraffe) | 206 | 2020 | 2026-04-02 | — Jira recon and security auditing: version fingerprinting, gadget/permission checks and CVE mapping for authorized instances. Used by bug bounty hunters targeting Atlassian deployments; a focused free exploitation kit for the Jira bug class. (MIT) |
+| [unKover](https://github.com/BRuteLogic/unKover) | 125 | 2026 | 2026-10-13 ✅ | — the 403 access-bypass tester: a 13-technique battery (path rewrites, header tricks, HTTP method and version shifts) that turns forbidden endpoints into authorized access. Used by web pentesters proving 403s are misconfigurations during engagements; the focused free alternative to commercial authz-testing modules. (MIT per README) |
+
 | [PWN](https://github.com/0dayInc/pwn) | 86 | 2022 | 2026-10-21 ✅ | — Ruby offensive-security automation framework that orchestrates Burp, Nessus, OpenVAS, ZAP and other engines into scripted authorized engagements. Used by pentesters chaining commercial and open engines from one Ruby CLI; the glue layer for multi-engine engagements. (MIT) |
 | [Nullock](https://github.com/Bikebrainz/Nullock) | 41 | 2026 | 2026-09-30 ✅ | — zero-telemetry HTTP/2 and WebSocket-native Burp alternative with a plugin ecosystem. Used by privacy-conscious web testers; the telemetry-free Burp alternative. (MIT) |
 | [rcekit](https://github.com/kabiri-labs/rcekit) | 25 | 2025 | 2026-10-21 ✅ | — zero-dependency RCE confirmation toolkit with false-positive-resistant sink tiering. Used by pentesters confirming command-injection findings safely; the confirmation tier for injection testing. (MIT) |
