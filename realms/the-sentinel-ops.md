@@ -1,14 +1,14 @@
 # 🔵 The Sentinel Ops
 
-> **46 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **47 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-23** (re-verified monthly)
 
 ## Curator's notes
 
 The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs and DFIR toolkits. The fingerprinting standards (JA3, HASSH) live here: archived upstream, still canonical, still cited in nearly every detection paper.
 
-## Maintenance snapshot (2026-10-22)
+## Maintenance snapshot (2026-10-23)
 
-- **Active in the last 30 days:** 36 of 45 tracked GitHub repos (80%)
+- **Active in the last 30 days:** 37 of 46 tracked GitHub repos (80%)
 - **Quiet classics (no push in 12+ months, still listed):** none — 18-month-idle tools now move to the Legacy Vault
 - **Earliest entries:** The Sleuth Kit (2011), YARA (2012), Zeek (2012)
 
@@ -23,7 +23,7 @@ The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs 
 | [awesome-honeypots](https://github.com/paralax/awesome-honeypots) | 10.6k | 2015 | 2026-06-01 | an awesome list of honeypot resources |
 | [YARA](https://github.com/VirusTotal/yara) | 10k | 2012 | 2026-10-21 ✅ | The pattern matching swiss knife |
 
-## Full inventory (46 tools)
+## Full inventory (47 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -58,7 +58,7 @@ The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs 
 | [Fibratus](https://github.com/rabbitstack/fibratus) | 2.6k | 2016 | 2026-10-19 ✅ | — Windows kernel-event tracing with YARA filtering; a Swiss army knife for endpoint visibility. Used by defenders tracing Windows kernel activity for threats; the open-source kernel-observability tool. (Apache-2.0) |
 | [Shuffle](https://github.com/Shuffle/Shuffle) | 2.5k | 2020 | 2026-10-20 ✅ | — self-hosted SOAR automation: connect your TIP, SIEM and responders in drag-and-drop workflows. Used by SOC teams automating playbooks; the open-source SOAR alternative to Splunk SOAR and XSOAR. (AGPL-3.0) |
 
-| [Kismet](https://github.com/kismetwireless/kismet) | 2.2k | 2016 | 2026-10-21 ✅ | — passive wireless detection layer: discovers Wi-Fi and BLE devices, rogue access points and wardrives. Used by wireless security auditors monitoring WiFi and Bluetooth; the standard open wireless detection platform. (GPL-2.0) |
+| [Adalanche](https://github.com/lkarlslund/Adalanche) | 2.2k | 2020 | 2026-10-22 ✅ | — Active Directory attack-graph visualizer and explorer: ingest AD objects and see the real paths to Domain Admin. Used by blue teams auditing ACLs and red teams planning paths; the go-to open-source AD attack-path analyzer. (AGPL-3.0) || [Kismet](https://github.com/kismetwireless/kismet) | 2.2k | 2016 | 2026-10-21 ✅ | — passive wireless detection layer: discovers Wi-Fi and BLE devices, rogue access points and wardrives. Used by wireless security auditors monitoring WiFi and Bluetooth; the standard open wireless detection platform. (GPL-2.0) |
 | [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux) | 2.2k | 2020 | 2026-10-16 ✅ | — the Windows-trusted system monitor ported to Linux. Used by defenders unifying endpoint telemetry across OSes; Microsoft's cross-platform extension of Sysmon. (MIT) |
 | [Nagios Core](https://github.com/NagiosEnterprises/nagioscore) | 2.1k | 2014 | 2026-08-07 | — the classic infrastructure monitor: availability checks that surface outages and anomalies early. Used by ops teams monitoring infrastructure for decades; the classic open-source monitoring platform. (GPL-2.0) |
 | [FIR](https://github.com/certsocietegenerale/FIR) | 2k | 2015 | 2026-09-14 | — Fast Incident Response from Société Générale: ticketing built for IR workflows. Used by incident-response teams managing cases; the open-source IR platform for teams without commercial case tools. (GPL-3.0) |

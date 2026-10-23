@@ -1,14 +1,14 @@
 # 🔭 The Watchtower
 
-> **19 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **20 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-23** (re-verified monthly)
 
 ## Curator's notes
 
 Feeds, frameworks and enrichment for the SOC's morning routine. Threat-intel platforms, IOC pipelines and detection-as-data. Most entries here are pipelines rather than point tools — chaining them is the whole game.
 
-## Maintenance snapshot (2026-10-22)
+## Maintenance snapshot (2026-10-23)
 
-- **Active in the last 30 days:** 10 of 12 tracked GitHub repos (83%)
+- **Active in the last 30 days:** 11 of 13 tracked GitHub repos (85%)
 - **Earliest entries:** SpiderFoot (2012), cve-search (2012), MISP (2013)
 
 ## Flagship picks
@@ -22,7 +22,7 @@ Feeds, frameworks and enrichment for the SOC's morning routine. Threat-intel pla
 | [firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets) | 3.9k | 2015 | 2026-10-21 ✅ | ipsets dynamically updated with firehol's update-ipsets.sh script |
 | [Uncover](https://github.com/projectdiscovery/uncover) | 3.1k | 2022 | 2026-10-22 ✅ | Quickly discover exposed hosts on the internet using multiple search engines. |
 
-## Full inventory (19 tools)
+## Full inventory (20 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -32,7 +32,7 @@ Feeds, frameworks and enrichment for the SOC's morning routine. Threat-intel pla
 | [IntelOwl](https://github.com/intelowlproject/IntelOwl) | 4.8k | 2019 | 2026-10-20 ✅ | — bulk-analyze observables across 100+ online services from one API and web UI. Used by SOC analysts enriching observables in bulk; the open-source alternative to commercial one-click threat-inquiry APIs. (AGPL-3.0) |
 | [firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets) | 3.9k | 2015 | 2026-10-21 ✅ | — aggregated, daily-updated IP blocklists (attacks, spam, abuse) ready for iptables/fail2ban; check each list's own license before redistribution. Used by firewall admins feeding blocklists; the community-maintained alternative to commercial IP-reputation feeds. |
 | [Uncover](https://github.com/projectdiscovery/uncover) | 3.1k | 2022 | 2026-10-22 ✅ | — query exposed services across Shodan, Censys and friends in one sweep — the instant exposure check. Used by recon teams querying exposure across search engines at once; the free aggregator for Shodan-style lookups. |
-| [cve-search](https://github.com/cve-search/cve-search) | 2.7k | 2012 | 2026-10-13 ✅ | — self-hosted CVE/CPE database in MongoDB with web UI, API and CLI. Used by orgs (incl. CIRCL's former public CVE service) to run local, rate-limit-free vulnerability lookups; strict/lax CPE matching, 14 yrs of maintenance. (AGPL-3.0) |
+| [OpenCVE](https://github.com/opencve/opencve) | 2.9k | 2020 | 2026-10-14 ✅ | — self-hosted vulnerability intelligence platform: indexes CVEs and notifies on the products and keywords you follow. Used by security teams tracking new CVEs for their asset inventory; the self-hosted alternative to commercial CVE feeds. (Apache-2.0) || [cve-search](https://github.com/cve-search/cve-search) | 2.7k | 2012 | 2026-10-13 ✅ | — self-hosted CVE/CPE database in MongoDB with web UI, API and CLI. Used by orgs (incl. CIRCL's former public CVE service) to run local, rate-limit-free vulnerability lookups; strict/lax CPE matching, 14 yrs of maintenance. (AGPL-3.0) |
 | [Yeti](https://github.com/yeti-platform/yeti) | 2k | 2015 | 2026-10-09 ✅ | — organize your threat intel: observables, indicators and TTPs in one searchable, API-first platform. Used by CTI analysts organizing indicators and TTPs; the open-source threat-intel tracker for teams without commercial TIP budgets. |
 | [IntelMQ](https://github.com/certtools/intelmq) | 1.1k | 2014 | 2026-04-28 | — the feed plumber's dream: collect, normalize and route threat-intel feeds from hundreds of sources into your stack. Used by national CERTs automating feed ingestion; the open-source alternative to commercial intel-pipeline tooling. (AGPL-3.0) |
 | [RansomLook](https://github.com/RansomLook/RansomLook) | 677 | 2022 | 2026-10-21 ✅ | — open ransomware-group leak-site tracker with historical victim data (see also the live stats at ransomware.live). Used by CTI analysts tracking ransomware leak sites; the free watchtower the commercial feeds also scrape. (GPL-3.0) |
