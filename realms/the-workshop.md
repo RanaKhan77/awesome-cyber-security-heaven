@@ -1,14 +1,14 @@
 # 🧰 The Workshop
 
-> **48 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **49 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-23** (re-verified monthly)
 
 ## Curator's notes
 
 The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plumbing (Tor, socat), debuggers and format-inspectors. Unspecialized by definition — the tools you reach for when nothing specialized fits.
 
-## Maintenance snapshot (2026-10-22)
+## Maintenance snapshot (2026-10-23)
 
-- **Active in the last 30 days:** 32 of 39 tracked GitHub repos (82%)
+- **Active in the last 30 days:** 33 of 40 tracked GitHub repos (82%)
 - **Quiet classics (no push in 12+ months, still listed):** none — 18-month-idle tools now move to the Legacy Vault
 - **Earliest entries:** mitmproxy (2010), Netron (2010), Apktool (2012)
 
@@ -23,7 +23,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [mitmproxy](https://github.com/mitmproxy/mitmproxy) | 45.9k | 2010 | 2026-10-22 ✅ | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
 | [CyberChef](https://github.com/gchq/CyberChef) | 36.2k | 2016 | 2026-10-19 ✅ | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |
 
-## Full inventory (48 tools)
+## Full inventory (49 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -66,7 +66,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [OCSF](https://github.com/ocsf/ocsf-schema) | 906 | 2022 | 2026-10-21 ✅ | — the Open Cybersecurity Schema Framework: one schema for security events. Used by SIEM and security vendors normalizing telemetry; the open schema standard the industry is converging on. (Apache-2.0) |
 | [Dradis CE](https://github.com/dradis/dradis-ce) | 843 | 2016 | 2026-10-21 ✅ | — collaborative pentest reporting: team notes, evidence and findings assembled into one professional report. Used by pentest teams assembling reports from tool output; the free edition of the commercial reporting platform. (GPL-2.0) |
 | [Hachoir](https://github.com/vstinner/hachoir) | 671 | 2016 | 2026-10-14 ✅ | — binary field inspection: split any file into its fields, even damaged ones. Used by researchers extracting metadata from damaged binaries; the free Python metadata extractor. (GPL-2.0) |
-| [friTap](https://github.com/fkie-cad/friTap) | 561 | 2021 | 2026-09-29 ✅ | — intercept TLS keys in real time for analysis; a Frida script for the lab. Used by traffic analysts extracting TLS keys from apps via Frida; the free tool for decrypting stubborn mobile traffic. (GPL-3.0) |
+| [Vulnrepo](https://github.com/kac89/vulnrepo) | 583 | 2017 | 2026-10-07 ✅ | — free end-to-end-encrypted vulnerability report generator and repository: CWE/CVE/MITRE templates, scanner imports, DOCX output and Jira export. Used by pentesters assembling reports fast after engagements; the free alternative to commercial reporting suites. (Apache-2.0) || [friTap](https://github.com/fkie-cad/friTap) | 561 | 2021 | 2026-09-29 ✅ | — intercept TLS keys in real time for analysis; a Frida script for the lab. Used by traffic analysts extracting TLS keys from apps via Frida; the free tool for decrypting stubborn mobile traffic. (GPL-3.0) |
 
 | [cybersec-toolkit](https://github.com/26zl/cybersec-toolkit) | 77 | 2026 | 2026-10-21 ✅ | — single-command installer for 670+ security tools with an authorization-gated MCP server, allowlist and flag-denylist execution policy and a prompt-injection output sanitizer. Used by security engineers building safe tool environments for AI agents; the least-privilege installer for agent-accessible security tooling. (MIT) |
 |---|---|---|---|---|
