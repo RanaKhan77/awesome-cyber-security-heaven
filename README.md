@@ -9,9 +9,9 @@
 </p>
 
 > A hand-curated, license-aware map of the best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR, DevSecOps and AI/LLM security. Free, open-source and free-tier entries all earn their place. 🌟
-> **2026 edition** — 496 tools, 14 realms, every link re-verified 2026-10-22. 📅
+> **2026 edition** — 498 tools, 14 realms, every link re-verified 2026-10-22. 📅
 
-🧭 **496 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **free, open-source & free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 🧊 **dormant classics → Legacy Vault** · 💯 **no paywalls, no SaaS wrappers**
+🧭 **498 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **free, open-source & free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 🧊 **dormant classics → Legacy Vault** · 💯 **no paywalls, no SaaS wrappers**
 
 **Legend** — ⚖️ `(GPL-…)` / `(AGPL-…)` = copyleft license · 🎁 `(free tier)` / `(freemium)` = free tier of a
 commercial service · 🔒 `(free, proprietary)` = freeware, not open source · 🏠 `(maintainer's project)` =
@@ -77,6 +77,8 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) - The open-source intercepting proxy and scanner — a full free Burp alternative with CI/CD integration and a big add-on ecosystem. Used by web pentesters, QA teams and bug bounty beginners.
 - [Akto](https://github.com/akto-api-security/akto) - Self-hosted API-security platform that builds a continuous API inventory from mirrored runtime traffic and runs business-logic tests (BOLA, BFLA, OWASP API Top 10) in CI. Used by API security teams testing business-logic flaws generic DAST misses; the open-source alternative to API-scanning SaaS. (MIT)
 - [sqlmap](https://github.com/sqlmapproject/sqlmap) - The definitive SQL injection detection and exploitation tool for authorized web application testing. Used by penetration testers everywhere for SQL injection proof; the definitive free SQLi automation tool with no real commercial equal. (GPL-2.0)
+- [unKover](https://github.com/BRuteLogic/unKover) - The 403 access-bypass tester: a 13-technique battery (path rewrites, header tricks, HTTP method and version shifts) that turns forbidden endpoints into authorized access. Used by web pentesters proving 403s are misconfigurations during engagements; the focused free alternative to commercial authz-testing modules. (MIT per README)
+
 - [Impacket](https://github.com/fortra/impacket) - The standard Python library for low-level Windows protocol work (SMB, LDAP, Kerberos); powers wmiexec/secretsdump-class tooling and AD assessments. Used by red teamers and AD security researchers; the Python underpinning of countless offensive and defensive toolkits.
 - [MITRE Caldera](https://github.com/apache/caldera) - Scalable adversary-emulation platform built on ATT&CK; run purple-team exercises that prove your detections actually fire. Used by red teams and purple teams for automated adversary emulation; the open-source alternative to commercial breach-attack-simulation platforms like AttackIQ and SafeBreach.
 - [Realm](https://github.com/spellshift/realm) - Open-source adversary-emulation framework with cross-platform implants and Terraform-driven C2 infrastructure for authorized red teams. Used by red teams running repeatable, scoped adversary emulation; the open-source alternative to commercial adversary-simulation platforms. (GPL-3.0)
@@ -201,6 +203,8 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [bbot](https://github.com/blacklanternsecurity/bbot) - Recursive, modular OSINT/scanning framework — spider the whole attack surface with one command. Used by attack-surface teams running modular, recursive recon; the open-source framework rivaling commercial ASM discovery. (AGPL-3.0)
 - [ARL-Next](https://github.com/owl234/ARL-Next) - Attack-surface reconnaissance platform combining subdomain enumeration, port scanning, fingerprinting and a nuclei PoC pipeline with task scheduling. Used by attack-surface teams running scheduled recon over large asset lists; the actively maintained continuation of the ARL recon platform. (GPL-3.0)
 - [feroxbuster](https://github.com/epi052/feroxbuster) - Fast recursive content discovery in Rust with great heuristics and recursion handling. Used by web pentesters for fast recursive content discovery; the Rust-based favorite alongside ffuf and gobuster.
+- [reKover](https://github.com/BRuteLogic/reKover) - Stealth hybrid URL mapper that merges wayback-machine history with wordlist probing to recover hidden and forgotten paths. Used by bug bounty hunters recovering forgotten endpoints and legacy paths; the zero-dependency bash alternative to heavy content-discovery suites. (MIT per README)
+
 - [ffuf](https://github.com/ffuf/ffuf) - The fast web fuzzer everyone uses for content, parameter and vhost discovery. Used by web pentesters as the de facto standard free web fuzzer.
 - [GHunt](https://github.com/mxrch/GHunt) - Investigate a Google account's public footprint (photos, reviews, services) from an email — for authorized OSINT; respect ToS. Used by OSINT investigators profiling Google accounts from public artifacts; the open alternative to commercial people-intel tools. (AGPL-3.0)
 - [sherlock](https://github.com/sherlock-project/sherlock) - Hunt one username across 400+ social networks; people-OSINT in seconds. Used by OSINT investigators checking username presence across hundreds of platforms; the standard free account-discovery tool.
