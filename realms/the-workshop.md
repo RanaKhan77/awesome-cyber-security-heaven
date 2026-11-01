@@ -1,12 +1,12 @@
 # 🧰 The Workshop
 
-> **49 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-23** (re-verified monthly)
+> **50 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
 The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plumbing (Tor, socat), debuggers and format-inspectors. Unspecialized by definition — the tools you reach for when nothing specialized fits.
 
-## Maintenance snapshot (2026-10-23)
+## Maintenance snapshot (2026-11-01)
 
 - **Active in the last 30 days:** 33 of 40 tracked GitHub repos (82%)
 - **Quiet classics (no push in 12+ months, still listed):** none — 18-month-idle tools now move to the Legacy Vault
@@ -23,7 +23,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [mitmproxy](https://github.com/mitmproxy/mitmproxy) | 45.9k | 2010 | 2026-10-22 ✅ | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
 | [CyberChef](https://github.com/gchq/CyberChef) | 36.2k | 2016 | 2026-10-19 ✅ | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |
 
-## Full inventory (49 tools)
+## Full inventory (50 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -41,7 +41,6 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [Ciphey](https://github.com/Ciphey/Ciphey) | 21.7k | 2019 | 2026-10-13 ✅ | — automated decoder: paste ciphertext, get plaintext plus the method used — evidence triage in seconds. Used by CTF players and analysts auto-decoding ciphertext; the free automated decoder. |
 | [Cutter](https://github.com/rizinorg/cutter) | 20.1k | 2017 | 2026-09-11 | — free and open reverse-engineering platform powered by rizin: graph disassembly, decompiler views and debugging in a polished desktop UI. Used by RE learners driving Ghidra through a friendlier GUI; the free reverse-engineering IDE. (GPL-3.0) |
 | [binwalk](https://github.com/ReFirmLabs/binwalk) | 14.5k | 2013 | 2026-08-11 | — firmware analysis: scan, extract and identify embedded files and filesystems. Used by firmware researchers extracting embedded filesystems and images; the standard free firmware-analysis tool. (MIT) |
-
 | [XERJ](https://github.com/xerj-org/xerj) | 13.1k | 2026 | 2026-10-22 ✅ | — local-first search engine and MCP server in a single Rust binary: hybrid BM25 + vector search over code, docs, logs and PDFs with an Elasticsearch-compatible API — for agents and humans alike. Used by security teams giving AI agents searchable, air-gapped memory over case files and codebases; the self-hosted retrieval layer for agent workflows. (Apache-2.0) |
 | [Scapy](https://github.com/secdev/scapy) | 12.6k | 2015 | 2026-10-22 ✅ | — packet crafting without limits: forge, sniff, dissect and send anything — the Python network Swiss-army knife. Used by network researchers crafting packets in Python; the standard library protocol testing builds on. (GPL-2.0) |
 | [Detect It Easy](https://github.com/horsicq/Detect-It-Easy) | 11.8k | 2014 | 2026-10-21 ✅ | — packer/compiler/protection detection with a rule engine. Used by malware analysts identifying packers and compilers; the free packer-detection standard. (MIT) |
@@ -50,7 +49,6 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [Capstone](https://github.com/capstone-engine/capstone) | 9.1k | 2013 | 2026-10-21 ✅ | — the disassembly framework behind countless security tools. Used by security developers embedding disassembly; the free engine behind countless RE and EDR tools. (BSD-3-Clause) |
 | [pyWhat](https://github.com/bee-san/pyWhat) | 7.3k | 2021 | 2026-10-13 ✅ | — identify anything: hashes, keys, URLs, PII — the "what is this string?" answer. Used by analysts identifying arbitrary blobs and strings; the free 'what is this' identifier. |
 | [Faraday](https://github.com/infobyte/faraday) | 6.8k | 2013 | 2026-10-21 ✅ | — the pentest collaboration platform: import tool output, deduplicate findings and manage the whole engagement. Used by pentest teams collaborating on findings; the community edition of the commercial collaboration platform. (GPL-3.0) |
-
 | [Dangerzone](https://github.com/freedomofpress/dangerzone) | 5.8k | 2020 | 2026-10-21 ✅ | — takes hostile documents and re-renders them as safe PDFs inside an isolated sandbox. Used by newsrooms converting untrusted documents into safe PDFs; the free sanitization tool for adversarial files. (AGPL-3.0) |
 | [UEFITool](https://github.com/LongSoft/UEFITool) | 5.8k | 2013 | 2026-07-29 | — parse, extract and replace UEFI firmware images. Used by firmware analysts parsing UEFI images; the free tool for BIOS/UEFI research. (BSD-2-Clause) |
 | [ExifTool](https://github.com/exiftool/exiftool) | 5.2k | 2018 | 2026-05-27 | — the metadata reader/writer for files and images; the last word in metadata triage. Used by investigators reading and stripping file metadata; the standard free metadata tool used across forensics. (Perl Artistic/GPL) |
@@ -66,8 +64,8 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [OCSF](https://github.com/ocsf/ocsf-schema) | 906 | 2022 | 2026-10-21 ✅ | — the Open Cybersecurity Schema Framework: one schema for security events. Used by SIEM and security vendors normalizing telemetry; the open schema standard the industry is converging on. (Apache-2.0) |
 | [Dradis CE](https://github.com/dradis/dradis-ce) | 843 | 2016 | 2026-10-21 ✅ | — collaborative pentest reporting: team notes, evidence and findings assembled into one professional report. Used by pentest teams assembling reports from tool output; the free edition of the commercial reporting platform. (GPL-2.0) |
 | [Hachoir](https://github.com/vstinner/hachoir) | 671 | 2016 | 2026-10-14 ✅ | — binary field inspection: split any file into its fields, even damaged ones. Used by researchers extracting metadata from damaged binaries; the free Python metadata extractor. (GPL-2.0) |
-| [Vulnrepo](https://github.com/kac89/vulnrepo) | 583 | 2017 | 2026-10-07 ✅ | — free end-to-end-encrypted vulnerability report generator and repository: CWE/CVE/MITRE templates, scanner imports, DOCX output and Jira export. Used by pentesters assembling reports fast after engagements; the free alternative to commercial reporting suites. (Apache-2.0) || [friTap](https://github.com/fkie-cad/friTap) | 561 | 2021 | 2026-09-29 ✅ | — intercept TLS keys in real time for analysis; a Frida script for the lab. Used by traffic analysts extracting TLS keys from apps via Frida; the free tool for decrypting stubborn mobile traffic. (GPL-3.0) |
-
+| [Vulnrepo](https://github.com/kac89/vulnrepo) | 583 | 2017 | 2026-10-07 ✅ | — free end-to-end-encrypted vulnerability report generator and repository: CWE/CVE/MITRE templates, scanner imports, DOCX output and Jira export. Used by pentesters assembling reports fast after engagements; the free alternative to commercial reporting suites. (Apache-2.0)|
+| [friTap](https://github.com/fkie-cad/friTap) | 561 | 2021 | 2026-09-29 ✅ | — intercept TLS keys in real time for analysis; a Frida script for the lab. Used by traffic analysts extracting TLS keys from apps via Frida; the free tool for decrypting stubborn mobile traffic. (GPL-3.0) |
 | [cybersec-toolkit](https://github.com/26zl/cybersec-toolkit) | 77 | 2026 | 2026-10-21 ✅ | — single-command installer for 670+ security tools with an authorization-gated MCP server, allowlist and flag-denylist execution policy and a prompt-injection output sanitizer. Used by security engineers building safe tool environments for AI agents; the least-privilege installer for agent-accessible security tooling. (MIT) |
 |---|---|---|---|---|
 | [angr](https://angr.io/) | — | — | — | — the binary-analysis platform from UCSB's Shellphish: symbolic execution at scale. Used by researchers and CTF players symbolically executing binaries; the free platform for program analysis research. (BSD-2-Clause) |
@@ -79,6 +77,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [Tails](https://tails.net/) | — | — | — | — the amnesic incognito live system: no trace left on the machine. Used by journalists needing amnesic, compartmentalized computing; the free live system that leaves no trace. (GPL-3.0) |
 | [tcpdump](https://www.tcpdump.org) | — | — | — | — the command-line packet capture classic; quick looks and long captures where Wireshark won't fit. Used by admins capturing packets on servers without GUIs; the classic free CLI sniffer preinstalled everywhere. |
 | [Wireshark](https://www.wireshark.org) | — | — | — | — the packet analyzer everyone knows; deep protocol visibility for troubleshooting and forensics. Used by network engineers and DFIR analysts everywhere; the standard free packet analyzer commercial tools still get compared to. (GPL-2.0) |
+| [reconmap](https://github.com/reconmap/reconmap) | - | - | - | — Collaboration-first security-operations platform: plan engagements, run and parse recon commands, AI-assist the summaries and export client-ready reports — built for infosec teams and MSSPs. Used by pentest teams managing engagements end to end; the self-hosted alternative to commercial pentest-management SaaS.. (MIT) |
 
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*

@@ -1,12 +1,12 @@
 # 🎯 The Proving Grounds
 
-> **70 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **70 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
 Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab ranges. Practice targets are verified live before listing (dead practice apps are worse than none — they teach tool errors, not vulns).
 
-## Maintenance snapshot (2026-10-22)
+## Maintenance snapshot (2026-11-01)
 
 - **Active in the last 30 days:** 11 of 28 tracked GitHub repos (39%)
 - **Quiet classics (no push in 12+ months, still listed):** Metasploitable 3, HEVD, APTSimulator, OWASP NodeGoat, DIVA Android, DVIA-v2, AzureGoat, 0l4bs, WackoPicko, lfi-labs, DVHMA, CryptOMG, damnvulnerable.me, SentinelTestbed
@@ -41,7 +41,6 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [Splunk Attack Range](https://github.com/splunk/attack_range) | 2.6k | 2019 | 2026-10-20 ✅ | — builds instrumented detection labs: attack, collect and test in one workflow. Used by detection engineers building full attack/defend labs in the cloud; the free Splunk range that emulates commercial cyber ranges. (Apache-2.0) |
 | [OWASP NodeGoat](https://github.com/OWASP/NodeGoat) | 2.1k | 2013 | 2024-06-15 ⏳ | — the Node.js vulnerable-by-design app: the Top 10 in a controllable lab. Used by Node.js teams learning the OWASP Top 10 in their stack; the OWASP training app for JavaScript. (Apache-2.0) |
 | [OWASP Mutillidae II](https://github.com/webpwnized/mutillidae) | 1.5k | 2018 | 2026-09-24 ✅ | — deliberately vulnerable app that re-creates every OWASP Top 10 issue, resettable per install. Used by teachers demonstrating nearly every OWASP vulnerability; the deliberately vulnerable training app. (GPL-3.0) |
-
 | [DIVA Android](https://github.com/payatu/diva-android) | 1.2k | 2016 | 2023-05-19 ⏳ | — Damn Insecure and Vulnerable App: the Android training classic. Used by mobile security students learning Android flaw classes; the classic deliberately vulnerable Android app. (GPL-3.0) |
 | [DVIA-v2](https://github.com/prateek147/DVIA-v2) | 1.1k | 2018 | 2024-03-29 ⏳ | — Damn Vulnerable iOS App v2: the mobile testing curriculum as an app. Used by iOS security learners practicing on Swift; the free deliberately vulnerable iOS app. (MIT) |
 | [AzureGoat](https://github.com/ine-labs/AzureGoat) | 967 | 2022 | 2024-10-30 ⏳ | — the vulnerable-by-design Azure cloud lab. Used by cloud security learners practicing Azure attacks; the free vulnerable-by-design Azure lab. (MIT) |

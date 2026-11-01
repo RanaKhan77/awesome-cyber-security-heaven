@@ -1,12 +1,12 @@
 # 🤖 The Oracle's Domain
 
-> **10 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-23** (re-verified monthly)
+> **10 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
 The zero-AI AI-security realm — guardrails, model-file safety, signing and the shared risk taxonomies. Tools here defend AI surfaces without themselves needing an LLM key; the AI-dependent assistants and copilots live one realm over, in The AI Forge.
 
-## Maintenance snapshot (2026-10-23)
+## Maintenance snapshot (2026-11-01)
 
 - **Active in the last 30 days:** 8 of 9 tracked GitHub repos (89%)
 - **Earliest entries:** Awesome Threat Intelligence (2015), NeMo Guardrails (2023), modelscan (2023)
@@ -35,7 +35,8 @@ The zero-AI AI-security realm — guardrails, model-file safety, signing and the
 | [model-transparency](https://github.com/sigstore/model-transparency) | 249 | 2023 | 2026-10-19 ✅ | — signing for ML models: verify exactly which model you are deploying. Used by AI governance teams documenting model provenance; the AI Alliance's open standard for model transparency labels. (Apache-2.0) |
 | [Penthera](https://github.com/danoszz/penthera) | 53 | 2026 | 2026-10-22 ✅ | — offline rule-based security agent that audits app code, dependencies and AI coding tooling (Claude Code, Cursor, MCP servers) with deterministic fixes applied to a local branch — zero cloud calls. Used by teams hardening AI-assisted codebases with NIS2/CRA-ready evidence; the self-hosted AI-tooling auditor with SARIF output. (MIT) |
 |---|---|---|---|---|
-| [weir](https://github.com/IdoGol24/weir) | 17 | 2026 | 2026-10-23 ✅ | — leak tests for AI agents: deterministically finds every place an agent exposes credentials in telemetry, model calls or other services. Used by agent developers testing their own deployments; a focused open-source AI-agent leak auditor. (Apache-2.0) || [OWASP Top 10 for LLM Applications](https://genai.owasp.org) | — | — | — | — the standard risk taxonomy for LLM apps; the shared language for AI threat modeling. Used by AppSec teams auditing LLM systems; the industry-standard risk list everyone maps AI security to. |
+| [weir](https://github.com/IdoGol24/weir) | 17 | 2026 | 2026-10-23 ✅ | — leak tests for AI agents: deterministically finds every place an agent exposes credentials in telemetry, model calls or other services. Used by agent developers testing their own deployments; a focused open-source AI-agent leak auditor. (Apache-2.0)|
+| [OWASP Top 10 for LLM Applications](https://genai.owasp.org) | — | — | — | — the standard risk taxonomy for LLM apps; the shared language for AI threat modeling. Used by AppSec teams auditing LLM systems; the industry-standard risk list everyone maps AI security to. |
 
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*

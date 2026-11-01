@@ -1,12 +1,12 @@
 # 🎓 The Academy
 
-> **24 tools** · [← Back to the main list](../README.md) · Data verified **2026-10-22** (re-verified monthly)
+> **24 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
 Structured learning: curricula, roadmaps and free course catalogs. We favor maintained, community-trusted material over link farms; archived classics stay listed when they remain the reference everyone cites.
 
-## Maintenance snapshot (2026-10-22)
+## Maintenance snapshot (2026-11-01)
 
 - **Active in the last 30 days:** 4 of 9 tracked GitHub repos (44%)
 - **Quiet classics (no push in 12+ months, still listed):** Infosec Reference, SecuriBench Micro
