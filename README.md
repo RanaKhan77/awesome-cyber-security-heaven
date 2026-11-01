@@ -47,7 +47,7 @@ Every realm ships as a designed, printable **PDF dossier** — dark-theme cover 
 combined stars, GitHub share, 2026 activity), curator's notes, a maintenance snapshot, flagship picks, and a
 full inventory of every curated tool with live GitHub census data (stars, first release, last push, license
 tier) plus activity badges. Every figure pulled from the live GitHub API (census 2026-11-01).
-**55 pages across 14 dossiers** — free forever, CC0.
+**58 pages across 14 dossiers** — free forever, CC0.
 
 | Dossier                                                                                                                                                                                                               | Focus                                        | Pages |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----: |
@@ -58,12 +58,12 @@ tier) plus activity badges. Every figure pulled from the live GitHub API (census
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🕵️ [The Shadow Bureau](pdfs/awesome-cyber-security-heaven-shadow-bureau-osint-public-intelligence-tools.pdf)          | OSINT · public intelligence                  |     4 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🔑 [The Vault](pdfs/awesome-cyber-security-heaven-vault-secrets-credentials-password-security-tools.pdf)               | secrets · credentials · password security    |     3 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🐳 [The Foundry](pdfs/awesome-cyber-security-heaven-foundry-devsecops-cloud-container-security-tools.pdf)              | DevSecOps · cloud · container security       |     4 |
-| ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🔵 [The Sentinel Ops](pdfs/awesome-cyber-security-heaven-sentinel-ops-blue-team-soc-dfir-tools.pdf)                    | blue team · SOC · DFIR                       |     4 |
+| ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🔵 [The Sentinel Ops](pdfs/awesome-cyber-security-heaven-sentinel-ops-blue-team-soc-dfir-tools.pdf)                    | blue team · SOC · DFIR                       |     5 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🤖 [The Oracle's Domain](pdfs/awesome-cyber-security-heaven-oracles-ai-security-llm-security-tools.pdf)                | AI security · LLM security                   |     2 |
-| ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🧠 [The AI Forge](pdfs/awesome-cyber-security-heaven-ai-forge-ai-dependent-security-tools.pdf)                         | AI-dependent security tools                  |     3 |
+| ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🧠 [The AI Forge](pdfs/awesome-cyber-security-heaven-ai-forge-ai-dependent-security-tools.pdf)                         | AI-dependent security tools                  |     4 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🆓 [The Free Bazaar](pdfs/awesome-cyber-security-heaven-free-bazaar-free-cybersecurity-apis-feeds-data.pdf)            | free cybersecurity APIs · feeds · data       |     4 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🎓 [The Academy](pdfs/awesome-cyber-security-heaven-academy-cybersecurity-learning-resources-career-paths.pdf)         | learning resources · career paths            |     3 |
-| ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🎯 [The Proving Grounds](pdfs/awesome-cyber-security-heaven-proving-grounds-ctf-practice-labs-hacking-training.pdf)    | CTF practice · labs · hacking training       |     5 |
+| ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🎯 [The Proving Grounds](pdfs/awesome-cyber-security-heaven-proving-grounds-ctf-practice-labs-hacking-training.pdf)    | CTF practice · labs · hacking training       |     6 |
 | ![PDF](https://img.shields.io/badge/-PDF_dossier-red?logo=adobeacrobatreader\&logoColor=white) 🧰 [The Workshop](pdfs/awesome-cyber-security-heaven-workshop-utilities-swiss-army-tools.pdf)                          | utilities · swiss-army tools                 |     5 |
 
 ## ⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools
