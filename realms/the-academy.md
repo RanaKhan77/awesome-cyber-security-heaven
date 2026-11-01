@@ -8,31 +8,32 @@ Structured learning: curricula, roadmaps and free course catalogs. We favor main
 
 ## Maintenance snapshot (2026-11-01)
 
-- **Active in the last 30 days:** 4 of 9 tracked GitHub repos (44%)
-- **Quiet classics (no push in 12+ months, still listed):** Infosec Reference, SecuriBench Micro
+- **Active in the last 30 days:** 5 of 9 tracked GitHub repos (56%)
+- **Quiet classics (no push in 12+ months, still listed):** SecuriBench Micro
 - **Earliest entries:** Android Security Awesome (2014), Infosec Reference (2014), SecuriBench Micro (2014)
 
 ## Flagship picks
 
 | Tool | ★ Stars | Created | Last push | What it does |
 |---|---|---|---|---|
-| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | 82k | 2016 | 2026-08-27 | A list of useful payloads and bypass for Web Application Security and Pentest/CTF |
+| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | 82.3k | 2016 | 2026-10-30 ✅ | A list of useful payloads and bypass for Web Application Security and Pentest/CTF |
 | [GTFOBins](https://github.com/GTFOBins/GTFOBins.github.io) | 13.8k | 2018 | 2026-05-27 | GTFOBins is a curated list of Unix-like executables that can be used to bypass local security restrictions in… |
-| [OWASP MSTG](https://github.com/OWASP/owasp-mstg) | 13.3k | 2016 | 2026-10-16 ✅ | The OWASP Mobile Application Security Testing Guide (MASTG) is a comprehensive manual for mobile app security… |
-| [HackTricks](https://github.com/HackTricks-wiki/hacktricks) | 12.6k | 2020 | 2026-10-22 ✅ | Welcome to the page where you will find each trick/technique/whatever I have learnt in CTFs, real life apps, a… |
-| [Android Security Awesome](https://github.com/ashishb/android-security-awesome) | 9.8k | 2014 | 2026-10-19 ✅ | A collection of android security related resources |
+| [OWASP MSTG](https://github.com/OWASP/owasp-mstg) | 13.3k | 2016 | 2026-11-01 ✅ | The OWASP Mobile Application Security Testing Guide (MASTG) is a comprehensive manual for mobile app security… |
+| [HackTricks](https://github.com/HackTricks-wiki/hacktricks) | 12.7k | 2020 | 2026-11-01 ✅ | Welcome to the page where you will find each trick/technique/whatever I have learnt in CTFs, real life apps, a… |
+| [Android Security Awesome](https://github.com/ashishb/android-security-awesome) | 9.8k | 2014 | 2026-10-31 ✅ | A collection of android security related resources |
+| [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | 8.9k | 2018 | 2026-09-26 | Living Off The Land Binaries And Scripts - (LOLBins and LOLScripts) |
 
 ## Full inventory (24 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
-| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | 82k | 2016 | 2026-08-27 | — the curated payload and methodology repo — copy, paste, understand, learn. Used by pentesters grabbing working payloads fast; the community cookbook for every attack class. |
+| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | 82.3k | 2016 | 2026-10-30 ✅ | — the curated payload and methodology repo — copy, paste, understand, learn. Used by pentesters grabbing working payloads fast; the community cookbook for every attack class. |
 | [GTFOBins](https://github.com/GTFOBins/GTFOBins.github.io) | 13.8k | 2018 | 2026-05-27 | — the living Linux binary-abuse matrix; the privilege-escalation bible. Used by pentesters finding Unix binary-abuse paths for privesc; the standard free lookup red teams quote. (GPL-3.0) |
-| [OWASP MSTG](https://github.com/OWASP/owasp-mstg) | 13.3k | 2016 | 2026-10-16 ✅ | — the Mobile Security Testing Guide: the canonical methodology for mobile app assessments. Used by mobile security testers following the standard methodology; the OWASP mobile testing guide commercial mobile audits follow. (CC-BY-SA-4.0) |
-| [HackTricks](https://github.com/HackTricks-wiki/hacktricks) | 12.6k | 2020 | 2026-10-22 ✅ | — the pentester's playbook: technique-by-technique attack references from recon to post-exploitation. Used by pentesters as the encyclopedic reference during engagements; the donation-supported playbook the community keeps current. (free; custom content license) |
-| [Android Security Awesome](https://github.com/ashishb/android-security-awesome) | 9.8k | 2014 | 2026-10-19 ✅ | — curated Android security research: tools, papers and training. Used by mobile security researchers assembling toolkits. (Apache-2.0, curated list) |
-| [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | 8.9k | 2018 | 2026-09-26 ✅ | — the Windows counterpart to GTFOBins: living-off-the-land binaries and scripts. Used by red teamers planning fileless attacks and defenders writing detections for them. (GPL-3.0) |
-| [Infosec Reference](https://github.com/rmusser01/Infosec_Reference) | 6k | 2014 | 2025-10-20 ⏳ | — the giant information-security reference: tools, papers and guides in one place. Used by learners and practitioners organizing knowledge; vendor-marketing-free. (curated list) |
+| [OWASP MSTG](https://github.com/OWASP/owasp-mstg) | 13.3k | 2016 | 2026-11-01 ✅ | — the Mobile Security Testing Guide: the canonical methodology for mobile app assessments. Used by mobile security testers following the standard methodology; the OWASP mobile testing guide commercial mobile audits follow. (CC-BY-SA-4.0) |
+| [HackTricks](https://github.com/HackTricks-wiki/hacktricks) | 12.7k | 2020 | 2026-11-01 ✅ | — the pentester's playbook: technique-by-technique attack references from recon to post-exploitation. Used by pentesters as the encyclopedic reference during engagements; the donation-supported playbook the community keeps current. (free; custom content license) |
+| [Android Security Awesome](https://github.com/ashishb/android-security-awesome) | 9.8k | 2014 | 2026-10-31 ✅ | — curated Android security research: tools, papers and training. Used by mobile security researchers assembling toolkits. (Apache-2.0, curated list) |
+| [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | 8.9k | 2018 | 2026-09-26 | — the Windows counterpart to GTFOBins: living-off-the-land binaries and scripts. Used by red teamers planning fileless attacks and defenders writing detections for them. (GPL-3.0) |
+| [Infosec Reference](https://github.com/rmusser01/Infosec_Reference) | 6k | 2014 | 2026-10-26 ✅ | — the giant information-security reference: tools, papers and guides in one place. Used by learners and practitioners organizing knowledge; vendor-marketing-free. (curated list) |
 | [Network Segmentation Cheat Sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet) | 3.5k | 2021 | 2026-02-02 | — practical segmentation architecture: VLANs, zones and rules that survive audits. Used by network architects designing defensible segmentation; the free practical reference. (Apache-2.0) |
 | [SecuriBench Micro](https://github.com/too4words/securibench-micro/) | 27 | 2014 | 2018-07-26 ⏳ | — the Stanford benchmark suite for security-analysis tools. Used by academic researchers benchmarking static analysis; Stanford's free test suite for tool evaluation. (Apache-2.0) |
 |---|---|---|---|---|
