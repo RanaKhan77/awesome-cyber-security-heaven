@@ -288,12 +288,7 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [leaker](https://github.com/vflame6/leaker) - One terminal command, ten public breach databases — passive checks for whether an email or domain appears in known leaks. Used by OSINT researchers searching breach corpora for exposed records; the free alternative to paid breach-search subscriptions.
 - [LeakLens](https://leaklens.org) - Non-commercial breach registry with a keyless phone, email, username and password exposure audit API. Used by anyone auditing their own (or authorized) identifier exposure without accounts or fees; the free keyless breach-lookup service. (free service, non-commercial)
 
-- [Exposure-Check-OSINT](https://github.com/RanaKhan77/Exposure-Check-OSINT) - Self-hosted exposure checker for your own identifiers: 22 keyless sources spanning breaches, infostealer logs and the COMB 11B+ corpus, with HIBP k-anonymity and a 150-platform username grid. Used by privacy-conscious users auditing their own leak footprint; the self-hosted, no-API-keys alternative to paid identity-monitoring services. (Apache-2.0, maintainer's project)
-  exposure checker: breaches, infostealer-log infections, COMB 11B+ credentials, HIBP k-anonymity
-  and a 150-platform username grid from one dashboard — 18 keyless sources, zero API keys, zero AI,
-  one Docker command. Used by anyone checking their own (or authorized) identifiers without feeding
-  third-party lookup sites; the privacy-first, self-hosted alternative to free-trial breach checkers.
-  (Apache-2.0)
+- [Exposure-Check-OSINT](https://github.com/RanaKhan77/Exposure-Check-OSINT) - Self-hosted exposure checker for your own identifiers: 25 keyless sources spanning breaches, infostealer logs and the COMB 11B+ corpus, with HIBP k-anonymity and a 200-platform username grid. Used by privacy-conscious users auditing their own leak footprint; the self-hosted, no-API-keys alternative to paid identity-monitoring services. (Apache-2.0, maintainer's project)
 
 ### 🌐 Website Monitoring & Analysis
 
@@ -676,12 +671,12 @@ Intro: The everyday carry — decoding, proxying, dissecting and transforming an
 - [UEFITool](https://github.com/LongSoft/UEFITool) - Parse, extract and replace UEFI firmware images. Used by firmware analysts parsing UEFI images; the free tool for BIOS/UEFI research. (BSD-2-Clause)
 - [tcpreplay](https://github.com/appneta/tcpreplay) - Replay captured traffic at arbitrary speed for testing and validation. Used by engineers replaying captures at original speed; the free pcap replay tool for testing sensors. (GPL-3.0)
 - [I2P](https://geti2p.net/) - The Invisible Internet Project: anonymous, self-organizing overlay network. Used by privacy-focused users running encrypted overlay networking; the free Invisible Internet Project with no commercial counterpart. (multiple open licenses)
-- [Tails](https://tails.boum.org/) - The amnesic incognito live system: no trace left on the machine. Used by journalists needing amnesic, compartmentalized computing; the free live system that leaves no trace. (GPL-3.0)
+- [Tails](https://tails.net/) - The amnesic incognito live system: no trace left on the machine. Used by journalists needing amnesic, compartmentalized computing; the free live system that leaves no trace. (GPL-3.0)
 - [Hex Fiend](http://ridiculousfish.com/hexfiend/) - The fast, open-source hex editor for macOS. Used by macOS researchers editing binaries fast. (BSD-2-Clause)
 - [friTap](https://github.com/fkie-cad/friTap) - Intercept TLS keys in real time for analysis; a Frida script for the lab. Used by traffic analysts extracting TLS keys from apps via Frida; the free tool for decrypting stubborn mobile traffic. (GPL-3.0)
 - [angr](https://angr.io/) - The binary-analysis platform from UCSB's Shellphish: symbolic execution at scale. Used by researchers and CTF players symbolically executing binaries; the free platform for program analysis research. (BSD-2-Clause)
 - [Detect It Easy](https://github.com/horsicq/Detect-It-Easy) - Packer/compiler/protection detection with a rule engine. Used by malware analysts identifying packers and compilers; the free packer-detection standard. (MIT)
-- [Evan's Debugger](http://www.codef00.com/projects#debugger) - The C/C++ debugger with a RE focus: memory views built for analysis. Used by RE practitioners debugging Linux binaries in a GUI; the free Qt-based debugger. (GPL-2.0+)
+- [Evan's Debugger](https://github.com/eteran/edb-debugger) - The C/C++ debugger with a RE focus: memory views built for analysis. Used by RE practitioners debugging Linux binaries in a GUI; the free Qt-based debugger. (GPL-2.0+)
 
 - [pwndbg](https://github.com/pwndbg/pwndbg) - GDB with a exploit-dev UX: heap awareness, shortcuts and sane defaults. Used by CTF players and exploit developers making GDB pwn-friendly; the standard GDB plugin for exploitation work. (MIT)
 - [ImHex](https://github.com/WerWolv/ImHex) - The hex editor with pattern language: parse formats while you view them. Used by reverse engineers parsing binaries with a pattern language; the free hex editor built for RE workflows. (GPL-2.0)

@@ -3,7 +3,7 @@ name: Links
 on:
   push:
     branches: [main]
-    paths: ['README.md']
+    paths: ['README.md', 'realms/*.md']
   schedule:
     - cron: '0 6 1 * *'  # monthly: keeps the "license & activity verified" claim honest
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
           args: >-
             --verbose --no-progress --max-retries 2
             --cache --max-cache-age 2d
-            'README.md'
+            'README.md' 'realms/*.md'
           fail: false   # report-only: curated entries die-check happens in the quarterly review
           output: ./lychee-report.md
       - name: Upload report
