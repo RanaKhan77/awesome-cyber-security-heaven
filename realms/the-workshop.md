@@ -1,6 +1,6 @@
 # 🧰 The Workshop
 
-> **50 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **53 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [mitmproxy](https://github.com/mitmproxy/mitmproxy) | 46.5k | 2010 | 2026-10-30 ✅ | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
 | [CyberChef](https://github.com/gchq/CyberChef) | 36.3k | 2016 | 2026-10-30 ✅ | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |
 
-## Full inventory (50 tools)
+## Full inventory (53 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -78,6 +78,8 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [Tails](https://tails.net/) | — | — | — | — the amnesic incognito live system: no trace left on the machine. Used by journalists needing amnesic, compartmentalized computing; the free live system that leaves no trace. (GPL-3.0) |
 | [tcpdump](https://www.tcpdump.org) | — | — | — | — the command-line packet capture classic; quick looks and long captures where Wireshark won't fit. Used by admins capturing packets on servers without GUIs; the classic free CLI sniffer preinstalled everywhere. |
 | [Wireshark](https://www.wireshark.org) | — | — | — | — the packet analyzer everyone knows; deep protocol visibility for troubleshooting and forensics. Used by network engineers and DFIR analysts everywhere; the standard free packet analyzer commercial tools still get compared to. (GPL-2.0) |
-
+| [PentestKit](https://github.com/therealilyas/pentest-toolkit) | 40 | 2025 | 2026-11-01 ✅ | — honest authorized-target CLI; per-finding: what, exact evidence, attacker gain, fix; soft-404-aware exposure checks. (MIT) |
+| [4ndr0tools userscripts](https://github.com/4ndr0666/userscripts) | 44 | 2024 | 2026-11-01 ✅ | — browser userscripts for recon, OSINT lookups, secret scanning and workflow automation. (MIT) |
+| [OLYMPUS Security](https://github.com/chiaraberti13/OLYMPUS-SECURITY) | 0 | 2026 | 2026-11-01 ✅ | — scope-gated assessment platform with chain-of-custody evidence and SARIF secret scanning; every command validates against an explicit scope. (GPL-3.0) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
