@@ -1,6 +1,6 @@
 # 🧠 The AI Forge
 
-> **31 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **32 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.2k | 2023 | 2026-07-14 | Automated Penetration Testing Agentic Framework Powered by Large Language Models |
 | [garak](https://github.com/NVIDIA/garak) | 9.8k | 2023 | 2026-10-27 ✅ | the LLM vulnerability scanner |
 
-## Full inventory (31 tools)
+## Full inventory (32 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -58,6 +58,6 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [plonix](https://github.com/SergeyMalych/plonix) | 5 | 2026 | 2026-10-26 ✅ | — AI-native Rust MITM workbench with adaptive scope validation. Used by web security testers wanting an AI-native proxy; the Rust MITM workbench with LLM integration. (Apache-2.0) |
 | [RedPilot](https://github.com/geevarghesekthomas84-sys/redpilot) | 5 | 2026 | 2026-11-01 ✅ | — AI-orchestrated recon and scan pipeline chaining nuclei, nmap, ffuf, subfinder and httpx for authorized testing. Used by pentesters automating multi-tool recon under one AI orchestrator; the LLM-driven pipeline glue for standard recon stacks. (MIT) |
 | [Hekate](https://github.com/PhaelAwesome/Hekate) | 1 | 2026 | 2026-10-20 ✅ | — Burp Suite passive extension with local-LLM triage and auto-validation to cut scanner false positives. Used by Burp users filtering scanner noise with local models; the open FP-reduction companion for Burp. (GPL-3.0) |
-
+| [Suijin](https://github.com/0xwi11iam/Suijin) | 22 | 2026 | 2026-11-01 ✅ | — autonomous red-team framework on LangGraph with POC catalog and severity-honest reporting. (AGPL-3.0) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
