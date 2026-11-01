@@ -1,6 +1,6 @@
 # 🐳 The Foundry
 
-> **33 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **41 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 | [Kubescape](https://github.com/kubescape/kubescape) | 11.8k | 2021 | 2026-10-30 ✅ | Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It inclu… |
 | [OSV-Scanner](https://github.com/google/osv-scanner) | 11.3k | 2022 | 2026-10-31 ✅ | Vulnerability scanner written in Go which uses the data provided by https://osv.dev |
 
-## Full inventory (33 tools)
+## Full inventory (41 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -61,6 +61,13 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 |---|---|---|---|---|
 | [GDB](https://www.sourceware.org/gdb/) | — | — | — | — the GNU debugger: breakpoints, watchpoints and reverse debugging across dozens of architectures. Used by reverse engineers and exploit developers on every platform; the GNU debugger standard for binary analysis. (GPL-3.0) |
 | [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) | — | — | — | — the Windows debugger for user, kernel and crash-dump analysis; now with a modern UI. Used by malware analysts and driver developers debugging Windows; Microsoft's debugger at the core of Windows-forensics work. (free, proprietary) |
-
+| [Slither](https://github.com/crytic/slither) | 6401 | 2018 | 2026-10-29 ✅ | — Solidity static analysis, 90+ detectors. (AGPL-3.0) |
+| [AFL++](https://github.com/AFLplusplus/AFLplusplus) | 6842 | 2019 | 2026-10-30 ✅ | — coverage-guided fuzzer, the community fork that won. (AGPL-3.0) |
+| [pip-audit](https://github.com/pypa/pip-audit) | 1389 | 2021 | 2026-10-30 ✅ | — Python dependency vulnerability scanning (PyPA). (Apache-2.0) |
+| [xeol](https://github.com/xeol-io/xeol) | 450 | 2022 | 2026-10-06 ✅ | — end-of-life dependency detection. (Apache-2.0) |
+| [CodeQL](https://github.com/github/codeql) | 10286 | 2018 | 2026-10-30 ✅ | — semantic code analysis, free for research. (MIT) |
+| [cloudfox](https://github.com/BishopFox/cloudfox) | 2615 | 2022 | 2026-10-31 ✅ | — cloud attack-surface auditor (AWS/Azure/GCP). (MIT) |
+| [GCP Scanner](https://github.com/google/gcp_scanner) | 372 | 2022 | 2025-12-05 | — GCP security scanner from google. (Apache-2.0) |
+| [Tracee](https://github.com/aquasecurity/tracee) | 4663 | 2019 | 2026-11-01 ✅ | — eBPF container runtime security tracing. (Apache-2.0) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
