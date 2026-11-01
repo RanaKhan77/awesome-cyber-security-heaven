@@ -1,6 +1,6 @@
 # 🆓 The Free Bazaar
 
-> **38 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **39 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 | [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | 2.6k | 2019 | 2023-01-24 ⏳ | Windows Events Attack Samples |
 | [Destroylist](https://github.com/phishdestroy/destroylist) | 2.1k | 2025 | 2026-11-01 ✅ | Real-time phishing & scam domain blocklist - 205k+ curated threats, 1M+ community, free API, multiple formats |
 
-## Full inventory (38 tools)
+## Full inventory (39 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -66,6 +66,6 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 | [Shodan](https://www.shodan.io) | — | — | — | — the search engine for internet-exposed devices; free tier plus Monitor alerts for your own assets (free tier) Used by CTI analysts and bug hunters mapping exposed assets; freemium with free-tier lookups. |
 | [urlscan.io](https://urlscan.io) | — | — | — | — URL scanning with sandbox screenshots and full resource capture; free tier. Used by analysts detonating and inspecting URLs safely; the free-tier scanning and screenshot service. (free tier) |
 | [VirusTotal](https://www.virustotal.com) | — | — | — | — the multi-engine file/URL reputation service with a free public API. Used by SOC analysts everywhere for file, URL and domain reputation; the multi-engine standard, free for basic use. |
-
+| [Netlas](https://netlas.io/) | 897 | 2023 | 2026-09-18 | — internet-registry search, free research tier. (free tier) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
