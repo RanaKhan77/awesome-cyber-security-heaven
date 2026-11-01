@@ -1,6 +1,6 @@
 # ⚔️ The Armory
 
-> **68 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **83 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner" target="_blank" rel="noopener">
@@ -31,7 +31,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | 22.1k | 2015 | 2026-11-01 ✅ | Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-tes… |
 | [RustScan](https://github.com/bee-san/RustScan) | 20.7k | 2020 | 2026-10-20 ✅ | 🤖 The Modern Port Scanner 🤖 |
 
-## Full inventory (68 tools)
+## Full inventory (83 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -104,6 +104,20 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 |---|---|---|---|---|
 | [Burp Suite Community Edition](https://portswigger.net/burp/communitydownload) | — | — | — | — the industry-standard intercepting proxy for manual web testing; the free tier is where nearly every bug hunter starts. Used by web penetration testers as their daily intercepting proxy; the free tier of the industry-standard Burp Suite Professional. (free, proprietary) |
 | [Nmap](https://nmap.org) | — | — | — | — the original network mapper: port, service and OS discovery plus the NSE scripting engine for everything from TLS audits to SMB checks. Used by virtually every network security auditor on earth; the open standard that commercial scanners built their discovery phases on. |
-
+| [PEASS-ng](https://github.com/peass-ng/PEASS-ng) | 20746 | 2019 | 2026-11-01 ✅ | — winPEAS/linPEAS privilege-escalation suites; thousands of checks per sweep. (GPL-2.0-or-later) |
+| [Evil-WinRM](https://github.com/Hackplayers/evil-winrm) | 5577 | 2019 | 2026-10-16 ✅ | — the ultimate WinRM shell with pass-the-hash and LAPS download. (LGPL-3.0) |
+| [Ligolo-ng](https://github.com/nicocha30/ligolo-ng) | 5151 | 2021 | 2026-09-26 | — reverse socks5 tunneling; TUN-based pivots. (GPL-3.0) |
+| [Rubeus](https://github.com/GhostPack/Rubeus) | 5201 | 2018 | 2026-05-21 | — Kerberos toolkit: roast, pass-the-key, diamond tickets. (BSD-3-Clause) |
+| [CUPP](https://github.com/Mebus/cupp) | 6610 | 2012 | 2026-07-17 | — biography-derived password wordlist generator. (GPL-3.0) |
+| [GoMapEnum](https://github.com/nodauf/GoMapEnum) | 497 | 2021 | 2025-09-24 | — Windows user enum + password spray (SMB/Kerberos/NTLM/LDAP). (GPL-3.0) |
+| [Legba](https://github.com/evilsocket/legba) | 1952 | 2023 | 2026-08-14 | — multiprotocol brute-forcer with one CLI. (GPL-3.0) |
+| [DonPAPI](https://github.com/login-securite/DonPAPI) | 1430 | 2021 | 2026-09-09 | — remote DPAPI credz collection (browsers, Wi-Fi, blobs). (GPL-3.0) |
+| [Certify](https://github.com/GhostPack/Certify) | 2046 | 2021 | 2026-09-30 | — AD CS abuse toolkit, ESC1-ESC8 chains. (BSD-3-Clause) |
+| [airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon) | 8098 | 2016 | 2026-10-30 ✅ | — all-in-one wireless security suite. (GPL-3.0) |
+| [SMBMap](https://github.com/ShawnDEvans/smbmap) | 2092 | 2015 | 2026-01-06 | — SMB share enumeration and mapping across subnets. (GPL-3.0) |
+| [Medusa](https://github.com/jmk-foofus/medusa) | 898 | 2015 | 2025-05-14 | — parallel login brute-forcer. (GPL-2.0) |
+| [Penelope](https://github.com/brightio/penelope) | 2174 | 2021 | 2026-09-27 | — automated reverse-shell upgrader to full TTY. (GPL-3.0) |
+| [Pacu](https://github.com/RhinoSecurityLabs/pacu) | 5384 | 2018 | 2026-05-19 | — AWS exploitation framework. (BSD-3-Clause) |
+| [nomore403](https://github.com/devploit/nomore403) | 1915 | 2021 | 2026-10-30 ✅ | — 403/401 bypass toolkit. (MIT) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
