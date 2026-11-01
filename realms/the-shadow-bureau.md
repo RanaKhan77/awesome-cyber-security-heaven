@@ -1,6 +1,6 @@
 # 🕵️ The Shadow Bureau
 
-> **39 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **44 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
@@ -26,7 +26,7 @@ Identifier intelligence without touching the target: stealer-log exposure lookup
 | [Osintgram](https://github.com/Datalux/Osintgram) | 15.1k | 2019 | 2026-10-20 ✅ | Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram accoun… |
 | [Photon](https://github.com/s0md3v/Photon) | 13.3k | 2018 | 2026-10-17 ✅ | Incredibly fast crawler designed for OSINT. |
 
-## Full inventory (39 tools)
+## Full inventory (44 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -70,6 +70,10 @@ Identifier intelligence without touching the target: stealer-log exposure lookup
 | [ScamSearch](https://scamsearch.io) | — | — | — | — scammer profile lookup by phone, email or username; crowdsourced anti-fraud intel. Used by fraud investigators checking scammers against a public database; the free lookup for scammer attribution. (free service) |
 | [WhatsMyName](https://whatsmyname.app) | — | — | — | — web app plus open database for checking one username across hundreds of platforms at once; keep lookups lawful and authorized. Used by OSINT investigators checking usernames across hundreds of sites; the open web project behind many commercial aggregators. |
 | [Whonix](https://www.whonix.org) | — | — | — | — the anonymity-focused OS: a Workstation VM routed entirely through a Tor Gateway VM. Used by journalists and researchers needing compartmentalized anonymity; the free VM-based anonymity workstation. (GPL-3.0) |
-
+| [InfoHound](https://github.com/Fundacio-i2CAT/InfoHound) | 162 | 2023 | 2025-10-08 | — OSINT framework: people, emails, domains, leaks. (AGPL-3.0) |
+| [Investigo](https://github.com/tdh8316/Investigo) | 285 | 2018 | 2026-07-03 | — username/email finder across social networks. (MIT) |
+| [EmailHarvester](https://github.com/maldevel/EmailHarvester) | 992 | 2016 | 2026-06-07 | — email enumeration via search engines. (GPL-3.0) |
+| [Instaloader](https://github.com/instaloader/instaloader) | 13752 | 2016 | 2026-10-26 ✅ | — Instagram archiving with metadata. (MIT) |
+| [gallery-dl](https://github.com/mikf/gallery-dl) | 20322 | 2014 | 2026-10-31 ✅ | — gallery/video downloader for hundreds of sites. (GPL-2.0) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
