@@ -1,6 +1,6 @@
 # 🧰 The Workshop
 
-> **53 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **58 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [mitmproxy](https://github.com/mitmproxy/mitmproxy) | 46.5k | 2010 | 2026-10-30 ✅ | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
 | [CyberChef](https://github.com/gchq/CyberChef) | 36.3k | 2016 | 2026-10-30 ✅ | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |
 
-## Full inventory (53 tools)
+## Full inventory (58 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -81,5 +81,10 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [PentestKit](https://github.com/therealilyas/pentest-toolkit) | 40 | 2025 | 2026-11-01 ✅ | — honest authorized-target CLI; per-finding: what, exact evidence, attacker gain, fix; soft-404-aware exposure checks. (MIT) |
 | [4ndr0tools userscripts](https://github.com/4ndr0666/userscripts) | 44 | 2024 | 2026-11-01 ✅ | — browser userscripts for recon, OSINT lookups, secret scanning and workflow automation. (MIT) |
 | [OLYMPUS Security](https://github.com/chiaraberti13/OLYMPUS-SECURITY) | 0 | 2026 | 2026-11-01 ✅ | — scope-gated assessment platform with chain-of-custody evidence and SARIF secret scanning; every command validates against an explicit scope. (GPL-3.0) |
+| [TestDisk](https://github.com/cgsecurity/testdisk) | 2659 | 2015 | 2026-10-25 ✅ | — partition-table and file recovery. (GPL-2.0) |
+| [androguard](https://github.com/androguard/androguard) | 6398 | 2014 | 2026-10-25 ✅ | — Android RE framework: DEX parsing, decompile, diffing. (Apache-2.0) |
+| [hurl](https://github.com/Orange-OpenSource/hurl) | 19293 | 2020 | 2026-11-01 ✅ | — plain-text HTTP requests with assertions. (Apache-2.0) |
+| [chisel](https://github.com/jpillora/chisel) | 16719 | 2015 | 2026-10-11 ✅ | — TCP tunnel over HTTP. (MIT) |
+| [GoReplay](https://github.com/probelabs/goreplay) | 19325 | 2013 | 2026-01-27 | — capture and replay real HTTP traffic at scale. (LGPL-3.0, open-core) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
