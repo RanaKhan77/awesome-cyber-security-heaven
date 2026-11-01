@@ -9,9 +9,9 @@
 </p>
 
 > A hand-curated, license-aware map of the best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR, DevSecOps and AI/LLM security. Free, open-source and free-tier entries all earn their place. 🌟
-> **2026 edition** — 535 tools, 14 realms, every link re-verified 2026-11-01. 📅
+> **2026 edition** — 541 tools, 14 realms, every link re-verified 2026-11-01. 📅
 
-🧭 **535 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **free, open-source & free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 🧊 **dormant classics → Legacy Vault** · 💯 **no paywalls, no SaaS wrappers**
+🧭 **541 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **free, open-source & free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 🧊 **dormant classics → Legacy Vault** · 💯 **no paywalls, no SaaS wrappers**
 
 **Legend** — ⚖️ `(GPL-…)` / `(AGPL-…)` = copyleft license · 🎁 `(free tier)` / `(freemium)` = free tier of a
 commercial service · 🔒 `(free, proprietary)` = freeware, not open source · 🏠 `(maintainer's project)` =
@@ -461,6 +461,7 @@ Intro: Secure the new surface — guardrails, model-file safety and signing for 
 - [HackAgent](https://github.com/AISecurityLab/hackagent) - Red-team toolkit for AI models and agents: actively tests jailbreaks, prompt injection and tool misuse, then scores each reply with judge models for measured per-attack success rates. Used by AI security teams quantifying agent attack surface; the open-source AI red-teaming harness with built-in scoring. (Apache-2.0)
 - [weir](https://github.com/IdoGol24/weir) - Leak tests for AI agents: deterministically finds every place an agent exposes credentials in telemetry, model calls or other services. Used by agent developers testing their own deployments before release; a focused open-source AI-agent leak auditor. (Apache-2.0)
 - [CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) - The community archive of leaked and reverse-engineered system prompts from ChatGPT, Claude, Gemini, Grok, Cursor and other major models — provenance-tagged and continuously updated. Used by AI governance teams auditing prompt transparency and researchers studying instruction leakage; the reference corpus for prompt-disclosure audits. (AGPL-3.0, copyleft)
+- [AgentHound](https://github.com/adithyan-ak/AgentHound) - Offensive security framework for AI agent infrastructure: one collector sweep over MCP servers, A2A agents, LiteLLM gateways, Ollama/vLLM, Qdrant, MLflow and Jupyter yields secrets, services and differential proof (control vs credentialed), then a queryable attack graph. Used by red teams mapping the agentic stack; the BloodHound-style tool for AI infrastructure. (Apache-2.0)
 
 ## 🧠 The AI Forge — AI-Dependent Security Tools
 
@@ -499,6 +500,7 @@ generators. Every entry needs an LLM API key (yours or the target's); none are S
 - [PentesterFlow Agent](https://github.com/PentesterFlow/agent) - Human-in-the-loop agentic pentest CLI: LLM-driven recon, enumeration, validation and reporting from the terminal, with evidence-gated anti-hallucination findings and full audit logging. Used by pentesters delegating scoped workflow steps to a supervised agent; the analyst-oversight-first agentic TUI. (Apache-2.0)
 - [T3MP3ST](https://github.com/elder-plinius/T3MP3ST) - Multi-agent offensive-security meta-framework that repurposes AI coding agents (Claude Code, Codex, local models via Ollama) as autonomous pentest brains, with a browser War Room UI and a verify-claims integrity layer; a reported 90% pass@1 score on the XBEN challenge suite. Used by red teams researching agentic kill chains reproducibly; the research harness for agent-driven offense. (AGPL-3.0, copyleft)
 - [DarkMoon](https://github.com/ASCIT31/Dark-Moon) - Autonomous AI pentest platform orchestrating 50 specialist agents across web, AD, cloud, Kubernetes and LLM endpoints (OWASP LLM Top 10), with a Privacy Gateway that tokenizes hosts and credentials locally before any LLM call. Used by teams researching full-scope agentic testing with evidence capture; dual-use — run only against authorized targets. (GPL-3.0)
+- [Suijin](https://github.com/0xwi11iam/Suijin) - Fully autonomous red-team/pentest framework built on LangGraph that plans, executes and documents attacks with a POC catalog and severity-honest reporting. Used by researchers exploring agent-driven pentesting with human oversight; the open autonomous-pentest lab. (AGPL-3.0)
 
 ## 🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data
 Intro: Free (or free-tier) data sources every security program should be using — no budget required.
@@ -644,6 +646,7 @@ Intro: Hack legally — wargames, CTF platforms and deliberately-vulnerable apps
 - [APTSimulator](https://github.com/NextronSystems/APTSimulator) - Makes a Windows host look compromised so you can test detections safely. Used by blue teams generating APT-style artifacts for detection testing; the free Windows simulator for purple exercises. (MIT)
 
 - [Splunk Attack Range](https://github.com/splunk/attack_range) - Builds instrumented detection labs: attack, collect and test in one workflow. Used by detection engineers building full attack/defend labs in the cloud; the free Splunk range that emulates commercial cyber ranges. (Apache-2.0)
+- [pwn-scenarios](https://github.com/AlaBYahya/pwn-scenarios) - 36,000+ structured pentest/bug-bounty playbooks (condition, numbered steps with expected observations, impact, remediation) grounded in disclosed reports from HackerOne, GHSA, Exploit-DB, HTB/THM/CTF writeups, auto-collected daily. Used by bounty hunters studying how real reports were structured; the largest public report-pattern dataset. (MIT code, CC BY 4.0 data)
 
 ## 🧰 The Workshop — Utilities & Swiss-Army Tools
 Intro: The everyday carry — decoding, proxying, dissecting and transforming anything the job throws at you.
@@ -702,6 +705,10 @@ Intro: The everyday carry — decoding, proxying, dissecting and transforming an
 - [cybersec-toolkit](https://github.com/26zl/cybersec-toolkit) - Single-command installer for 670+ security tools with an authorization-gated MCP server, allowlist and flag-denylist execution policy and a prompt-injection output sanitizer. Used by security engineers building safe tool environments for AI agents; the least-privilege installer for agent-accessible security tooling. (MIT)
 - [Netron](https://github.com/lutzroeder/netron) - Visualize ML models: the layers, weights and graph of what you deploy. Used by ML engineers inspecting model architectures; the free visualizer for neural-network files. (MIT)
 - [XERJ](https://github.com/xerj-org/xerj) - Local-first search engine and MCP server in a single Rust binary: hybrid BM25 + vector search over code, docs, logs and PDFs with an Elasticsearch-compatible API — for agents and humans alike. Used by security teams giving AI agents searchable, air-gapped memory over case files and codebases; the self-hosted retrieval layer for agent workflows. (Apache-2.0)
+- [PentestKit](https://github.com/therealilyas/pentest-toolkit) - Honest authorized-target CLI that checks headers, TLS, exposure (.git/.env/Actuator with soft-404 detection), cookies and CORS, and reports the four things that matter per finding: what, exact evidence, attacker gain, fix. Used by developers self-auditing before a pentest; the report-first checker. (MIT)
+- [4ndr0tools userscripts](https://github.com/4ndr0666/userscripts) - A suite of Tampermonkey userscripts for security work — recon helpers, OSINT lookups, secret scanning and workflow automation straight in the browser. Used by researchers who live in the browser during recon; the swiss-army userscript collection. (MIT)
+- [OLYMPUS Security](https://github.com/chiaraberti13/OLYMPUS-SECURITY) - Scope-gated security assessment platform (Argus recon, Athena planning, Hermes SARIF secret scanning, Minerva chain-of-custody evidence, Vulcan finding lifecycle) where every command validates against an explicit scope file before touching a target. Used by teams that need authorization-proof audit trails; the compliance-first assessment platform. (GPL-3.0)
+
 ## Related Lists
 
 - [Awesome Security](https://github.com/sbilly/awesome-security) - Software, libraries, documents and resources spanning all of security.
