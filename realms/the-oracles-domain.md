@@ -1,6 +1,6 @@
 # 🤖 The Oracle's Domain
 
-> **10 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **11 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The zero-AI AI-security realm — guardrails, model-file safety, signing and the
 | [HackAgent](https://github.com/AISecurityLab/hackagent) | 532 | 2025 | 2026-10-31 ✅ | HackAgent is an open-source security toolkit to detect vulnerabilities of your AI Agents |
 | [guardana](https://github.com/guardana/guardana) | 289 | 2026 | 2026-11-01 ✅ | Open-source AI security verification for model artifacts, live endpoints, MCP servers, and recorded agent trac… |
 
-## Full inventory (10 tools)
+## Full inventory (11 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -38,6 +38,6 @@ The zero-AI AI-security realm — guardrails, model-file safety, signing and the
 | [weir](https://github.com/IdoGol24/weir) | 18 | 2026 | 2026-10-27 ✅ | — leak tests for AI agents: deterministically finds every place an agent exposes credentials in telemetry, model calls or other services. Used by agent developers testing their own deployments; a focused open-source AI-agent leak auditor. (Apache-2.0) |
 |---|---|---|---|---|
 | [OWASP Top 10 for LLM Applications](https://genai.owasp.org) | — | — | — | — the standard risk taxonomy for LLM apps; the shared language for AI threat modeling. Used by AppSec teams auditing LLM systems; the industry-standard risk list everyone maps AI security to. |
-
+| [AgentHound](https://github.com/adithyan-ak/AgentHound) | 456 | 2026 | 2026-11-01 ✅ | — offensive security framework for AI agent infrastructure (MCP/A2A/LiteLLM/Ollama/Qdrant/MLflow/Jupyter): differential-proof collector + queryable attack graph; DEF CON 34 featured. (Apache-2.0) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
