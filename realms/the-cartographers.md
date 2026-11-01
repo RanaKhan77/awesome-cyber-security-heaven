@@ -1,6 +1,6 @@
 # 🗺️ The Cartographers
 
-> **51 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **61 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [ffuf](https://github.com/ffuf/ffuf) | 17k | 2018 | 2026-09-26 | Fast web fuzzer written in Go |
 | [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-10-25 ✅ | In-depth attack surface mapping and asset discovery |
 
-## Full inventory (51 tools)
+## Full inventory (61 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -79,6 +79,15 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [Maltego CE](https://www.maltego.com) | — | — | — | — the standard OSINT graphing tool for entity-relationship investigation; free community edition. Used by OSINT analysts and investigators for link analysis; the free community edition of the commercial Maltego. (free tier) |
 | [Merklemap](https://merklemap.com) | — | — | — | — subdomain discovery through certificate-transparency logs; billions of entries, searchable. Used by recon teams searching Certificate Transparency for subdomains; the free CT search joining crt.sh-style tooling. (free service) |
 | [WiGLE](https://wigle.net) | — | — | — | — the wireless network mapping archive; queries by BSSID/SSID across millions of observed networks. Used by wireless OSINT researchers mapping networks worldwide; the free wardriving database with no commercial equal. (free service) |
-
+| [cvcemap](https://github.com/projectdiscovery/vulnx) | 2723 | 2023 | 2026-10-26 ✅ | — CVE-to-version mapping (repo: vulnx). (MIT) |
+| [tlsx](https://github.com/projectdiscovery/tlsx) | 1155 | 2022 | 2026-11-01 ✅ | — TLS recon: ciphers, certs, SANs, versions. (MIT) |
+| [cdncheck](https://github.com/projectdiscovery/cdncheck) | 997 | 2020 | 2026-11-01 ✅ | — CDN / cloud provider detection before scanning. (MIT) |
+| [findomain](https://github.com/Findomain/Findomain) | 3808 | 2019 | 2026-10-27 ✅ | — CT-based subdomain discovery with database backend. (GPL-3.0) |
+| [knockpy](https://github.com/guelfoweb/knockpy) | 4206 | 2014 | 2026-02-19 | — subdomain enum by wordlist + CT with wildcard detection. (GPL-3.0) |
+| [subcat](https://github.com/duty1g/subcat) | 487 | 2022 | 2026-10-08 ✅ | — passive subdomain discovery for pipelines. (MIT) |
+| [graphw00f](https://github.com/dolevf/graphw00f) | 912 | 2021 | 2026-05-16 | — GraphQL engine fingerprinter. (BSD-3-Clause) |
+| [gowitness](https://github.com/sensepost/gowitness) | 4550 | 2017 | 2026-10-29 ✅ | — website screenshot recon with browsable reports. (GPL-3.0) |
+| [FAVIHUNTER](https://github.com/eremit4/favihunter) | 256 | 2023 | 2026-08-14 | — favicon-hash asset discovery against scan datasets. (MIT) |
+| [gitjacker](https://github.com/liamg/gitjacker) | 1610 | 2020 | 2025-12-05 | — .git directory leak dump + repo reconstruction. (Unlicense) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
