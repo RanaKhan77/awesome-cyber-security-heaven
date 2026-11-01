@@ -1,6 +1,6 @@
 # 🎯 The Proving Grounds
 
-> **70 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **71 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [WebGoat](https://github.com/WebGoat/WebGoat) | 9.4k | 2015 | 2026-10-29 ✅ | WebGoat is a deliberately insecure application |
 | [GOAD](https://github.com/Orange-Cyberdefense/GOAD) | 8.6k | 2021 | 2026-10-23 ✅ | game of active directory |
 
-## Full inventory (70 tools)
+## Full inventory (71 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -98,6 +98,6 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [WeChall](http://www.wechall.net/) | — | — | — | — the challenge-site aggregator: one profile across all major wargames. Used by CTF players tracking ranks across challenge sites; the free aggregator for wargame rankings. (free service) |
 | [XSS Game](https://xss-game.appspot.com/) | — | — | — | — Google's XSS tutorial game: six levels from context basics to DOM tricks. Used by beginners learning XSS exploitation; Google's free reverse-engineering-free XSS CTF. (free service) |
 | [Zero Bank](http://zero.webappsecurity.com/) | — | — | — | — demo banking site for web security exercises. Used by learners practicing web vulns on a simulated banking app; the free demo target behind Invicti training material. (free service) |
-
+| [pwn-scenarios](https://github.com/AlaBYahya/pwn-scenarios) | 4 | 2026 | 2026-11-01 ✅ | — 36k+ structured pentest/bug-bounty playbooks with expected observations per step, grounded in disclosed reports, auto-collected daily. (MIT + CC BY 4.0) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
