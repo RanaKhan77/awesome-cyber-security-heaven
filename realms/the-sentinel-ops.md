@@ -1,6 +1,6 @@
 # 🔵 The Sentinel Ops
 
-> **48 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **49 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs 
 | [awesome-honeypots](https://github.com/paralax/awesome-honeypots) | 10.6k | 2015 | 2026-06-01 | an awesome list of honeypot resources |
 | [YARA](https://github.com/VirusTotal/yara) | 10k | 2012 | 2026-10-27 ✅ | The pattern matching swiss knife |
 
-## Full inventory (48 tools)
+## Full inventory (49 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -76,6 +76,6 @@ The largest realm — detection engineering, ATT&CK-aligned datasets, SIEM labs 
 | [logarc](https://github.com/FRTX045/logarc) | 4 | 2026 | 2026-11-01 ✅ | — offline access-log forensics that reconstructs attacker activity graphs. Used by incident responders analyzing web logs without cloud tooling; the offline log-forensics analyzer. (MIT) |
 |---|---|---|---|---|
 | [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/) | — | — | — | — Microsoft's free Windows admin and DFIR toolkit: Process Explorer, Autoruns, Procmon and dozens more. Used by every Windows admin and IR analyst; Microsoft's free toolkit commercial IR teams also rely on. (free, proprietary) |
-
+| [Hayabusa](https://github.com/Yamato-Security/hayabusa) | 3428 | 2020 | 2026-10-28 ✅ | — Windows EVTX analysis + Sigma detection. (AGPL-3.0) |
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
