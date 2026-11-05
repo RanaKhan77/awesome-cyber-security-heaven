@@ -1,14 +1,14 @@
 # 🆓 The Free Bazaar
 
-> **39 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **52 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
 
 ## Curator's notes
 
 Free-tier services and keyless data — the APIs and feeds you can call today without a credit card. Free tiers shrink; we re-verify this realm's limits on every monthly pass and annotate the moment a vendor tightens them.
 
-## Maintenance snapshot (2026-11-01)
+## Maintenance snapshot (2026-11-06)
 
-- **Active in the last 30 days:** 12 of 18 tracked GitHub repos (67%)
+- **Active in the last 30 days:** 13 of 21 tracked GitHub repos (62%)
 - **Quiet classics (no push in 12+ months, still listed):** EVTX-ATTACK-SAMPLES, Security Datasets, MITRE Cyber Analytics Repository, Boss of the SOC (BOTS)
 - **Earliest entries:** SecLists (2012), Awesome Pentest (2014), Awesome Web Hacking (2015)
 
@@ -23,7 +23,7 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 | [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | 2.6k | 2019 | 2023-01-24 ⏳ | Windows Events Attack Samples |
 | [Destroylist](https://github.com/phishdestroy/destroylist) | 2.1k | 2025 | 2026-11-01 ✅ | Real-time phishing & scam domain blocklist - 205k+ curated threats, 1M+ community, free API, multiple formats |
 
-## Full inventory (39 tools)
+## Full inventory (52 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -42,9 +42,12 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 | [Boss of the SOC (BOTS)](https://github.com/splunk/botsv3) | 517 | 2020 | 2020-06-18 ⏳ | — Splunk's public blue-team CTF dataset: full realistic telemetry for investigations, CC0 data; frozen CTF dataset by design. Used by training teams running SIEM CTFs; the free Splunk datasets behind the famous range. |
 | [Bug Bounties](https://github.com/lissy93/bug-bounties) | 461 | 2023 | 2026-10-31 ✅ | — community-maintained directory, MCP and API of 3,000+ active bug bounty programs and VDPs. Used by hunters picking targets and checking scope before engaging; the open dataset for program discovery. (MIT) |
 | [vulnerability-poc](https://github.com/fankh/vulnerability-poc) | 120 | 2025 | 2026-11-01 ✅ | — CVE proof-of-concept labs, exploit scripts and matching detection and prevention rules (Nginx, Apache, Snort, YARA) for high-severity CVEs, with a machine-readable catalog. Used by detection engineers and researchers reproducing and detecting real CVEs; the free PoC-plus-detection corpus.. (Apache-2.0) |
+| [cyber_rss](https://github.com/mr-r3b00t/cyber_rss) | 102 | 2026 | 2026-05-15 ⏳ | — Organized list of security feeds covering CERT advisories, vulnerabilities, vendor advisories, malware, and exploit research. Used by SOC analysts and researchers; a broad feed aggregation resource. |
 | [Trickest Cloud](https://github.com/trickest/cloud) | 95 | 2023 | 2026-10-29 ✅ | — weekly-refreshed SSL-certificate dataset covering all AWS EC2 and GCP public IPv4 ranges; captures self-signed, ephemeral and never-CT-submitted certificates that CT logs miss. Used by attack-surface teams enriching cloud IP inventories with certificate data; the free weekly cloud-cert dataset. (MIT, dataset) |
 | [HProxy Free Proxy List](https://github.com/hproxy-com/free-proxy-list) | 86 | 2026 | 2026-11-01 ✅ | — continuously verified keyless proxy feed: 100+ public sources re-tested daily for protocol, anonymity grade, geolocation, latency and uptime, served as txt/JSON/CSV plus a free API and MCP server. Used by security teams auditing whether their own IP space appears on public proxy feeds — detection intel, never egress infrastructure. (MIT) |
+| [infosec-opml](https://github.com/phretor/infosec-opml) | 69 | 2022 | 2026-11-02 ✅ | — Curated collection of 366 information security RSS and Atom feeds organized by reading action and urgency. Used by analysts and researchers; a ready-made feed bundle for any RSS reader. (MIT) |
 | [onion-lookup](https://github.com/ail-project/onion-lookup) | 66 | 2024 | 2026-01-05 | — a free API for .onion existence checks; part of the AIL stack. Used by researchers checking dark-web onion services safely; the free lookup for onion intelligence. (AGPL-3.0) |
+| [cyber-threat-intel-rss-feeds](https://github.com/iNadeemDev/cyber-threat-intel-rss-feeds) | 6 | 2025 | 2025-09-29 ⏳ | — Curated list of cybersecurity threat intelligence blogs and RSS feeds for SOC analysts and researchers. Used by defenders building awareness; a convenient feed starter set. |
 |---|---|---|---|---|
 | [abuse.ch](https://abuse.ch) | — | — | — | — the free malware-intel feed suite: URLhaus, ThreatFox, MalwareBazaar and Feodo Tracker. Used by defenders consuming URLhaus, MalwareBazaar and ThreatFox feeds; the free threat feeds many commercial products ingest. |
 | [AbuseIPDB](https://www.abuseipdb.com) | — | — | — | — community-driven IP-abuse reports with a free API (1,000 checks/day). Used by firewall admins checking and reporting malicious IPs; the free crowd-sourced reputation feed. |
@@ -67,5 +70,17 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 | [urlscan.io](https://urlscan.io) | — | — | — | — URL scanning with sandbox screenshots and full resource capture; free tier. Used by analysts detonating and inspecting URLs safely; the free-tier scanning and screenshot service. (free tier) |
 | [VirusTotal](https://www.virustotal.com) | — | — | — | — the multi-engine file/URL reputation service with a free public API. Used by SOC analysts everywhere for file, URL and domain reputation; the multi-engine standard, free for basic use. |
 | [Netlas](https://netlas.io/) | 897 | 2023 | 2026-09-18 | — internet-registry search, free research tier. (free tier) |
+| [Quttera Website Security API](https://quttera.com/quttera-anti-malware-api-help) | — | — | — | — API for malware detection, reputation checks, and website security analysis. Used by developers and SOC teams; a practical feed for wiring scanning into their own pipelines. (free tier) |
+| [IP Geolocation](https://ipgeolocation.io/) | — | — | — | — IP geolocation and threat intelligence API covering location, company, ASN, and VPN or proxy and Tor usage. Used by developers and analysts; a free-tier feed for enriching IP data. (free tier) |
+| [WhoisFreaks](https://whoisfreaks.com/) | — | — | — | — Domain WHOIS, historical WHOIS, and DNS intelligence API for tracking ownership and registration timelines. Used by investigators and developers; a free-tier feed for domain attribution. (free tier) |
+| [APIFreaks](https://apifreaks.com/) | — | — | — | — API hub delivering over a hundred real-time endpoints across IP, domain, and email intelligence categories. Used by developers and analysts; a broad free-tier feed for enrichment lookups. (free tier) |
+| [IP2Location.io](https://www.ip2location.io/) | — | — | — | — IP geolocation and intelligence API returning location, network, and related details for addresses. Used by developers and analysts; a free-tier feed for enriching IP data. (free tier) |
+| [ipapi.is](https://ipapi.is/) | — | — | — | — IP intelligence and geolocation service identifying locations, ISPs, hosting providers, and VPN or proxy connections. Used by developers and fraud teams; a free-tier feed for IP enrichment. (free tier) |
+| [ProxyDetect.live](https://proxydetect.live/) | — | — | — | — Proxy detection service that checks IP addresses for proxies, VPNs, and other anonymization services. Used by defenders and fraud analysts; a free lookup for flagging anonymized traffic. (free, proprietary) |
+| [urlcap](https://urlcap.com/?utm_source=chatgpt.com) | — | — | — | — HTTP capture and analysis API for inspecting requests and responses, extracting structured data, and detecting bots. Used by developers and defenders; a free-tier feed for web traffic analysis. (free tier) |
+| [SatNOGS DB](https://db.satnogs.org/) | — | — | — | — Open database of satellite frequencies, modulations, and operational status maintained by the SatNOGS community for planning satellite signal reception. Used by ground-station operators and satellite researchers; a community-curated frequency reference. |
+| [Emailrep.io](https://emailrep.io/) | — | — | — | — Email reputation and breach API. Used by defenders and developers; a feed for assessing address risk. (free tier) |
+
+
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*

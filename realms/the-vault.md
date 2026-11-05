@@ -1,14 +1,14 @@
 # 🔑 The Vault
 
-> **19 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **28 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
 
 ## Curator's notes
 
 Credential hygiene: secret scanners, live-secret verifiers, password audit corpora and hash oracles. We deliberately list no credential-attack or cracking-delivery tools — the line between auditing and attacking credentials is a policy, not an accident.
 
-## Maintenance snapshot (2026-11-01)
+## Maintenance snapshot (2026-11-06)
 
-- **Active in the last 30 days:** 12 of 17 tracked GitHub repos (71%)
+- **Active in the last 30 days:** 13 of 19 tracked GitHub repos (68%)
 - **Quiet classics (no push in 12+ months, still listed):** LaZagne
 - **Earliest entries:** John the Ripper (2011), LaZagne (2015), HashiCorp Vault (2015)
 
@@ -23,7 +23,7 @@ Credential hygiene: secret scanners, live-secret verifiers, password audit corpo
 | [hashcat](https://github.com/hashcat/hashcat) | 27.2k | 2015 | 2026-11-01 ✅ | World's fastest and most advanced password recovery utility |
 | [age](https://github.com/FiloSottile/age) | 24.2k | 2019 | 2026-08-29 | A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and… |
 
-## Full inventory (19 tools)
+## Full inventory (28 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -39,14 +39,25 @@ Credential hygiene: secret scanners, live-secret verifiers, password audit corpo
 | [LaZagne](https://github.com/AlessandroZ/LaZagne) | 11.1k | 2015 | 2025-09-18 ⏳ | — audits which passwords your workstations remember — browsers, mail clients, OS stores — for authorized inventory and exposure checks only. Used by pentesters in authorized engagements demonstrating credential exposure on compromised hosts; the classic credential-harvesting tool. (LGPL-3.0) |
 | [detect-secrets](https://github.com/Yelp/detect-secrets) | 4.7k | 2017 | 2026-04-02 | — enterprise secret scanner designed for baseline diffs and incremental CI audits. Used by CI pipelines baseline-scanning for secrets; Yelp's open scanner that complements commercial enterprise offerings. |
 | [hardened_malloc](https://github.com/GrapheneOS/hardened_malloc) | 2k | 2018 | 2026-11-01 ✅ | — the allocator that makes exploitation harder by design; from the GrapheneOS project. Used by hardened deployments and privacy distros for exploit-mitigating memory allocation; the open allocator adopted by GrapheneOS-class systems. (MIT) |
+| [Acra](https://github.com/cossacklabs/acra) | 1.5k | 2016 | 2026-04-23 ⏳ | — Client-side encryption engine for SQL databases with selective encryption, SQL injection prevention and intrusion detection. Used by developers and DBAs; a strong data-protection layer. (Apache-2.0) |
 | [Kingfisher](https://github.com/mongodb/kingfisher) | 1.3k | 2025 | 2026-10-30 ✅ | — MongoDB's open-source Rust secret scanner: detect leaked secrets across code/Git/history/containers/cloud, then live-validate credentials, map blast radius and revoke — the full post-detection lifecycle. Used by security teams killing the "leaked-but-rotated key" false-positive class; embeddable as CLI, Rust lib or Python SDK. (Apache-2.0) |
 | [haiti](https://github.com/noraj/haiti) | 1k | 2020 | 2026-10-29 ✅ | — hash-type identifier: narrows down the algorithm family of a digest so cracking starts on the right track. Used by CTF players and pentesters triaging found hashes before hashcat or John; the standard free helper for hash identification. (MIT) |
 | [keyFinder](https://github.com/momenbasel/keyFinder) | 730 | 2019 | 2026-10-24 ✅ | — passively discovers leaked API keys and secrets in web pages during browsing. Used by forensic analysts locating crypto key material in memory images; the niche free utility for DFIR work. (MIT) |
 | [Retraced (BoxyHQ)](https://github.com/retracedhq/retraced) | 451 | 2016 | 2026-08-07 | — open-source audit-log API: compliant, tamper-evident activity records for your SaaS. Used by SaaS builders adding compliance-grade audit logging; the open-source alternative to commercial audit-log services. (Apache-2.0) |
+| [GTKCrypto](https://github.com/paolostivanin/GTKCrypto) | 10 | 2013 | 2026-10-12 ✅ | — GTK application for encrypting and signing files or text with AES, Twofish, Serpent, and Camellia. Used by Linux desktop users; a simple free file encryption GUI. (GPL-3.0) |
 | [siloscan](https://github.com/RandomCodeSpace/siloscan) | 0 | 2026 | 2026-09-12 | — offline air-gapped repository secret and code-quality scanner with 228 rules and SARIF output; zero telemetry. Used by teams scanning sensitive repositories where nothing may leave the network; the air-gap-friendly secret scanner for restricted environments. (MIT) |
 |---|---|---|---|---|
 | [Databunker](https://databunker.org/) | — | — | — | — encrypted personal-data vault: API-first storage for PII with built-in privacy compliance. Used by backend teams storing customer PII encrypted and auditable; the open-source alternative to commercial customer-data vaults. (GPL-3.0) |
 | [MAT2](https://0xacab.org/jvoisin/mat2) | — | — | — | — Metadata Anonymisation Toolkit v2: strips hidden metadata from documents, images and more. Used by journalists and privacy-conscious users stripping metadata from documents; the free alternative to commercial redaction suites. (GPL-3.0) |
+| [Tuta Mail](https://tuta.com/) | — | — | — | — Privacy-focused end-to-end encrypted email service for secure communication. Used by privacy advocates and journalists; a genuine free tier for encrypted mail. (free tier) |
+| [OpenXPKI](https://www.openxpki.org/) | — | — | — | — Enterprise-grade open-source PKI and trustcenter solution supporting CA rollover and multiple PKI realms. Used by PKI operators; a capable free certificate authority platform. |
+| [Dogtag Certificate System](https://www.dogtagpki.org/) | — | — | — | — Scalable enterprise PKI solution managing the full digital certificate lifecycle. Used by enterprise PKI administrators; a robust free certificate management system. |
+| [Step CLI](https://smallstep.com/cli/) | — | — | — | — CLI tool for building, operating, and automating PKI systems with X.509 operations. Used by DevOps and security engineers; a handy free certificate automation utility. |
+| [GnuPG (GPG)](https://gnupg.org/) | — | — | — | — Complete OpenPGP implementation for encryption and signing, now supporting post-quantum Kyber algorithms. Used by privacy-conscious users and developers; the essential free crypto toolkit. |
+| [VeraCrypt](https://www.veracrypt.fr/) | — | — | — | — Free open-source disk encryption software and successor to TrueCrypt, supporting full-disk encryption, hidden volumes, and plausible deniability. Used by security practitioners; a trusted encryption standard. (Apache-2.0) |
+| [Cryptomator](https://cryptomator.org/) | — | — | — | — Client-side encryption for cloud storage, encrypting files before they reach Google Drive, Dropbox, or OneDrive. Used by privacy-minded cloud users; a transparent encryption layer. (GPL-3.0) |
+
+
 
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*

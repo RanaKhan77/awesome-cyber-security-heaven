@@ -1,14 +1,14 @@
 # 🎯 The Proving Grounds
 
-> **71 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **104 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
 
 ## Curator's notes
 
 Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab ranges. Practice targets are verified live before listing (dead practice apps are worse than none — they teach tool errors, not vulns).
 
-## Maintenance snapshot (2026-11-01)
+## Maintenance snapshot (2026-11-06)
 
-- **Active in the last 30 days:** 11 of 28 tracked GitHub repos (39%)
+- **Active in the last 30 days:** 17 of 47 tracked GitHub repos (36%)
 - **Quiet classics (no push in 12+ months, still listed):** Metasploitable 3, HEVD, APTSimulator, OWASP NodeGoat, DIVA Android, DVIA-v2, AzureGoat, 0l4bs, WackoPicko, lfi-labs, DVHMA, CryptOMG, damnvulnerable.me, SentinelTestbed
 - **Earliest entries:** WackoPicko (2010), CryptOMG (2012), pwntools (2013)
 
@@ -23,7 +23,7 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [WebGoat](https://github.com/WebGoat/WebGoat) | 9.4k | 2015 | 2026-10-29 ✅ | WebGoat is a deliberately insecure application |
 | [GOAD](https://github.com/Orange-Cyberdefense/GOAD) | 8.6k | 2021 | 2026-10-23 ✅ | game of active directory |
 
-## Full inventory (71 tools)
+## Full inventory (104 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -37,24 +37,43 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [Metasploitable 3](https://github.com/rapid7/metasploitable3) | 5.8k | 2016 | 2025-02-13 ⏳ | — Rapid7's purpose-built vulnerable target VM; the canonical Metasploit practice range. Used by pentest trainees practicing Metasploit workflows; the Rapid7-blessed free practice target. |
 | [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) | 3.8k | 2018 | 2026-10-14 ✅ | — Rhino Security's "vulnerable by design" AWS scenarios — deploy, attack, tear down. Used by cloud security learners practicing AWS attacks safely; Rhino Security's free vulnerable-by-design deployment. |
 | [HEVD](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver) | 3.1k | 2015 | 2025-02-24 ⏳ | — the Windows kernel-driver training target for exploit development. Used by kernel exploit developers learning Windows driver exploitation; the free HackSys training driver with documented vulns. (GPL-3.0) |
+| [H5SC](https://github.com/cure53/H5SC) | 2.9k | 2014 | 2026-09-09 ⏳ | — A collection of HTML5-based XSS test vectors and cheat sheets. Used by security testers; a practical payload reference for XSS testing. (MPL-2.0) |
 | [APTSimulator](https://github.com/NextronSystems/APTSimulator) | 2.8k | 2018 | 2025-09-23 ⏳ | — makes a Windows host look compromised so you can test detections safely. Used by blue teams generating APT-style artifacts for detection testing; the free Windows simulator for purple exercises. (MIT) |
 | [Splunk Attack Range](https://github.com/splunk/attack_range) | 2.6k | 2019 | 2026-10-26 ✅ | — builds instrumented detection labs: attack, collect and test in one workflow. Used by detection engineers building full attack/defend labs in the cloud; the free Splunk range that emulates commercial cyber ranges. (Apache-2.0) |
 | [OWASP NodeGoat](https://github.com/OWASP/NodeGoat) | 2.1k | 2013 | 2024-06-15 ⏳ | — the Node.js vulnerable-by-design app: the Top 10 in a controllable lab. Used by Node.js teams learning the OWASP Top 10 in their stack; the OWASP training app for JavaScript. (Apache-2.0) |
 | [OWASP Mutillidae II](https://github.com/webpwnized/mutillidae) | 1.5k | 2018 | 2026-09-24 | — deliberately vulnerable app that re-creates every OWASP Top 10 issue, resettable per install. Used by teachers demonstrating nearly every OWASP vulnerability; the deliberately vulnerable training app. (GPL-3.0) |
 | [DIVA Android](https://github.com/payatu/diva-android) | 1.2k | 2016 | 2023-05-19 ⏳ | — Damn Insecure and Vulnerable App: the Android training classic. Used by mobile security students learning Android flaw classes; the classic deliberately vulnerable Android app. (GPL-3.0) |
 | [DVIA-v2](https://github.com/prateek147/DVIA-v2) | 1.1k | 2018 | 2024-03-29 ⏳ | — Damn Vulnerable iOS App v2: the mobile testing curriculum as an app. Used by iOS security learners practicing on Swift; the free deliberately vulnerable iOS app. (MIT) |
+| [Invoke-AtomicRedTeam](https://github.com/redcanaryco/invoke-atomicredteam) | 1.1k | 2020 | 2025-09-08 ⏳ | — PowerShell module for executing Atomic Red Team tests, automating reproducible execution of 1,000+ ATT&CK techniques. Used by purple teams and detection engineers; the standard ATT&CK test runner. (MIT) |
+| [UERANSIM](https://github.com/aligungr/UERANSIM) | 1.1k | 2019 | 2026-10-14 ✅ | — Open-source 5G UE and RAN simulator commonly used for fuzzing NAS and RRC protocols in telecom security research. Used by telecom researchers; a standard testbed component. (AGPL-3.0) |
+| [ICSim (Instrument Cluster Simulator)](https://github.com/zombieCraig/ICSim) | 1.0k | 2014 | 2025-09-18 ⏳ | — CAN bus simulator emulating a vehicle instrument cluster for safe, legal testing of CAN injection, replay, and reverse engineering techniques. Used by automotive security researchers; a practical lab for learning vehicle bus attacks. (GPL-3.0) |
 | [AzureGoat](https://github.com/ine-labs/AzureGoat) | 969 | 2022 | 2024-10-30 ⏳ | — the vulnerable-by-design Azure cloud lab. Used by cloud security learners practicing Azure attacks; the free vulnerable-by-design Azure lab. (MIT) |
 | [DSVW](https://github.com/stamparm/DSVW) | 884 | 2015 | 2026-08-19 | — Damn Small Vulnerable Web: the Top 10 in ~100 lines of Python. Used by trainers demonstrating web flaws with a single Python file; the deliberately small vulnerable app. (public domain) |
+| [SamuraiWTF](https://github.com/SamuraiWTF/samuraiwtf) | 576 | 2016 | 2026-07-27 ⏳ | — Web application penetration testing environment for practice. Used by pentesters and learners; a hands-on lab for web app testing. (LGPL-3.0) |
 | [Vulnerable Node](https://github.com/cr0hn/vulnerable-node) | 493 | 2016 | 2026-10-06 ✅ | — the Node.js vulnerable application for testing analysis tools. Used by Node.js teams auditing a realistic vulnerable app; the free Express-based training target. (MIT-style) |
+| [TTPForge](https://github.com/facebookincubator/TTPForge) | 447 | 2022 | 2026-09-30 ⏳ | — Meta's cyber attack simulation platform built by red, blue, and purple teams to automate attacker TTPs. Used by purple teams and detection engineers; an open-source adversary emulation framework. (MIT) |
 | [DVWS (Web Sockets)](https://github.com/interference-security/DVWS) | 364 | 2017 | 2026-07-24 | — the vulnerable WebSocket app from Interference Security. Used by students practicing WebSocket-specific attacks; the vulnerable websockets lab. (MIT) |
 | [0l4bs](https://github.com/tegal1337/0l4bs) | 355 | 2020 | 2021-06-02 ⏳ | — XSS practice labs with progressive difficulty. Used by students practicing SQLi, XSS and command injection individually; the free isolated labs per bug class. (GPL-3.0) |
 | [WackoPicko](https://github.com/adamdoupe/WackoPicko) | 354 | 2010 | 2024-05-25 ⏳ | — the vulnerable app built for testing vulnerability scanners — a frozen-by-design calibration target for your tooling. Used by researchers and instructors demonstrating classic web flaws; the free academic vulnerable social network. |
 | [lfi-labs](https://github.com/paralax/lfi-labs) | 335 | 2015 | 2024-04-08 ⏳ | — LFI/RFI/commix practice pages: one flaw family, many variants. Used by learners practicing local file inclusion safely; the free PHP lab for LFI classes. (MIT) |
+| [GRFICSv3](https://github.com/Fortiphyd/GRFICSv3) | 284 | 2025 | 2026-10-20 ✅ | — Free and open-source OT security lab with realistic networking and 3D process simulation, featuring PLCs, HMIs, engineering workstations, and Kali. Used by ICS defenders and students; a safe, realistic practice range for industrial attacks. (GPL-3.0) |
 | [Java Vulnerable Lab](https://github.com/CSPF-Founder/JavaVulnerableLab) | 278 | 2015 | 2026-10-09 ✅ | — the Java vulnerable web application from the CSPF crew. Used by Java developers learning exploitable patterns; the free vulnerable Java application. (GPL-2.0) |
 | [DVHMA](https://github.com/logicalhacking/DVHMA) | 273 | 2015 | 2018-08-22 ⏳ | — the Damn Vulnerable Hybrid Mobile App: Android+iOS appsec in one codebase. Used by mobile security students practicing hybrid-app flaws; the vulnerable hybrid mobile app lab. (Apache-2.0) |
+| [PureEdgeSim](https://github.com/CharafeddineMechalikh/PureEdgeSim) | 220 | 2018 | 2026-11-01 ✅ | — Simulation tool for edge and IoT computing environments used to evaluate security models and attack scenarios. Used by academic researchers; a flexible modeling framework. (GPL-3.0) |
 | [CryptOMG](https://github.com/SpiderLabs/CryptOMG) | 195 | 2012 | 2015-06-25 ⏳ | — cryptographic flaw testbed from SpiderLabs. Used by crypto learners attacking flawed implementations; the free crypto-focused challenge set. (GPL-3.0) |
+| [LearnPwn](https://github.com/Adamkadaban/LearnPwn) | 191 | 2021 | 2026-09-04 ⏳ | — Sample problems and solutions for learning binary exploitation with progressive difficulty. Used by security students and CTF players; a hands-on practice resource. |
+| [VWGen](https://github.com/qazbnm456/VWGen) | 85 | 2016 | 2017-12-10 ⏳ | — Generator of vulnerable web applications for practice. Used by security learners and trainers; a handy lab-building utility. |
+| [OopsSec Store](https://github.com/kOaDT/oss-oopssec-store) | 55 | 2025 | 2026-11-02 ✅ | — Intentionally vulnerable e-commerce application built with Next.js for practicing web security. Used by security learners; a deliberately insecure training target. (MIT) |
+| [Cooja Simulator](https://github.com/contiki-ng/cooja) | 38 | 2017 | 2026-11-05 ✅ | — Contiki OS network simulator for emulating resource-constrained IoT devices and implementing attack scenarios. Used by IoT researchers; a standard simulation testbed. (BSD-3-Clause) |
 | [damnvulnerable.me](https://github.com/skepticfx/damnvulnerable.me) | 34 | 2015 | 2019-05-19 ⏳ | — a modern vulnerable webapp for the OWASP Top 10 era. Used by mobile security students learning both Android and iOS flaws; the free vulnerable mobile apps. (MIT) |
+| [XSS Labs](https://github.com/yogsec/xss-labs) | 22 | 2026 | 2026-06-23 ⏳ | — XSS lab exercises for learning web application security. Used by learners; a hands-on environment for practicing cross-site scripting. (NOASSERTION) |
+| [SimRun](https://github.com/IBM/simrun) | 13 | 2026 | 2026-11-05 ✅ | — IBM's attack simulation platform for detection engineering that detonates attacks and verifies expected SIEM alerts fire. Used by detection engineers and purple teams; a practical detection-validation framework. (Apache-2.0) |
 | [SentinelTestbed](https://github.com/dobin/SentinelTestbed) | 11 | 2013 | 2016-11-18 ⏳ | — a testbed app for evaluating security instrumentation. Used by engineers testing detection content against a deliberately vulnerable host; the free detection-lab target. (GPL-3.0) |
+| [Vulnerable Login](https://github.com/yogsec/Vulnerable-Login) | 6 | 2026 | 2026-07-28 ⏳ | — A deliberately vulnerable login form built for security education and hands-on training. Used by learners and instructors; a simple practice target for authentication flaws. (MIT) |
+| [Open Redirect](https://github.com/yogsec/Open-Redirect) | 4 | 2026 | 2026-07-28 ⏳ | — An educational web application that demonstrates open redirect vulnerabilities in a safe lab setting. Used by students and trainers; a focused practice target for redirect flaws. (MIT) |
+| [Vulnerable Shopping Cart](https://github.com/yogsec/Vulnerable-shopping-Cart) | 3 | 2026 | 2026-07-28 ⏳ | — Deliberately insecure e-commerce application for security practice. Used by learners and testers; a safe target for web exploitation exercises. (MIT) |
+| [AEVisionLab](https://github.com/yeoant/AEVisionLab) | 0 | 2024 | 2026-04-03 ⏳ | — Automotive Ethernet test platform using off-the-shelf ECUs for sniffing, interception, injection, and fuzzing. Used by vehicle security researchers; an open testbed. |
+| [IDS-Defender](https://github.com/salhabheba-cyber/IDS-Defender) | 0 | 2026 | 2026-04-18 ⏳ | — Educational IDS/IPS deployment project using Snort 3 and Suricata on Kali Linux with Hydra attack simulation. Used by learners; a hands-on lab for practicing detection deployment. (MIT) |
 |---|---|---|---|---|
 | [Altoro Mutual](http://demo.testfire.net/) | — | — | — | — the classic demo bank: legal target for appsec training and tool demos. Used by security teams demoing scanners on a safe target; the classic IBM testfire-style demo banking site. (free service) |
 | [Arizona Cyber Warfare Range](http://azcwr.org/az-cyber-warfare-ranges) | — | — | — | — free live-fire ranges for defenders and researchers. Used by learners attacking live-fire lab environments; the free volunteer-run range. (free service) |
@@ -99,5 +118,21 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [XSS Game](https://xss-game.appspot.com/) | — | — | — | — Google's XSS tutorial game: six levels from context basics to DOM tricks. Used by beginners learning XSS exploitation; Google's free reverse-engineering-free XSS CTF. (free service) |
 | [Zero Bank](http://zero.webappsecurity.com/) | — | — | — | — demo banking site for web security exercises. Used by learners practicing web vulns on a simulated banking app; the free demo target behind Invicti training material. (free service) |
 | [pwn-scenarios](https://github.com/AlaBYahya/pwn-scenarios) | 4 | 2026 | 2026-11-01 ✅ | — 36k+ structured pentest/bug-bounty playbooks with expected observations per step, grounded in disclosed reports, auto-collected daily. (MIT + CC BY 4.0) |
+| [Open5GS](https://open5gs.org/) | — | — | — | — Open-source project for emulating 4G and 5G core network functions, widely used as a test environment for security research and fuzzing. Used by telecom researchers; a standard lab core. |
+| [HTB SATCOM Security Essentials](https://ctf.hackthebox.com/pack/satcom-security-essentials) | — | — | — | — Hands-on CTF pack covering orbital mechanics, RF signal analysis, CCSDS protocols, DVB-S2 demodulation, and satellite firmware reverse engineering. Used by space security learners; a themed challenge set for SATCOM skills. (free tier) |
+| [ModbusPal](https://esf.eurotech.com/v5.2.0/docs/modbus-application-in-kura-wires) | — | — | — | — Modbus slave simulator for creating virtual Modbus devices for security testing, protocol learning, and attack validation. Used by ICS testers and students; a convenient way to stand up realistic Modbus targets. |
+| [Stratus Red Team](https://stratus-red-team.cloud/) | — | — | — | — Datadog's cloud-focused attack simulation tool enabling granular detonation of offensive techniques in AWS and other clouds. Used by cloud security and purple teams; an open cloud attack emulation tool. (free tier) |
+| [SentinelX](https://pypi.org/project/sentinelx/) | — | — | — | — Modular CLI framework for authorized security testing, defensive validation, and purple team simulations on Kali Linux. Used by purple teamers and defenders; a scriptable simulation and validation toolkit. |
+| [Kali Autopilot](https://www.kali.org/tools/kali-autopilot/) | — | — | — | — Kali Linux tool for developing automatic attack scripts for red and purple teaming. Used by red and purple teamers; a scripted attack-automation utility in the Kali toolkit. |
+| [RangeForce Community](https://www.rangeforce.com/) | — | — | — | — Free cloud-based community SOC simulation labs using Splunk, Wireshark, and Suricata; used by defenders to practice hands-on skills. (free tier) |
+| [Hacker101 CTF](https://ctf.hacker101.com/) | — | — | — | — HackerOne's free CTF platform with real-world web security challenges; used by aspiring bug hunters to practice vulnerability hunting. (free tier) |
+| [WebVerse Labs](https://webverselabs-pro.com/) | — | — | — | — Hands-on hacking labs, challenges, learning paths, and web ranges. Used by learners and practitioners; a practice platform for offensive skills. |
+| [SELinux Game](https://selinuxgame.org/) | — | — | — | — Interactive game for learning SELinux by solving puzzles and demonstrating skill. Used by Linux administrators; a hands-on SELinux practice platform. |
+| [FLAWS](http://flaws.cloud/) | — | — | — | — Amazon AWS CTF challenge covering cloud misconfigurations and privilege escalation. Used by cloud security learners; a well-known hands-on AWS practice range. (free, proprietary) |
+| [alert(1) to win](https://alf.nu/alert1) | — | — | — | — Series of browser-based XSS challenges with escalating difficulty. Used by web security learners; a classic hands-on XSS practice site. (free, proprietary) |
+| [XSS Challenges](http://xss-quiz.int21h.jp/) | — | — | — | — Series of XSS challenges hosted by yamagata21. Used by web security learners; a long-standing hands-on XSS practice site. (free, proprietary) |
+| [HackSimulator](https://chatgpt.com/g/g-jnT7HlNeK-hacksimulator) | — | — | — | — A ChatGPT-based GPT acting as a hacking CTF that quizzes users on their experience. Used by learners and hobbyists; an interactive capture-the-flag style challenge. (free tier) |
+
+
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*

@@ -1,14 +1,14 @@
 # 🧠 The AI Forge
 
-> **32 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-01** (re-verified monthly)
+> **35 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
 
 ## Curator's notes
 
 The AI-labour realm — security tools that put an LLM to work: red-team agents, pentest copilots, exercise generators. Every entry needs an LLM API key to function, which we mark as a feature, not a paywall — the tool is free, the brain is rented. We watch this realm closest of all: AI tooling churns faster than any other category on the list.
 
-## Maintenance snapshot (2026-11-01)
+## Maintenance snapshot (2026-11-06)
 
-- **Active in the last 30 days:** 26 of 31 tracked GitHub repos (84%)
+- **Active in the last 30 days:** 27 of 33 tracked GitHub repos (82%)
 - **Quiet classics (no push in 12+ months, still listed):** none
 - **Earliest entries:** PentestGPT (2023), promptfoo (2023), garak (2023)
 
@@ -23,7 +23,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.2k | 2023 | 2026-07-14 | Automated Penetration Testing Agentic Framework Powered by Large Language Models |
 | [garak](https://github.com/NVIDIA/garak) | 9.8k | 2023 | 2026-10-27 ✅ | the LLM vulnerability scanner |
 
-## Full inventory (32 tools)
+## Full inventory (35 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -53,11 +53,17 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [PHANTOM](https://github.com/OmYarewar110/PHANTOM) | 70 | 2026 | 2026-10-20 ✅ | — AI-powered pentesting command center with MCP and reverse-engineering integration. Used by pentesters orchestrating AI-assisted engagements; the open AI pentest cockpit. (MIT) |
 | [WonderSuite Ai Bug Bounty](https://github.com/sfr-development/WonderSuite-Ai-Bug-Bounty) | 51 | 2026 | 2026-10-26 ✅ | — desktop-native AI offensive research engine with stealth browser and MCP agents. Used by bug bounty researchers automating recon-to-report workflows; the desktop AI engine for offensive research. (MIT) |
 | [Xorcise](https://github.com/xorcise-ai/xorcise) | 32 | 2026 | 2026-10-30 ✅ | — runs cyber-AI agents against prepared missions in isolated environments, with OpenTelemetry-based observability. Used by teams evaluating agent capability and safety before deployment; the open gym for offensive AI agents. (Apache-2.0) |
+| [ReClass.NET-MCP](https://github.com/NateWeav/ReClass.NET-MCP) | 25 | 2025 | 2025-12-31 ⏳ | — MCP integration for ReClass.NET that exposes memory read/write, class/node management, and process inspection to AI coding assistants. Used by reverse engineers; an experimental bridge between LLM tooling and live memory analysis. |
 | [VISTA](https://github.com/Adw0rm-sec/VISTA) | 22 | 2025 | 2026-05-27 | — LLM-augmented Burp triage and workflow automation assistant. Used by Burp users triaging findings with LLM assistance; the open Burp copilot for triage. (MIT) |
+| [Suijin](https://github.com/0xwi11iam/Suijin) | 22 | 2026 | 2026-11-01 ✅ | — autonomous red-team framework on LangGraph with POC catalog and severity-honest reporting. (AGPL-3.0) |
 | [bounty-operator](https://github.com/bountyoperator/bounty-operator) | 5 | 2026 | 2026-10-31 ✅ | — AI-powered bug bounty report triage that flags evidence gaps and duplicate risk before submission. Used by bug bounty hunters polishing reports before triage; the pre-submission report validator. (MIT) |
 | [plonix](https://github.com/SergeyMalych/plonix) | 5 | 2026 | 2026-10-26 ✅ | — AI-native Rust MITM workbench with adaptive scope validation. Used by web security testers wanting an AI-native proxy; the Rust MITM workbench with LLM integration. (Apache-2.0) |
 | [RedPilot](https://github.com/geevarghesekthomas84-sys/redpilot) | 5 | 2026 | 2026-11-01 ✅ | — AI-orchestrated recon and scan pipeline chaining nuclei, nmap, ffuf, subfinder and httpx for authorized testing. Used by pentesters automating multi-tool recon under one AI orchestrator; the LLM-driven pipeline glue for standard recon stacks. (MIT) |
 | [Hekate](https://github.com/PhaelAwesome/Hekate) | 1 | 2026 | 2026-10-20 ✅ | — Burp Suite passive extension with local-LLM triage and auto-validation to cut scanner false positives. Used by Burp users filtering scanner noise with local models; the open FP-reduction companion for Burp. (GPL-3.0) |
-| [Suijin](https://github.com/0xwi11iam/Suijin) | 22 | 2026 | 2026-11-01 ✅ | — autonomous red-team framework on LangGraph with POC catalog and severity-honest reporting. (AGPL-3.0) |
+|---|---|---|---|---|
+| [mobile-security-mcp](https://pypi.org/project/mobile-security-mcp/) | — | — | — | — MCP server that gives AI agents automated access to Android reverse-engineering tools like apktool and jadx. Used by mobile security researchers; a novel AI-driven analysis bridge. |
+| [Frida Game Hacking MCP](https://pypi.org/project/iflow-mcp_0xhackerfren-frida-game-hacking-mcp/) | — | — | — | — Model Context Protocol server that turns AI agents into game hacking assistants using Frida for memory operations, function hooking, and code patching. Used by AI-assisted reverse engineers; an experimental bridge between LLM agents and live process manipulation. |
+
+
 ---
 *This page is auto-audited from the GitHub API on every monthly verification pass. Stars, ages and push dates are re-snapshotted; the main list only changes when a tool dies or a better one takes its place. See the [editorial standards](../README.md#-editorial-standards).*
