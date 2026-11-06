@@ -26,4 +26,23 @@ Thank you for helping build the most trustworthy free-security-tools list on Git
 3. For your own projects: add `(maintainer's project)` — transparency builds trust, we won't
    reject honest self-submissions that meet the criteria.
 
+## Bot & spam submissions are rejected
+
+Maintainers verify every entry before merge. A PR is treated as spam — and closed
+without merge — when any of these hold:
+
+- **Mass-submission pattern**: multiple unrelated tools in one PR, or the same
+  tool spammed across sections. One tool per PR, one PR per tool.
+- **Undisclosed marketing**: affiliate links, tracking parameters, or a paid
+  promotion that is not disclosed. Honest `(maintainer's project)` tags are
+  welcome — stealth marketing is not.
+- **Unverifiable free tier**: if the maintainers cannot confirm the claimed
+  free capability without payment or an account, the entry is closed.
+- **Link-only or brand-new accounts** may be asked to confirm they actually
+  used the tool before the entry merges. Repeat low-effort submissions after
+  a rejection are blocked.
+
+Real humans with honest disclosures are always welcome — bots and link farms
+are not. If in doubt, open an issue first and ask.
+
 By submitting, you agree your contribution follows these rules and is released under CC0.
