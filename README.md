@@ -352,7 +352,7 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [Vigolium](https://github.com/vigolium/vigolium) - High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity and precision. Used by security researchers and pentesters; a modern scanning engine from a known author.
 - [VulnHub Binary Exploitation Repos](https://github.com/TheMalwareGuardian/Binary-Exploitation) - Curated collection of vulnerable binaries, CVE walkthroughs, and exploitation notes. Used by security students and CTF players; a hands-on binary-exploitation learning repo. (GPL-3.0)
 - [Vulnify](https://vulnify.app/) - Web application security scanner for identifying vulnerabilities, security misconfigurations, and OWASP Top 10 risks with actionable remediation. Used by web security testers; a commercial scanner offering a free tier. (free tier)
-- [Wakaru](https://github.com/pionxzh/wakaru) - JavaScript decompiler that splits production bundles from webpack, esbuild, Browserify, and Metro into modules and de-minifies code. Used by analysts; a bundle reconstruction tool. (Apache-2.0)
+- [Wakaru](https://github.com/pionxzh/wakaru) - JavaScript decompiler that splits production bundles from Webpack, esbuild, Browserify, and Metro into modules and de-minifies code. Used by analysts; a bundle reconstruction tool. (Apache-2.0)
 - [webshell](https://github.com/tennc/webshell) - Open-source collection of webshells for various languages and platforms. Used by red teamers and pentesters; a reference repository of web-based implants. (MIT)
 - [Webshell-Sniper](https://github.com/WangYihang/Webshell-Sniper) - Terminal tool to manage a compromised website via webshell interaction. Used by penetration testers; a post-exploitation webshell management utility. (GPL-3.0)
 - [Weevely](https://github.com/epinna/weevely3) - Weaponized web shell providing a stealthy backdoor and post-exploitation modules over HTTP. Used by pentesters and red teamers; a modular webshell framework. (GPL-3.0)
@@ -365,21 +365,6 @@ Intro: The professional offensive toolkit for authorized engagements, red-team e
 - [xssor2](https://github.com/evilcos/xssor2) - XSS exploitation toolkit that lets testers hack with JavaScript payloads in browser contexts. Used by web pentesters and bug-bounty hunters; a classic XSS research utility. (BSD-2-Clause)
 - [XSStrike](https://github.com/s0md3v/XSStrike) - Cross-site scripting detection and exploitation tool with advanced payload generation and fuzzing. Used by web pentesters; a capable XSS-focused scanner. (GPL-3.0)
 - [Zphisher](https://github.com/htr-tech/zphisher) - Advanced phishing tool with tunneling support for exposing local phishing pages. Used by security researchers and penetration testers; a widely starred social-engineering framework. (GPL-3.0)
-- [airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon) - all-in-one wireless security suite. (GPL-3.0)
-- [Certify](https://github.com/GhostPack/Certify) - AD CS abuse toolkit, ESC1-ESC8 chains. (BSD-3-Clause)
-- [CUPP](https://github.com/Mebus/cupp) - biography-derived password wordlist generator. (GPL-3.0)
-- [DonPAPI](https://github.com/login-securite/DonPAPI) - remote DPAPI credz collection (browsers, Wi-Fi, blobs). (GPL-3.0)
-- [Evil-WinRM](https://github.com/Hackplayers/evil-winrm) - the ultimate WinRM shell with pass-the-hash and LAPS download. (LGPL-3.0)
-- [GoMapEnum](https://github.com/nodauf/GoMapEnum) - Windows user enum + password spray (SMB/Kerberos/NTLM/LDAP). (GPL-3.0)
-- [Legba](https://github.com/evilsocket/legba) - multiprotocol brute-forcer with one CLI. (GPL-3.0)
-- [Ligolo-ng](https://github.com/nicocha30/ligolo-ng) - reverse socks5 tunneling; TUN-based pivots. (GPL-3.0)
-- [Medusa](https://github.com/jmk-foofus/medusa) - parallel login brute-forcer. (GPL-2.0)
-- [nomore403](https://github.com/devploit/nomore403) - 403/401 bypass toolkit. (MIT)
-- [Pacu](https://github.com/RhinoSecurityLabs/pacu) - AWS exploitation framework. (BSD-3-Clause)
-- [PEASS-ng](https://github.com/peass-ng/PEASS-ng) - winPEAS/linPEAS privilege-escalation suites; thousands of checks per sweep. (GPL-2.0-or-later)
-- [Penelope](https://github.com/brightio/penelope) - automated reverse-shell upgrader to full TTY. (GPL-3.0)
-- [Rubeus](https://github.com/GhostPack/Rubeus) - Kerberos toolkit: roast, pass-the-key, diamond tickets. (BSD-3-Clause)
-- [SMBMap](https://github.com/ShawnDEvans/smbmap) - SMB share enumeration and mapping across subnets. (GPL-3.0)
 
 ## 🛡️ The Bastion — Hardening & Defensive Infrastructure Tools
 Intro: Lock it down before they get in — auditing, hardening and host/network defense tooling.
@@ -481,19 +466,19 @@ Intro: See what's coming — intel platforms, knowledge bases, ransomware tracke
 - [CVE2CAPEC](https://github.com/Galeax/CVE2CAPEC) - Maps CVEs through CWE to CAPEC, MITRE ATT&CK, D3FEND and ATLAS techniques with a daily-updated database; showcased at BlackHat Europe 2025 Arsenal. Used by threat-intel analysts turning CVE lists into technique-level attack context; the free CVE-to-technique enrichment engine.. (GPL-3.0)
 - [CrawlerScope](https://github.com/ipanalytics/CrawlerScope) - Operator-published crawler and AI-bot CIDR dataset for bot attribution. Used by defenders verifying whether traffic is a legitimate crawler; the public dataset for bot-network attribution. (CC0)
 - [CERT-FR (ANSSI)](https://www.cert.ssi.gouv.fr/) - French national cybersecurity agency's advisories and alerts on vulnerabilities and threats; used by defenders tracking European intelligence. (free, proprietary)
-- [Check Point Research](https://research.checkpoint.com/) - Check Point Research blog covering APT campaigns, vulnerability discoveries, and attack trends; read by threat intelligence analysts. (free, proprietary)
+- [Check Point Research](https://research.checkpoint.com/) - Blog covering APT campaigns, vulnerability discoveries, and attack trends; read by threat intelligence analysts. (free, proprietary)
 - [CISA Advisories](https://www.cisa.gov/cybersecurity-advisories) - CISA's official alerts, advisories, and Known Exploited Vulnerabilities catalog; used by defenders worldwide to prioritize patching. (free, proprietary)
 - [Cisco Talos Intelligence](https://blog.talosintelligence.com/) - Cisco Talos threat research blog covering vulnerabilities, malware campaigns, and threat actor activity; used by defenders for intelligence. (free, proprietary)
 - [CrowdStrike Blog](https://www.crowdstrike.com/blog/) - CrowdStrike's vendor blog with investigative research on threats, vulnerabilities, and APT groups; used by defenders for threat intelligence. (free, proprietary)
 - [EQGRP](https://github.com/x0rz/EQGRP) - Decrypted content of the EQGRP auction file attributed to offensive tooling. Used by researchers and defenders; a historical artifact for threat analysis.
 - [Fortinet Threat Research](https://www.fortinet.com/blog/threat-research) - FortiGuard Labs research blog covering emerging threats, malware analysis, and vulnerability intelligence; read by security operations teams. (free, proprietary)
 - [Google Online Security Blog](https://security.googleblog.com/) - Google's security team blog covering vulnerabilities, security features, and threat research; read by practitioners and researchers. (free, proprietary)
-- [Google Project Zero](https://googleprojectzero.blogspot.com/) - Google Project Zero's blog publishing deep technical analyses of zero-day vulnerabilities and exploitation techniques; read by elite researchers. (free, proprietary)
+- [Google Project Zero](https://googleprojectzero.blogspot.com/) - Blog publishing deep technical analyses of zero-day vulnerabilities and exploitation techniques; read by elite researchers. (free, proprietary)
 - [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/) - Free community threat intelligence research platform offering IOC search and malware analysis data. Used by CTI analysts and researchers; a long-standing free exchange for threat data. (free tier)
-- [Malwarebytes Labs](https://www.malwarebytes.com/blog) - Malwarebytes Labs blog covering malware research, threat analysis, and security news; read by practitioners tracking emerging threats. (free, proprietary)
+- [Malwarebytes Labs](https://www.malwarebytes.com/blog) - Blog covering malware research, threat analysis, and security news; read by practitioners tracking emerging threats. (free, proprietary)
 - [Mandiant Blog](https://www.mandiant.com/resources/blog) - Mandiant's research blog providing frontline threat intelligence and incident response insights; used by defenders tracking major breaches. (free, proprietary)
 - [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) - Coverage mapping tool visualizing detection and hunting coverage against the ATT&CK matrix, with an MCP server for AI assistance. Used by defenders; the standard ATT&CK coverage mapper.
-- [NSFOCUS](https://nti.nsfocus.com/) - NSFOCUS threat intelligence portal providing IOC and threat data. Used by SOC analysts and defenders; a vendor threat intel resource. (free tier)
+- [NSFOCUS](https://nti.nsfocus.com/) - Threat intelligence portal providing IOC and threat data. Used by SOC analysts and defenders; a vendor threat intel resource. (free tier)
 - [SANS Internet Storm Center](https://isc.sans.edu/) - Daily diary of security incidents and handler insights from SANS. Used by defenders and threat analysts; a trusted community resource for real-time threat awareness.
 - [Securelist (Kaspersky)](https://securelist.com/) - Kaspersky's research blog with deep malware analysis, APT tracking, and threat intelligence; used by researchers and defenders. (free, proprietary)
 - [SentinelLabs](https://www.sentinelone.com/labs/) - SentinelOne's research division publishing threat intelligence, malware analysis, and offensive security research; used by defenders and researchers. (free, proprietary)
@@ -577,7 +562,7 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [Email Dossier](https://centralops.net/co/emaildossier.aspx) - Email domain and MX diagnostics for mail infrastructure. Used by admins and investigators; a mail configuration lookup. (free, proprietary)
 - [Facebook Photo Search Engine](https://cse.google.com/cse/publicurl?cx=013991603413798772546:jyvyp2ppxma) - Free Google CSE for searching Facebook profiles and photos. Used by OSINT researchers and investigators; a quick social-media profile discovery tool. (free, proprietary)
 - [Fierce](https://github.com/mschwager/fierce) - DNS reconnaissance and attack tool for mapping domains and nearby hosts. Used by pentesters and network testers; an open-source way to enumerate DNS infrastructure. (GPL-3.0)
-- [Finding The Real Origin IPs Hiding Behind CloudFlare or TOR](https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/) - Article on finding real origin IPs hiding behind Cloudflare or TOR. Used by recon specialists; a practical guide to origin discovery.
+- [Finding The Real Origin IPs Hiding Behind Cloudflare or TOR](https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/) - Article on finding real origin IPs hiding behind Cloudflare or TOR. Used by recon specialists; a practical guide to origin discovery.
 - [FOFA](https://fofa.so/?locale=en) - Cyberspace search engine for discovering internet-facing assets and services. Used by recon specialists and researchers; a broad attack-surface search platform. (free tier)
 - [GhostTrack](https://github.com/HunxByts/GhostTrack) - Open-source phone and IP lookup tool that queries free APIs. Used by OSINT investigators and bug-bounty hunters; a quick tracking and reconnaissance utility. (GPL-3.0)
 - [GitMiner](https://github.com/UnkL4b/GitMiner) - Advanced mining tool for searching content and secrets across GitHub repositories. Used by OSINT analysts and bug-bounty hunters; a powerful GitHub recon engine. (GPL-3.0)
@@ -610,7 +595,7 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [RedditMetis](https://redditmetis.com/) - Free web tool summarizing a Reddit account's activity. Used by OSINT researchers and investigators; a quick social-media profile reconnaissance aid. (free, proprietary)
 - [redditsfinder](https://pypi.org/project/redditsfinder/) - Open-source Python package aggregating a Reddit username's real history. Used by OSINT investigators and researchers; a fast social-media data collection tool. (MIT)
 - [Reveddit.com](https://www.reveddit.com/) - Free service showing removed content for a Reddit user. Used by OSINT researchers and investigators; a useful social-media history recovery tool. (free, proprietary)
-- [Reverse Whois](https://osint.sh/reversewhois/) - Reverse WHOIS lookup mapping domains to registrants. Used by recon analysts and investigators; a domain ownership discovery tool. (free, proprietary)
+- [Reverse Whois](https://osint.sh/reversewhois/) - Lookup mapping domains to registrants. Used by recon analysts and investigators; a domain ownership discovery tool. (free, proprietary)
 - [S3Scanner](https://github.com/sa7mon/S3Scanner) - Cloud storage scanner for identifying exposed S3 buckets containing firmware or configuration data. Used by cloud security testers; a focused exposure scanner. (MIT)
 - [SaaSFort](https://saasfort.com/scan) - Runs a free 60-second external NIS2 and security posture scan with an A-F grade and no signup. Used by compliance-minded teams; a quick external exposure check. (free tier)
 - [Scorifya](https://www.scorifya.com) - Gives a 0-100 security score for any website covering TLS, headers, cookies, DNS, and email signals. Used by defenders and site owners; a quick external configuration rating. (free, proprietary)
@@ -643,16 +628,6 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [wayparam](https://github.com/aleff-github/wayparam) - Python CLI that pulls historical URLs from the Wayback CDX API and normalizes parameterized URLs for fuzzing. Used by recon specialists and bug-bounty hunters; a tidy recon helper. (GPL-3.0)
 - [WebSentry](https://websentry.dev/) - Website security scanner for detecting misconfigurations, analyzing SSL/TLS, security headers, CSP, CORS, DNS, and vulnerable JavaScript libraries. Used by web developers and security testers; a quick external posture check. (free tier)
 - [WHOIS](https://www.whois.com/) - Domain registration and ownership lookup service. Used by investigators and admins; a free reference for checking who owns a domain. (free, proprietary)
-- [cdncheck](https://github.com/projectdiscovery/cdncheck) - CDN / cloud provider detection before scanning. (MIT)
-- [cvcemap](https://github.com/projectdiscovery/vulnx) - CVE-to-version mapping (repo: vulnx). (MIT)
-- [FAVIHUNTER](https://github.com/eremit4/favihunter) - favicon-hash asset discovery against scan datasets. (MIT)
-- [findomain](https://github.com/Findomain/Findomain) - CT-based subdomain discovery with database backend. (GPL-3.0)
-- [gitjacker](https://github.com/liamg/gitjacker) - .git directory leak dump + repo reconstruction. (Unlicense)
-- [gowitness](https://github.com/sensepost/gowitness) - website screenshot recon with browsable reports. (GPL-3.0)
-- [graphw00f](https://github.com/dolevf/graphw00f) - GraphQL engine fingerprinter. (BSD-3-Clause)
-- [knockpy](https://github.com/guelfoweb/knockpy) - subdomain enum by wordlist + CT with wildcard detection. (GPL-3.0)
-- [subcat](https://github.com/duty1g/subcat) - passive subdomain discovery for pipelines. (MIT)
-- [tlsx](https://github.com/projectdiscovery/tlsx) - TLS recon: ciphers, certs, SANs, versions. (MIT)
 
 ## 🕵️ The Shadow Bureau — OSINT & Public-Intelligence Tools
 Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach lookups, site monitoring and archive history for investigators, defenders and researchers. These tools only surface what is already public; use them for authorized investigations, defense and education only — never to stalk, harass or dox anyone.
@@ -722,11 +697,11 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [Ahmia](https://ahmia.fi/) - Tor-recommended dark web search engine that filters illegal content and is reachable via clearnet and Tor. Used by OSINT researchers; a free way to search onion services. (free, proprietary)
 - [Ashley Madison hacked email checker](https://ashley.cynic.al/) - Web checker that tests an email against the Ashley Madison breach dump. Used by investigators and researchers; a free lookup for breach exposure. (free, proprietary)
 - [awesome-osint-repos](https://github.com/osintshifu/awesome-osint-repos) - Continuously updated directory of OSINT tools, skills, plugins and agent integrations. Used by OSINT researchers and investigators; a curated reference for building investigation workflows. (MIT)
-- [Baidu](https://image.baidu.com/) - Baidu reverse image search that returns live visual matches for uploaded photos. Used by OSINT investigators and researchers; a free image search for tracing photos. (free, proprietary)
+- [Baidu](https://image.baidu.com/) - Reverse image search that returns live visual matches for uploaded photos. Used by OSINT investigators and researchers; a free image search for tracing photos. (free, proprietary)
 - [Bing Images](https://www.bing.com/images) - Bing reverse image search that returns live visual matches for uploaded photos. Used by OSINT investigators and researchers; a free image search for tracing photo sources. (free, proprietary)
 - [Blackbird](https://github.com/antoniaci/blackbird) - OSINT tool for searching emails, usernames, and keywords across the dark web and clearnet. Used by investigators and researchers; an open-source way to trace identities across sources.
-- [Blockchain Explorer](https://www.blockchain.com/explorer) - Blockchain.com explorer for looking up Bitcoin and Ethereum addresses and transactions. Used by investigators and analysts; a free tool for tracing cryptocurrency activity. (free, proprietary)
-- [Blockcypher](https://live.blockcypher.com/) - BlockCypher explorer and API for querying blockchain addresses and transactions. Used by blockchain investigators and developers; a free lookup for tracing crypto activity. (free tier)
+- [Blockchain Explorer](https://www.Blockchain.com/explorer) - Blockchain.com explorer for looking up Bitcoin and Ethereum addresses and transactions. Used by investigators and analysts; a free tool for tracing cryptocurrency activity. (free, proprietary)
+- [Blockcypher](https://live.blockcypher.com/) - Explorer and API for querying Blockchain addresses and transactions. Used by Blockchain investigators and developers; a free lookup for tracing crypto activity. (free tier)
 - [breachdirectory](https://breachdirectory.org/) - Free API for looking up email and username appearances in breach data. Used by investigators and defenders; a quick exposure check against known leaks. (free tier)
 - [CallerID Test](https://calleridtest.com/) - Free reverse phone and caller lookup service. Used by OSINT investigators and researchers; a quick caller-identification lookup for phone numbers. (free, proprietary)
 - [Dark-Net-Collection](https://github.com/Am0rphous/Dark-Net-Collection) - Dark web resource collection including Dread forum, Hidden Wiki, and official Tor Project .onion links. Used by OSINT researchers and investigators; an open-source directory for dark web starting points.
@@ -734,9 +709,9 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [Darkweb-search-engine (NexvisionLab)](https://github.com/NexvisionLab/Darkweb-search-engine) - Open-source dark web search engine and crawler with content categories, entity extraction, safety ratings, and ransomware tracking. Used by OSINT researchers and threat analysts; a self-hostable way to search onion services. (MIT)
 - [Databases - start.me](https://start.me/p/QRENnO/databases) - Curated start.me page listing various databases useful for OSINT research. Used by OSINT investigators; a handy public-records link collection.
 - [Email Breach Analysis](https://www.hotsheet.com/inoitsu/) - Checks an email against breach data. Used by defenders and investigators; a quick exposure lookup. (free, proprietary)
-- [Email Lookup](https://epieos.com/) - Email lookup surfacing Google, Gravatar, and registration traces. Used by OSINT investigators; an email-to-account discovery tool. (free tier)
+- [Email Lookup](https://epieos.com/) - Surfacing Google, Gravatar, and registration traces. Used by OSINT investigators; an email-to-account discovery tool. (free tier)
 - [email2phonenumber](https://github.com/martinvigo/email2phonenumber) - Infers a phone number from email account checks. Used by OSINT investigators; a targeted email-to-phone correlation tool. (MIT)
-- [Ethereum Block Explorer](https://etherscan.io/) - Etherscan block explorer with a free API for Ethereum address and transaction data. Used by blockchain investigators and analysts; a free lookup for tracing on-chain activity. (free tier)
+- [Ethereum Block Explorer](https://etherscan.io/) - Etherscan block explorer with a free API for Ethereum address and transaction data. Used by Blockchain investigators and analysts; a free lookup for tracing on-chain activity. (free tier)
 - [EXPERTE Email Finder](https://www.experte.com/email-finder) - Tool that generates email permutations and validates them via SMTP checks. Used by OSINT investigators and recruiters; a free utility for finding email addresses. (free tier)
 - [FaceCheck.ID](https://facecheck.id/) - Face recognition search engine that matches uploaded photos to online images. Used by OSINT investigators and researchers; a free facial search for identifying people. (free tier)
 - [FaceSeek](https://faceseek.online/) - AI-powered reverse face search that finds matching images online. Used by OSINT investigators and researchers; a free facial search for identifying people. (free tier)
@@ -744,7 +719,7 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [Find Instagram User ID](https://codeofaninja.com/tools/find-instagram-user-id/) - Web tool that resolves an Instagram username to its numeric user ID. Used by OSINT investigators and social media researchers; a quick lookup utility for pivoting across platforms. (free, proprietary)
 - [FOCA](https://github.com/ElevenPaths/FOCA) - Metadata extraction and document analysis tool for uncovering hidden information in files. Used by OSINT investigators and pentesters; an open-source way to mine documents for leaked details. (GPL-3.0)
 - [Free People Search](https://www.peoplefinder.com/) - Free US people records lookup for names, addresses, and phones. Used by investigators; a public-records people search. (free tier)
-- [Free Reverse Phone Lookup](https://spydialer.com/default.aspx) - Free reverse phone lookup returning name and line type for numbers. Used by OSINT researchers and investigators; a quick caller-identification lookup service. (free, proprietary)
+- [Free Reverse Phone Lookup](https://spydialer.com/default.aspx) - Returning name and line type for numbers. Used by OSINT researchers and investigators; a quick caller-identification lookup service. (free, proprietary)
 - [Google Images](https://images.google.com/) - Google reverse image search that finds where photos appear online. Used by OSINT investigators and researchers; a widely used image search for tracing photo origins. (free, proprietary)
 - [h8mail](https://pypi.org/project/h8mail/) - Open-source breach email lookup tool. Used by investigators and defenders; a scriptable exposure search. (MIT)
 - [Have I Been Ransomed?](https://haveibeenransom.com/) - Free check for whether an email appears in ransomware leak data. Used by defenders and incident responders; a quick ransom exposure lookup. (free, proprietary)
@@ -788,7 +763,7 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [Reverse Phone Lookup](https://www.idcrawl.com/phone) - Free reverse phone lookup service returning names tied to numbers. Used by OSINT researchers and investigators; a quick people-search lookup for phone numbers. (free, proprietary)
 - [Search4faces](https://search4faces.com/) - Face search tool that finds matching photos in VK and OK social networks. Used by OSINT investigators and researchers; a free facial search for Russian social profiles. (free, proprietary)
 - [See it, search it](https://www.bing.com/visualsearch) - Bing visual search that finds live image matches from uploaded pictures. Used by OSINT investigators and researchers; a free tool for tracing images online. (free, proprietary)
-- [SoChain](https://sochain.com/) - SoChain blockchain explorer and API for querying addresses and transactions. Used by investigators and developers; a free lookup for tracing cryptocurrency activity. (free tier)
+- [SoChain](https://sochain.com/) - Blockchain explorer and API for querying addresses and transactions. Used by investigators and developers; a free lookup for tracing cryptocurrency activity. (free tier)
 - [Social Mapper](https://github.com/Greenwolf/social_mapper) - Social media enumeration and correlation tool mapping faces across platforms. Used by OSINT investigators; a powerful identity correlation utility. (GPL-3.0)
 - [SoIG](https://github.com/yezz123/SoIG) - Instagram OSINT tool that retrieves profile information and media from public accounts. Used by investigators and researchers; an open-source utility for Instagram reconnaissance. (MIT)
 - [SpyDialer](https://spydialer.com/) - Free reverse phone lookup that returns caller names and voicemail previews. Used by OSINT investigators and researchers; a lookup for identifying unknown numbers. (free, proprietary)
@@ -814,11 +789,6 @@ Intro: Public data, lawful purpose — OSINT frameworks, people-search, breach l
 - [Yandex Images](https://yandex.com/images/) - Yandex reverse image search with strong face and photo matching. Used by OSINT investigators and researchers; a powerful free image search for identifying people and places. (free, proprietary)
 - [zaba search](https://www.zabasearch.com/) - Free people search drawing on public records. Used by OSINT investigators; a name-to-record lookup. (free, proprietary)
 - [ZLOOKUP](https://www.zlookup.com/) - Free reverse phone lookup service returning names tied to numbers. Used by OSINT investigators and researchers; a simple people-search lookup for phone numbers. (free, proprietary)
-- [EmailHarvester](https://github.com/maldevel/EmailHarvester) - email enumeration via search engines. (GPL-3.0)
-- [gallery-dl](https://github.com/mikf/gallery-dl) - gallery/video downloader for hundreds of sites. (GPL-2.0)
-- [InfoHound](https://github.com/Fundacio-i2CAT/InfoHound) - OSINT framework: people, emails, domains, leaks. (AGPL-3.0)
-- [Instaloader](https://github.com/instaloader/instaloader) - Instagram archiving with metadata. (MIT)
-- [Investigo](https://github.com/tdh8316/Investigo) - username/email finder across social networks. (MIT)
 
 ## 🔑 The Vault — Secrets, Credentials & Password Security Tools
 Intro: Where secrets live and leak — find them before attackers do, and keep the new ones safe.
@@ -911,16 +881,8 @@ Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that 
 - [Sigstore](https://www.sigstore.dev/) - Open-source project for signing and verifying software artifacts to improve supply chain security. Used by developers and release engineers; a foundational free signing ecosystem.
 - [SLSA (Supply-chain Levels for Software Artifacts)](https://slsa.dev/) - OpenSSF security framework providing standards and controls to prevent supply chain tampering. Used by software producers and consumers; a widely adopted free framework.
 - [SPDX](https://spdx.dev/) - Linux Foundation SBOM standard emphasizing license compliance expression. Used by compliance and security teams; a popular free regulatory-friendly standard.
-- [Tetragon](https://github.com/cilium/tetragon) - eBPF-based runtime security tool enforcing policy in-kernel with near-zero overhead for Kubernetes workloads. Used by platform and security engineers; a powerful free runtime defense. (Apache-2.0)
+- [Tetragon](https://github.com/cilium/tetragon) - EBPF-based runtime security tool enforcing policy in-kernel with near-zero overhead for Kubernetes workloads. Used by platform and security engineers; a powerful free runtime defense. (Apache-2.0)
 - [verifyfetch](https://github.com/hamzaydia/verifyfetch) - Browser-side integrity verification and resumable downloads for large files using SRI hashes, defending against CDN compromise and supply-chain attacks. Used by web developers; a focused supply-chain defense utility. (Apache-2.0)
-- [AFL++](https://github.com/AFLplusplus/AFLplusplus) - coverage-guided fuzzer, the community fork that won. (AGPL-3.0)
-- [cloudfox](https://github.com/BishopFox/cloudfox) - cloud attack-surface auditor (AWS/Azure/GCP). (MIT)
-- [CodeQL](https://github.com/github/codeql) - semantic code analysis, free for research. (MIT)
-- [GCP Scanner](https://github.com/google/gcp_scanner) - GCP security scanner from google. (Apache-2.0)
-- [pip-audit](https://github.com/pypa/pip-audit) - Python dependency vulnerability scanning (PyPA). (Apache-2.0)
-- [Slither](https://github.com/crytic/slither) - Solidity static analysis, 90+ detectors. (AGPL-3.0)
-- [Tracee](https://github.com/aquasecurity/tracee) - eBPF container runtime security tracing. (Apache-2.0)
-- [xeol](https://github.com/xeol-io/xeol) - end-of-life dependency detection. (Apache-2.0)
 
 ## 🔵 The Sentinel Ops — Blue Team, SOC & DFIR Tools
 Intro: Detect, hunt, forensicate — the defensive operations toolkit.
@@ -1023,7 +985,6 @@ Intro: Detect, hunt, forensicate — the defensive operations toolkit.
 - [TestDisk](https://www.cgsecurity.org/wiki/TestDisk) - Disk recovery tool that restores lost partitions and repairs filesystem structures. Used by forensics and recovery technicians; a reliable free utility.
 - [The DFIR Report](https://thedfirreport.com/) - Real-world incident response case studies with detailed timelines, IOCs, and attacker TTPs. Used by blue teamers and threat hunters; an essential reference for detection and response.
 - [Volatility](https://www.volatilityfoundation.org/) - Memory forensics framework extracting artifacts from RAM dumps, including hidden processes, injected code, and network connections. Used by DFIR analysts and forensic investigators; the leading memory analysis framework. (free, proprietary)
-- [Hayabusa](https://github.com/Yamato-Security/hayabusa) - Windows EVTX analysis + Sigma detection. (AGPL-3.0)
 
 ## 🤖 The Oracle's Domain — AI Security & LLM Security Tools
 Intro: Secure the new surface — guardrails, model-file safety and signing for AI-powered applications.
@@ -1046,7 +1007,7 @@ Intro: Secure the new surface — guardrails, model-file safety and signing for 
 - [HarmBench](https://github.com/centerforaisafety/HarmBench) - ICML 2024 standardized evaluation framework for automated red-teaming and robust-refusal benchmarking of LLMs. Used by AI safety researchers; a rigorous methodology for measuring model harmfulness. (MIT)
 - [LangKit](https://github.com/whylabs/langkit) - LLM monitoring toolkit from WhyLabs extracting safety and security signals like jailbreak and prompt-injection similarity. Used by ML engineers and AI security teams; a practical runtime LLM guardrail library. (Apache-2.0)
 - [LLAMATOR](https://github.com/LLAMATOR-Core/llamator) - Red-teaming framework for chatbots and GenAI systems providing automated adversarial testing methodologies. Used by AI security testers; a structured conversational-AI safety evaluation tool. (NOASSERTION)
-- [Meta Llama Prompt Guard 2](https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M) - Meta's prompt-injection classifier on HuggingFace, fine-tuned from mDeBERTa with adversarial-resistant tokenization. Used by LLM application developers and AI security teams; a lightweight prompt-injection detection model. (free, proprietary)
+- [Meta Llama Prompt Guard 2](https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M) - Meta's prompt-injection classifier on Hugging Face, fine-tuned from mDeBERTa with adversarial-resistant tokenization. Used by LLM application developers and AI security teams; a lightweight prompt-injection detection model. (free, proprietary)
 - [PurpleLlama](https://github.com/meta-llama/PurpleLlama) - Meta's open-source LLM security toolkit including Llama Guard classifiers, CodeShield, and CyberSecEval benchmarks. Used by AI developers and safety researchers; a comprehensive LLM safety evaluation suite. (NOASSERTION)
 - [SmartScanner](https://www.thesmartscanner.com/) - AI-driven web vulnerability assessment tool that automates security scanning for websites, APIs, and web applications. Used by web security testers; a commercial scanner with a free tier for automated checks. (free tier)
 - [ZeroTrust](https://github.com/sattyamjjain/zerotrust) - Privacy-first Chrome extension that analyzes website security locally with on-device WebGPU AI, scoring trust from HTTPS and phishing signals. Used by privacy-conscious users; a local AI security assessor. (MIT)
@@ -1139,7 +1100,7 @@ Intro: Free (or free-tier) data sources every security program should be using �
 - [cyber_rss](https://github.com/mr-r3b00t/cyber_rss) - Organized list of security feeds covering CERT advisories, vulnerabilities, vendor advisories, malware, and exploit research. Used by SOC analysts and researchers; a broad feed aggregation resource.
 - [Emailrep.io](https://emailrep.io/) - Email reputation and breach API. Used by defenders and developers; a feed for assessing address risk. (free tier)
 - [infosec-opml](https://github.com/phretor/infosec-opml) - Curated collection of 366 information security RSS and Atom feeds organized by reading action and urgency. Used by analysts and researchers; a ready-made feed bundle for any RSS reader. (MIT)
-- [IP Geolocation](https://ipgeolocation.io/) - IP geolocation and threat intelligence API covering location, company, ASN, and VPN or proxy and Tor usage. Used by developers and analysts; a free-tier feed for enriching IP data. (free tier)
+- [IP Geolocation](https://ipgeolocation.io/) - And threat intelligence API covering location, company, ASN, and VPN or proxy and Tor usage. Used by developers and analysts; a free-tier feed for enriching IP data. (free tier)
 - [IP2Location.io](https://www.ip2location.io/) - IP geolocation and intelligence API returning location, network, and related details for addresses. Used by developers and analysts; a free-tier feed for enriching IP data. (free tier)
 - [ipapi.is](https://ipapi.is/) - IP intelligence and geolocation service identifying locations, ISPs, hosting providers, and VPN or proxy connections. Used by developers and fraud teams; a free-tier feed for IP enrichment. (free tier)
 - [ProxyDetect.live](https://proxydetect.live/) - Proxy detection service that checks IP addresses for proxies, VPNs, and other anonymization services. Used by defenders and fraud analysts; a free lookup for flagging anonymized traffic. (free, proprietary)
@@ -1147,7 +1108,6 @@ Intro: Free (or free-tier) data sources every security program should be using �
 - [SatNOGS DB](https://db.satnogs.org/) - Open database of satellite frequencies, modulations, and operational status maintained by the SatNOGS community for planning satellite signal reception. Used by ground-station operators and satellite researchers; a community-curated frequency reference.
 - [urlcap](https://urlcap.com/?utm_source=chatgpt.com) - HTTP capture and analysis API for inspecting requests and responses, extracting structured data, and detecting bots. Used by developers and defenders; a free-tier feed for web traffic analysis. (free tier)
 - [WhoisFreaks](https://whoisfreaks.com/) - Domain WHOIS, historical WHOIS, and DNS intelligence API for tracking ownership and registration timelines. Used by investigators and developers; a free-tier feed for domain attribution. (free tier)
-- [Netlas](https://netlas.io/) - internet-registry search, free research tier. (free tier)
 
 ## 🎓 The Academy — Cybersecurity Learning Resources & Career Paths
 Intro: Learn the craft — free academies, knowledge bases, walkthroughs and career roadmaps.
@@ -1307,7 +1267,7 @@ Intro: Learn the craft — free academies, knowledge bases, walkthroughs and car
 - [Neat tricks to bypass CSRF-protection](https://zhuanlan.zhihu.com/p/32716181) - A Zhihu article covering neat tricks to bypass CSRF protection mechanisms. Used by web pentesters; a Chinese-language technique collection on CSRF evasion.
 - [Neatly bypassing CSP](https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa) - Wallarm Lab explains techniques to trick CSP into allowing arbitrary script execution. Used by security researchers; a vendor lab article on CSP weaknesses.
 - [NFS | PENETRATION TESTING ACADEMY](https://pentestacademy.wordpress.com/2017/09/20/nfs/?t=1&cn=ZmxleGlibGVfcmVjc18y&refsrc=email&iid=b34422ce15164e99a193fea0ccc7a02f&uid=1959680352&nid=244+289476616) - A blog post walking through NFS enumeration and exploitation for penetration testing. Used by pentesters and lab learners; a practical NFS attack walkthrough.
-- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) - NIST Cybersecurity Framework 2.0 guidance for aligning cyber programs with best practices; used by organizations for risk management. (free, proprietary)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) - 2.0 guidance for aligning cyber programs with best practices; used by organizations for risk management. (free, proprietary)
 - [notes](https://github.com/ChALkeR/notes) - Public notes by ChALKeR on security topics and disclosures. Used by researchers; a collection of technical observations and findings.
 - [Official Rails Security Guide](https://guides.rubyonrails.org/security.html) - The official Ruby on Rails security guide documenting common vulnerabilities and mitigations. Used by Rails developers and security reviewers; the authoritative framework reference.
 - [Open Redirect Vulnerability](https://s0cket7.com/open-redirect-vulnerability/) - A blog post explaining the open redirect vulnerability class and its risks. Used by web security learners and testers; an accessible introductory write-up.
@@ -1337,13 +1297,13 @@ Intro: Learn the craft — free academies, knowledge bases, walkthroughs and car
 - [Practical Purple Teaming (Book)](https://ebooks.mpdl.mpg.de/ebooks/Record/EB002363926/Description) - Comprehensive guide to designing purple team exercises that produce measurable improvements, covering adversary emulation and detection. Used by purple teamers and security leaders; a solid practical learning book.
 - [Practical Web Cache Poisoning](https://portswigger.net/blog/practical-web-cache-poisoning) - A PortSwigger research article explaining practical web cache poisoning attacks and methodology. Used by bug bounty hunters and web security researchers; a foundational write-up on the topic.
 - [Pre-authentication XXE vulnerability in the Services Drupal module](https://www.synacktiv.com/ressources/synacktiv_drupal_xxe_services.pdf) - A Synacktiv paper on a pre-authentication XXE vulnerability in the Drupal Services module. Used by security researchers; a concrete real-world disclosure.
-- [Prototype pollution attack in NodeJS application](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf) - A research paper on prototype pollution attacks in NodeJS applications. Used by JavaScript security researchers; a detailed technical study of a modern flaw.
+- [Prototype pollution attack in Node.js application](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf) - A research paper on prototype pollution attacks in Node.js applications. Used by JavaScript security researchers; a detailed technical study of a modern flaw.
 - [PUSHING WEBKIT'S BUTTONS WITH A MOBILE PWN2OWN EXPLOIT](https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit) - Zero Day Initiative blog on a mobile Pwn2Own WebKit exploit chain. Used by browser exploitation researchers; a detailed contest exploit write-up.
 - [Query parameter reordering causes redirect page to render unsafe URL](https://hackerone.com/reports/293689) - A HackerOne report showing how query parameter reordering made a redirect page render an unsafe URL. Used by bug-bounty hunters; a precise real-world disclosure.
 - [Rails Security - First part](https://hackmd.io/s/SkuTVw5O-) - A HackMD write-up covering Ruby on Rails security issues, first part. Used by web application security researchers; a concise notes-style reference.
 - [Rails SQL Injection](https://rails-sqli.org) - A reference site cataloging SQL injection patterns in Ruby on Rails code. Used by Rails developers and security reviewers; a focused cheat-sheet for SQLi review.
 - [Red Team Tales 0x01: From MSSQL to RCE](https://www.tarlogic.com/en/blog/red-team-tales-0x01/) - A red-team write-up tracing an MSSQL injection path to remote code execution. Used by red teamers; a concrete real-world exploitation case.
-- [Reddit](https://www.reddit.com/r/websecurity/) - Reddit community for web security discussion and news. Used by practitioners and learners; an active general web security forum. (free, proprietary)
+- [Reddit](https://www.reddit.com/r/websecurity/) - Community for web security discussion and news. Used by practitioners and learners; an active general web security forum. (free, proprietary)
 - [Remote Code Execution on a Facebook server](https://blog.scrt.ch/2018/08/24/remote-code-execution-on-a-facebook-server/) - A blog post describing remote code execution achieved on a Facebook server. Used by bug bounty hunters; a notable real-world exploitation story.
 - [Risky Business Podcast](https://risky.biz/) - Long-running cybersecurity podcast with news, analysis, and industry interviews; listened to by security professionals and leaders. (free, proprietary)
 - [Schneier on Security](https://www.schneier.com/) - Bruce Schneier's blog on security, cryptography, and surveillance policy; read by practitioners and researchers seeking expert analysis. (free, proprietary)
@@ -1356,7 +1316,7 @@ Intro: Learn the craft — free academies, knowledge bases, walkthroughs and car
 - [SMTP over XXE − how to send emails using Java's XML parser](https://shiftordie.de/blog/2017/02/18/smtp-over-xxe/) - A blog post showing how to send email via XXE using Java's XML parser. Used by pentesters; a practical XXE exploitation technique.
 - [Some Problems Of URLs](https://noncombatant.org/2017/11/07/problems-of-urls/) - An essay on the problems of URLs and their parsing. Used by web security learners; a thoughtful technical reference.
 - [Some Tricks From My Secret Group](https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html) - A collection of web exploitation tricks shared from a researcher's secret group. Used by web security learners; a practical technique reference.
-- [SQL INJECTION AND POSTGRES - AN ADVENTURE TO EVENTUAL RCE](https://pulsesecurity.co.nz/articles/postgres-sqli) - An article tracing SQL injection in PostgreSQL to eventual remote code execution. Used by red teamers; a concrete real-world exploitation case.
+- [SQL INJECTION AND PostgreSQL - AN ADVENTURE TO EVENTUAL RCE](https://pulsesecurity.co.nz/articles/postgres-sqli) - An article tracing SQL injection in PostgreSQL to eventual remote code execution. Used by red teamers; a concrete real-world exploitation case.
 - [SQL Injection Cheat Sheet](https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/) - Netsparker's cheat sheet of SQL injection techniques and payloads. Used by pentesters; a concise reference for SQLi testing.
 - [SQL Injection Pocket Reference](https://websec.ca/kb/sql_injection) - A compact pocket reference of SQL injection syntax and tricks. Used by testers; a quick lookup for SQLi payloads.
 - [SQL Injection Wiki](https://sqlwiki.netspi.com/) - NetSPI's wiki documenting SQL injection techniques across databases. Used by pentesters; a structured reference for SQLi by platform.
@@ -1365,7 +1325,7 @@ Intro: Learn the craft — free academies, knowledge bases, walkthroughs and car
 - [SSRF bible. Cheatsheet](https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit) - A cheatsheet documenting server-side request forgery exploitation techniques and bypasses. Used by penetration testers and bug bounty hunters; a practical reference for SSRF testing.
 - [SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876) - A HackerOne report of an SSRF in Exchange leading to root access on all instances. Used by bug-bounty hunters; a high-impact real-world disclosure.
 - [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748) - A HackerOne report of an SSRF in Imgur's vidgif URL endpoint. Used by bug-bounty hunters; a concrete real-world disclosure.
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/security) - Stack Overflow questions tagged security for practical Q&A. Used by developers; a large searchable knowledge base for security coding questions. (free, proprietary)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/security) - Questions tagged security for practical Q&A. Used by developers; a large searchable knowledge base for security coding questions. (free, proprietary)
 - [State of TLS on the public web](https://securemonk.io/insights/state-of-tls) - Live-data research scanning thousands of hosts on TLS adoption and configuration maturity. Used by security researchers and engineers; an empirical TLS landscape report.
 - [Stealing CSRF tokens with CSS injection (without iFrames)](https://github.com/dxa4481/cssInjection) - A GitHub project demonstrating stealing CSRF tokens via CSS injection without iframes. Used by web security researchers; a reproducible proof-of-concept with code. (GPL-2.0)
 - [Stored XSS on Facebook](https://opnsec.com/2018/03/stored-xss-on-facebook/) - A detailed account of a stored XSS found on Facebook. Used by bug-bounty hunters; a real-world case study of persistent injection.
@@ -1392,7 +1352,7 @@ Intro: Learn the craft — free academies, knowledge bases, walkthroughs and car
 - [UK NCSC](https://www.ncsc.gov.uk/) - UK National Cyber Security Centre guidance, news, and threat reports; used by organizations seeking practical defensive advice. (free, proprietary)
 - [Web Application Firewall (WAF) Evasion Techniques](https://medium.com/secjuice/waf-evasion-techniques-718026d693d8) - Secjuice's first article on practical web application firewall evasion techniques. Used by pentesters and bug bounty hunters; an accessible evasion primer.
 - [Web Application Firewall (WAF) Evasion Techniques #2](https://medium.com/secjuice/web-application-firewall-waf-evasion-techniques-2-125995f3e7b0) - Secjuice's second article continuing coverage of WAF evasion techniques. Used by pentesters; a follow-up practical guide in the same series.
-- [WEB APPLICATION PENETRATION TESTING NOTES](https://techvomit.net/web-application-penetration-testing-notes/) - Web application penetration testing notes by Jayson. Used by pentesters; a free collection of testing notes and tips.
+- [WEB APPLICATION PENETRATION TESTING NOTES](https://techvomit.net/web-application-penetration-testing-notes/) - By Jayson. Used by pentesters; a free collection of testing notes and tips.
 - [Web Application Security Zone by Netsparker](https://www.netsparker.com/blog/web-security/) - Netsparker's web application security blog with research and vulnerability write-ups. Used by defenders and testers; a vendor blog offering useful web security explainers.
 - [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - FoxGlove Security's write-up on a Java deserialization vulnerability affecting WebLogic, WebSphere, JBoss, Jenkins and OpenNMS. Used by pentesters and defenders; a landmark analysis of serialization flaws.
 - [What is a Side-Channel Attack ?](https://www.csoonline.com/article/567149/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html) - A CSO Online explainer on side-channel attacks and their real-world impact. Used by security practitioners and students; an accessible introductory overview.
@@ -1644,11 +1604,6 @@ Intro: The everyday carry — decoding, proxying, dissecting and transforming an
 - [Web Application Exploitation @ Rawsec Inventory](https://inventory.raw.pm/tools.html#title-tools-web-application-exploitation) - Rawsec inventory list of web application exploitation tools. Used by pentesters; a broad catalog of web testing tools.
 - [WXtoImg](https://wxtoimgrestored.xyz/) - NOAA weather satellite image decoding software that processes APT signals received via SDR to generate weather imagery with map overlays. Used by weather satellite hobbyists; a classic tool for receiving NOAA APT broadcasts.
 - [x64dbg](https://x64dbg.com/) - Open-source Windows debugger for x64 and x86 binaries. Used by reverse engineers and malware analysts; a popular free debugging tool.
-- [androguard](https://github.com/androguard/androguard) - Android RE framework: DEX parsing, decompile, diffing. (Apache-2.0)
-- [chisel](https://github.com/jpillora/chisel) - TCP tunnel over HTTP. (MIT)
-- [GoReplay](https://github.com/probelabs/goreplay) - capture and replay real HTTP traffic at scale. (LGPL-3.0, open-core)
-- [hurl](https://github.com/Orange-OpenSource/hurl) - plain-text HTTP requests with assertions. (Apache-2.0)
-- [TestDisk](https://github.com/cgsecurity/testdisk) - partition-table and file recovery. (GPL-2.0)
 
 ## Related Lists
 
