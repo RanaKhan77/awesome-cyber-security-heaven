@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> ✨ **Featured product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)** — run it yourself with one Docker command, or try it free online at **[2mny.com](https://2mny.com)**.
+> ✨ **Featured product 🏠 — [2MNY Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner)** — run it yourself with one Docker command, or try it free online at **[2m2mny.com](https://2mny.com)**.
 
 ## Curator's notes
 
