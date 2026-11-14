@@ -1,14 +1,14 @@
 # 🎯 The Proving Grounds
 
-> **104 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
+> **105 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14** (re-verified monthly)
 
 ## Curator's notes
 
 Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab ranges. Practice targets are verified live before listing (dead practice apps are worse than none — they teach tool errors, not vulns).
 
-## Maintenance snapshot (2026-11-06)
+## Maintenance snapshot (2026-11-14)
 
-- **Active in the last 30 days:** 17 of 47 tracked GitHub repos (36%)
+- **Active in the last 30 days:** 17 of 48 tracked GitHub repos (35%)
 - **Quiet classics (no push in 12+ months, still listed):** Metasploitable 3, HEVD, APTSimulator, OWASP NodeGoat, DIVA Android, DVIA-v2, AzureGoat, 0l4bs, WackoPicko, lfi-labs, DVHMA, CryptOMG, damnvulnerable.me, SentinelTestbed
 - **Earliest entries:** WackoPicko (2010), CryptOMG (2012), pwntools (2013)
 
@@ -23,7 +23,7 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [WebGoat](https://github.com/WebGoat/WebGoat) | 9.4k | 2015 | 2026-10-29 ✅ | WebGoat is a deliberately insecure application |
 | [GOAD](https://github.com/Orange-Cyberdefense/GOAD) | 8.6k | 2021 | 2026-10-23 ✅ | game of active directory |
 
-## Full inventory (104 tools)
+## Full inventory (105 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -71,6 +71,7 @@ Legal targets to practice on — vulnerable-by-design apps, CTF platforms, lab r
 | [SentinelTestbed](https://github.com/dobin/SentinelTestbed) | 11 | 2013 | 2016-11-18 ⏳ | — a testbed app for evaluating security instrumentation. Used by engineers testing detection content against a deliberately vulnerable host; the free detection-lab target. (GPL-3.0) |
 | [Vulnerable Login](https://github.com/yogsec/Vulnerable-Login) | 6 | 2026 | 2026-07-28 ⏳ | — A deliberately vulnerable login form built for security education and hands-on training. Used by learners and instructors; a simple practice target for authentication flaws. (MIT) |
 | [Open Redirect](https://github.com/yogsec/Open-Redirect) | 4 | 2026 | 2026-07-28 ⏳ | — An educational web application that demonstrates open redirect vulnerabilities in a safe lab setting. Used by students and trainers; a focused practice target for redirect flaws. (MIT) |
+| [Chimera](https://github.com/atlas-crew/Chimera) | 3 | 2026 | 2026-10-05 | — intentionally-vulnerable multi-industry attack surface: 450+ vulnerable API endpoints across 25+ verticals (banking, healthcare, SCADA/OT, genai) with OWASP Top 10 coverage, React attack console, k6 scenarios and bundled nuclei templates. Used by scanner authors validating tooling breadth against realistic industry APIs; the WAF-testing vulnerable range. (MIT) |
 | [Vulnerable Shopping Cart](https://github.com/yogsec/Vulnerable-shopping-Cart) | 3 | 2026 | 2026-07-28 ⏳ | — Deliberately insecure e-commerce application for security practice. Used by learners and testers; a safe target for web exploitation exercises. (MIT) |
 | [AEVisionLab](https://github.com/yeoant/AEVisionLab) | 0 | 2024 | 2026-04-03 ⏳ | — Automotive Ethernet test platform using off-the-shelf ECUs for sniffing, interception, injection, and fuzzing. Used by vehicle security researchers; an open testbed. |
 | [IDS-Defender](https://github.com/salhabheba-cyber/IDS-Defender) | 0 | 2026 | 2026-04-18 ⏳ | — Educational IDS/IPS deployment project using Snort 3 and Suricata on Kali Linux with Hydra attack simulation. Used by learners; a hands-on lab for practicing detection deployment. (MIT) |

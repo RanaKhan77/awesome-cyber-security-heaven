@@ -1,6 +1,6 @@
 # 🆓 The Free Bazaar
 
-> **54 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
+> **55 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
 
 ## Curator's notes
 
@@ -8,7 +8,7 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 
 ## Maintenance snapshot (2026-11-14)
 
-- **Active in the last 30 days:** 14 of 24 tracked GitHub repos (58%)
+- **Active in the last 30 days:** 15 of 25 tracked GitHub repos (60%)
 - **Quiet classics (no push in 12+ months, still listed):** EVTX-ATTACK-SAMPLES, Security Datasets, MITRE Cyber Analytics Repository, Boss of the SOC (BOTS), cyber-threat-intel-rss-feeds
 - **Earliest entries:** SecLists (2012), Awesome Pentest (2014), Awesome Web Hacking (2015)
 
@@ -23,13 +23,14 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 | [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | 2.6k | 2019 | 2023-01-24 ⏳ | Windows Events Attack Samples |
 | [Destroylist](https://github.com/phishdestroy/destroylist) | 2.1k | 2025 | 2026-11-01 ✅ | Real-time phishing & scam domain blocklist - 205k+ curated threats, 1M+ community, free API, multiple formats |
 
-## Full inventory (54 tools)
+## Full inventory (55 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
 | [SecLists](https://github.com/danielmiessler/SecLists) | 74.7k | 2012 | 2026-11-11 ✅ | — the security tester's wordlist collection: usernames, passwords, URLs, fuzz payloads — the one corpus everyone uses. Used by every pentester and bug hunter for wordlists; the standard free collection no commercial tool improves on. |
 | [Awesome Pentest](https://github.com/enaqx/awesome-pentest) | 27.7k | 2014 | 2026-07-25 ✅ | — the most-starred pentest resource collection; the community canon. Used by practitioners navigating the pentest tool landscape. (CC-BY-4.0, curated list) |
 | [Trickest CVE](https://github.com/trickest/cve) | 8.2k | 2022 | 2026-11-10 ✅ | — gathers and updates all available and newest CVEs with their PoCs. Used by researchers tracking fresh exploit code for newly published CVEs; a comprehensive public CVE+PoC index. (MIT) |
+| [Penetration_Testing_POC](https://github.com/Mr-xn/Penetration_Testing_POC) | 7.6k | 2019 | 2026-11-14 ✅ | — long-running Chinese-language PoC archive: ~530 CVEs and ~1,800 linked GitHub PoCs across IoT, web apps, privilege escalation and PC software, auto-updated every six hours by an LLM-triaged GitHub Actions pipeline since 2019. Used by researchers and triage pipelines hunting public PoCs by CVE; the Chinese-source PoC index Western lists miss. (Apache-2.0) |
 | [Awesome Web Hacking](https://github.com/infoslack/awesome-web-hacking) | 7.4k | 2015 | 2026-10-29 ✅ | — curated web-security research: talks, papers and tooling. Used by web hunters collecting methodology resources. (MIT, curated list) |
 | [bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) | 4k | 2017 | 2026-11-14 ✅ | — hourly-updated data dumps of public bug bounty and VDP scopes from HackerOne, Bugcrowd, Intigriti and more, in machine-readable JSON. Used by bug hunters and recon pipelines tracking in-scope targets and scope changes automatically; the dataset most bounty automation is built on. (MIT, dataset) |
 | [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | 2.6k | 2019 | 2023-01-24 ⏳ | — a large collection of real Windows event logs capturing ATT&CK techniques — test detections without a lab; frozen dataset by design. Used by detection engineers replaying attack artifacts in Windows event logs; the free sample corpus for rule testing. (GPL-3.0) |

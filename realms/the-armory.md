@@ -1,6 +1,6 @@
 # ⚔️ The Armory
 
-> **268 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
+> **273 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
 
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner" target="_blank" rel="noopener">
@@ -16,7 +16,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 
 ## Maintenance snapshot (2026-11-14)
 
-- **Active in the last 30 days:** 85 of 225 tracked GitHub repos (38%)
+- **Active in the last 30 days:** 90 of 230 tracked GitHub repos (39%)
 - **Quiet classics (no push in 12+ months, still listed):** 73 tools (marked ⏳ in the table) — 18-month Legacy Vault review queued for the quarterly pass
 - **Earliest entries:** graudit (2009), WhatWeb (2010), JTAGenum (2010)
 
@@ -31,7 +31,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | 22.1k | 2015 | 2026-11-01 ✅ | Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-tes… |
 | [RustScan](https://github.com/bee-san/RustScan) | 20.7k | 2020 | 2026-10-20 ✅ | 🤖 The Modern Port Scanner 🤖 |
 
-## Full inventory (268 tools)
+## Full inventory (273 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -221,6 +221,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [BugBoard](https://github.com/yogsec/BugBoard) | 53 | 2024 | 2026-06-23 ✅ | — Bug hunter dashboard for vulnerability scanning, automation, and managing bug bounty workflows. Used by bug bounty hunters; a workflow hub for organizing recon and findings. (MIT) |
 | [Nullock](https://github.com/Bikebrainz/Nullock) | 42 | 2026 | 2026-09-30 ✅ | — zero-telemetry HTTP/2 and WebSocket-native Burp alternative with a plugin ecosystem. Used by privacy-conscious web testers; the telemetry-free Burp alternative. (MIT) |
 | [rcekit](https://github.com/kabiri-labs/rcekit) | 28 | 2025 | 2026-11-10 ✅ | — zero-dependency RCE confirmation toolkit with false-positive-resistant sink tiering. Used by pentesters confirming command-injection findings safely; the confirmation tier for injection testing. (MIT) |
+| [wafrift](https://github.com/santhreal/wafrift) | 25 | 2026 | 2026-11-14 ✅ | — programmable WAF-evasion engine: evolutionary search caches bypass combos in per-WAF gene banks that warm-start later scans; 4-axis WAF/CDN/origin fingerprinting, 230 auth-bypass header probes and a nightly verified-bypass scoreboard. Used by pentesters measuring and defeating WAF stacks on authorized targets; the gene-bank take on WAF bypass. (Apache-2.0 OR MIT) |
 | [Hakscan](https://github.com/slayzbsss/Hakscan) | 19 | 2026 | 2026-10-31 ✅ | — Fast, self-contained vulnerability scanner shipped as a single Go binary — covers web apps, APKs and binaries, extensible with JSON and nuclei YAML templates. Used by bug bounty hunters wanting one-binary scanning across target types; the portable free scanner for quick triage.. (MIT) |
 | [Sniper](https://github.com/sm1ee/Sniper) | 14 | 2026 | 2026-11-11 ✅ | — fast Rust-native intercepting proxy with passive scanning and AI agent support. Used by web testers wanting a lightweight daily proxy; the Rust alternative for intercepting work. (MIT) |
 | [IndustrialXPL-Forge (IXF)](https://github.com/mrhenrike/IndustrialXPL-Forge) | 14 | 2026 | 2026-10-22 ✅ | — Large Python-first OT/ICS/SCADA security assessment and exploitation framework with hundreds of modules spanning dozens of vendors. Used by industrial penetration testers; one of the broadest open exploitation collections for OT. (BSD-3-Clause) |
@@ -243,7 +244,11 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [OT/ICS Security Auditor](https://github.com/GarethMSheldon/IoT-Security-Audit-Tool) | 1 | 2026 | 2026-04-26 ✅ | — Python-based security assessment toolkit for OT/ICS/SCADA and IoT devices with a GUI and 20+ industrial protocol probes including Modbus. Used by OT assessors; a hands-on auditing utility for industrial environments. (NOASSERTION) |
 | [Protofire](https://github.com/ridpath/protofire) | 1 | 2025 | 2025-12-02 ⏳ | — Modular OT/ICS protocol fuzzer with plugin support for Modbus/TCP, DNP3, S7comm, IEC 60870-5-104, and OPC UA, plus PCAP replay and anomaly detection. Used by ICS vulnerability researchers; a versatile fuzzing harness for industrial protocols. (MIT) |
 | [jwt-auditor](https://github.com/mohelobeid/jwt-auditor) | 1 | 2026 | 2026-07-07 ✅ | — Offline CLI that decodes and audits JWTs for alg:none, weak HMAC secrets, and RS256-to-HS256 confusion. Used by pentesters and developers; a focused token-audit utility. (AGPL-3.0) |
+| [PathHunter](https://github.com/Amirbarkhordari/PathHunter) | 1 | 2026 | 2026-11-14 ✅ | — maintained psychoPATH continuation for Burp: path-traversal, LFI and upload-path payload generators with document-root lists, absolute-path and URL-encoding bypass engines, and in-memory multipart upload mutation. Used by web pentesters drilling traversal and upload flaws inside Burp; the actively-developed psychoPATH successor. (GPL-3.0) |
 | [SoliTools](https://github.com/soliofski/SoliTools) | 0 | 2026 | 2026-10-31 ✅ | — High-accuracy web security scanner in Go built on the rule that a finding must be worth a human's time — precision beats recall at every decision point. Used by bug bounty hunters who want quiet, high-precision scans; the precision-first free scanner.. (MIT) |
+| [sqli-scanner](https://github.com/fengxingxuerong/sqli-scanner) | 0 | 2026 | 2026-11-13 ✅ | — SQL-injection scanner with CLI, web and desktop frontends: ten detectors with WAF identification, SARIF 2.1.0 + CVSS/CWE reports, CI exit codes and an MCP server. Used by teams wiring delivery-grade SQLi detection into CI; the automation-first scanner that complements sqlmap. (MIT) |
+| [nemesis](https://github.com/HexVandal/nemesis) | 0 | 2026 | 2026-11-14 ✅ | — differential-experiment scanner: baseline-vs-payload requests report a finding only on measurable behaviour change; 144 modules in 25 groups, default-deny scope, SARIF reports with disclosure drafts, YARA and Sigma emission. Used by pentesters who need findings that survive re-testing; the scanner that proves what it finds. (Apache-2.0) |
+| [Pentest-Anything](https://github.com/SammyYohan/Pentest-Anything) | 0 | 2026 | 2026-11-14 ✅ | — MCP server and CLI orchestrating Semgrep, Nuclei, Trivy and SQLMap behind code-enforced guardrails: scope-before-DNS, metadata and IPv6-embedded-IPv4 blocking, rebinding revalidation, no-shell spawns, redaction; SARIF output and 35+ agent auto-configs. Used by teams letting AI agents run proven scanners without raw shells; the guardrailed agent-to-scanner bridge. (MIT) |
 | [BlackEye](https://github.com/An0nUD4Y/blackeye) | 0 | — | — | — Phishing toolkit that clones login pages for credential harvesting. Used by red teams and social-engineering testers; a popular but ethically sensitive offensive framework. |
 | [PyPhisher](https://github.com/KasRoudra/PyPhisher) | 0 | — | — | — Python-based phishing toolkit with multiple site templates and tunneling options. Used by red teams and security students; a widely used offensive social-engineering tool. |
 | [BlueToolkit](https://github.com/tehseensagar/BlueToolkit-exploit) | 0 | 2025 | 2025-08-29 ⏳ | — Extensible Bluetooth Classic vulnerability testing framework cataloging known automotive Bluetooth exploits. Used by automotive security testers; a focused testing framework. (MIT) |

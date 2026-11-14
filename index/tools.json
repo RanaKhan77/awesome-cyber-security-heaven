@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-14",
  "source": "README.md",
- "total_entries": 1456,
+ "total_entries": 1468,
  "entries": [
   {
    "name": "PEASS-ng",
@@ -529,6 +529,13 @@
    "description": "A strong sqlmap alternative for error/union/blind SQLi with clever parameter tampering; slower release cadence but unique value. Used by bug bounty hunters for tricky blind, error-based and time-based SQLi."
   },
   {
+   "name": "sqli-scanner",
+   "url": "https://github.com/fengxingxuerong/sqli-scanner",
+   "section": "⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools",
+   "subsection": "",
+   "description": "SQL-injection scanner with CLI, web panel and desktop frontends: ten detectors (boolean/time-blind, error, union, stacked, NoSQL, LDAP/XPath, out-of-band, second-order) with WAF identification and tamper chains, SARIF 2.1.0 reports with CVSS/CWE tags, CI exit codes and an MCP server. Used by teams wiring delivery-grade SQLi detection into CI pipelines; the automation-first SQLi scanner that complements sqlmap. (MIT)"
+  },
+  {
    "name": "NoSQLMap",
    "url": "https://github.com/codingo/NoSQLMap",
    "section": "⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools",
@@ -606,11 +613,25 @@
    "description": "Fast, self-contained vulnerability scanner shipped as a single Go binary — covers web apps, APKs and binaries, extensible with JSON and nuclei YAML templates. Used by bug bounty hunters wanting one-binary scanning across target types; the portable free scanner for quick triage.. (MIT)"
   },
   {
+   "name": "nemesis",
+   "url": "https://github.com/HexVandal/nemesis",
+   "section": "⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools",
+   "subsection": "",
+   "description": "Differential-experiment web scanner: every active check sends a benign baseline request and a payload request, then reports a finding only when the server's behaviour measurably changed — status, body length, timing, headers or reflection. 144 modules across 25 groups (injection, web, auth, business logic, SAST, SCA, Blockchain, AI-surface), default-deny scope rules, and SARIF/JSON/Markdown reports with bug-bounty disclosure drafts, YARA and Sigma emission. Used by pentesters who need findings that survive re-testing; the scanner that proves what it finds. (Apache-2.0)"
+  },
+  {
    "name": "wafw00f",
    "url": "https://github.com/EnableSecurity/wafw00f",
    "section": "⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools",
    "subsection": "",
    "description": "Fingerprints the web application firewall sitting in front of a site so you know exactly what you're testing against. Used by pentesters planning engagements to fingerprint WAFs first; the standard free WAF detector."
+  },
+  {
+   "name": "wafrift",
+   "url": "https://github.com/santhreal/wafrift",
+   "section": "⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools",
+   "subsection": "",
+   "description": "Programmable WAF-evasion engine: evolutionary search discovers what bypasses a specific WAF stack and caches winning payload combinations in per-WAF gene banks that warm-start every later scan; adds 4-axis WAF/CDN/origin fingerprinting, 230 auth-bypass header probes, request-smuggling variants and a nightly verified-bypass scoreboard. Used by pentesters measuring and defeating WAF stacks on authorized targets; the gene-bank take on WAF bypass testing. (Apache-2.0 OR MIT)"
   },
   {
    "name": "wapiti",
@@ -653,6 +674,13 @@
    "section": "⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools",
    "subsection": "",
    "description": "Ruby offensive-security automation framework that orchestrates Burp, Nessus, OpenVAS, ZAP and other engines into scripted authorized engagements. Used by pentesters chaining commercial and open engines from one Ruby CLI; the glue layer for multi-engine engagements. (MIT)"
+  },
+  {
+   "name": "Pentest-Anything",
+   "url": "https://github.com/SammyYohan/Pentest-Anything",
+   "section": "⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools",
+   "subsection": "",
+   "description": "MCP server and CLI that orchestrates Semgrep, Nuclei, Trivy and SQLMap behind code-enforced guardrails: authorization scope checked before DNS resolution, cloud-metadata and IPv6-embedded-IPv4 blocking, DNS-rebinding revalidation, no-shell spawns and secret redaction, with SARIF output and auto-configuration for 35+ AI coding agents. Used by teams letting AI agents run proven scanners without handing over raw shells; the guardrailed bridge between coding agents and the scanner fleet. (MIT)"
   },
   {
    "name": "ettercap",
@@ -758,6 +786,13 @@
    "section": "⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools",
    "subsection": "",
    "description": "The reference GraphQL security testing toolkit as a Burp Suite extension: schema introspection analysis, query generation, vulnerability scanning and engine fingerprinting. Used by pentesters auditing GraphQL APIs where classic proxies stop at the surface; doyensec-maintained since 2018. (Apache-2.0)"
+  },
+  {
+   "name": "PathHunter",
+   "url": "https://github.com/Amirbarkhordari/PathHunter",
+   "section": "⚔️ The Armory — Offensive Security, Pentesting & Bug Bounty Tools",
+   "subsection": "",
+   "description": "Maintained continuation of the psychoPATH Burp Suite extension for path traversal, LFI and upload-path testing: Intruder payload generators with document-root lists for nix, Windows and app servers, absolute-path and URL-encoding bypass engines, and a multipart upload analyzer that mutates filename, MIME and content in-memory. Used by web pentesters drilling traversal and upload-path flaws inside Burp; the actively-developed psychoPATH successor. (GPL-3.0)"
   },
   {
    "name": "OXO",
@@ -6066,6 +6101,13 @@
    "description": "Red-team toolkit for AI models and agents: actively tests jailbreaks, prompt injection and tool misuse, then scores each reply with judge models for measured per-attack success rates. Used by AI security teams quantifying agent attack surface; the open-source AI red-teaming harness with built-in scoring. (Apache-2.0)"
   },
   {
+   "name": "Argus",
+   "url": "https://github.com/gy15901580825/Argus",
+   "section": "🤖 The Oracle's Domain — AI Security & LLM Security Tools",
+   "subsection": "",
+   "description": "AI-agent red-teaming framework: 274 black-box probes — OWASP LLM Top 10, crescendo and many-shot system-card attacks, MCP poisoning, browser-agent abuse, x402 payment-agent abuse — fired at a live agent over the wire through 15 target adapters, with rule-based verdicts and SARIF output. Used by AI security teams attacking their own agents before someone else does; the agent-focused red-team harness that also wraps 99 garak probes. (Apache-2.0)"
+  },
+  {
    "name": "weir",
    "url": "https://github.com/IdoGol24/weir",
    "section": "🤖 The Oracle's Domain — AI Security & LLM Security Tools",
@@ -6113,6 +6155,13 @@
    "section": "🤖 The Oracle's Domain — AI Security & LLM Security Tools",
    "subsection": "",
    "description": "Python framework adding input/output guards, validators, and structured-output controls to LLM applications. Used by AI engineers and security teams; a practical LLM safety and validation layer. (Apache-2.0)"
+  },
+  {
+   "name": "RedBlueAgent",
+   "url": "https://github.com/Phoenix-chaser/RedBlueAgent",
+   "section": "🤖 The Oracle's Domain — AI Security & LLM Security Tools",
+   "subsection": "",
+   "description": "Red-and-blue LLM security platform: a PTES-driven pentest agent on the red side and a standalone offline prompt-injection detector (AUROC 0.998) plus a ContextGuard fusion layer on the blue side, quarantining indirect prompt injection that arrives through tool output before it can hijack the testing agent. Used by AI security teams hardening their own agents against LLM01 injection; the red-blue platform with a measured 100%-to-0% hijack reduction. (MIT)"
   },
   {
    "name": "HarmBench",
@@ -6176,6 +6225,13 @@
    "section": "🧠 The AI Forge — AI-Dependent Security Tools",
    "subsection": "",
    "description": "Runs cyber-AI agents against prepared missions in isolated environments, with OpenTelemetry-based observability on every action. Used by teams evaluating agent capability and safety before deployment; the open gym for offensive AI agents. (Apache-2.0)"
+  },
+  {
+   "name": "CyberStrike",
+   "url": "https://github.com/CyberStrikeus/CyberStrike",
+   "section": "🧠 The AI Forge — AI-Dependent Security Tools",
+   "subsection": "",
+   "description": "Open-source AI pentest agent that runs complete engagements from the terminal: WSTG-mapped specialist sub-agents, a built-in traffic-analyzing browser, a 7,600-document methodology library and a 3-gate finding-confirmation protocol that discards speculative results; bring any of 150+ LLM providers, local Ollama included. Used by offensive teams delegating scoped engagements to supervised agents; the open-core agentic pentest harness. (AGPL-3.0, copyleft)"
   },
   {
    "name": "Apex",
@@ -6276,6 +6332,13 @@
    "description": "Chibi red-team operator: connect an AI provider, set the scope, and it drives recon through exploitation via 165+ MCP-connected tools with live session intel. Used by red teamers running guided or autonomous authorized engagements; the MCP-native AI operator for red teams. (MIT)"
   },
   {
+   "name": "0security",
+   "url": "https://github.com/0sec-labs/0",
+   "section": "🧠 The AI Forge — AI-Dependent Security Tools",
+   "subsection": "",
+   "description": "The open-source cybersecurity harness from YC-backed 0security: an agentic scanner with built-in scope guards, verify loops and turn budgets that finds, fixes and verifies vulnerabilities, shipping as a CLI, MCP server, GitHub Action and Docker image with BYOK model support. Used by security teams running agentic find-fix-verify passes on their own code; the harness that turns any LLM provider into a supervised vulnerability engineer. (Apache-2.0)"
+  },
+  {
    "name": "Mantis",
    "url": "https://github.com/google/mantis",
    "section": "🧠 The AI Forge — AI-Dependent Security Tools",
@@ -6291,10 +6354,10 @@
   },
   {
    "name": "ARTEX",
-   "url": "https://github.com/trhhubsd/ARTEX",
+   "url": "https://github.com/horizonl/ARTEX",
    "section": "🧠 The AI Forge — AI-Dependent Security Tools",
    "subsection": "",
-   "description": "Multi-agent LLM pentest orchestrator with human approval gates and asset graphing. Used by red teams running supervised multi-agent engagements; the open orchestrator for LLM-driven pentesting. (AGPL-3.0, copyleft)"
+   "description": "Multi-agent LLM pentest orchestrator with human approval gates, asset graphing and MITM traffic evidence — the maintained English-UI build after the original repo was deleted. Used by red teams running supervised multi-agent engagements; the open orchestrator for LLM-driven pentesting. (AGPL-3.0, copyleft)"
   },
   {
    "name": "Cybermes",
@@ -6568,6 +6631,13 @@
    "section": "🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data",
    "subsection": "",
    "description": "CVE proof-of-concept labs, exploit scripts and matching detection and prevention rules (Nginx, Apache, Snort, YARA) for high-severity CVEs, with a machine-readable catalog. Used by detection engineers and researchers reproducing and detecting real CVEs; the free PoC-plus-detection corpus.. (Apache-2.0)"
+  },
+  {
+   "name": "Penetration_Testing_POC",
+   "url": "https://github.com/Mr-xn/Penetration_Testing_POC",
+   "section": "🆓 The Free Bazaar — Free Cybersecurity APIs, Feeds & Data",
+   "subsection": "",
+   "description": "Long-running Chinese-language PoC archive: ~530 CVEs and ~1,800 linked GitHub PoCs covering IoT, web apps, privilege escalation and PC software, kept fresh by a GitHub Actions pipeline that searches for new CVE-PoC repos and appends curated entries every six hours since 2019. Used by researchers and triage pipelines hunting public PoCs by CVE; the Chinese-source PoC index Western lists miss. (Apache-2.0)"
   },
   {
    "name": "SecLists",
@@ -8978,6 +9048,13 @@
    "description": "The Node.js vulnerable application for testing analysis tools. Used by Node.js teams auditing a realistic vulnerable app; the free Express-based training target. (MIT-style)"
   },
   {
+   "name": "Chimera",
+   "url": "https://github.com/atlas-crew/Chimera",
+   "section": "🎯 The Proving Grounds — CTF Practice, Labs & Hacking Training",
+   "subsection": "",
+   "description": "Intentionally-vulnerable multi-industry attack surface: 450+ vulnerable API endpoints across 25+ business verticals (banking, healthcare, e-commerce, telecom, SCADA/OT, genai) with full OWASP Top 10 coverage, a React attack console, k6 load scenarios and bundled nuclei templates including AI prompt-injection endpoints. Used by scanner authors and pentest learners validating tooling breadth against realistic industry APIs; the WAF-testing vulnerable range. (MIT)"
+  },
+  {
    "name": "CryptOMG",
    "url": "https://github.com/SpiderLabs/CryptOMG",
    "section": "🎯 The Proving Grounds — CTF Practice, Labs & Hacking Training",
@@ -10194,6 +10271,13 @@
    "section": "Related Lists",
    "subsection": "",
    "description": "Searchable, auto-updating directory of self-hosted VDP and bug bounty programs that no platform lists, filterable by country, reward and safe harbour."
+  },
+  {
+   "name": "nix-security-box",
+   "url": "https://github.com/fabaff/nix-security-box",
+   "section": "Related Lists",
+   "subsection": "",
+   "description": "Curated NixOS package set of ~656 security tools across 34 categories, maintained by a long-time nixpkgs security packager — a nix-shell away from a reproducible pentest arsenal."
   }
  ]
 }

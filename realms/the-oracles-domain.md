@@ -1,14 +1,14 @@
 # 🤖 The Oracle's Domain
 
-> **22 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
+> **24 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14** (re-verified monthly)
 
 ## Curator's notes
 
 The zero-AI AI-security realm — guardrails, model-file safety, signing and the shared risk taxonomies. Tools here defend AI surfaces without themselves needing an LLM key; the AI-dependent assistants and copilots live one realm over, in The AI Forge.
 
-## Maintenance snapshot (2026-11-06)
+## Maintenance snapshot (2026-11-14)
 
-- **Active in the last 30 days:** 10 of 18 tracked GitHub repos (56%)
+- **Active in the last 30 days:** 12 of 20 tracked GitHub repos (60%)
 - **Quiet classics (no push in 12+ months, still listed):** none
 - **Earliest entries:** Awesome Threat Intelligence (2015), NeMo Guardrails (2023), modelscan (2023)
 
@@ -23,7 +23,7 @@ The zero-AI AI-security realm — guardrails, model-file safety, signing and the
 | [HackAgent](https://github.com/AISecurityLab/hackagent) | 532 | 2025 | 2026-10-31 ✅ | HackAgent is an open-source security toolkit to detect vulnerabilities of your AI Agents |
 | [guardana](https://github.com/guardana/guardana) | 289 | 2026 | 2026-11-01 ✅ | Open-source AI security verification for model artifacts, live endpoints, MCP servers, and recorded agent trac… |
 
-## Full inventory (22 tools)
+## Full inventory (24 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -41,10 +41,12 @@ The zero-AI AI-security realm — guardrails, model-file safety, signing and the
 | [guardana](https://github.com/guardana/guardana) | 289 | 2026 | 2026-11-01 ✅ | — AI-security verification platform: 58 deterministic rules across model artifacts, live LLM, MCP and A2A endpoints and OTel traces, mapped to OWASP LLM/Agentic/MCP, ATLAS and NIST. Used by AI security teams auditing model stacks deterministically; the pre-1.0 release-candidate platform worth tracking. (Apache-2.0) |
 | [model-transparency](https://github.com/sigstore/model-transparency) | 249 | 2023 | 2026-10-26 ✅ | — signing for ML models: verify exactly which model you are deploying. Used by AI governance teams documenting model provenance; the AI Alliance's open standard for model transparency labels. (Apache-2.0) |
 | [LLAMATOR](https://github.com/LLAMATOR-Core/llamator) | 225 | 2024 | 2026-05-20 ⏳ | — Red-teaming framework for chatbots and GenAI systems providing automated adversarial testing methodologies. Used by AI security testers; a structured conversational-AI safety evaluation tool. (NOASSERTION) |
+| [Argus](https://github.com/gy15901580825/Argus) | 209 | 2026 | 2026-11-14 ✅ | — AI-agent red-teaming framework: 274 black-box probes (OWASP LLM Top 10, MCP poisoning, browser-agent and x402 payment abuse) fired at a live agent through 15 target adapters, with rule-based verdicts and SARIF output. Used by AI security teams attacking their own agents first; the agent-focused red-team harness that also wraps 99 garak probes. (Apache-2.0) |
 | [Penthera](https://github.com/danoszz/penthera) | 80 | 2026 | 2026-11-01 ✅ | — offline rule-based security agent that audits app code, dependencies and AI coding tooling (Claude Code, Cursor, MCP servers) with deterministic fixes applied to a local branch — zero cloud calls. Used by teams hardening AI-assisted codebases with NIS2/CRA-ready evidence; the self-hosted AI-tooling auditor with SARIF output. (MIT) |
 | [weir](https://github.com/IdoGol24/weir) | 18 | 2026 | 2026-10-27 ✅ | — leak tests for AI agents: deterministically finds every place an agent exposes credentials in telemetry, model calls or other services. Used by agent developers testing their own deployments; a focused open-source AI-agent leak auditor. (Apache-2.0) |
 | [FlareVM MCP Server](https://github.com/zixuantemp/flarevm-mcp) | 12 | 2025 | 2026-08-28 ⏳ | — Model Context Protocol server enabling AI agents to drive an isolated, air-gapped FlareVM through 52 unified tools. Used by AI-assisted malware analysts; a bridge between LLM agents and analysis sandboxes. (MIT) |
 | [ZeroTrust](https://github.com/sattyamjjain/zerotrust) | 6 | 2025 | 2025-11-29 ⏳ | — Privacy-first Chrome extension that analyzes website security locally with on-device WebGPU AI, scoring trust from HTTPS and phishing signals. Used by privacy-conscious users; a local AI security assessor. (MIT) |
+| [RedBlueAgent](https://github.com/Phoenix-chaser/RedBlueAgent) | 1 | 2026 | 2026-11-14 ✅ | — red-and-blue LLM security platform: PTES-driven pentest agent plus a standalone offline prompt-injection detector (AUROC 0.998) and a ContextGuard fusion layer that quarantines indirect prompt injection in tool output. Used by AI security teams hardening their own agents against LLM01 injection; the red-blue platform with a measured 100%-to-0% hijack reduction. (MIT) |
 |---|---|---|---|---|
 | [OWASP Top 10 for LLM Applications](https://genai.owasp.org) | — | — | — | — the standard risk taxonomy for LLM apps; the shared language for AI threat modeling. Used by AppSec teams auditing LLM systems; the industry-standard risk list everyone maps AI security to. |
 | [AgentHound](https://github.com/adithyan-ak/AgentHound) | 456 | 2026 | 2026-11-01 ✅ | — offensive security framework for AI agent infrastructure (MCP/A2A/LiteLLM/Ollama/Qdrant/MLflow/Jupyter): differential-proof collector + queryable attack graph; DEF CON 34 featured. (Apache-2.0) |
