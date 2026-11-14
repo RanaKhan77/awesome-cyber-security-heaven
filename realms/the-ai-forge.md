@@ -1,14 +1,14 @@
 # 🧠 The AI Forge
 
-> **35 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
+> **37 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14** (re-verified monthly)
 
 ## Curator's notes
 
 The AI-labour realm — security tools that put an LLM to work: red-team agents, pentest copilots, exercise generators. Every entry needs an LLM API key to function, which we mark as a feature, not a paywall — the tool is free, the brain is rented. We watch this realm closest of all: AI tooling churns faster than any other category on the list.
 
-## Maintenance snapshot (2026-11-06)
+## Maintenance snapshot (2026-11-14)
 
-- **Active in the last 30 days:** 27 of 33 tracked GitHub repos (82%)
+- **Active in the last 30 days:** 29 of 35 tracked GitHub repos (83%)
 - **Quiet classics (no push in 12+ months, still listed):** none
 - **Earliest entries:** PentestGPT (2023), promptfoo (2023), garak (2023)
 
@@ -23,7 +23,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.2k | 2023 | 2026-07-14 | Automated Penetration Testing Agentic Framework Powered by Large Language Models |
 | [garak](https://github.com/NVIDIA/garak) | 9.8k | 2023 | 2026-10-27 ✅ | the LLM vulnerability scanner |
 
-## Full inventory (35 tools)
+## Full inventory (37 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [PentesterFlow Agent](https://github.com/PentesterFlow/agent) | 1.4k | 2026 | 2026-08-31 | — human-in-the-loop agentic pentest CLI: LLM-driven recon, enumeration, validation and reporting from the terminal, with evidence-gated anti-hallucination findings and full audit logging. Used by pentesters delegating scoped workflow steps to a supervised agent; the analyst-oversight-first agentic TUI. (Apache-2.0) |
 | [hackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) | 1.3k | 2023 | 2026-10-24 ✅ | — LLM pentesting research harness: autonomous Linux privilege-escalation experiments in ~50 lines of code. Used by researchers studying LLM agents in ethical hacking; the research framework for autonomous pentest agents. (MIT) |
 | [AttackGen](https://github.com/mrwadams/attackgen) | 1.3k | 2023 | 2026-10-24 ✅ | — LLM-powered, threat-informed exercise generation: realistic attack scenarios and mitigations for incident-response testing. Used by purple teams generating attack scenarios from threat intel; the open-source exercise-planning tool. (GPL-3.0) |
+| [xalgorix](https://github.com/xalgorix/xalgorix) | 1.3k | 2026 | 2026-11-13 ✅ | — autonomous AI pentesting agents: real-time reconnaissance, vulnerability detection and exploitation orchestration in a self-hosted Go + TypeScript platform. Used by red teams experimenting with agentic attack chains on scoped targets; the 2026-born autonomous-pentest platform that built a four-digit community in months. (Apache-2.0) |
 | [ARTEX](https://github.com/trhhubsd/ARTEX) | 1.2k | 2026 | 2026-10-19 ✅ | — multi-agent LLM pentest orchestrator with human approval gates and asset graphing. Used by red teams running supervised multi-agent engagements; the open orchestrator for LLM-driven pentesting. (AGPL-3.0, copyleft) |
 | [DarkMoon](https://github.com/ASCIT31/Dark-Moon) | 1.2k | 2024 | 2026-10-27 ✅ | — autonomous AI pentest platform orchestrating 50 specialist agents across web, AD, cloud, Kubernetes and LLM endpoints (OWASP LLM Top 10), with a Privacy Gateway that tokenizes hosts and credentials locally before any LLM call. Used by teams researching full-scope agentic testing with evidence capture; dual-use — run only against authorized targets. (GPL-3.0) |
 | [Nebula](https://github.com/berylliumsec/nebula) | 1.1k | 2023 | 2026-10-31 ✅ | — cybersecurity harness that pairs an LLM with common pentest tools for guided exploitation workflows. Used by security researchers exploring LLM-assisted pentesting workflows; the open-source agent for offensive research. (BSD-2-Clause) |
@@ -51,6 +52,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [Apex](https://github.com/pensarai/apex) | 322 | 2025 | 2026-10-30 ✅ | — autonomous offensive-security agents that run directly in the terminal, driving tools end-to-end on scoped targets. Used by pentesters delegating recon-to-exploit chains on authorized engagements; a terminal-native AI red-team operator. (Apache-2.0) |
 | [Moxy](https://github.com/matank001/Moxy) | 129 | 2026 | 2026-01-22 | — agentic MITM proxy with local-Ollama auto-testing built on mitmproxy. Used by web testers adding LLM-assisted traffic analysis; the open agentic layer for mitmproxy workflows. (Apache-2.0) |
 | [PHANTOM](https://github.com/OmYarewar110/PHANTOM) | 70 | 2026 | 2026-10-20 ✅ | — AI-powered pentesting command center with MCP and reverse-engineering integration. Used by pentesters orchestrating AI-assisted engagements; the open AI pentest cockpit. (MIT) |
+| [argo](https://github.com/gigioneggiando/argo) | 66 | 2026 | 2026-11-11 ✅ | — LLM-native static vulnerability detection: point it at a repository and get a reviewable vulnerability report written the way a human auditor would. Used by security engineers adding LLM-assisted code review alongside rule-based SAST; the minimal LLM-native SAST complement. (Apache-2.0) |
 | [WonderSuite Ai Bug Bounty](https://github.com/sfr-development/WonderSuite-Ai-Bug-Bounty) | 51 | 2026 | 2026-10-26 ✅ | — desktop-native AI offensive research engine with stealth browser and MCP agents. Used by bug bounty researchers automating recon-to-report workflows; the desktop AI engine for offensive research. (MIT) |
 | [Xorcise](https://github.com/xorcise-ai/xorcise) | 32 | 2026 | 2026-10-30 ✅ | — runs cyber-AI agents against prepared missions in isolated environments, with OpenTelemetry-based observability. Used by teams evaluating agent capability and safety before deployment; the open gym for offensive AI agents. (Apache-2.0) |
 | [ReClass.NET-MCP](https://github.com/NateWeav/ReClass.NET-MCP) | 25 | 2025 | 2025-12-31 ⏳ | — MCP integration for ReClass.NET that exposes memory read/write, class/node management, and process inspection to AI coding assistants. Used by reverse engineers; an experimental bridge between LLM tooling and live memory analysis. |

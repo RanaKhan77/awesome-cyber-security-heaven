@@ -1,14 +1,14 @@
 # 🆓 The Free Bazaar
 
-> **53 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-12**
+> **54 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
 
 ## Curator's notes
 
 Free-tier services and keyless data — the APIs and feeds you can call today without a credit card. Free tiers shrink; we re-verify this realm's limits on every monthly pass and annotate the moment a vendor tightens them.
 
-## Maintenance snapshot (2026-11-12)
+## Maintenance snapshot (2026-11-14)
 
-- **Active in the last 30 days:** 13 of 22 tracked GitHub repos (59%)
+- **Active in the last 30 days:** 14 of 24 tracked GitHub repos (58%)
 - **Quiet classics (no push in 12+ months, still listed):** EVTX-ATTACK-SAMPLES, Security Datasets, MITRE Cyber Analytics Repository, Boss of the SOC (BOTS), cyber-threat-intel-rss-feeds
 - **Earliest entries:** SecLists (2012), Awesome Pentest (2014), Awesome Web Hacking (2015)
 
@@ -23,7 +23,7 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 | [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | 2.6k | 2019 | 2023-01-24 ⏳ | Windows Events Attack Samples |
 | [Destroylist](https://github.com/phishdestroy/destroylist) | 2.1k | 2025 | 2026-11-01 ✅ | Real-time phishing & scam domain blocklist - 205k+ curated threats, 1M+ community, free API, multiple formats |
 
-## Full inventory (53 tools)
+## Full inventory (54 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -31,6 +31,7 @@ Free-tier services and keyless data — the APIs and feeds you can call today wi
 | [Awesome Pentest](https://github.com/enaqx/awesome-pentest) | 27.7k | 2014 | 2026-07-25 ✅ | — the most-starred pentest resource collection; the community canon. Used by practitioners navigating the pentest tool landscape. (CC-BY-4.0, curated list) |
 | [Trickest CVE](https://github.com/trickest/cve) | 8.2k | 2022 | 2026-11-10 ✅ | — gathers and updates all available and newest CVEs with their PoCs. Used by researchers tracking fresh exploit code for newly published CVEs; a comprehensive public CVE+PoC index. (MIT) |
 | [Awesome Web Hacking](https://github.com/infoslack/awesome-web-hacking) | 7.4k | 2015 | 2026-10-29 ✅ | — curated web-security research: talks, papers and tooling. Used by web hunters collecting methodology resources. (MIT, curated list) |
+| [bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) | 4k | 2017 | 2026-11-14 ✅ | — hourly-updated data dumps of public bug bounty and VDP scopes from HackerOne, Bugcrowd, Intigriti and more, in machine-readable JSON. Used by bug hunters and recon pipelines tracking in-scope targets and scope changes automatically; the dataset most bounty automation is built on. (MIT, dataset) |
 | [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | 2.6k | 2019 | 2023-01-24 ⏳ | — a large collection of real Windows event logs capturing ATT&CK techniques — test detections without a lab; frozen dataset by design. Used by detection engineers replaying attack artifacts in Windows event logs; the free sample corpus for rule testing. (GPL-3.0) |
 | [Destroylist](https://github.com/phishdestroy/destroylist) | 2k | 2025 | 2026-11-12 ✅ | — real-time phishing, scam and crypto-drainer domain blocklist: 205k+ manually curated plus 1M+ community-aggregated domains, DNS-verified and shipped as keyless hosts/AdGuard/RPZ/JSON feeds for any DNS firewall. Used by defenders blocking live phishing infrastructure at Pi-hole/AdGuard scale; the community blocklist for next-gen DNS filtering. (MIT) |
 | [Security Datasets](https://github.com/OTRF/Security-Datasets) | 1.8k | 2018 | 2024-03-20 ⏳ | — OTRF's library of pre-recorded adversary-emulation event logs (Mordor's successor home) for detection testing; frozen library by design. Used by detection engineers testing content against realistic telemetry; the free datasets for purple-team validation. |

@@ -1,14 +1,14 @@
 # 🗺️ The Cartographers
 
-> **140 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-12**
+> **141 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
 
 ## Curator's notes
 
 The mapping layer of offensive work — subdomain enumeration, certificate transparency, DNS archaeology and attack-surface diffing. The projectdiscovery suite lives here, alongside the classic recon one-liners every bounty hunter memorizes.
 
-## Maintenance snapshot (2026-11-12)
+## Maintenance snapshot (2026-11-14)
 
-- **Active in the last 30 days:** 41 of 81 tracked GitHub repos (51%)
+- **Active in the last 30 days:** 43 of 83 tracked GitHub repos (52%)
 - **Quiet classics (no push in 12+ months, still listed):** 18 tools (marked ⏳ in the table) — 18-month Legacy Vault review queued for the quarterly pass
 - **Earliest entries:** dnsrecon (2010), theHarvester (2011), dirsearch (2013)
 
@@ -23,7 +23,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [ffuf](https://github.com/ffuf/ffuf) | 17k | 2018 | 2026-09-26 | Fast web fuzzer written in Go |
 | [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-10-25 ✅ | In-depth attack surface mapping and asset discovery |
 
-## Full inventory (140 tools)
+## Full inventory (141 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -54,6 +54,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [LinkFinder](https://github.com/GerbenJavado/LinkFinder) | 4.5k | 2017 | 2024-04-13 ⏳ | — Python script that finds endpoints and links hidden inside JavaScript files. Used by bug-bounty hunters and recon specialists; a popular JS endpoint discovery tool. (MIT) |
 | [IVRE](https://github.com/ivre/ivre) | 4.2k | 2014 | 2026-10-30 ✅ | — Self-hosted network recon framework for building your own Shodan or Censys alternative using Nmap, Masscan, and Zeek. Used by network researchers and attack-surface analysts; a powerful self-hosted reconnaissance platform. (GPL-3.0) |
 | [Raccoon](https://github.com/evyatarmeged/Raccoon) | 4.1k | 2018 | 2026-04-21 ✅ | — High performance offensive security tool for reconnaissance and vulnerability scanning. Used by pentesters; a fast recon and scanning framework. (MIT) |
+| [cariddi](https://github.com/edoardottt/cariddi) | 3.8k | 2021 | 2026-11-13 ✅ | — fast web crawler for bug bounty: takes a list of domains and crawls for endpoints, secrets, API keys, tokens and juicy file extensions, with plain, JSON and passive-only modes. Used by bug bounty hunters sweeping whole programs for leaked secrets and hidden parameters in one pass; edoardottt's crawler built for bounty recon. (GPL-3.0) |
 | [massdns](https://github.com/blechschmidt/massdns) | 3.7k | 2016 | 2026-09-27 ✅ | — high-performance DNS stub resolver for bulk subdomain brute-forcing at scale. Used by recon pipelines resolving millions of subdomains; the free high-performance resolver no commercial tool beats on price. (GPL-3.0) |
 | [Assetfinder](https://github.com/tomnomnom/assetfinder) | 3.7k | 2019 | 2024-06-07 ⏳ | — Subdomain discovery tool that pulls results from multiple public sources. Used by recon specialists and pentesters; a fast open-source way to enumerate an organization's hosts. (MIT) |
 | [subDomainsBrute](https://github.com/lijiejie/subDomainsBrute) | 3.6k | 2015 | 2022-09-15 ⏳ | — Simple and fast subdomain brute-forcing tool for pentesters. Used by recon specialists; a quick subdomain enumeration utility. |

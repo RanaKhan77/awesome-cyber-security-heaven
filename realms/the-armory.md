@@ -1,6 +1,6 @@
 # ⚔️ The Armory
 
-> **267 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-12**
+> **268 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
 
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner" target="_blank" rel="noopener">
@@ -14,9 +14,9 @@
 
 The workhorse realm — what you load onto a VPS before a bug-bounty session. Injection proof engines, parameter mining, crawl-and-fuzz chains dominate. We license-check hard here because copyleft contamination matters when findings end up in commercial reports.
 
-## Maintenance snapshot (2026-11-12)
+## Maintenance snapshot (2026-11-14)
 
-- **Active in the last 30 days:** 88 of 223 tracked GitHub repos (39%)
+- **Active in the last 30 days:** 85 of 225 tracked GitHub repos (38%)
 - **Quiet classics (no push in 12+ months, still listed):** 73 tools (marked ⏳ in the table) — 18-month Legacy Vault review queued for the quarterly pass
 - **Earliest entries:** graudit (2009), WhatWeb (2010), JTAGenum (2010)
 
@@ -31,7 +31,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | 22.1k | 2015 | 2026-11-01 ✅ | Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-tes… |
 | [RustScan](https://github.com/bee-san/RustScan) | 20.7k | 2020 | 2026-10-20 ✅ | 🤖 The Modern Port Scanner 🤖 |
 
-## Full inventory (267 tools)
+## Full inventory (268 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -53,6 +53,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [Gophish](https://github.com/gophish/gophish) | 14.4k | 2013 | 2024-09-23 ⏳ | — Open-source phishing toolkit for awareness training and authorized testing campaigns. Used by security teams; a popular free phishing simulation platform. |
 | [RouterSploit](https://github.com/threat9/routersploit) | 13.3k | 2016 | 2026-05-05 ✅ | — Exploitation framework targeting routers, IoT, and embedded devices. Used by penetration testers and red teams; a popular offensive tool for network devices. |
 | [THC-Hydra](https://github.com/vanhauser-thc/thc-hydra) | 12.5k | 2014 | 2026-11-08 ✅ | — the classic parallelized login cracker for 50+ protocols; password audits only on systems you own or are paid to test. Used by pentesters for authorized login audits across 50+ protocols; the classic parallelized cracker with no commercial equal. (AGPL-3.0) |
+| [hetty](https://github.com/dstotijn/hetty) | 12.5k | 2019 | 2026-07-21 ✅ | — HTTP toolkit for security research: an intercepting proxy with scope rules, request composer and replay, and a GraphQL management API in one self-hosted Go binary. Used by security researchers and bug hunters who want a scriptable, self-hosted proxy workbench; the open-source HTTP research toolkit. (MIT) |
 | [Sliver](https://github.com/BishopFox/sliver) | 12.3k | 2019 | 2026-11-08 ✅ | — Command-and-control framework for adversary simulation and red teaming. Used by red teams and security researchers; a modern offensive C2 platform. (GPL-3.0) |
 | [BeEF (Browser Exploitation Framework)](https://github.com/beefproject/beef) | 11.1k | 2011 | 2026-11-11 ✅ | — Browser exploitation framework that hooks browsers for client-side attacks. Used by penetration testers and red teams; a classic offensive security platform. |
 | [Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit) | 10.9k | 2018 | 2026-05-07 ✅ | — curated index of adversary-emulation and red-team tradecraft resources. Used by red teamers planning their tooling stack. (curated list) |
