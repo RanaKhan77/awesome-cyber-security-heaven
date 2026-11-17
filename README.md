@@ -9,9 +9,9 @@
 </p>
 
 > A hand-curated, license-aware map of the best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR, DevSecOps and AI/LLM security. Free, open-source and free-tier entries all earn their place. 🌟
-> **2026 edition** — 1460 tools, 14 realms, every entry link-verified 2026-11-06 (additions 2026-11-12, 2026-11-14). 📅
+> **2026 edition** — 1484 tools, 14 realms, every entry link-verified 2026-11-17 (additions 2026-11-12, 2026-11-14). 📅
 
-🧭 **1460 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **free, open-source & free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 🧊 **dormant classics → Legacy Vault** · 💯 **no paywalls, no SaaS wrappers**
+🧭 **1484 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **free, open-source & free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 🧊 **dormant classics → Legacy Vault** · 💯 **no paywalls, no SaaS wrappers**
 
 **Legend** — ⚖️ `(GPL-…)` / `(AGPL-…)` = copyleft license · 🎁 `(free tier)` / `(freemium)` = free tier of a
 commercial service · 🔒 `(free, proprietary)` = freeware, not open source · 🏠 `(maintainer's project)` =
@@ -636,7 +636,7 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [Verify-Email](https://verify-email.org/) - Free web service that verifies email addresses through SMTP and syntax checks. Used by OSINT investigators and list cleaners; a quick email-validation utility. (free, proprietary)
 - [ViewDNS.info](https://viewdns.info/) - Suite of domain and IP intelligence tools covering DNS, reverse lookups, and propagation checks. Used by recon specialists and admins; a free one-stop shop for domain research. (free, proprietary)
 - [Vimeo search tool](https://www.aware-online.com/en/osint-tools/vimeo-search-tool/) - Free OSINT tool for searching Vimeo profiles and content. Used by investigators and researchers; a quick social-media reconnaissance aid. (free, proprietary)
-- [VirusTotal domain information](https://www.virustotal.com/en/documentation/searching/#getting-domain-information) - VirusTotal documentation for searching domain information. Used by analysts and recon specialists; a reference for domain intelligence queries. (free tier)
+- [VirusTotal domain information](https://docs.virustotal.com/) - VirusTotal documentation for searching domain information. Used by analysts and recon specialists; a reference for domain intelligence queries. (free tier)
 - [Wappalyzer](https://www.wappalyzer.com/) - Identifies technologies used on websites by fingerprinting headers, scripts, and assets. Used by recon analysts and security researchers; a widely relied-on technology fingerprinting service. (free tier)
 - [Waybackurls](https://github.com/tomnomnom/waybackurls) - Fetches URLs from the Wayback Machine for a given domain to aid historical recon. Used by bug bounty hunters and recon analysts; a staple for discovering forgotten endpoints. (MIT)
 - [wayparam](https://github.com/aleff-github/wayparam) - Python CLI that pulls historical URLs from the Wayback CDX API and normalizes parameterized URLs for fuzzing. Used by recon specialists and bug-bounty hunters; a tidy recon helper. (GPL-3.0)
@@ -983,7 +983,7 @@ Intro: Detect, hunt, forensicate — the defensive operations toolkit.
 - [OpenSearch](https://opensearch.org/) - Fork of Elasticsearch and Kibana led by AWS, including OpenSearch and OpenSearch Dashboards for visualization. Used by log analysts; a truly open search and analytics stack. (Apache-2.0)
 - [Pdf-parser](https://blog.didierstevens.com/programs/pdf-tools/) - Didier Stevens' PDF analysis tools for extracting and examining content from suspicious PDF files. Used by malware analysts; a trusted free PDF forensics toolkit.
 - [PEStudio](https://www.winitor.com/) - Static analysis tool for Windows executables examining PE headers, imports, exports, strings, and indicators without execution. Used by malware analysts and triagers; a fast first-pass PE inspection utility. (free, proprietary)
-- [PEView](https://www.aldeid.com/wiki/PEview) - Portable executable file viewer for inspecting PE headers and structure during malware analysis. Used by reverse engineers; a simple free static analysis viewer.
+- [PEView](https://web.archive.org/web/2026/https://www.aldeid.com/wiki/PEview) - Portable executable file viewer for inspecting PE headers and structure during malware analysis. Used by reverse engineers; a simple free static analysis viewer.
 - [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec) - File recovery software that carves deleted files from disks and memory cards. Used by forensics examiners and recovery specialists; a free companion to TestDisk.
 - [Plaso / log2timeline](https://github.com/log2timeline/plaso) - Super-timeline engine that extracts timestamps from dozens of forensic sources into a unified chronology. Used by forensic analysts; the standard open-source timeline builder. (Apache-2.0)
 - [Process Hacker](https://processhacker.sourceforge.io/) - Advanced Windows process viewer and memory editor offering detailed inspection of processes, threads, memory regions, and handles. Used by malware analysts and reverse engineers; a powerful live-system inspection tool. (free, proprietary)
