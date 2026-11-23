@@ -23,7 +23,7 @@ Credential hygiene: secret scanners, live-secret verifiers, password audit corpo
 | [hashcat](https://github.com/hashcat/hashcat) | 27.2k | 2015 | 2026-11-01 ✅ | World's fastest and most advanced password recovery utility |
 | [age](https://github.com/FiloSottile/age) | 24.2k | 2019 | 2026-08-29 | A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and… |
 
-## Full inventory (28 tools)
+## Full inventory (29 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -55,6 +55,7 @@ Credential hygiene: secret scanners, live-secret verifiers, password audit corpo
 | [Step CLI](https://smallstep.com/cli/) | — | — | — | — CLI tool for building, operating, and automating PKI systems with X.509 operations. Used by DevOps and security engineers; a handy free certificate automation utility. |
 | [GnuPG (GPG)](https://gnupg.org/) | — | — | — | — Complete OpenPGP implementation for encryption and signing, now supporting post-quantum Kyber algorithms. Used by privacy-conscious users and developers; the essential free crypto toolkit. |
 | [VeraCrypt](https://www.veracrypt.fr/) | — | — | — | — Free open-source disk encryption software and successor to TrueCrypt, supporting full-disk encryption, hidden volumes, and plausible deniability. Used by security practitioners; a trusted encryption standard. (Apache-2.0) |
+| [VibeShield & Vibe Security Checklist](https://github.com/zColdWater/vibe-security-checklist) | 0 | 2026 | 2026-11-23 ✅ | — Zero-dependency local build-bundle secret scanner, 8 production header/RLS hardening configs, and free passive 116-check live URL secret & Observatory header audit. Used by indie developers catching leaked client-side API keys and exposed Supabase/Firebase rules before launch. (MIT / free tier) |
 | [Cryptomator](https://cryptomator.org/) | — | — | — | — Client-side encryption for cloud storage, encrypting files before they reach Google Drive, Dropbox, or OneDrive. Used by privacy-minded cloud users; a transparent encryption layer. (GPL-3.0) |
 
 
