@@ -1670,9 +1670,3 @@ free: no ads, no sponsored placements, no data selling — ever.
     <img src="assets/banner-end-v2.jpg" alt="Found it useful? Star the repo — explore 200+ free online scanners at 2mny.com" width="100%">
   </a>
 </p>
-
-## License
-
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have released all copyright and related rights to this list under the [CC0 1.0 Universal (CC0) license](https://creativecommons.org/publicdomain/zero/1.0/). Each tool keeps its own license — this license covers the curation and descriptions only.
