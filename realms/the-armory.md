@@ -1,6 +1,6 @@
 # ⚔️ The Armory
 
-> **273 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
+> **274 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
 
 <p align="center">
   <a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner" target="_blank" rel="noopener">

@@ -1,6 +1,6 @@
 # 🧠 The AI Forge
 
-> **41 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14** (re-verified monthly)
+> **42 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.2k | 2023 | 2026-07-14 | Automated Penetration Testing Agentic Framework Powered by Large Language Models |
 | [garak](https://github.com/NVIDIA/garak) | 9.8k | 2023 | 2026-10-27 ✅ | the LLM vulnerability scanner |
 
-## Full inventory (41 tools)
+## Full inventory (42 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -65,6 +65,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [Bounty Hunter](https://github.com/projecthellhound/bounty-hunter) | 12 | 2026 | 2026-11-23 ✅ | — autonomous AI bug-bounty agent that exploits, not just scans: XSS alert() proofs in a headless browser, SSRF to cloud-metadata, IDOR to account takeover; refuses to file unproven bugs; learns from 15k+ disclosed H1 reports; free on Ollama. (GPL-3.0) |
 | [plonix](https://github.com/SergeyMalych/plonix) | 5 | 2026 | 2026-10-26 ✅ | — AI-native Rust MITM workbench with adaptive scope validation. Used by web security testers wanting an AI-native proxy; the Rust MITM workbench with LLM integration. (Apache-2.0) |
 | [RedPilot](https://github.com/geevarghesekthomas84-sys/redpilot) | 5 | 2026 | 2026-11-01 ✅ | — AI-orchestrated recon and scan pipeline chaining nuclei, nmap, ffuf, subfinder and httpx for authorized testing. Used by pentesters automating multi-tool recon under one AI orchestrator; the LLM-driven pipeline glue for standard recon stacks. (MIT) |
+| [TRISHUL](https://github.com/gravion-ux/TRISHUL) | 4 | 2026 | 2026-11-23 ✅ | — authorized-scope AI security testing platform with a real tool integration layer (httpx, nuclei, nmap and friends): the AI plans and the tools execute, everything fenced inside the declared scope. Used by testers piloting AI-driven engagements without giving up real-tool evidence. (MIT) |
 | [Hekate](https://github.com/PhaelAwesome/Hekate) | 1 | 2026 | 2026-10-20 ✅ | — Burp Suite passive extension with local-LLM triage and auto-validation to cut scanner false positives. Used by Burp users filtering scanner noise with local models; the open FP-reduction companion for Burp. (GPL-3.0) |
 |---|---|---|---|---|
 | [mobile-security-mcp](https://pypi.org/project/mobile-security-mcp/) | — | — | — | — MCP server that gives AI agents automated access to Android reverse-engineering tools like apktool and jadx. Used by mobile security researchers; a novel AI-driven analysis bridge. |

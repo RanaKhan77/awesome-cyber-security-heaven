@@ -1,6 +1,6 @@
 # 🧰 The Workshop
 
-> **117 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
+> **118 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [mitmproxy](https://github.com/mitmproxy/mitmproxy) | 46.5k | 2010 | 2026-10-30 ✅ | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
 | [CyberChef](https://github.com/gchq/CyberChef) | 36.3k | 2016 | 2026-10-30 ✅ | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |
 
-## Full inventory (117 tools)
+## Full inventory (118 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -83,6 +83,7 @@ The swiss-army shelf: netcat-lineage utilities, intercept proxies, transport plu
 | [cheat-engine-linux](https://github.com/wleeaf/cheat-engine-linux) | 61 | 2026 | 2026-10-21 ✅ | — Native C++/Qt6 reimplementation of Cheat Engine for Linux with faster first scans than the official native build. Used by Linux game hackers; a performance-focused memory scanning front end. (NOASSERTION) |
 | [espi0n/Dockerfiles](https://github.com/espi0n/Dockerfiles) | 40 | 2017 | 2018-08-25 ⏳ | — Dockerfiles packaging various OSINT tools for easy deployment. Used by OSINT practitioners; a convenient containerized toolset. |
 | [charsetinspect](https://github.com/hack-all-the-things/charsetinspect) | 27 | 2016 | 2016-06-23 ⏳ | — Script inspecting multi-byte character sets for characters with user-defined properties. Used by security researchers; a niche encoding analysis utility. |
+| [ProxyAudit](https://github.com/evilboyajay/proxyaudit) | 10 | 2026 | 2026-11-22 ✅ | — open-source AI-powered web security proxy: intercept, replay, fuzz and audit HTTP/HTTPS and WebSocket traffic, then let the built-in Claude agent triage what you caught; a free Burp Suite alternative. Used by web testers who want proxy-native AI assistance without a license. (MIT) |
 | [PyModbus](https://github.com/pymodbus/pymodbus) | 0 | 2015 | 2015-02-02 ⏳ | — Python Modbus library used for simulating industrial environments and crafting custom protocol packets for ICS security testing and fuzzing. Used by ICS developers and testers; a widely adopted building block for Modbus tooling. |
 |---|---|---|---|---|
 | [angr](https://angr.io/) | — | — | — | — the binary-analysis platform from UCSB's Shellphish: symbolic execution at scale. Used by researchers and CTF players symbolically executing binaries; the free platform for program analysis research. (BSD-2-Clause) |

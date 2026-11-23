@@ -1,6 +1,6 @@
 # 🗺️ The Cartographers
 
-> **141 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
+> **142 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [ffuf](https://github.com/ffuf/ffuf) | 17k | 2018 | 2026-09-26 | Fast web fuzzer written in Go |
 | [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-10-25 ✅ | In-depth attack surface mapping and asset discovery |
 
-## Full inventory (141 tools)
+## Full inventory (142 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -86,6 +86,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [GSDF](https://github.com/We5ter/GSDF) | 184 | 2016 | 2018-02-01 ⏳ | — Domain searcher named GoogleSSLdomainFinder for enumerating related domains. Used by recon specialists; a Google-based domain discovery tool. (Apache-2.0) |
 | [DorkEye](https://github.com/xPloits3c/DorkEye) | 162 | 2025 | 2026-11-11 ✅ | — OSINT dork pipeline: email, subdomain and people discovery through structured query automation. Used by bug hunters running Google dorks via SearX; the free web-based dork launcher. (MIT) |
 | [plcscan](https://github.com/meeas/plcscan) | 116 | 2015 | 2023-04-07 ⏳ | — Tool for enumerating Siemens S7 PLCs via TCP/IP or LLC networks, serving as a foundational discovery utility for ICS networks. Used by OT security assessors; a simple, reliable first step for mapping industrial assets. (GPL-3.0) |
+| [HuntDeck](https://github.com/mdpsec/huntdeck) | 97 | 2026 | 2026-11-21 ✅ | — self-hosted bug bounty scope tracker: pulls your HackerOne, Bugcrowd, Intigriti and YesWeHack programs with your own credentials and ranks what changed — new scopes and fresh attack surface first. Used by bug bounty hunters to stop re-checking dead scope and catch new assets the day they open. (license unlisted) |
 | [reKover](https://github.com/BRuteLogic/reKover) | 60 | 2026 | 2026-10-21 ✅ | — stealth hybrid URL mapper merging wayback-machine history with wordlist probing to recover hidden and forgotten paths. Used by bug bounty hunters recovering forgotten endpoints and legacy paths; the zero-dependency bash alternative to heavy content-discovery suites. (MIT per README) |
 | [AtDork](https://github.com/amnottdevv/atdork) | 57 | 2026 | 2026-10-21 ✅ | — multi-engine Google-dork scraper with categorized GHDB output for authorized reconnaissance. Used by bug bounty hunters automating Google dorking for exposed targets; the free dork engine for recon. (MIT) |
 | [Reddit_Persona](https://github.com/n2itn/reddit_persona) | 26 | 2016 | 2017-07-19 ⏳ | — Open-source tool building a persona from a Reddit user's data. Used by OSINT researchers and investigators; a social-media profiling aid. (MIT) |
