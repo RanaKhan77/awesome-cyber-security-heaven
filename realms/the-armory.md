@@ -31,7 +31,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | 22.1k | 2015 | 2026-11-01 ✅ | Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-tes… |
 | [RustScan](https://github.com/bee-san/RustScan) | 20.7k | 2020 | 2026-10-20 ✅ | 🤖 The Modern Port Scanner 🤖 |
 
-## Full inventory (273 tools)
+## Full inventory (274 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -306,6 +306,7 @@ The workhorse realm — what you load onto a VPS before a bug-bounty session. In
 | [PayloadsAllTheThings - Open Redirect](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20Redirect) | — | — | — | — A payload collection covering open redirect exploitation techniques and bypasses. Used by bug bounty hunters and pentesters; a practical reference for redirect testing. (MIT) |
 | [PayloadsAllTheThings - SAML Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SAML%20Injection) | — | — | — | — A payload collection covering SAML injection attack techniques. Used by pentesters and bug bounty hunters; a practical reference for SAML injection testing. (MIT) |
 | [PayloadsAllTheThings - Upload Insecure Files](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Upload%20Insecure%20Files) | — | — | — | — A payload collection covering insecure file upload exploitation techniques. Used by pentesters and bug bounty hunters; a practical reference for upload bypass testing. (MIT) |
+| [xssrecon](https://github.com/rix4uni/xssrecon) | 61 | 2025 | 2026-11-23 ✅ | — fast reflected-parameter discovery with unique numbered payloads, covering raw HTTP responses and chromedp-rendered DOMs; the reflection-map step before a full XSS scan. Used by bug bounty hunters to attack only the parameters that actually reflect. (MIT) |
 | [SPLOITUS](https://sploitus.com/) | — | — | — | — Search engine indexing exploits and security tools. Used by pentesters and researchers; a fast exploit discovery service. (free, proprietary) |
 | [CFR](https://www.benf.org/other/cfr/) | — | — | — | — Java decompiler that converts compiled bytecode back into readable source. Used by reverse engineers and security researchers; a capable standalone decompiler. |
 | [Pentest Tools - Website Vulnerability Scanner](https://pentest-tools.com/website-vulnerability-scanning/website-scanner) | — | — | — | — Online scanner detecting SQLi, XSS, command injection, XXE, and 75+ other web app vulnerabilities. Used by pentesters and bug hunters; a hosted web vulnerability scanner. (free tier) |

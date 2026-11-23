@@ -1,6 +1,6 @@
 # 🧠 The AI Forge
 
-> **39 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14** (re-verified monthly)
+> **41 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | 16.2k | 2023 | 2026-07-14 | Automated Penetration Testing Agentic Framework Powered by Large Language Models |
 | [garak](https://github.com/NVIDIA/garak) | 9.8k | 2023 | 2026-10-27 ✅ | the LLM vulnerability scanner |
 
-## Full inventory (39 tools)
+## Full inventory (41 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -50,6 +50,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [Cybermes](https://github.com/Zyrexnn/Cybermes) | 987 | 2026 | 2026-10-31 ✅ | — autonomous offensive security, bug bounty and red-teaming agent framework with MCP integration and a built-in vulnerable lab. Used by offensive teams running autonomous agents; the Apache-licensed agentic framework with curated playbooks. (Apache-2.0) |
 | [Mitsu](https://github.com/ARCANGEL0/Mitsu) | 537 | 2025 | 2026-10-24 ✅ | — chibi red-team operator: connect an AI provider, set the scope, and it drives recon through exploitation via 165+ MCP-connected tools. Used by red teamers running guided or autonomous authorized engagements; the MCP-native AI operator for red teams. (MIT) |
 | [BugTraceAI](https://github.com/BugTraceAI/BugTraceAI) | 361 | 2026 | 2026-10-19 ✅ | — self-hosted agentic pentesting suite with evidence-first validation across an 8-repo ecosystem (CLI, WEB, API, Launcher). Used by security teams wanting self-hosted agentic scanning; the open alternative to SaaS AI pentest platforms. (Apache-2.0) |
+| [Executioner](https://github.com/dbx0/executioner) | 153 | 2026 | 2026-11-23 ✅ | — local-first agentic pentesting environment: AI agent teams, visual workflows, your own tools, 100% on your machine, no cloud service. Used by pentesters orchestrating multi-agent engagements end-to-end. (MIT) |
 | [Apex](https://github.com/pensarai/apex) | 322 | 2025 | 2026-10-30 ✅ | — autonomous offensive-security agents that run directly in the terminal, driving tools end-to-end on scoped targets. Used by pentesters delegating recon-to-exploit chains on authorized engagements; a terminal-native AI red-team operator. (Apache-2.0) |
 | [Moxy](https://github.com/matank001/Moxy) | 129 | 2026 | 2026-01-22 | — agentic MITM proxy with local-Ollama auto-testing built on mitmproxy. Used by web testers adding LLM-assisted traffic analysis; the open agentic layer for mitmproxy workflows. (Apache-2.0) |
 | [PHANTOM](https://github.com/OmYarewar110/PHANTOM) | 70 | 2026 | 2026-10-20 ✅ | — AI-powered pentesting command center with MCP and reverse-engineering integration. Used by pentesters orchestrating AI-assisted engagements; the open AI pentest cockpit. (MIT) |
@@ -61,6 +62,7 @@ The AI-labour realm — security tools that put an LLM to work: red-team agents,
 | [VISTA](https://github.com/Adw0rm-sec/VISTA) | 22 | 2025 | 2026-05-27 | — LLM-augmented Burp triage and workflow automation assistant. Used by Burp users triaging findings with LLM assistance; the open Burp copilot for triage. (MIT) |
 | [Suijin](https://github.com/0xwi11iam/Suijin) | 22 | 2026 | 2026-11-01 ✅ | — autonomous red-team framework on LangGraph with POC catalog and severity-honest reporting. (AGPL-3.0) |
 | [bounty-operator](https://github.com/bountyoperator/bounty-operator) | 5 | 2026 | 2026-10-31 ✅ | — AI-powered bug bounty report triage that flags evidence gaps and duplicate risk before submission. Used by bug bounty hunters polishing reports before triage; the pre-submission report validator. (MIT) |
+| [Bounty Hunter](https://github.com/projecthellhound/bounty-hunter) | 12 | 2026 | 2026-11-23 ✅ | — autonomous AI bug-bounty agent that exploits, not just scans: XSS alert() proofs in a headless browser, SSRF to cloud-metadata, IDOR to account takeover; refuses to file unproven bugs; learns from 15k+ disclosed H1 reports; free on Ollama. (GPL-3.0) |
 | [plonix](https://github.com/SergeyMalych/plonix) | 5 | 2026 | 2026-10-26 ✅ | — AI-native Rust MITM workbench with adaptive scope validation. Used by web security testers wanting an AI-native proxy; the Rust MITM workbench with LLM integration. (Apache-2.0) |
 | [RedPilot](https://github.com/geevarghesekthomas84-sys/redpilot) | 5 | 2026 | 2026-11-01 ✅ | — AI-orchestrated recon and scan pipeline chaining nuclei, nmap, ffuf, subfinder and httpx for authorized testing. Used by pentesters automating multi-tool recon under one AI orchestrator; the LLM-driven pipeline glue for standard recon stacks. (MIT) |
 | [Hekate](https://github.com/PhaelAwesome/Hekate) | 1 | 2026 | 2026-10-20 ✅ | — Burp Suite passive extension with local-LLM triage and auto-validation to cut scanner false positives. Used by Burp users filtering scanner noise with local models; the open FP-reduction companion for Burp. (GPL-3.0) |
