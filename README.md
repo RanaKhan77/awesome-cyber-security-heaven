@@ -837,6 +837,7 @@ Intro: Where secrets live and leak — find them before attackers do, and keep t
 - [Step CLI](https://smallstep.com/cli/) - CLI tool for building, operating, and automating PKI systems with X.509 operations. Used by DevOps and security engineers; a handy free certificate automation utility.
 - [Tuta Mail](https://tuta.com/) - Privacy-focused end-to-end encrypted email service for secure communication. Used by privacy advocates and journalists; a genuine free tier for encrypted mail. (free tier)
 - [VeraCrypt](https://www.veracrypt.fr/) - Free open-source disk encryption software and successor to TrueCrypt, supporting full-disk encryption, hidden volumes, and plausible deniability. Used by security practitioners; a trusted encryption standard. (Apache-2.0)
+- [VibeShield & Vibe Security Checklist](https://github.com/zColdWater/vibe-security-checklist) - Zero-dependency local build-bundle secret scanner, 8 production header/RLS hardening configs, and free passive 116-check live URL secret & Observatory header audit. Used by indie developers catching leaked client-side API keys and exposed Supabase/Firebase rules before launch. (MIT / free tier)
 
 ## 🐳 The Foundry — DevSecOps, Cloud & Container Security Tools
 Intro: Shift security left — SAST, SCA, IaC, SBOM and container scanning that fit the pipeline.
