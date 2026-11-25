@@ -9,9 +9,9 @@
 </p>
 
 > A hand-curated, license-aware map of the best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR, DevSecOps and AI/LLM security. Free, open-source and free-tier entries all earn their place. 🌟
-> **2026 edition** — 1421 tools, 14 realms, every entry link-verified 2026-11-17 (additions 2026-11-12, 2026-11-14, 2026-11-23). 📅
+> **2026 edition** — 1423 tools, 14 realms, every entry link-verified 2026-11-17 (additions 2026-11-12, 2026-11-14, 2026-11-23). 📅
 
-🧭 **1421 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **free, open-source & free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 🧊 **dormant classics → Legacy Vault** · 💯 **no paywalls, no SaaS wrappers**
+🧭 **1423 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **free, open-source & free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 🧊 **dormant classics → Legacy Vault** · 💯 **no paywalls, no SaaS wrappers**
 
 **Legend** — ⚖️ `(GPL-…)` / `(AGPL-…)` = copyleft license · 🎁 `(free tier)` / `(freemium)` = free tier of a
 commercial service · 🔒 `(free, proprietary)` = freeware, not open source · 🏠 `(maintainer's project)` =
@@ -511,6 +511,8 @@ Intro: Map the terrain before you move — subdomain, content and OSINT discover
 - [subfinder](https://github.com/projectdiscovery/subfinder) - Fast, passive subdomain discovery from dozens of sources; the standard first command of any engagement. Used by bug bounty hunters for fast passive subdomain discovery; the ProjectDiscovery staple of recon automation.
 - [OneForAll](https://github.com/shmilylty/OneForAll) - Subdomain enumeration powerhouse: brute-force with wildcard detection, agent-based crawling and dozens of passive sources folded into one tool. Used by bug bounty hunters building deep subdomain inventories; the maintained subdomain canon with module-per-source architecture. (GPL-3.0)
 - [urlfinder](https://github.com/projectdiscovery/urlfinder) - Passive URL and endpoint discovery from Wayback, Common Crawl, AlienVault and URLScan, with per-source rate limits and JSONL output. Used by recon pipelines building endpoint inventories before fuzzing; the ProjectDiscovery complement to subfinder for paths. (MIT)
+- [csprecon](https://github.com/edoardottt/csprecon) - Discover new target domains from Content-Security-Policy headers: every script-src/connect-src origin on a page becomes a scope candidate in one command. Used by bug bounty hunters expanding in-scope host lists from CSP data they already collect; the CSP-to-scope recon tool from edoardottt. (MIT)
+- [sitedorks](https://github.com/Zarcolio/sitedorks) - Search Google, Bing, Brave, Ecosia, Yahoo or Yandex across 638 dorkable sites in one command, driven by an editable CSV with categories. Used by bug bounty hunters running site-scoped dork sweeps without pasting URLs one by one; the maintained multi-engine dork launcher. (GPL-3.0)
 - [katana](https://github.com/projectdiscovery/katana) - Next-generation crawler with headless-browser support for JavaScript-heavy applications. Used by bug hunters and pentesters crawling modern JS-heavy apps; the ProjectDiscovery successor to legacy crawlers in recon pipelines.
 - [cariddi](https://github.com/edoardottt/cariddi) - Fast web crawler for bug bounty: takes a list of domains and crawls for endpoints, secrets, API keys, tokens and juicy file extensions, with plain, JSON and passive-only modes. Used by bug bounty hunters sweeping whole programs for leaked secrets and hidden parameters in one pass; edoardottt's crawler built for bounty recon. (GPL-3.0)
 - [theHarvester](https://github.com/laramies/theHarvester) - Emails, subdomains, hosts and names from public sources — the OSINT starter kit. Used by pentesters in the recon phase harvesting emails, names and subdomains; the veteran free OSINT gatherer. (GPL-2.0)
