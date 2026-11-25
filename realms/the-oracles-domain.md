@@ -1,6 +1,6 @@
 # 🤖 The Oracle's Domain
 
-> **24 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14** (re-verified monthly)
+> **25 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14** (re-verified monthly)
 
 ## Curator's notes
 

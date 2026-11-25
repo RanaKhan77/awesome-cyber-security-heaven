@@ -1,6 +1,6 @@
 # 🔑 The Vault
 
-> **28 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
+> **29 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
 
 ## Curator's notes
 
