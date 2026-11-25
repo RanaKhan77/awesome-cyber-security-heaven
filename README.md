@@ -9,7 +9,7 @@
 </p>
 
 > A hand-curated, license-aware map of the best free cybersecurity tools — from pentesting and bug bounty to OSINT, threat intel, DFIR, DevSecOps and AI/LLM security. Free, open-source and free-tier entries all earn their place. 🌟
-> **2026 edition** — 1423 tools, 14 realms, every entry link-verified 2026-11-17 (additions 2026-11-12, 2026-11-14, 2026-11-23). 📅
+> **2026 edition** — 1423 tools, 14 realms, every entry link-verified 2026-11-17 (additions 2026-11-12, 2026-11-14, 2026-11-23, 2026-11-25). 📅
 
 🧭 **1423 curated tools** · 🏰 **14 themed realms** · 🗓️ **2026 edition** · 🆓 **free, open-source & free-tier** · 🔬 **license-verified** · 🔄 **actively maintained** · 🧊 **dormant classics → Legacy Vault** · 💯 **no paywalls, no SaaS wrappers**
 

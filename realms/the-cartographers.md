@@ -1,6 +1,6 @@
 # 🗺️ The Cartographers
 
-> **142 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14**
+> **144 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-25**
 
 ## Curator's notes
 
