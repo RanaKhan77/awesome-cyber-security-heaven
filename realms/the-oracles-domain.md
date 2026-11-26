@@ -1,6 +1,6 @@
 # 🤖 The Oracle's Domain
 
-> **25 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-14** (re-verified monthly)
+> **26 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-26** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The zero-AI AI-security realm — guardrails, model-file safety, signing and the
 | [HackAgent](https://github.com/AISecurityLab/hackagent) | 532 | 2025 | 2026-10-31 ✅ | HackAgent is an open-source security toolkit to detect vulnerabilities of your AI Agents |
 | [guardana](https://github.com/guardana/guardana) | 289 | 2026 | 2026-11-01 ✅ | Open-source AI security verification for model artifacts, live endpoints, MCP servers, and recorded agent trac… |
 
-## Full inventory (25 tools)
+## Full inventory (26 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -45,6 +45,7 @@ The zero-AI AI-security realm — guardrails, model-file safety, signing and the
 | [Penthera](https://github.com/danoszz/penthera) | 80 | 2026 | 2026-11-01 ✅ | — offline rule-based security agent that audits app code, dependencies and AI coding tooling (Claude Code, Cursor, MCP servers) with deterministic fixes applied to a local branch — zero cloud calls. Used by teams hardening AI-assisted codebases with NIS2/CRA-ready evidence; the self-hosted AI-tooling auditor with SARIF output. (MIT) |
 | [weir](https://github.com/IdoGol24/weir) | 18 | 2026 | 2026-10-27 ✅ | — leak tests for AI agents: deterministically finds every place an agent exposes credentials in telemetry, model calls or other services. Used by agent developers testing their own deployments; a focused open-source AI-agent leak auditor. (Apache-2.0) |
 | [Ironheights](https://github.com/Frank-Masciopinto/ironheights) | 4 | 2026 | 2026-11-23 ✅ | — local pre-install scanner for AI agent skills (SKILL.md folders for OpenClaw, Claude Code, Codex, Cursor) and MCP tool descriptions: deterministic rules flag instruction override, hidden text, credential reads, exfiltration and persistence, and pin approved skills so later changes show as drift. Used by agent users vetting third-party skills before install; an early rule-based check, not a guarantee. (Apache-2.0, maintainer's project) |
+| [whatileaked](https://github.com/selan-ai/whatileaked) | 8 | 2026 | 2026-11-10 ✅ | — scans local Claude Code, Codex and Cursor transcripts for credentials already sent to the model, using the gitleaks rule set; reports a rule name and a one-way fingerprint, never the credential, with no network and zero dependencies. Used by developers checking what their coding agents have already leaked; an after-the-fact audit, not a prevention layer. (MIT, maintainer's project) |
 | [FlareVM MCP Server](https://github.com/zixuantemp/flarevm-mcp) | 12 | 2025 | 2026-08-28 ⏳ | — Model Context Protocol server enabling AI agents to drive an isolated, air-gapped FlareVM through 52 unified tools. Used by AI-assisted malware analysts; a bridge between LLM agents and analysis sandboxes. (MIT) |
 | [ZeroTrust](https://github.com/sattyamjjain/zerotrust) | 6 | 2025 | 2025-11-29 ⏳ | — Privacy-first Chrome extension that analyzes website security locally with on-device WebGPU AI, scoring trust from HTTPS and phishing signals. Used by privacy-conscious users; a local AI security assessor. (MIT) |
 | [RedBlueAgent](https://github.com/Phoenix-chaser/RedBlueAgent) | 1 | 2026 | 2026-11-14 ✅ | — red-and-blue LLM security platform: PTES-driven pentest agent plus a standalone offline prompt-injection detector (AUROC 0.998) and a ContextGuard fusion layer that quarantines indirect prompt injection in tool output. Used by AI security teams hardening their own agents against LLM01 injection; the red-blue platform with a measured 100%-to-0% hijack reduction. (MIT) |
