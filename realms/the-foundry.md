@@ -1,6 +1,6 @@
 # 🐳 The Foundry
 
-> **62 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-06** (re-verified monthly)
+> **63 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-26** (re-verified monthly)
 
 ## Curator's notes
 
@@ -23,12 +23,13 @@ The pipeline guardians — SAST, dependency scanning, IaC misconfig audits, cont
 | [Kubescape](https://github.com/kubescape/kubescape) | 11.8k | 2021 | 2026-10-30 ✅ | Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It inclu… |
 | [OSV-Scanner](https://github.com/google/osv-scanner) | 11.3k | 2022 | 2026-10-31 ✅ | Vulnerability scanner written in Go which uses the data provided by https://osv.dev |
 
-## Full inventory (62 tools)
+## Full inventory (63 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
 | [Trivy](https://github.com/aquasecurity/trivy) | 38.9k | 2019 | 2026-10-30 ✅ | — the all-in-one scanner: containers, IaC, repos, SBOMs, licenses and secrets, with one binary. Used by DevSecOps teams scanning containers, IaC and repos in CI; the open-source alternative to Snyk and Aqua's commercial scanners. |
 | [Semgrep](https://github.com/semgrep/semgrep) | 17.4k | 2019 | 2026-10-30 ✅ | — fast, expressive static analysis with community rule packs for 30+ languages; write rules like you write code. Used by AppSec teams writing custom code-scanning rules fast; the open-source alternative to commercial SAST like Checkmarx and Veracode. (LGPL-2.1) |
+| [ASST](https://github.com/OWASP/ASST) | 196 | 2020 | 2026-11-14 ✅ | — OWASP Automated Software Security Toolkit: source-code scanner for PHP and Node.js with real data-flow analysis (sources to sinks through variables, functions, classes and files), OWASP Top-10:2025 mapping, CWE + severity + confidence per finding, Laravel/WordPress/Symfony support, SARIF/JSON/HTML reports and a DVWA/NIST benchmark harness. Used by AppSec teams teaching developers the flaw and the fix in one report; the OWASP-official educational SAST. (MIT) |
 | [Prowler](https://github.com/prowler-cloud/prowler) | 15.1k | 2016 | 2026-11-01 ✅ | — AWS/Azure/GCP security posture: hundreds of checks mapped to CIS benchmarks and compliance frameworks. Used by cloud security teams auditing AWS, GCP and Azure; the open-source alternative to commercial CSPM platforms. |
 | [Grype](https://github.com/anchore/grype) | 13.2k | 2020 | 2026-10-30 ✅ | — vulnerability scanner for container images and SBOMs with KEV/EPSS enrichment for prioritization. Used in CI pipelines scanning SBOMs and images for vulnerabilities; the open-source vulnerability scanner from Anchore. |
 | [Kubescape](https://github.com/kubescape/kubescape) | 11.8k | 2021 | 2026-10-30 ✅ | — CNCF-incubating Kubernetes security platform: scan manifests, Helm charts, Kustomize dirs, live clusters and images against NSA-CISA, MITRE ATT&CK and CIS frameworks from one CLI. Used by platform teams hardening k8s before and after deploy; CNCF-backed with an in-cluster operator option. (Apache-2.0) |
