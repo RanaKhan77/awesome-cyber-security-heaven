@@ -1,6 +1,6 @@
 # 🗺️ The Cartographers
 
-> **144 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-25**
+> **144 tools** · [← Back to the main list](../README.md) · Data verified **2026-11-26**
 
 ## Curator's notes
 
@@ -23,7 +23,7 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [ffuf](https://github.com/ffuf/ffuf) | 17k | 2018 | 2026-09-26 | Fast web fuzzer written in Go |
 | [Amass](https://github.com/owasp-amass/amass) | 15.4k | 2018 | 2026-10-25 ✅ | In-depth attack surface mapping and asset discovery |
 
-## Full inventory (144 tools)
+## Full inventory (147 tools)
 
 | Tool | ★ Stars | Created | Last push | License / tier |
 |---|---|---|---|---|
@@ -113,6 +113,9 @@ The mapping layer of offensive work — subdomain enumeration, certificate trans
 | [findomain](https://github.com/Findomain/Findomain) | 3.8k | 2019 | 2026-11-04 ✅ | — CT-based subdomain discovery with database backend. (GPL-3.0) |
 | [csprecon](https://github.com/edoardottt/csprecon) | 569 | 2022 | 2026-11-25 ✅ | — discover new target domains from Content-Security-Policy headers: fetch a page, parse every script-src/connect-src/img-src origin, and grow the scope from what the site itself declares it trusts. Used by bug bounty hunters expanding in-scope host lists from CSP data they already collect; the one-command CSP-to-scope recon tool from edoardottt. (MIT) |
 | [sitedorks](https://github.com/Zarcolio/sitedorks) | 1.1k | 2020 | 2026-11-25 ✅ | — search Google, Bing, Brave, Ecosia, Yahoo or Yandex across 638 dorkable sites in one command, from a CSV you can edit per engagement and split into per-category queries. Used by bug bounty hunters running site-scoped dork sweeps without pasting URLs one by one; the maintained multi-engine dork launcher. (GPL-3.0) |
+| [tldfinder](https://github.com/projectdiscovery/tldfinder) | 329 | 2024 | 2026-11-24 ✅ | — discover the private TLDs a company controls from certificate-transparency and passive data, expanding scope beyond subdomains of one known domain. Used by bug bounty hunters mapping whole corporate namespaces; the projectdiscovery take on private-TLD discovery. (MIT) |
+| [alterx](https://github.com/projectdiscovery/alterx) | 1.0k | 2023 | 2026-11-21 ✅ | — fast subdomain wordlist generator with a permutation DSL: feed a handful of known hosts and get every sensible dashed, dotted and numbered permutation as a brute list. Used by recon pipelines maximizing subdomain coverage from few seeds; the projectdiscovery permutation engine. (MIT) |
+| [awesome-search-queries](https://github.com/projectdiscovery/awesome-search-queries) | 419 | 2023 | 2026-11-26 ✅ | — community-curated search queries for specific products — Grafana, Jenkins, Kubernetes dashboards and more — ready to paste into any search engine for exposure hunting. Used by bug bounty hunters running product-targeted dork sweeps; the query corpus that pairs with any dork launcher. (MIT) |
 | [knockpy](https://github.com/guelfoweb/knockpy) | 4.2k | 2014 | 2026-02-19 ✅ | — subdomain enum by wordlist + CT with wildcard detection. (GPL-3.0) |
 | [subcat](https://github.com/duty1g/subcat) | 490 | 2022 | 2026-10-08 ✅ | — passive subdomain discovery for pipelines. (MIT) |
 | [graphw00f](https://github.com/dolevf/graphw00f) | 918 | 2021 | 2026-05-16 ✅ | — GraphQL engine fingerprinter. (BSD-3-Clause) |
