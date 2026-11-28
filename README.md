@@ -1,5 +1,5 @@
 # 🛡️ Awesome Cyber Security Heaven ☁️🔐 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![API Verified](https://img.shields.io/badge/entries%20verified-2026--11--06-blue.svg)
+![API Verified](https://img.shields.io/badge/entries%20verified-2026--11--17-blue.svg)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)
 
 <p align="center">
